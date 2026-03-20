@@ -1,0 +1,55 @@
+Antifungal mechanisms of polymeric quaternary ammonium salts against conidia of Fusarium oxysporum f. sp. cubense, race 4 - European Journal of Plant Pathology
+Fusarium wilt of banana is a devastating disease caused by Fusarium oxysporum f. sp. cubense (Foc), of which the “tropical” race 4 strain (Foc4) has a significant impact on the banana industry worldwide. Due to the strong persistence of Foc4 conidia, there is no effective chemical control method up to now. Quaternary ammonium salts (QASs), as cationic fungicides, have great application prospects in the field of inhibiting plant diseases and our previous work showed that polymeric quaternary ammonium salts (PQASs) could effectively inhibit Foc4 conidia in soil. In this paper, we investigate the effects of two kinds of PQASs, i.e. polydimethylsiloxane-polymethacrylate block copolymers, containing quaternary ammonium salts (PDMS-b-QPDMAEMA), poly(methacrylamido propylbenzyl dimethylammonium chloride) (PQD-BC), on the antifungal activities against Foc4, using antifungal bioassays and microscopy. It was found that PQASs had high inhibitory effects on conidia and worked fast. Microscopy showed that PQASs could not only rapidly enter conidia, but also stably adsorb to the surface of conidia and penetrate newly grown hyphae. It was also found that PQASs could affect the hydrophobicity of conidial surfaces, change the composition of the cell wall and destroy its integrity. Over all, this work provides valuable information for the application of PQASs as antifungal agents for inhibiting Foc4. Abid, C. Z., Jain, S., Jackeray, R., Chattopadhyay, S., & Singh, H. (2017). Formulation and characterization of antimicrobial quaternary ammonium dendrimer in poly(methyl methcarylate) bone cement. Journal of Biomedical Materials Research Part B: Applied Biomaterials, 105(3), 521–530. https://doi.org/10.1002/jbm.b.33553 Article
+PubMed
+CAS
+Google Scholar Ammar, M. I., Nenaah, G. E., & Mohamed, A. H. H. (2013). Antifungal activity of prenylated flavonoids isolated from Tephrosia apollinea L. against four phytopathogenic fungi. Crop Protection, 49, 21–25. https://doi.org/10.1016/j.cropro.2013.02.012 Article
+CAS
+Google Scholar Buffet-Bataillon, S., Tattevin, P., Bonnaure-Mallet, M., & Jolivet-Gougeon, A. (2012). Emergence of resistance to antibacterial agents: The role of quaternary ammonium compounds—A critical review. International Journal of Antimicrobial Agents, 39(5), 381–389. https://doi.org/10.1016/j.ijantimicag.2012.01.011 Article
+PubMed
+CAS
+Google Scholar Chang, Y., Zhong, W., Liang, J., Zhang, A., & Lin, Y. (2021). Polydimethylsiloxane-polymethacrylate block copolymers containing quaternary ammonium salts against fusarium oxysporum f. sp. cubense race 4 in soil: Antifungal activities and pot experiments. Reactive and Functional Polymers, 160, 104848. https://doi.org/10.1016/j.reactfunctpolym.2021.104848 Article
+CAS
+Google Scholar Cheng, K. J., Ingram, J. M., & Costerton, J. W. (1970). Release of alkaline phosphatase from cells of Pseudomonas aeruginosa by manipulation of cation concentration and of pH. Journal of Bacteriology, 104, 748–753. Article
+CAS
+Google Scholar Cortés, J., Curto, M., Carvalho, V., Pérez, P., & Ribas, J. (2019). The fungal cell wall as a target for development of new antifungal therapies. Biotechnology Advances, 37, 107352. https://doi.org/10.1016/j.biotechadv.2019.02.008 Article
+PubMed
+CAS
+Google Scholar Dalrymple, O. K., Stefanakos, E., Trotz, M. A., & Goswami, D. Y. (2010). A review of the mechanisms and modeling of photocatalytic disinfection. Applied Catalysis B: Environmental, 98(1–2), 27–38. https://doi.org/10.1016/j.apcatb.2010.05.001 Article
+CAS
+Google Scholar Dita, M., Barquero, M., Heck, D., Mizubuti, E. S., & Staver, C. P. (2018). Fusarium wilt of banana: Current knowledge on epidemiology and research needs toward sustainable disease management. Frontiers in Plant Science, 9, 1468. https://doi.org/10.3389/fpls.2018.01468 Article
+PubMed
+PubMed Central
+Google Scholar Dong, C., You, W., Liuyang, R., Lei, Y., Zhang, A., & Lin, Y. (2018). Anti-Rhizoctonia solani activity by polymeric quaternary ammonium salt and its mechanism of action. Reactive and Functional Polymers, 125, 1–10. https://doi.org/10.1016/j.reactfunctpolym.2018.01.020 Article
+CAS
+Google Scholar Fernandes, C., Mota, M., Barros, L., Dias, M. I., Ferreira, I. C., Piedade, A. P., Casadevall, A., & Gonçalves, T. (2021). Pyomelanin synthesis in Alternaria alternata inhibits DHN-melanin synthesis and decreases cell wall chitin content and thickness. Frontiers in Microbiology, 12, 691433. https://doi.org/10.3389/fmicb.2021.691433 Article
+PubMed
+PubMed Central
+Google Scholar Ganewatta, M., & Tang, C. (2015). Controlling macromolecular structures towards effective antimicrobial polymers. Polymer, 63, A1–A29. https://doi.org/10.1016/j.polymer.2015.03.007 Article
+CAS
+Google Scholar Gilbert, P., & Moore, L. E. (2005). Cationic antiseptics: Diversity of action under a common epithet. Journal of Applied Microbiology, 99(4), 703–715. https://doi.org/10.1111/j.1365-2672.2005.02664.x Article
+PubMed
+CAS
+Google Scholar Girardin, H., Paris, S., Rault, J., Bellon-Fontaine, M. N., & Latgé, J. P. (1999). The role of the rodlet structure on the physicochemical properties of aspergillus conidia. Letters in Applied Microbiology, 29(6), 364–369. https://doi.org/10.1046/j.1472-765x.1999.00643.x Article
+PubMed
+CAS
+Google Scholar Gou, Y. P., Meghil, M. M., Pucci, C. R., Breschi, L., Pashley, D. H., Cutler, C. W., Niu, L., Li, J., & Tay, F. R. (2018). Optimizing resin-dentin bond stability using a bioactive adhesive with concomitant antibacterial properties and anti-proteolytic activities. Acta Biomaterialia, 75, 171–182. https://doi.org/10.1016/j.actbio.2018.06.008 Article
+PubMed
+CAS
+Google Scholar Guerriero, G., Avino, M., Zhou, Q., Fugelstad, J., Clergeot, P. H., & Bulone, V. (2010). Chitin synthases from Saprolegnia are involved in tip growth and represent a potential target for anti-oomycete drugs. PLoS Pathogens, 6(8), e1001070. https://doi.org/10.1371/journal.ppat.1001070 Article
+PubMed
+PubMed Central
+CAS
+Google Scholar Halder, S., Yadav, K. K., Sarkar, R., Mukherjee, S., Saha, P., Haldar, S., Karmakar, S., & Sen, T. (2015). Alteration of zeta potential and membrane permeability in bacteria: A study with cationic agents. SpringerPlus, 4(1), 1–14. https://doi.org/10.1186/s40064-015-1476-7 Article
+CAS
+Google Scholar Han, S., He, L., Liu, Y., Cheng, J., & Yang, L. (2014). Quick determination of β-glucan from phellinus by fluorometry method. Modern Chemical Industry., 34, 156–158. (in Chinese). https://doi.org/10.16606/j.cnki.issn0253-4320.2014.06.005 Article
+CAS
+Google Scholar Herbert, J. A., & Marx, D. (1990). Short-term control of Panama disease of bananas in South Africa. Phytophylactica, 22(3), 339–340. Google Scholar Huang, Z., Liuyang, R., Dong, C., Lei, Y., Zhang, A., & Lin, Y. (2017). Polymeric quaternary ammonium salt activity against fusarium oxysporum f. sp. cubense race 4: Synthesis, structure-activity relationship and mode of action. Reactive and Functional Polymers, 114, 13–22. https://doi.org/10.1016/j.reactfunctpolym.2017.02.013 Article
+CAS
+Google Scholar Ioannou, C. J., Hanlon, G. W., & Denyer, S. P. (2007). Action of disinfectant quaternary ammonium compounds against Staphylococcus aureus. Antimicrobial Agents and Chemotherapy, 51(1), 296–306. https://doi.org/10.1128/AAC.00375-06 Article
+PubMed
+CAS
+Google Scholar Ivey, G., Gero, S., & Sarah, G. (2017). The role of the fungal Cell Wall in the infection of plants. Trends in Microbiology, 25(12), 957–967. https://doi.org/10.1016/j.tim.2017.05.015 Article
+CAS
+Google Scholar Izquierdo-García, L. F., Carmona, S. L., Zuluaga, P., Rodríguez, G., Dita, M., Betancourt, M., & Soto-Suárez, M. (2021). Efficacy of disinfectants against fusarium oxysporum f. sp. cubense tropical race 4 isolated from La Guajira, Colombia. Journal of Fungi, 7, 297. https://doi.org/10.3390/jof7040297 Meldrum, R. A., Daly, A. M., Tran-Nguyen, L. T. T., & Aitken, E. A. B. (2013). The effect of surface sterilants on spore germination of fusarium oxysporum f. sp. cubense tropical race 4. Crop Protection, 54, 194–198. https://doi.org/10.1016/j.cropro.2013.08.014 Nel, B., Steinberg, C., Labuschagne, N., & Viljoen, A. (2007). Evaluation of fungicides and sterilants for potential application in the management of fusarium wilt of banana. Crop Protection, 26(4), 697–705. https://doi.org/10.1016/j.cropro.2006.06.008 Article
+CAS
+Google Scholar Nguyen, T. V., Tran-Nguyen, L. T. T., Wright, C. L., Trevorrow, P., & Grice, K. (2019). Evaluation of the efficacy of commercial disinfectants against fusarium oxysporum f. sp. cubense race 1 and tropical race 4 propagules. Plant Disease, 103(4), 721–728. https://doi.org/10.1094/pdis-03-18-0453-re Ploetz, R., Freeman, S., Konkol, J., Al-Abed, A., Naser, Z., Shalan, K., Barakat, R., & Israeli, Y. (2015). Tropical race 4 of Panama disease in the Middle East. Phytoparasitica, 43(3), 283–293. https://doi.org/10.1007/s12600-015-0470-5 
