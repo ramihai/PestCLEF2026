@@ -50,6 +50,13 @@ class PipelineTests(unittest.TestCase):
         positives = sum(1 for example in examples if example["labels"])
         self.assertGreater(positives, 0)
 
+    def test_hardcoded_schema_blocks_invalid_pairs(self) -> None:
+        schema = RelationSchema.hardcoded()
+        self.assertFalse(schema.is_valid_pair("Found_on", "Date", "Pest"))
+        self.assertFalse(schema.is_valid_pair("Located_in", "Dissemination_pathway", "Location"))
+        self.assertFalse(schema.is_valid_pair("Occurs_on", "Dissemination_pathway", "Date"))
+        self.assertTrue(schema.is_valid_pair("Causes", "Pest", "Disease"))
+
     def test_gold_baseline_trains(self) -> None:
         result = train_gold_entity_baseline(self.config)
         self.assertIn("metrics", result)

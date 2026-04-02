@@ -29,7 +29,7 @@ def train_gold_entity_baseline(config: ExperimentConfig) -> Dict[str, object]:
     )
     model_path = config.artifacts_dir / "baseline_model.json"
     model.save(model_path)
-    save_json({"schema": {key: sorted(list(value)) for key, value in schema.allowed_pairs.items()}}, config.artifacts_dir / "relation_schema.json")
+    save_json({"schema": schema.to_serializable()}, config.artifacts_dir / "relation_schema.json")
     save_json({"config": asdict(config)}, config.artifacts_dir / "experiment_config.json")
     save_json({"train_documents": export_documents(train_documents[:3])}, config.artifacts_dir / "data_preview.json")
     dev_predictions = predict_with_gold_entities(dev_documents, schema, model, config)

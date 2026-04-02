@@ -1,12 +1,44 @@
 from __future__ import annotations
 
-from collections import Counter, defaultdict
+from collections import Counter
 from typing import Dict, Iterable, List, Sequence, Tuple
 
 import numpy as np
 
 from .config import ExperimentConfig
-from .schema import CanonicalEntity, Document, RelationEdge
+from .schema import CanonicalEntity, Document
+
+
+HARDCODED_RELATION_SCHEMA: Dict[str, set[Tuple[str, str]]] = {
+    "Affects": {("Disease", "Plant")},
+    "Causes": {("Pest", "Disease")},
+    "Dispersed_by": {
+        ("Disease", "Dissemination_pathway"),
+        ("Pest", "Dissemination_pathway"),
+    },
+    "Found_on": {
+        ("Pest", "Plant"),
+        ("Pest", "Dissemination_pathway"),
+        ("Vector", "Plant"),
+        ("Vector", "Dissemination_pathway"),
+    },
+    "Located_in": {
+        ("Disease", "Location"),
+        ("Pest", "Location"),
+        ("Plant", "Location"),
+        ("Vector", "Location"),
+    },
+    "Occurs_on": {
+        ("Disease", "Date"),
+        ("Pest", "Date"),
+        ("Plant", "Date"),
+        ("Vector", "Date"),
+    },
+    "Transmits": {
+        ("Vector", "Disease"),
+        ("Vector", "Pest"),
+    },
+}
 
 
 class RelationSchema:
@@ -15,19 +47,12 @@ class RelationSchema:
 
     @classmethod
     def from_documents(cls, documents: Sequence[Document]) -> "RelationSchema":
-        allowed_pairs: Dict[str, set[Tuple[str, str]]] = defaultdict(set)
-        entity_lookup = {
-            document.doc_id: {entity.canonical_form: entity for entity in document.canonical_entities}
-            for document in documents
-        }
-        for document in documents:
-            lookup = entity_lookup[document.doc_id]
-            for edge in document.gold_relation_edges:
-                subject = lookup.get(edge.subject)
-                obj = lookup.get(edge.object)
-                if subject and obj:
-                    allowed_pairs[edge.predicate].add((subject.entity_type, obj.entity_type))
-        return cls(dict(allowed_pairs))
+        del documents
+        return cls.hardcoded()
+
+    @classmethod
+    def hardcoded(cls) -> "RelationSchema":
+        return cls({relation: set(pairs) for relation, pairs in HARDCODED_RELATION_SCHEMA.items()})
 
     def compatible_relations(self, subject_type: str, object_type: str) -> List[str]:
         return [
@@ -38,6 +63,15 @@ class RelationSchema:
 
     def is_valid_pair(self, relation: str, subject_type: str, object_type: str) -> bool:
         return (subject_type, object_type) in self.allowed_pairs.get(relation, set())
+
+    def to_serializable(self) -> Dict[str, List[Dict[str, str]]]:
+        serialized = {}
+        for relation, pairs in self.allowed_pairs.items():
+            serialized[relation] = [
+                {"subject_type": subject_type, "object_type": object_type}
+                for subject_type, object_type in sorted(pairs)
+            ]
+        return serialized
 
 
 class FeatureVectorizer:
