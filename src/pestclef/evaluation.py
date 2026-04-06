@@ -6,7 +6,7 @@ from dataclasses import asdict
 from pathlib import Path
 from typing import Dict, Iterable, List, Sequence
 
-from .schema import CanonicalEntity, Document, RelationEdge
+from .schema import CanonicalEntity, Document, Mention, RelationEdge
 
 
 def compute_metrics(
@@ -55,6 +55,55 @@ def compute_metrics(
         "micro": {"precision": micro_precision, "recall": micro_recall, "f1": micro_f1},
         "macro": {"precision": macro_precision, "recall": macro_recall, "f1": macro_f1},
         "per_relation": per_relation,
+    }
+
+
+def compute_mention_metrics(
+    gold_documents: Sequence[Document],
+    predicted_mentions_by_doc: Dict[str, List[Mention]],
+    entity_types: Sequence[str],
+) -> Dict[str, object]:
+    per_type = {}
+    micro_tp = micro_fp = micro_fn = 0
+    macro_values = []
+    for entity_type in entity_types:
+        tp = fp = fn = 0
+        for document in gold_documents:
+            gold = {
+                (mention.start, mention.end, mention.entity_type)
+                for mention in document.mentions
+                if mention.entity_type == entity_type
+            }
+            predicted = {
+                (mention.start, mention.end, mention.entity_type)
+                for mention in predicted_mentions_by_doc.get(document.doc_id, [])
+                if mention.entity_type == entity_type
+            }
+            tp += len(gold & predicted)
+            fp += len(predicted - gold)
+            fn += len(gold - predicted)
+        precision, recall, f1 = precision_recall_f1(tp, fp, fn)
+        per_type[entity_type] = {
+            "precision": precision,
+            "recall": recall,
+            "f1": f1,
+            "tp": tp,
+            "fp": fp,
+            "fn": fn,
+        }
+        micro_tp += tp
+        micro_fp += fp
+        micro_fn += fn
+        macro_values.append((precision, recall, f1))
+
+    micro_precision, micro_recall, micro_f1 = precision_recall_f1(micro_tp, micro_fp, micro_fn)
+    macro_precision = sum(item[0] for item in macro_values) / len(macro_values)
+    macro_recall = sum(item[1] for item in macro_values) / len(macro_values)
+    macro_f1 = sum(item[2] for item in macro_values) / len(macro_values)
+    return {
+        "micro": {"precision": micro_precision, "recall": micro_recall, "f1": micro_f1},
+        "macro": {"precision": macro_precision, "recall": macro_recall, "f1": macro_f1},
+        "per_type": per_type,
     }
 
 

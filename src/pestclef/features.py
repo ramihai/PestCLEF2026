@@ -1,12 +1,13 @@
 from __future__ import annotations
 
+import re
 from collections import Counter
 from typing import Dict, Iterable, List, Sequence, Tuple
 
 import numpy as np
 
 from .config import ExperimentConfig
-from .schema import CanonicalEntity, Document
+from .schema import CanonicalEntity, Document, Mention
 
 
 HARDCODED_RELATION_SCHEMA: Dict[str, set[Tuple[str, str]]] = {
@@ -38,6 +39,17 @@ HARDCODED_RELATION_SCHEMA: Dict[str, set[Tuple[str, str]]] = {
         ("Vector", "Disease"),
         ("Vector", "Pest"),
     },
+}
+
+TOKEN_PATTERN = re.compile(r"[a-z][a-z\-]+")
+RELATION_TRIGGER_KEYWORDS: Dict[str, Tuple[str, ...]] = {
+    "Affects": ("affect", "attack", "damage", "damage", "impact", "symptom"),
+    "Causes": ("cause", "caused", "causing", "induces", "results"),
+    "Dispersed_by": ("dispersed", "spread", "spreads", "via", "through"),
+    "Found_on": ("found", "detected", "observed", "present", "collected"),
+    "Located_in": ("in", "inside", "within", "from", "region"),
+    "Occurs_on": ("during", "in", "on", "season", "year"),
+    "Transmits": ("transmit", "transmitted", "vector", "carry", "carried"),
 }
 
 
@@ -153,7 +165,12 @@ def extract_pair_features(document: Document, subject: CanonicalEntity, obj: Can
     layout_gap = min_distance(subject.layout_indices, obj.layout_indices)
     subject_first = 1.0 if subject.earliest_start <= obj.earliest_start else 0.0
     surface_gap = abs(subject.earliest_start - obj.earliest_start)
-    context_tokens = extract_context_tokens(document.text, subject.earliest_start, obj.earliest_start)
+    left_mention, right_mention = closest_mention_pair(subject, obj)
+    between_tokens = extract_span_tokens(document.text, left_mention.end, right_mention.start, limit=10)
+    context_tokens = extract_context_tokens(document.text, left_mention.start, right_mention.end)
+    subject_head_tokens = extract_name_tokens(subject.canonical_form)
+    object_head_tokens = extract_name_tokens(obj.canonical_form)
+    pair_mention_count = len(subject.mentions) * len(obj.mentions)
     features: Dict[str, float] = {
         f"subject_type={subject.entity_type}": 1.0,
         f"object_type={obj.entity_type}": 1.0,
@@ -166,11 +183,24 @@ def extract_pair_features(document: Document, subject: CanonicalEntity, obj: Can
         f"same_sentence={int(sentence_gap == 0)}": 1.0,
         f"same_layout={int(layout_gap == 0)}": 1.0,
         f"surface_bucket={bucketize_distance(surface_gap)}": 1.0,
+        f"between_bucket={bucketize_distance(max(right_mention.start - left_mention.end, 0))}": 1.0,
+        f"pair_mentions={bucketize_count(pair_mention_count)}": 1.0,
+        f"subject_name_len={bucketize_count(len(subject.canonical_form.split()))}": 1.0,
+        f"object_name_len={bucketize_count(len(obj.canonical_form.split()))}": 1.0,
         f"subject_name={subject.canonical_form.casefold()}": 1.0,
         f"object_name={obj.canonical_form.casefold()}": 1.0,
     }
     for token in context_tokens:
         features[f"context={token}"] = 1.0
+    for token in between_tokens:
+        features[f"between={token}"] = 1.0
+    for token in subject_head_tokens:
+        features[f"subject_token={token}"] = 1.0
+    for token in object_head_tokens:
+        features[f"object_token={token}"] = 1.0
+    for relation, keywords in RELATION_TRIGGER_KEYWORDS.items():
+        if any(token in context_tokens or token in between_tokens for token in keywords):
+            features[f"trigger_hint={relation}"] = 1.0
     return features
 
 
@@ -184,12 +214,51 @@ def bucketize_distance(distance: int) -> str:
     return ">=1024"
 
 
-def extract_context_tokens(text: str, first_start: int, second_start: int, window: int = 100) -> List[str]:
-    left = min(first_start, second_start)
-    right = max(first_start, second_start)
+def bucketize_count(value: int) -> str:
+    if value <= 1:
+        return "1"
+    if value <= 2:
+        return "2"
+    if value <= 4:
+        return "3_4"
+    return "5+"
+
+
+def closest_mention_pair(subject: CanonicalEntity, obj: CanonicalEntity) -> Tuple[Mention, Mention]:
+    best_pair = (subject.mentions[0], obj.mentions[0])
+    best_distance = float("inf")
+    for subject_mention in subject.mentions:
+        for object_mention in obj.mentions:
+            distance = abs(subject_mention.start - object_mention.start)
+            if distance < best_distance:
+                best_distance = distance
+                if subject_mention.start <= object_mention.start:
+                    best_pair = (subject_mention, object_mention)
+                else:
+                    best_pair = (object_mention, subject_mention)
+    return best_pair
+
+
+def extract_context_tokens(text: str, first_start: int, second_end: int, window: int = 100) -> List[str]:
+    left = min(first_start, second_end)
+    right = max(first_start, second_end)
     start = max(left - window, 0)
     end = min(right + window, len(text))
-    snippet = text[start:end].casefold()
-    tokens = [token for token in snippet.replace("\n", " ").split() if token.isalpha()]
+    tokens = tokenize_text(text[start:end])
     counts = Counter(tokens)
     return [token for token, _ in counts.most_common(8)]
+
+
+def extract_span_tokens(text: str, start: int, end: int, limit: int = 10) -> List[str]:
+    if end <= start:
+        return []
+    counts = Counter(tokenize_text(text[start:end]))
+    return [token for token, _ in counts.most_common(limit)]
+
+
+def extract_name_tokens(value: str) -> List[str]:
+    return tokenize_text(value)[:4]
+
+
+def tokenize_text(text: str) -> List[str]:
+    return TOKEN_PATTERN.findall(text.casefold())

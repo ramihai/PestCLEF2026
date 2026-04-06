@@ -13,7 +13,7 @@ from pestclef.data import load_documents
 from pestclef.pipeline import predict_document_edges, train_gold_entity_baseline
 from pestclef.submission import validate_submission_rows
 from pestclef.features import RelationSchema
-from pestclef.model import train_linear_multilabel
+from pestclef.model import train_linear_multilabel, train_relation_model
 from pestclef.features import generate_relation_examples
 
 
@@ -73,6 +73,23 @@ class PipelineTests(unittest.TestCase):
         )
         dev_document = load_documents("dev", self.config)[0]
         predictions = predict_document_edges(dev_document, dev_document.canonical_entities, schema, model, self.config)
+        self.assertIsInstance(predictions, list)
+
+    def test_sklearn_baseline_trains(self) -> None:
+        sklearn_config = ExperimentConfig(
+            project_root=self.root,
+            artifacts_dir=Path(self.temp_dir.name),
+            model_name="sklearn",
+            epochs=2,
+            batch_size=32,
+            feature_cap=5000,
+        )
+        train_documents = load_documents("train", sklearn_config)[:20]
+        schema = RelationSchema.from_documents(train_documents)
+        examples = generate_relation_examples(train_documents, schema, sklearn_config)
+        model = train_relation_model(examples, schema, sklearn_config)
+        dev_document = load_documents("dev", sklearn_config)[0]
+        predictions = predict_document_edges(dev_document, dev_document.canonical_entities, schema, model, sklearn_config)
         self.assertIsInstance(predictions, list)
 
 

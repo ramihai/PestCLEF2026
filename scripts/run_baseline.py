@@ -15,6 +15,7 @@ from pestclef.pipeline import run_dev_evaluation, train_gold_entity_baseline
 def main() -> None:
     parser = argparse.ArgumentParser(description="Train and evaluate the PestCLEF baseline.")
     parser.add_argument("--mode", choices=["gold", "end_to_end"], default="gold")
+    parser.add_argument("--model", choices=["numpy", "sklearn", "modernbert_staged"], default="numpy")
     parser.add_argument("--artifacts-dir", default="artifacts")
     parser.add_argument("--epochs", type=int, default=8)
     parser.add_argument("--batch-size", type=int, default=256)
@@ -22,8 +23,11 @@ def main() -> None:
 
     config = ExperimentConfig(
         artifacts_dir=Path(args.artifacts_dir),
+        model_name=args.model,
         epochs=args.epochs,
         batch_size=args.batch_size,
+        train_batch_size=max(1, min(args.batch_size, 8)),
+        eval_batch_size=max(1, min(args.batch_size, 16)),
     )
     if args.mode == "gold":
         result = train_gold_entity_baseline(config)

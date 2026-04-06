@@ -14,6 +14,7 @@ from pestclef.pipeline import run_test_submission
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate a PestCLEF submission.csv file.")
+    parser.add_argument("--model", choices=["numpy", "sklearn", "modernbert_staged"], default="numpy")
     parser.add_argument("--artifacts-dir", default="artifacts")
     parser.add_argument("--train-on-dev", action="store_true")
     parser.add_argument("--epochs", type=int, default=8)
@@ -22,8 +23,11 @@ def main() -> None:
 
     config = ExperimentConfig(
         artifacts_dir=Path(args.artifacts_dir),
+        model_name=args.model,
         epochs=args.epochs,
         batch_size=args.batch_size,
+        train_batch_size=max(1, min(args.batch_size, 8)),
+        eval_batch_size=max(1, min(args.batch_size, 16)),
     )
     result = run_test_submission(config, train_on_dev=args.train_on_dev)
     print(json.dumps(result, indent=2))

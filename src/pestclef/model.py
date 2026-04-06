@@ -3,16 +3,33 @@ from __future__ import annotations
 import json
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Dict, List, Sequence
+from typing import Dict, List, Protocol, Sequence
 
+import joblib
 import numpy as np
+from sklearn.feature_extraction import DictVectorizer
+from sklearn.linear_model import LogisticRegression
 
 from .config import ExperimentConfig
-from .features import FeatureVectorizer
+from .features import FeatureVectorizer, RelationSchema
 
 
 def sigmoid(values: np.ndarray) -> np.ndarray:
     return 1.0 / (1.0 + np.exp(-np.clip(values, -20.0, 20.0)))
+
+
+class RelationModel(Protocol):
+    labels: List[str]
+    thresholds: Dict[str, float]
+
+    def predict_scores(self, feature_dicts: Sequence[Dict[str, float]]) -> np.ndarray:
+        ...
+
+    def predict_labels(self, feature_dicts: Sequence[Dict[str, float]]) -> List[List[str]]:
+        ...
+
+    def save(self, path: Path) -> None:
+        ...
 
 
 @dataclass
@@ -61,6 +78,72 @@ class LinearMultiLabelModel:
             bias=np.array(payload["bias"], dtype=np.float32),
             thresholds={key: float(value) for key, value in payload["thresholds"].items()},
         )
+
+
+@dataclass
+class BinaryLabelModel:
+    label: str
+    estimator: LogisticRegression | None
+    constant_score: float = 0.0
+
+    def predict_scores(self, x: object) -> np.ndarray:
+        if self.estimator is None:
+            rows = getattr(x, "shape")[0]
+            return np.full(rows, self.constant_score, dtype=np.float32)
+        return self.estimator.predict_proba(x)[:, 1].astype(np.float32)
+
+
+@dataclass
+class SklearnRelationModel:
+    labels: List[str]
+    vectorizer: DictVectorizer
+    label_models: Dict[str, BinaryLabelModel]
+    thresholds: Dict[str, float]
+
+    def predict_scores(self, feature_dicts: Sequence[Dict[str, float]]) -> np.ndarray:
+        x = self.vectorizer.transform(feature_dicts)
+        scores = np.zeros((x.shape[0], len(self.labels)), dtype=np.float32)
+        for column, label in enumerate(self.labels):
+            scores[:, column] = self.label_models[label].predict_scores(x)
+        return scores
+
+    def predict_labels(self, feature_dicts: Sequence[Dict[str, float]]) -> List[List[str]]:
+        scores = self.predict_scores(feature_dicts)
+        outputs: List[List[str]] = []
+        for row in scores:
+            labels = [
+                label
+                for index, label in enumerate(self.labels)
+                if row[index] >= self.thresholds[label]
+            ]
+            outputs.append(labels)
+        return outputs
+
+    def save(self, path: Path) -> None:
+        joblib.dump(self, path)
+
+    @classmethod
+    def load(cls, path: Path) -> "SklearnRelationModel":
+        loaded = joblib.load(path)
+        if not isinstance(loaded, cls):
+            raise TypeError(f"Unexpected model type loaded from {path}")
+        return loaded
+
+
+def train_relation_model(
+    examples: Sequence[Dict[str, object]],
+    schema: RelationSchema,
+    config: ExperimentConfig,
+) -> RelationModel:
+    if config.model_name == "numpy":
+        return train_linear_multilabel(
+            [example["features"] for example in examples],
+            [example["labels"] for example in examples],
+            config,
+        )
+    if config.model_name == "sklearn":
+        return train_sklearn_relation_model(examples, schema, config)
+    raise ValueError(f"Unsupported model_name: {config.model_name}")
 
 
 def train_linear_multilabel(
@@ -113,6 +196,70 @@ def train_linear_multilabel(
         vectorizer=vectorizer,
         weights=weights,
         bias=bias,
+        thresholds=thresholds,
+    )
+
+
+def train_sklearn_relation_model(
+    examples: Sequence[Dict[str, object]],
+    schema: RelationSchema,
+    config: ExperimentConfig,
+) -> SklearnRelationModel:
+    feature_dicts = [example["features"] for example in examples]
+    labels = list(config.relation_labels)
+    vectorizer = DictVectorizer(sparse=True)
+    x = vectorizer.fit_transform(feature_dicts)
+
+    label_models: Dict[str, BinaryLabelModel] = {}
+    thresholds: Dict[str, float] = {}
+    for label in labels:
+        mask = np.array(
+            [
+                schema.is_valid_pair(label, str(example["subject_type"]), str(example["object_type"]))
+                for example in examples
+            ],
+            dtype=bool,
+        )
+        y = np.array(
+            [1 if label in example["labels"] else 0 for example in examples],
+            dtype=np.int32,
+        )[mask]
+        if y.size == 0:
+            label_models[label] = BinaryLabelModel(label=label, estimator=None, constant_score=0.0)
+            thresholds[label] = config.relation_thresholds.get(label, 0.5)
+            continue
+
+        x_label = x[mask]
+        if np.unique(y).size < 2:
+            constant_score = float(y[0])
+            label_models[label] = BinaryLabelModel(label=label, estimator=None, constant_score=constant_score)
+            thresholds[label] = calibrate_threshold(
+                np.full(y.shape[0], constant_score, dtype=np.float32),
+                y.astype(np.float32),
+                config.relation_thresholds.get(label, 0.5),
+            )
+            continue
+
+        estimator = LogisticRegression(
+            C=config.sklearn_c,
+            class_weight="balanced",
+            max_iter=config.sklearn_max_iter,
+            random_state=config.random_seed,
+            solver="liblinear",
+        )
+        estimator.fit(x_label, y)
+        score_column = estimator.predict_proba(x_label)[:, 1].astype(np.float32)
+        thresholds[label] = calibrate_threshold(
+            score_column,
+            y.astype(np.float32),
+            config.relation_thresholds.get(label, 0.5),
+        )
+        label_models[label] = BinaryLabelModel(label=label, estimator=estimator)
+
+    return SklearnRelationModel(
+        labels=labels,
+        vectorizer=vectorizer,
+        label_models=label_models,
         thresholds=thresholds,
     )
 
