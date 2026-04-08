@@ -23,6 +23,7 @@ from transformers import (
 
 from .config import ExperimentConfig
 from .data import build_canonical_entities, locate_span, split_sentences
+from .evaluation import compute_mention_metrics
 from .features import RelationSchema, should_consider_pair
 from .mention_detection import build_coref_guess
 from .model import calibrate_threshold
@@ -389,48 +390,65 @@ def decode_window_predictions(
     return candidates
 
 
+def _normalize_predicted_span(span: PredictedMentionSpan, document: Document) -> PredictedMentionSpan | None:
+    start = span.start
+    end = span.end
+    while start < end and document.text[start] in SPAN_TRIM_CHARS:
+        start += 1
+    while end > start and document.text[end - 1] in SPAN_TRIM_CHARS:
+        end -= 1
+    surface = document.text[start:end]
+    if not surface:
+        return None
+    if not any(character.isalnum() for character in surface):
+        return None
+    if span.entity_type != "Date" and surface.isdigit():
+        return None
+    alpha_numeric = sum(character.isalnum() for character in surface)
+    if alpha_numeric <= 1:
+        return None
+    return PredictedMentionSpan(
+        entity_type=span.entity_type,
+        start=start,
+        end=end,
+        confidence=span.confidence,
+    )
+
+
+def _span_sort_score(span: PredictedMentionSpan, document: Document) -> float:
+    surface = document.text[span.start : span.end]
+    alpha_chars = sum(character.isalpha() for character in surface)
+    punctuation_chars = sum(not character.isalnum() and not character.isspace() for character in surface)
+    digit_chars = sum(character.isdigit() for character in surface)
+    length_bonus = min(span.end - span.start, 48) / 160.0
+    word_bonus = min(len(surface.split()), 4) * 0.03
+    alpha_bonus = min(alpha_chars, 24) / 400.0
+    punctuation_penalty = punctuation_chars / max(len(surface), 1) * 0.08
+    digit_penalty = 0.06 if span.entity_type != "Date" and digit_chars and digit_chars >= alpha_chars else 0.0
+    return float(span.confidence + length_bonus + word_bonus + alpha_bonus - punctuation_penalty - digit_penalty)
+
+
 def merge_predicted_mentions(
     spans: Sequence[PredictedMentionSpan],
     document: Document,
+    thresholds: Dict[str, float] | None = None,
 ) -> List[Mention]:
-    def normalize_span(span: PredictedMentionSpan) -> PredictedMentionSpan | None:
-        start = span.start
-        end = span.end
-        while start < end and document.text[start] in SPAN_TRIM_CHARS:
-            start += 1
-        while end > start and document.text[end - 1] in SPAN_TRIM_CHARS:
-            end -= 1
-        surface = document.text[start:end]
-        if not surface:
-            return None
-        if not any(character.isalnum() for character in surface):
-            return None
-        if span.entity_type != "Date" and surface.isdigit():
-            return None
-        alpha_numeric = sum(character.isalnum() for character in surface)
-        if alpha_numeric <= 1:
-            return None
-        if len(surface) <= 2 and surface.isalpha() and surface == surface.casefold():
-            return None
-        return PredictedMentionSpan(
-            entity_type=span.entity_type,
-            start=start,
-            end=end,
-            confidence=span.confidence,
-        )
-
+    thresholds = thresholds or {}
     normalized_spans: List[PredictedMentionSpan] = []
     for span in spans:
-        normalized = normalize_span(span)
-        if normalized is not None and normalized.start < normalized.end:
-            normalized_spans.append(normalized)
+        normalized = _normalize_predicted_span(span, document)
+        if normalized is None or normalized.start >= normalized.end:
+            continue
+        if normalized.confidence < float(thresholds.get(normalized.entity_type, 0.0)):
+            continue
+        normalized_spans.append(normalized)
 
     sentence_spans = split_sentences(document.text)
     layout_spans = [tuple(block["offsets"]) for block in document.layout]
     kept: List[PredictedMentionSpan] = []
     for span in sorted(
         normalized_spans,
-        key=lambda item: (-(item.confidence + min(item.end - item.start, 40) / 200.0), item.start, item.end, item.entity_type),
+        key=lambda item: (-_span_sort_score(item, document), item.start, item.end, item.entity_type),
     ):
         overlapping_index = next(
             (
@@ -444,13 +462,8 @@ def merge_predicted_mentions(
             kept.append(span)
             continue
         existing = kept[overlapping_index]
-        if (
-            span.entity_type == existing.entity_type
-            and (span.end - span.start) > (existing.end - existing.start)
-            and span.confidence >= existing.confidence - 0.05
-        ):
+        if _span_sort_score(span, document) > _span_sort_score(existing, document) + 1e-6:
             kept[overlapping_index] = span
-            continue
 
     mentions = []
     for index, span in enumerate(sorted(kept, key=lambda item: (item.start, item.end, item.entity_type))):
@@ -468,6 +481,64 @@ def merge_predicted_mentions(
     return mentions
 
 
+def serialize_predicted_spans(
+    spans: Sequence[PredictedMentionSpan],
+    document: Document,
+) -> List[Dict[str, object]]:
+    return [
+        {
+            "entity_type": span.entity_type,
+            "start": span.start,
+            "end": span.end,
+            "form": document.text[span.start : span.end],
+            "confidence": span.confidence,
+        }
+        for span in spans
+    ]
+
+
+def tune_mention_thresholds(
+    raw_spans_by_doc: Dict[str, List[PredictedMentionSpan]],
+    validation_documents: Sequence[Document],
+) -> Dict[str, float]:
+    thresholds = {entity_type: 0.0 for entity_type in ENTITY_TYPES}
+    for entity_type in ENTITY_TYPES:
+        candidate_thresholds = {0.0}
+        for spans in raw_spans_by_doc.values():
+            for span in spans:
+                if span.entity_type == entity_type:
+                    candidate_thresholds.add(round(float(span.confidence), 4))
+
+        best_threshold = 0.0
+        best_f1 = -1.0
+        best_recall = -1.0
+        for threshold in sorted(candidate_thresholds):
+            trial_thresholds = dict(thresholds)
+            trial_thresholds[entity_type] = float(threshold)
+            predicted_mentions_by_doc = {
+                document.doc_id: merge_predicted_mentions(
+                    raw_spans_by_doc.get(document.doc_id, []),
+                    document,
+                    trial_thresholds,
+                )
+                for document in validation_documents
+            }
+            metrics = compute_mention_metrics(validation_documents, predicted_mentions_by_doc, [entity_type])
+            score_row = metrics["per_type"][entity_type]
+            f1 = float(score_row["f1"])
+            recall = float(score_row["recall"])
+            if (
+                f1 > best_f1
+                or (abs(f1 - best_f1) <= 1e-9 and recall > best_recall)
+                or (abs(f1 - best_f1) <= 1e-9 and abs(recall - best_recall) <= 1e-9 and threshold < best_threshold)
+            ):
+                best_threshold = float(threshold)
+                best_f1 = f1
+                best_recall = recall
+        thresholds[entity_type] = best_threshold
+    return thresholds
+
+
 @dataclass
 class ModernBertMentionDetector:
     tokenizer: PreTrainedTokenizerBase
@@ -476,8 +547,9 @@ class ModernBertMentionDetector:
     id_to_label: Dict[int, str]
     device: torch.device
     config: ExperimentConfig
+    mention_thresholds: Dict[str, float]
 
-    def predict_mentions(self, document: Document) -> List[Mention]:
+    def predict_span_candidates(self, document: Document) -> List[PredictedMentionSpan]:
         if not document.text.strip():
             return []
         self.model.to(self.device)
@@ -513,7 +585,17 @@ class ModernBertMentionDetector:
                         self.id_to_label,
                     )
                 )
-        return merge_predicted_mentions(spans, document)
+        return spans
+
+    def predict_mentions_from_spans(
+        self,
+        spans: Sequence[PredictedMentionSpan],
+        document: Document,
+    ) -> List[Mention]:
+        return merge_predicted_mentions(spans, document, self.mention_thresholds)
+
+    def predict_mentions(self, document: Document) -> List[Mention]:
+        return self.predict_mentions_from_spans(self.predict_span_candidates(document), document)
 
     def save(self, path: Path) -> None:
         path.mkdir(parents=True, exist_ok=True)
@@ -521,6 +603,7 @@ class ModernBertMentionDetector:
         self.tokenizer.save_pretrained(path)
         metadata = {
             "labels": [self.id_to_label[index] for index in sorted(self.id_to_label)],
+            "mention_thresholds": self.mention_thresholds,
         }
         (path / "metadata.json").write_text(json.dumps(metadata, indent=2), encoding="utf-8")
 
@@ -539,14 +622,22 @@ def train_modernbert_mention_detector(
     validation_rows = build_mention_training_rows(validation_documents or [], tokenizer, label_to_id, config)
     device = resolve_torch_device(config.device)
     trained_model = _train_transformer_model(model, train_rows, config, device, validation_rows)
-    return ModernBertMentionDetector(
+    mention_detector = ModernBertMentionDetector(
         tokenizer=tokenizer,
         model=trained_model,
         label_to_id=label_to_id,
         id_to_label=id_to_label,
         device=device,
         config=config,
+        mention_thresholds={entity_type: 0.0 for entity_type in ENTITY_TYPES},
     )
+    if validation_documents:
+        raw_spans_by_doc = {
+            document.doc_id: mention_detector.predict_span_candidates(document)
+            for document in validation_documents
+        }
+        mention_detector.mention_thresholds = tune_mention_thresholds(raw_spans_by_doc, validation_documents)
+    return mention_detector
 
 
 def predict_canonical_entities_with_detector(

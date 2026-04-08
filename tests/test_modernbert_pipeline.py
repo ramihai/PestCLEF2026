@@ -3,6 +3,7 @@ from __future__ import annotations
 import sys
 import tempfile
 import unittest
+import json
 from pathlib import Path
 from unittest.mock import patch
 
@@ -178,8 +179,11 @@ class ModernBertPipelineTests(unittest.TestCase):
         self.assertIn("mention_metrics", result)
         self.assertTrue((self.config.artifacts_dir / "mention_model").exists())
         self.assertTrue((self.config.artifacts_dir / "relation_model").exists())
+        self.assertTrue((self.config.artifacts_dir / "pre_cleanup_predicted_mentions.json").exists())
         self.assertTrue((self.config.artifacts_dir / "dev_predicted_mentions.json").exists())
         self.assertTrue((self.config.artifacts_dir / "dev_mention_metrics.json").exists())
+        mention_metadata = json.loads((self.config.artifacts_dir / "mention_model" / "metadata.json").read_text(encoding="utf-8"))
+        self.assertIn("mention_thresholds", mention_metadata)
 
     def test_modernbert_submission_pipeline_runs(self) -> None:
         with patch("pestclef.pipeline.load_documents", side_effect=self._fake_load_documents):

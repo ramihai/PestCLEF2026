@@ -214,6 +214,7 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
         build_canonical_entities_from_mentions,
         generate_relation_text_examples,
         predict_document_edges_with_relation_model,
+        serialize_predicted_spans,
         train_modernbert_mention_detector,
         train_modernbert_relation_model,
     )
@@ -221,13 +222,17 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
     config.ensure_artifacts_dir()
     train_documents = load_documents("train", config)
     dev_documents = load_documents("dev", config)
+    dev_document_lookup = {document.doc_id: document for document in dev_documents}
     schema = RelationSchema.from_documents(train_documents)
 
     mention_detector = train_modernbert_mention_detector(train_documents, config, validation_documents=dev_documents)
+    raw_predicted_spans_by_doc = {}
     predicted_mentions_by_doc = {}
     predicted_entities_by_doc: Dict[str, List[CanonicalEntity]] = {}
     for document in dev_documents:
-        predicted_mentions = mention_detector.predict_mentions(document)
+        raw_spans = mention_detector.predict_span_candidates(document)
+        raw_predicted_spans_by_doc[document.doc_id] = raw_spans
+        predicted_mentions = mention_detector.predict_mentions_from_spans(raw_spans, document)
         predicted_mentions_by_doc[document.doc_id] = predicted_mentions
         predicted_entities_by_doc[document.doc_id] = build_canonical_entities_from_mentions(predicted_mentions)
 
@@ -271,6 +276,16 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
     save_json(error_report, config.artifacts_dir / "dev_end_to_end_error_report.json")
     save_json(
         {
+            "pre_cleanup_predicted_mentions": {
+                doc_id: serialize_predicted_spans(raw_predicted_spans_by_doc.get(doc_id, []), dev_document_lookup[doc_id])
+                for doc_id in raw_predicted_spans_by_doc
+            },
+            "mention_thresholds": mention_detector.mention_thresholds,
+        },
+        config.artifacts_dir / "pre_cleanup_predicted_mentions.json",
+    )
+    save_json(
+        {
             "predicted_mentions": {
                 doc_id: [
                     {
@@ -280,6 +295,14 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
                         "offsets": mention.offsets,
                         "sentence_index": mention.sentence_index,
                         "layout_index": mention.layout_index,
+                        "confidence": next(
+                            (
+                                span.confidence
+                                for span in raw_predicted_spans_by_doc.get(doc_id, [])
+                                if span.entity_type == mention.entity_type and span.start == mention.start and span.end == mention.end
+                            ),
+                            None,
+                        ),
                     }
                     for mention in mentions
                 ]
