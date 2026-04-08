@@ -9,6 +9,7 @@ from typing import Dict, List, Optional, Sequence, Tuple
 
 import numpy as np
 import torch
+import torch.nn.functional as F
 from torch.optim import AdamW
 from torch.utils.data import DataLoader
 from transformers import (
@@ -139,7 +140,7 @@ def _clone_state_dict(model: PreTrainedModel) -> Dict[str, torch.Tensor]:
 
 
 def _evaluate_dataset(
-    model: PreTrainedModel,
+    model: torch.nn.Module,
     dataset_rows: Sequence[Dict[str, torch.Tensor]],
     batch_size: int,
     device: torch.device,
@@ -157,12 +158,12 @@ def _evaluate_dataset(
 
 
 def _train_transformer_model(
-    model: PreTrainedModel,
+    model: torch.nn.Module,
     train_rows: Sequence[Dict[str, torch.Tensor]],
     config: ExperimentConfig,
     device: torch.device,
     validation_rows: Sequence[Dict[str, torch.Tensor]] | None = None,
-) -> PreTrainedModel:
+) -> torch.nn.Module:
     if not train_rows:
         return model.to(device)
 
@@ -262,6 +263,76 @@ def _partially_overlaps_segment(
     return False
 
 
+def _build_mention_window_examples(
+    documents: Sequence[Document],
+    config: ExperimentConfig,
+) -> List[Dict[str, object]]:
+    window_examples: List[Dict[str, object]] = []
+    for document in documents:
+        if not document.text.strip():
+            continue
+        sentence_spans = split_sentences(document.text)
+        if not sentence_spans:
+            sentence_spans = [(0, len(document.text))]
+        positive_sentence_indices = sorted(
+            {
+                mention.sentence_index
+                for mention in document.mentions
+                if 0 <= mention.sentence_index < len(sentence_spans)
+            }
+        )
+        positive_index_set = set(positive_sentence_indices)
+        window_bounds: set[tuple[int, int]] = set()
+        for sentence_index in positive_sentence_indices:
+            start_sentence = max(0, sentence_index - max(0, config.mention_positive_sentence_radius))
+            end_sentence = min(len(sentence_spans) - 1, sentence_index + max(0, config.mention_positive_sentence_radius))
+            window_bounds.add((sentence_spans[start_sentence][0], sentence_spans[end_sentence][1]))
+
+        negative_indices = [index for index in range(len(sentence_spans)) if index not in positive_index_set]
+        if positive_sentence_indices:
+            max_negative = int(round(len(positive_sentence_indices) * max(0.0, config.mention_negative_sentence_ratio)))
+            for index in negative_indices[:max_negative]:
+                window_bounds.add(sentence_spans[index])
+        else:
+            minimum = max(1, int(config.mention_min_windows_per_document))
+            for index in negative_indices[:minimum]:
+                window_bounds.add(sentence_spans[index])
+
+        if not window_bounds:
+            window_bounds.add((0, len(document.text)))
+
+        minimum_windows = max(1, int(config.mention_min_windows_per_document))
+        if len(window_bounds) < minimum_windows:
+            for index in range(len(sentence_spans)):
+                window_bounds.add(sentence_spans[index])
+                if len(window_bounds) >= minimum_windows:
+                    break
+
+        for window_start, window_end in sorted(window_bounds):
+            window_text = document.text[window_start:window_end]
+            if not window_text.strip():
+                continue
+            segments: List[tuple[str, str, int, int]] = []
+            for mention in document.mentions:
+                for mention_start, mention_end in mention.offsets:
+                    if mention_start >= window_start and mention_end <= window_end:
+                        segments.append(
+                            (
+                                mention.mention_id,
+                                mention.entity_type,
+                                mention_start - window_start,
+                                mention_end - window_start,
+                            )
+                        )
+            window_examples.append(
+                {
+                    "text": window_text,
+                    "segments": segments,
+                }
+            )
+    return window_examples
+
+
 def build_mention_training_rows(
     documents: Sequence[Document],
     tokenizer: PreTrainedTokenizerBase,
@@ -270,8 +341,11 @@ def build_mention_training_rows(
 ) -> List[Dict[str, torch.Tensor]]:
     if not documents:
         return []
+    window_examples = _build_mention_window_examples(documents, config)
+    if not window_examples:
+        return []
     encoded = tokenizer(
-        [document.text for document in documents],
+        [str(example["text"]) for example in window_examples],
         truncation=True,
         max_length=config.max_seq_length,
         stride=config.doc_stride,
@@ -282,9 +356,10 @@ def build_mention_training_rows(
     sample_mapping = encoded["overflow_to_sample_mapping"]
     rows = []
     for row_index in range(len(encoded["input_ids"])):
-        document = documents[sample_mapping[row_index]]
-        segments = _build_mention_segments(document)
-        word_spans = _build_word_spans(document.text)
+        example = window_examples[sample_mapping[row_index]]
+        window_text = str(example["text"])
+        segments = list(example["segments"])
+        word_spans = _build_word_spans(window_text)
         labels = []
         for token_start, token_end in encoded["offset_mapping"][row_index]:
             if token_start == token_end == 0:
@@ -295,7 +370,7 @@ def build_mention_training_rows(
                 labels.append(-100)
                 continue
             span_start, span_end = word_span or (token_start, token_end)
-            label_parts = _label_word_offset(span_start, span_end, segments, document.text)
+            label_parts = _label_word_offset(span_start, span_end, segments, window_text)
             if label_parts is not None:
                 labels.append(label_to_id[f"{label_parts[0]}-{label_parts[1]}"])
                 continue
@@ -311,6 +386,67 @@ def build_mention_training_rows(
             }
         )
     return rows
+
+
+def _build_mention_class_weights(
+    train_rows: Sequence[Dict[str, torch.Tensor]],
+    num_labels: int,
+    cap: float,
+) -> torch.Tensor:
+    counts = torch.zeros(num_labels, dtype=torch.float32)
+    for row in train_rows:
+        labels = row["labels"].view(-1)
+        valid_labels = labels[labels >= 0]
+        if valid_labels.numel() == 0:
+            continue
+        bincount = torch.bincount(valid_labels, minlength=num_labels).to(dtype=torch.float32)
+        counts += bincount
+    if counts.sum().item() == 0:
+        return torch.ones(num_labels, dtype=torch.float32)
+    frequencies = counts / counts.sum()
+    weights = 1.0 / torch.clamp(frequencies, min=1e-6)
+    weights = weights / weights.mean()
+    weights = torch.clamp(weights, max=max(1.0, float(cap)))
+    if num_labels > 0:
+        weights[0] = min(float(weights[0].item()), 1.0)
+    return weights
+
+
+class FocalTokenClassifier(torch.nn.Module):
+    def __init__(
+        self,
+        base_model: PreTrainedModel,
+        class_weights: torch.Tensor | None = None,
+        gamma: float = 2.0,
+    ):
+        super().__init__()
+        self.base_model = base_model
+        self.class_weights = class_weights
+        self.gamma = gamma
+
+    def forward(self, input_ids: torch.Tensor, attention_mask: torch.Tensor, labels: Optional[torch.Tensor] = None):
+        outputs = self.base_model(input_ids=input_ids, attention_mask=attention_mask)
+        logits = outputs.logits
+        loss = None
+        if labels is not None:
+            flat_logits = logits.view(-1, logits.size(-1))
+            flat_labels = labels.view(-1)
+            valid_mask = flat_labels != -100
+            if bool(valid_mask.any()):
+                valid_logits = flat_logits[valid_mask]
+                valid_labels = flat_labels[valid_mask]
+                ce_loss = F.cross_entropy(
+                    valid_logits,
+                    valid_labels,
+                    reduction="none",
+                    weight=self.class_weights.to(valid_logits.device) if self.class_weights is not None else None,
+                )
+                pt = torch.exp(-ce_loss)
+                focal_loss = ((1 - pt) ** max(0.0, float(self.gamma))) * ce_loss
+                loss = focal_loss.mean()
+            else:
+                loss = logits.sum() * 0.0
+        return type("TokenClassificationOutput", (), {"logits": logits, "loss": loss})()
 
 
 @dataclass
@@ -617,14 +753,23 @@ def train_modernbert_mention_detector(
     label_to_id = {label: index for index, label in enumerate(labels)}
     id_to_label = {index: label for label, index in label_to_id.items()}
     tokenizer = _load_tokenizer(config)
-    model = _load_token_classification_model(config, num_labels=len(labels))
+    base_model = _load_token_classification_model(config, num_labels=len(labels))
     train_rows = build_mention_training_rows(train_documents, tokenizer, label_to_id, config)
     validation_rows = build_mention_training_rows(validation_documents or [], tokenizer, label_to_id, config)
     device = resolve_torch_device(config.device)
-    trained_model = _train_transformer_model(model, train_rows, config, device, validation_rows)
+    training_model: torch.nn.Module = base_model
+    if config.mention_use_focal_loss:
+        class_weights = _build_mention_class_weights(train_rows, len(labels), config.mention_class_weight_cap)
+        training_model = FocalTokenClassifier(
+            base_model,
+            class_weights=class_weights,
+            gamma=config.mention_focal_gamma,
+        )
+    trained_model = _train_transformer_model(training_model, train_rows, config, device, validation_rows)
+    inference_model = trained_model.base_model if isinstance(trained_model, FocalTokenClassifier) else trained_model
     mention_detector = ModernBertMentionDetector(
         tokenizer=tokenizer,
-        model=trained_model,
+        model=inference_model,  # type: ignore[arg-type]
         label_to_id=label_to_id,
         id_to_label=id_to_label,
         device=device,

@@ -36,6 +36,12 @@ class ExperimentConfig:
     doc_stride: int = 256
     relation_max_seq_length: int = 768
     relation_context_sentence_radius: int = 1
+    mention_positive_sentence_radius: int = 1
+    mention_negative_sentence_ratio: float = 0.5
+    mention_min_windows_per_document: int = 1
+    mention_use_focal_loss: bool = True
+    mention_focal_gamma: float = 2.0
+    mention_class_weight_cap: float = 12.0
     device: str = "auto"
     local_files_only: bool = False
     encoder_random_init: bool = False
