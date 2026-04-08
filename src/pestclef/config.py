@@ -42,6 +42,8 @@ class ExperimentConfig:
     mention_use_focal_loss: bool = True
     mention_focal_gamma: float = 2.0
     mention_class_weight_cap: float = 12.0
+    mention_hybrid_lexicon: bool = True
+    mention_hybrid_lexicon_confidence: float = 0.55
     device: str = "auto"
     local_files_only: bool = False
     encoder_random_init: bool = False

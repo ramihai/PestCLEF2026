@@ -211,6 +211,7 @@ def train_gold_entity_modernbert_baseline(config: ExperimentConfig) -> Dict[str,
 
 def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]:
     from .modernbert import (
+        build_hybrid_span_candidates,
         build_canonical_entities_from_mentions,
         generate_relation_text_examples,
         predict_document_edges_with_relation_model,
@@ -224,15 +225,20 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
     dev_documents = load_documents("dev", config)
     dev_document_lookup = {document.doc_id: document for document in dev_documents}
     schema = RelationSchema.from_documents(train_documents)
+    mention_lexicon = MentionLexicon.from_documents(train_documents, config) if config.mention_hybrid_lexicon else None
 
     mention_detector = train_modernbert_mention_detector(train_documents, config, validation_documents=dev_documents)
-    raw_predicted_spans_by_doc = {}
+    neural_predicted_spans_by_doc = {}
+    lexicon_predicted_spans_by_doc = {}
+    blended_predicted_spans_by_doc = {}
     predicted_mentions_by_doc = {}
     predicted_entities_by_doc: Dict[str, List[CanonicalEntity]] = {}
     for document in dev_documents:
-        raw_spans = mention_detector.predict_span_candidates(document)
-        raw_predicted_spans_by_doc[document.doc_id] = raw_spans
-        predicted_mentions = mention_detector.predict_mentions_from_spans(raw_spans, document)
+        neural_spans, lexicon_spans, blended_spans = build_hybrid_span_candidates(document, mention_detector, mention_lexicon)
+        neural_predicted_spans_by_doc[document.doc_id] = neural_spans
+        lexicon_predicted_spans_by_doc[document.doc_id] = lexicon_spans
+        blended_predicted_spans_by_doc[document.doc_id] = blended_spans
+        predicted_mentions = mention_detector.predict_mentions_from_spans(blended_spans, document)
         predicted_mentions_by_doc[document.doc_id] = predicted_mentions
         predicted_entities_by_doc[document.doc_id] = build_canonical_entities_from_mentions(predicted_mentions)
 
@@ -276,11 +282,20 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
     save_json(error_report, config.artifacts_dir / "dev_end_to_end_error_report.json")
     save_json(
         {
-            "pre_cleanup_predicted_mentions": {
-                doc_id: serialize_predicted_spans(raw_predicted_spans_by_doc.get(doc_id, []), dev_document_lookup[doc_id])
-                for doc_id in raw_predicted_spans_by_doc
+            "pre_cleanup_predicted_mentions_neural": {
+                doc_id: serialize_predicted_spans(neural_predicted_spans_by_doc.get(doc_id, []), dev_document_lookup[doc_id])
+                for doc_id in neural_predicted_spans_by_doc
+            },
+            "pre_cleanup_predicted_mentions_lexicon": {
+                doc_id: serialize_predicted_spans(lexicon_predicted_spans_by_doc.get(doc_id, []), dev_document_lookup[doc_id])
+                for doc_id in lexicon_predicted_spans_by_doc
+            },
+            "pre_cleanup_predicted_mentions_blended": {
+                doc_id: serialize_predicted_spans(blended_predicted_spans_by_doc.get(doc_id, []), dev_document_lookup[doc_id])
+                for doc_id in blended_predicted_spans_by_doc
             },
             "mention_thresholds": mention_detector.mention_thresholds,
+            "hybrid_lexicon_enabled": bool(mention_lexicon is not None),
         },
         config.artifacts_dir / "pre_cleanup_predicted_mentions.json",
     )
@@ -298,7 +313,7 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
                         "confidence": next(
                             (
                                 span.confidence
-                                for span in raw_predicted_spans_by_doc.get(doc_id, [])
+                                for span in blended_predicted_spans_by_doc.get(doc_id, [])
                                 if span.entity_type == mention.entity_type and span.start == mention.start and span.end == mention.end
                             ),
                             None,
@@ -336,8 +351,9 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
 
 def run_modernbert_test_submission(config: ExperimentConfig, train_on_dev: bool = False) -> Dict[str, object]:
     from .modernbert import (
+        build_canonical_entities_from_mentions,
+        build_hybrid_span_candidates,
         generate_relation_text_examples,
-        predict_canonical_entities_with_detector,
         predict_document_edges_with_relation_model,
         train_modernbert_mention_detector,
         train_modernbert_relation_model,
@@ -360,6 +376,7 @@ def run_modernbert_test_submission(config: ExperimentConfig, train_on_dev: bool 
         config,
         validation_documents=dev_documents if not train_on_dev else train_documents,
     )
+    mention_lexicon = MentionLexicon.from_documents(mention_train_documents, config) if config.mention_hybrid_lexicon else None
     schema = RelationSchema.from_documents(relation_train_documents)
     relation_train_examples = generate_relation_text_examples(relation_train_documents, schema, config)
     relation_calibration_examples = generate_relation_text_examples(relation_calibration_documents, schema, config)
@@ -374,7 +391,9 @@ def run_modernbert_test_submission(config: ExperimentConfig, train_on_dev: bool 
     predictions: Dict[str, List[RelationEdge]] = {}
     predicted_entities_by_doc: Dict[str, List[CanonicalEntity]] = {}
     for document in test_documents:
-        predicted_entities = predict_canonical_entities_with_detector(document, mention_detector)
+        _neural_spans, _lexicon_spans, blended_spans = build_hybrid_span_candidates(document, mention_detector, mention_lexicon)
+        predicted_mentions = mention_detector.predict_mentions_from_spans(blended_spans, document)
+        predicted_entities = build_canonical_entities_from_mentions(predicted_mentions)
         predicted_entities_by_doc[document.doc_id] = predicted_entities
         predictions[document.doc_id] = predict_document_edges_with_relation_model(
             document,

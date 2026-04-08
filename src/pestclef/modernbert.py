@@ -26,7 +26,7 @@ from .config import ExperimentConfig
 from .data import build_canonical_entities, locate_span, split_sentences
 from .evaluation import compute_mention_metrics
 from .features import RelationSchema, should_consider_pair
-from .mention_detection import build_coref_guess
+from .mention_detection import MentionLexicon, build_coref_guess, detect_mentions_as_mentions
 from .model import calibrate_threshold
 from .schema import CanonicalEntity, Document, Mention, RelationEdge
 
@@ -631,6 +631,44 @@ def serialize_predicted_spans(
         }
         for span in spans
     ]
+
+
+def combine_span_candidates(
+    span_groups: Sequence[Sequence[PredictedMentionSpan]],
+) -> List[PredictedMentionSpan]:
+    best_by_span: Dict[tuple[str, int, int], PredictedMentionSpan] = {}
+    for spans in span_groups:
+        for span in spans:
+            key = (span.entity_type, span.start, span.end)
+            existing = best_by_span.get(key)
+            if existing is None or span.confidence > existing.confidence:
+                best_by_span[key] = span
+    return sorted(best_by_span.values(), key=lambda item: (item.start, item.end, item.entity_type))
+
+
+def build_hybrid_span_candidates(
+    document: Document,
+    mention_detector: "ModernBertMentionDetector",
+    lexicon: MentionLexicon | None,
+) -> tuple[List[PredictedMentionSpan], List[PredictedMentionSpan], List[PredictedMentionSpan]]:
+    neural_spans = mention_detector.predict_span_candidates(document)
+    lexicon_spans: List[PredictedMentionSpan] = []
+    if lexicon is not None:
+        lexicon_mentions = detect_mentions_as_mentions(document, lexicon)
+        for mention in lexicon_mentions:
+            for start, end in mention.offsets:
+                threshold = float(mention_detector.mention_thresholds.get(mention.entity_type, 0.0))
+                confidence = max(float(mention_detector.config.mention_hybrid_lexicon_confidence), threshold + 0.05)
+                lexicon_spans.append(
+                    PredictedMentionSpan(
+                        entity_type=mention.entity_type,
+                        start=start,
+                        end=end,
+                        confidence=confidence,
+                    )
+                )
+    blended_spans = combine_span_candidates([neural_spans, lexicon_spans])
+    return neural_spans, lexicon_spans, blended_spans
 
 
 def tune_mention_thresholds(
