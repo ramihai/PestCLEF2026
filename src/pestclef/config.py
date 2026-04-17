@@ -44,6 +44,16 @@ class ExperimentConfig:
     mention_class_weight_cap: float = 12.0
     mention_hybrid_lexicon: bool = True
     mention_hybrid_lexicon_confidence: float = 0.55
+    mention_cleanup_profile: str = "strict_v2"
+    mention_type_denylists_enabled: bool = True
+    entity_alias_merge_strategy: str = "heuristic_v1"
+    mention_threshold_tuning_strategy: str = "relation_aware_v1"
+    mention_threshold_candidate_recall_weight: float = 0.75
+    mention_threshold_mention_f1_weight: float = 0.25
+    relation_train_with_predicted_entities: bool = True
+    relation_predicted_entity_mix_ratio: float = 0.5
+    relation_calibrate_on_predicted_entities: bool = True
+    relation_pair_pruning_profile: str = "precision_v1"
     device: str = "auto"
     local_files_only: bool = False
     encoder_random_init: bool = False

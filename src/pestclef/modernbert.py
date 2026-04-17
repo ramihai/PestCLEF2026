@@ -23,9 +23,9 @@ from transformers import (
 )
 
 from .config import ExperimentConfig
-from .data import build_canonical_entities, locate_span, split_sentences
-from .evaluation import compute_mention_metrics
-from .features import RelationSchema, should_consider_pair
+from .data import build_canonical_entities, locate_span, normalize_text, split_sentences
+from .evaluation import compute_candidate_recall, compute_mention_metrics
+from .features import RelationSchema, enumerate_candidate_entity_pairs, should_consider_pair
 from .mention_detection import MentionLexicon, build_coref_guess, detect_mentions_as_mentions
 from .model import calibrate_threshold
 from .schema import CanonicalEntity, Document, Mention, RelationEdge
@@ -43,6 +43,108 @@ ENTITY_TYPES = [
 
 WORD_SPAN_PATTERN = re.compile(r"\w+(?:[./-]\w+)*", flags=re.UNICODE)
 SPAN_TRIM_CHARS = string.whitespace + string.punctuation
+MONTH_TOKENS = {
+    "january",
+    "february",
+    "march",
+    "april",
+    "may",
+    "june",
+    "july",
+    "august",
+    "september",
+    "october",
+    "november",
+    "december",
+    "jan",
+    "feb",
+    "mar",
+    "apr",
+    "jun",
+    "jul",
+    "aug",
+    "sep",
+    "sept",
+    "oct",
+    "nov",
+    "dec",
+}
+DATE_CUE_TOKENS = {
+    "early",
+    "late",
+    "mid",
+    "beginning",
+    "end",
+    "during",
+    "since",
+    "from",
+    "between",
+    "until",
+    "year",
+    "years",
+    "month",
+    "months",
+    "season",
+    "spring",
+    "summer",
+    "autumn",
+    "fall",
+    "winter",
+    "century",
+    "decade",
+    "annual",
+    "weekly",
+    "daily",
+}
+CENTURY_TOKENS = {
+    "eighteenth",
+    "nineteenth",
+    "twentieth",
+    "twenty-first",
+    "twentyfirst",
+    "first",
+    "second",
+    "third",
+    "fourth",
+}
+TYPE_DENYLISTS: Dict[str, set[str]] = {
+    "Date": {
+        "at",
+        "if",
+        "latest",
+        "supplementary",
+        "time",
+        "times",
+        "to date",
+        "since then",
+        "so far",
+        "for the first time",
+    },
+    "Location": {
+        "green",
+        "red",
+        "supplementary",
+        "latest",
+        "faostat",
+    },
+    "Vector": {
+        "individuals",
+        "orf",
+        "supplementary",
+        "red",
+        "immunoglobulin-like",
+        "5-10",
+        "genbank",
+    },
+    "Dissemination_pathway": {
+        "fruit",
+        "fruits",
+        "plant",
+        "plants",
+        "farmers",
+        "individuals",
+    },
+}
 
 
 def resolve_torch_device(requested_device: str) -> torch.device:
@@ -526,7 +628,11 @@ def decode_window_predictions(
     return candidates
 
 
-def _normalize_predicted_span(span: PredictedMentionSpan, document: Document) -> PredictedMentionSpan | None:
+def _normalize_predicted_span(
+    span: PredictedMentionSpan,
+    document: Document,
+    config: ExperimentConfig | None = None,
+) -> PredictedMentionSpan | None:
     start = span.start
     end = span.end
     while start < end and document.text[start] in SPAN_TRIM_CHARS:
@@ -542,6 +648,8 @@ def _normalize_predicted_span(span: PredictedMentionSpan, document: Document) ->
         return None
     alpha_numeric = sum(character.isalnum() for character in surface)
     if alpha_numeric <= 1:
+        return None
+    if config is not None and not _passes_type_specific_cleanup(surface, span.entity_type, config):
         return None
     return PredictedMentionSpan(
         entity_type=span.entity_type,
@@ -568,11 +676,12 @@ def merge_predicted_mentions(
     spans: Sequence[PredictedMentionSpan],
     document: Document,
     thresholds: Dict[str, float] | None = None,
+    config: ExperimentConfig | None = None,
 ) -> List[Mention]:
     thresholds = thresholds or {}
     normalized_spans: List[PredictedMentionSpan] = []
     for span in spans:
-        normalized = _normalize_predicted_span(span, document)
+        normalized = _normalize_predicted_span(span, document, config=config)
         if normalized is None or normalized.start >= normalized.end:
             continue
         if normalized.confidence < float(thresholds.get(normalized.entity_type, 0.0)):
@@ -671,10 +780,216 @@ def build_hybrid_span_candidates(
     return neural_spans, lexicon_spans, blended_spans
 
 
+def _passes_type_specific_cleanup(surface: str, entity_type: str, config: ExperimentConfig) -> bool:
+    profile = str(getattr(config, "mention_cleanup_profile", "legacy") or "legacy")
+    if profile == "legacy":
+        return True
+    normalized = normalize_text(surface)
+    if getattr(config, "mention_type_denylists_enabled", False) and normalized in TYPE_DENYLISTS.get(entity_type, set()):
+        return False
+    if entity_type == "Date":
+        return _looks_like_date_with_profile(surface, profile=profile)
+    if entity_type == "Location":
+        return _looks_like_location(surface)
+    if entity_type == "Vector":
+        return _looks_like_vector(surface)
+    if entity_type == "Dissemination_pathway":
+        return _looks_like_pathway(surface)
+    return True
+
+
+def _looks_like_date(surface: str) -> bool:
+    return _looks_like_date_with_profile(surface, profile="strict_v1")
+
+
+def _looks_like_date_with_profile(surface: str, profile: str) -> bool:
+    normalized = normalize_text(surface)
+    if normalized in TYPE_DENYLISTS["Date"]:
+        return False
+    tokens = normalized.split()
+    if not tokens:
+        return False
+    has_month = any(token in MONTH_TOKENS for token in tokens)
+    has_century = any(token in CENTURY_TOKENS for token in tokens) or "century" in tokens
+    has_year = bool(re.search(r"\b(18|19|20)\d{2}s?\b", normalized))
+    has_date_digits = bool(re.search(r"\b\d{1,2}[/-]\d{1,2}([/-]\d{2,4})?\b", normalized)) or bool(
+        re.search(r"\b\d{4}-\d{2}-\d{2}\b", normalized)
+    )
+    has_digit = any(character.isdigit() for character in normalized)
+    has_date_cue = any(token in DATE_CUE_TOKENS for token in tokens)
+    if any(token in MONTH_TOKENS for token in tokens):
+        return True
+    if re.fullmatch(r"(19|20)\d{2}", normalized):
+        return True
+    if re.fullmatch(r"\d{1,2}[/-]\d{1,2}([/-]\d{2,4})?", normalized):
+        return True
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", normalized):
+        return True
+    if normalized.isdigit():
+        return len(normalized) == 4 and normalized.startswith(("19", "20"))
+    if profile == "strict_v1":
+        if len(tokens) <= 2 and any(token.isdigit() for token in tokens):
+            return False
+        return has_digit and has_month
+    if has_year or has_date_digits:
+        return True
+    if has_month and len(tokens) <= 5:
+        return True
+    if has_century and len(tokens) <= 8:
+        return True
+    if has_digit and has_date_cue and len(tokens) <= 8:
+        return True
+    if has_month and has_date_cue and len(tokens) <= 8:
+        return True
+    if re.fullmatch(r"(early|late|mid)[ -]?(18|19|20)\d{2}s?", normalized):
+        return True
+    if len(tokens) <= 2 and any(token.isdigit() for token in tokens):
+        return False
+    return (has_digit or has_century) and has_date_cue and len(tokens) <= 8
+
+
+def _looks_like_location(surface: str) -> bool:
+    normalized = normalize_text(surface)
+    tokens = normalized.split()
+    if not tokens:
+        return False
+    if normalized in TYPE_DENYLISTS["Location"]:
+        return False
+    if len(tokens) == 1 and tokens[0].islower() and len(tokens[0]) <= 4:
+        return False
+    return True
+
+
+def _looks_like_vector(surface: str) -> bool:
+    normalized = normalize_text(surface)
+    if normalized in TYPE_DENYLISTS["Vector"]:
+        return False
+    if len(normalized) <= 2:
+        return False
+    return any(character.isalpha() for character in normalized)
+
+
+def _looks_like_pathway(surface: str) -> bool:
+    normalized = normalize_text(surface)
+    if normalized in TYPE_DENYLISTS["Dissemination_pathway"]:
+        return False
+    if len(normalized.split()) == 1 and normalized.endswith("s"):
+        return False
+    return len(normalized) > 3
+
+
+def _normalize_alias_form(value: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"[^\w\s.-]", " ", normalize_text(value))).strip()
+
+
+def _punctuation_light_normalize(value: str) -> str:
+    return re.sub(r"\s+", " ", re.sub(r"[^\w\s]", " ", normalize_text(value))).strip()
+
+
+def _singularize_token(token: str) -> str:
+    if token.endswith("ies") and len(token) > 4:
+        return token[:-3] + "y"
+    if token.endswith("ses") and len(token) > 4:
+        return token[:-2]
+    if token.endswith("s") and not token.endswith("ss") and len(token) > 3:
+        return token[:-1]
+    return token
+
+
+def _singularize_phrase(value: str) -> str:
+    return " ".join(_singularize_token(token) for token in value.split())
+
+
+def _is_species_abbreviation_match(left: str, right: str) -> bool:
+    left_tokens = _punctuation_light_normalize(left).split()
+    right_tokens = _punctuation_light_normalize(right).split()
+    if len(left_tokens) != 2 or len(right_tokens) != 2:
+        return False
+    if len(left_tokens[0]) != 1 or len(right_tokens[0]) < 2:
+        return False
+    if left_tokens[0] == right_tokens[0][0] and left_tokens[1] == right_tokens[1]:
+        return True
+    if len(right_tokens[0]) == 1 and len(left_tokens[0]) >= 2:
+        return right_tokens[0] == left_tokens[0][0] and right_tokens[1] == left_tokens[1]
+    return False
+
+
+def _is_acronym_match(left: str, right: str) -> bool:
+    left_surface = re.sub(r"[^A-Za-z]", "", left)
+    right_tokens = [token for token in _punctuation_light_normalize(right).split() if token]
+    if not left_surface or not right_tokens:
+        return False
+    if left_surface.isupper() and 2 <= len(left_surface) <= 8:
+        initials = "".join(token[0].upper() for token in right_tokens if token[0].isalpha())
+        return left_surface == initials
+    right_surface = re.sub(r"[^A-Za-z]", "", right)
+    left_tokens = [token for token in _punctuation_light_normalize(left).split() if token]
+    if right_surface.isupper() and 2 <= len(right_surface) <= 8:
+        initials = "".join(token[0].upper() for token in left_tokens if token[0].isalpha())
+        return right_surface == initials
+    return False
+
+
+def _should_merge_predicted_mentions(left: Mention, right: Mention) -> bool:
+    if left.entity_type != right.entity_type:
+        return False
+    left_norm = _normalize_alias_form(left.form)
+    right_norm = _normalize_alias_form(right.form)
+    if not left_norm or not right_norm:
+        return False
+    if left_norm == right_norm:
+        return True
+    if _singularize_phrase(left_norm) == _singularize_phrase(right_norm):
+        return True
+    if _punctuation_light_normalize(left_norm) == _punctuation_light_normalize(right_norm):
+        return True
+    if _is_species_abbreviation_match(left.form, right.form):
+        return True
+    if _is_acronym_match(left.form, right.form):
+        return True
+    left_tokens = _singularize_phrase(_punctuation_light_normalize(left_norm)).split()
+    right_tokens = _singularize_phrase(_punctuation_light_normalize(right_norm)).split()
+    if len(left_tokens) >= 2 and len(right_tokens) >= 2 and left_tokens[-2:] == right_tokens[-2:]:
+        return True
+    return False
+
+
+def _build_predicted_coref_clusters(mentions: Sequence[Mention], config: ExperimentConfig | None = None) -> List[List[str]]:
+    strategy = str(getattr(config, "entity_alias_merge_strategy", "legacy") if config is not None else "legacy")
+    if strategy == "legacy":
+        return build_coref_guess(mentions)
+    parent = {mention.mention_id: mention.mention_id for mention in mentions}
+
+    def find(mention_id: str) -> str:
+        while parent[mention_id] != mention_id:
+            parent[mention_id] = parent[parent[mention_id]]
+            mention_id = parent[mention_id]
+        return mention_id
+
+    def union(left_id: str, right_id: str) -> None:
+        left_root = find(left_id)
+        right_root = find(right_id)
+        if left_root != right_root:
+            parent[right_root] = left_root
+
+    for index, left in enumerate(mentions):
+        for right in mentions[index + 1 :]:
+            if _should_merge_predicted_mentions(left, right):
+                union(left.mention_id, right.mention_id)
+
+    groups: Dict[str, List[str]] = {}
+    for mention in mentions:
+        groups.setdefault(find(mention.mention_id), []).append(mention.mention_id)
+    return [cluster for cluster in groups.values() if len(cluster) > 1]
+
+
 def tune_mention_thresholds(
     raw_spans_by_doc: Dict[str, List[PredictedMentionSpan]],
     validation_documents: Sequence[Document],
+    schema: RelationSchema | None = None,
+    config: ExperimentConfig | None = None,
 ) -> Dict[str, float]:
+    strategy = str(getattr(config, "mention_threshold_tuning_strategy", "mention_f1") if config is not None else "mention_f1")
     thresholds = {entity_type: 0.0 for entity_type in ENTITY_TYPES}
     for entity_type in ENTITY_TYPES:
         candidate_thresholds = {0.0}
@@ -683,10 +998,14 @@ def tune_mention_thresholds(
                 if span.entity_type == entity_type:
                     candidate_thresholds.add(round(float(span.confidence), 4))
 
+        threshold_grid = _compress_threshold_grid(sorted(candidate_thresholds), strategy=strategy)
+
         best_threshold = 0.0
+        best_score = -1.0
+        best_candidate_recall = -1.0
         best_f1 = -1.0
         best_recall = -1.0
-        for threshold in sorted(candidate_thresholds):
+        for threshold in threshold_grid:
             trial_thresholds = dict(thresholds)
             trial_thresholds[entity_type] = float(threshold)
             predicted_mentions_by_doc = {
@@ -694,6 +1013,7 @@ def tune_mention_thresholds(
                     raw_spans_by_doc.get(document.doc_id, []),
                     document,
                     trial_thresholds,
+                    config=config,
                 )
                 for document in validation_documents
             }
@@ -701,16 +1021,67 @@ def tune_mention_thresholds(
             score_row = metrics["per_type"][entity_type]
             f1 = float(score_row["f1"])
             recall = float(score_row["recall"])
+            candidate_recall = -1.0
+            score = f1
+            if strategy == "relation_aware_v1" and schema is not None and config is not None:
+                predicted_entities_by_doc = {
+                    document.doc_id: build_canonical_entities_from_mentions(
+                        predicted_mentions_by_doc.get(document.doc_id, []),
+                        config=config,
+                    )
+                    for document in validation_documents
+                }
+                candidate_pairs_by_doc = {
+                    document.doc_id: enumerate_candidate_entity_pairs(
+                        document,
+                        predicted_entities_by_doc.get(document.doc_id, []),
+                        schema,
+                        config,
+                    )
+                    for document in validation_documents
+                }
+                candidate_recall_payload = compute_candidate_recall(
+                    validation_documents,
+                    predicted_mentions_by_doc,
+                    predicted_entities_by_doc,
+                    candidate_pairs_by_doc,
+                )
+                candidate_recall = float(candidate_recall_payload["summary"]["candidate_recall"])
+                candidate_weight = float(getattr(config, "mention_threshold_candidate_recall_weight", 0.75))
+                mention_weight = float(getattr(config, "mention_threshold_mention_f1_weight", 0.25))
+                score = candidate_weight * candidate_recall + mention_weight * f1
             if (
-                f1 > best_f1
-                or (abs(f1 - best_f1) <= 1e-9 and recall > best_recall)
-                or (abs(f1 - best_f1) <= 1e-9 and abs(recall - best_recall) <= 1e-9 and threshold < best_threshold)
+                score > best_score
+                or (abs(score - best_score) <= 1e-9 and candidate_recall > best_candidate_recall)
+                or (abs(score - best_score) <= 1e-9 and abs(candidate_recall - best_candidate_recall) <= 1e-9 and f1 > best_f1)
+                or (abs(score - best_score) <= 1e-9 and abs(candidate_recall - best_candidate_recall) <= 1e-9 and abs(f1 - best_f1) <= 1e-9 and recall > best_recall)
+                or (
+                    abs(score - best_score) <= 1e-9
+                    and abs(candidate_recall - best_candidate_recall) <= 1e-9
+                    and abs(f1 - best_f1) <= 1e-9
+                    and abs(recall - best_recall) <= 1e-9
+                    and threshold < best_threshold
+                )
             ):
                 best_threshold = float(threshold)
+                best_score = score
+                best_candidate_recall = candidate_recall
                 best_f1 = f1
                 best_recall = recall
         thresholds[entity_type] = best_threshold
     return thresholds
+
+
+def _compress_threshold_grid(candidate_thresholds: Sequence[float], strategy: str, max_points: int = 25) -> List[float]:
+    if strategy != "relation_aware_v1" or len(candidate_thresholds) <= max_points:
+        return list(candidate_thresholds)
+    if not candidate_thresholds:
+        return [0.0]
+    indices = np.linspace(0, len(candidate_thresholds) - 1, num=max_points, dtype=int)
+    selected = sorted({float(candidate_thresholds[index]) for index in indices})
+    if 0.0 not in selected:
+        selected.insert(0, 0.0)
+    return selected
 
 
 @dataclass
@@ -766,7 +1137,7 @@ class ModernBertMentionDetector:
         spans: Sequence[PredictedMentionSpan],
         document: Document,
     ) -> List[Mention]:
-        return merge_predicted_mentions(spans, document, self.mention_thresholds)
+        return merge_predicted_mentions(spans, document, self.mention_thresholds, config=self.config)
 
     def predict_mentions(self, document: Document) -> List[Mention]:
         return self.predict_mentions_from_spans(self.predict_span_candidates(document), document)
@@ -786,6 +1157,7 @@ def train_modernbert_mention_detector(
     train_documents: Sequence[Document],
     config: ExperimentConfig,
     validation_documents: Sequence[Document] | None = None,
+    relation_schema: RelationSchema | None = None,
 ) -> ModernBertMentionDetector:
     labels = get_bio_labels()
     label_to_id = {label: index for index, label in enumerate(labels)}
@@ -819,7 +1191,12 @@ def train_modernbert_mention_detector(
             document.doc_id: mention_detector.predict_span_candidates(document)
             for document in validation_documents
         }
-        mention_detector.mention_thresholds = tune_mention_thresholds(raw_spans_by_doc, validation_documents)
+        mention_detector.mention_thresholds = tune_mention_thresholds(
+            raw_spans_by_doc,
+            validation_documents,
+            schema=relation_schema,
+            config=config,
+        )
     return mention_detector
 
 
@@ -828,13 +1205,16 @@ def predict_canonical_entities_with_detector(
     mention_detector: ModernBertMentionDetector,
 ) -> List[CanonicalEntity]:
     mentions = mention_detector.predict_mentions(document)
-    return build_canonical_entities_from_mentions(mentions)
+    return build_canonical_entities_from_mentions(mentions, config=getattr(mention_detector, "config", None))
 
 
-def build_canonical_entities_from_mentions(mentions: Sequence[Mention]) -> List[CanonicalEntity]:
+def build_canonical_entities_from_mentions(
+    mentions: Sequence[Mention],
+    config: ExperimentConfig | None = None,
+) -> List[CanonicalEntity]:
     if not mentions:
         return []
-    annotation_block = {"identity_coreferences": build_coref_guess(mentions)}
+    annotation_block = {"identity_coreferences": _build_predicted_coref_clusters(mentions, config=config)}
     return build_canonical_entities(mentions, annotation_block)
 
 
@@ -895,26 +1275,103 @@ def generate_relation_text_examples(
             list((entities_override or {}).get(document.doc_id, document.canonical_entities)),
             key=lambda entity: entity.earliest_start,
         )
-        for subject in entities:
-            for obj in entities:
-                if subject.entity_id == obj.entity_id:
-                    continue
-                if not should_consider_pair(subject, obj, schema, config):
-                    continue
-                examples.append(
-                    {
-                        "doc_id": document.doc_id,
-                        "subject": subject.canonical_form,
-                        "object": obj.canonical_form,
-                        "subject_type": subject.entity_type,
-                        "object_type": obj.entity_type,
-                        "text": build_relation_context_text(document, subject, obj, config),
-                        "labels": edge_lookup.get((subject.canonical_form, obj.canonical_form), set()),
-                        "subject_entity": subject,
-                        "object_entity": obj,
-                    }
-                )
+        gold_entity_lookup = _build_gold_entity_alignment_lookup(document.canonical_entities)
+        for subject, obj in enumerate_candidate_entity_pairs(document, entities, schema, config):
+            aligned_subject = _align_entity_to_gold(subject, gold_entity_lookup)
+            aligned_object = _align_entity_to_gold(obj, gold_entity_lookup)
+            labels = (
+                edge_lookup.get((aligned_subject.canonical_form, aligned_object.canonical_form), set())
+                if aligned_subject is not None and aligned_object is not None
+                else set()
+            )
+            examples.append(
+                {
+                    "doc_id": document.doc_id,
+                    "subject": subject.canonical_form,
+                    "object": obj.canonical_form,
+                    "subject_type": subject.entity_type,
+                    "object_type": obj.entity_type,
+                    "text": build_relation_context_text(document, subject, obj, config),
+                    "labels": labels,
+                    "subject_entity": subject,
+                    "object_entity": obj,
+                    "aligned_subject": aligned_subject.canonical_form if aligned_subject is not None else None,
+                    "aligned_object": aligned_object.canonical_form if aligned_object is not None else None,
+                }
+            )
     return examples
+
+
+def _build_gold_entity_alignment_lookup(
+    gold_entities: Sequence[CanonicalEntity],
+) -> Dict[str, List[CanonicalEntity]]:
+    lookup: Dict[str, List[CanonicalEntity]] = {}
+    for entity in gold_entities:
+        keys = {normalize_text(entity.canonical_form)}
+        keys.update(normalize_text(alias) for alias in entity.alias_forms if str(alias).strip())
+        for key in keys:
+            lookup.setdefault(key, []).append(entity)
+    return lookup
+
+
+def _align_entity_to_gold(
+    entity: CanonicalEntity,
+    gold_entity_lookup: Dict[str, List[CanonicalEntity]],
+) -> CanonicalEntity | None:
+    candidate_counts: Dict[str, Tuple[int, CanonicalEntity]] = {}
+    keys = {normalize_text(entity.canonical_form)}
+    keys.update(normalize_text(alias) for alias in entity.alias_forms if str(alias).strip())
+    for key in keys:
+        for gold_entity in gold_entity_lookup.get(key, []):
+            if gold_entity.entity_type != entity.entity_type:
+                continue
+            score, _existing = candidate_counts.get(gold_entity.entity_id, (0, gold_entity))
+            candidate_counts[gold_entity.entity_id] = (score + 1, gold_entity)
+    if not candidate_counts:
+        return None
+    return sorted(
+        candidate_counts.values(),
+        key=lambda item: (-item[0], item[1].earliest_start, item[1].canonical_form),
+    )[0][1]
+
+
+def build_relation_inference_examples(
+    document: Document,
+    canonical_entities: Sequence[CanonicalEntity],
+    schema: RelationSchema,
+    config: ExperimentConfig,
+) -> Tuple[List[Dict[str, object]], List[Tuple[CanonicalEntity, CanonicalEntity]]]:
+    examples = []
+    entity_pairs: List[Tuple[CanonicalEntity, CanonicalEntity]] = []
+    for subject, obj in enumerate_candidate_entity_pairs(document, canonical_entities, schema, config):
+        examples.append(
+            {
+                "text": build_relation_context_text(document, subject, obj, config),
+                "subject_type": subject.entity_type,
+                "object_type": obj.entity_type,
+            }
+        )
+        entity_pairs.append((subject, obj))
+    return examples, entity_pairs
+
+
+def mix_relation_examples(
+    gold_examples: Sequence[Dict[str, object]],
+    predicted_examples: Sequence[Dict[str, object]],
+    predicted_mix_ratio: float,
+    random_seed: int,
+) -> List[Dict[str, object]]:
+    mixed = list(gold_examples)
+    if not predicted_examples or predicted_mix_ratio <= 0.0:
+        return mixed
+    maximum_predicted = max(1, int(round(len(gold_examples) * predicted_mix_ratio))) if gold_examples else len(predicted_examples)
+    if len(predicted_examples) <= maximum_predicted:
+        mixed.extend(predicted_examples)
+        return mixed
+    rng = np.random.default_rng(random_seed)
+    selected_indices = sorted(rng.choice(len(predicted_examples), size=maximum_predicted, replace=False).tolist())
+    mixed.extend(predicted_examples[index] for index in selected_indices)
+    return mixed
 
 
 def build_relation_training_rows(
@@ -1107,23 +1564,7 @@ def predict_document_edges_with_relation_model(
     relation_model: ModernBertRelationModel,
     config: ExperimentConfig,
 ) -> List[RelationEdge]:
-    examples = []
-    entity_pairs: List[Tuple[CanonicalEntity, CanonicalEntity]] = []
-    entities = sorted(canonical_entities, key=lambda entity: entity.earliest_start)
-    for subject in entities:
-        for obj in entities:
-            if subject.entity_id == obj.entity_id:
-                continue
-            if not should_consider_pair(subject, obj, schema, config):
-                continue
-            examples.append(
-                {
-                    "text": build_relation_context_text(document, subject, obj, config),
-                    "subject_type": subject.entity_type,
-                    "object_type": obj.entity_type,
-                }
-            )
-            entity_pairs.append((subject, obj))
+    examples, entity_pairs = build_relation_inference_examples(document, canonical_entities, schema, config)
     if not examples:
         return []
 

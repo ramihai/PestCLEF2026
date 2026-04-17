@@ -15,6 +15,7 @@ from pestclef.config import ExperimentConfig
 from pestclef.data import load_documents
 from pestclef.features import RelationSchema
 from pestclef.modernbert import (
+    build_canonical_entities_from_mentions,
     build_mention_training_rows,
     build_relation_context_text,
     build_tiny_encoder_files,
@@ -121,6 +122,65 @@ class ModernBertPipelineTests(unittest.TestCase):
         self.assertEqual(len(mentions), 1)
         self.assertEqual(mentions[0].form, "Bursaphelenchus xylophilus")
 
+    def test_merge_mentions_applies_type_specific_cleanup(self) -> None:
+        document = type(self.train_documents[0])(
+            doc_id="demo-cleanup",
+            split="dev",
+            text="latest 2022 in Europe",
+            layout=[],
+        )
+        mentions = merge_predicted_mentions(
+            [
+                PredictedMentionSpan(entity_type="Date", start=0, end=6, confidence=0.95),
+                PredictedMentionSpan(entity_type="Date", start=7, end=11, confidence=0.95),
+            ],
+            document,
+            config=self.config,
+        )
+        self.assertEqual(len(mentions), 1)
+        self.assertEqual(mentions[0].form, "2022")
+
+    def test_merge_mentions_keeps_relaxed_date_phrase(self) -> None:
+        document = type(self.train_documents[0])(
+            doc_id="demo-date",
+            split="dev",
+            text="late 1990s outbreak",
+            layout=[],
+        )
+        mentions = merge_predicted_mentions(
+            [
+                PredictedMentionSpan(entity_type="Date", start=0, end=10, confidence=0.95),
+            ],
+            document,
+            config=self.config,
+        )
+        self.assertEqual(len(mentions), 1)
+        self.assertEqual(mentions[0].form, "late 1990s")
+
+    def test_predicted_alias_merge_clusters_surface_variants(self) -> None:
+        mentions = [
+            type(self.train_documents[0].mentions[0])(
+                mention_id="P1",
+                entity_type="Plant",
+                form="olive tree",
+                offsets=[(0, 10)],
+                normalizations=[],
+                sentence_index=0,
+                layout_index=0,
+            ),
+            type(self.train_documents[0].mentions[0])(
+                mention_id="P2",
+                entity_type="Plant",
+                form="olive trees",
+                offsets=[(12, 23)],
+                normalizations=[],
+                sentence_index=0,
+                layout_index=0,
+            ),
+        ]
+        entities = build_canonical_entities_from_mentions(mentions, config=self.config)
+        self.assertEqual(len(entities), 1)
+
     def test_relation_context_adds_role_markers(self) -> None:
         schema = RelationSchema.from_documents(self.train_documents)
         document = self.train_documents[0]
@@ -177,11 +237,16 @@ class ModernBertPipelineTests(unittest.TestCase):
             result = run_dev_evaluation(self.config)
         self.assertIn("metrics", result)
         self.assertIn("mention_metrics", result)
+        self.assertIn("entity_metrics", result)
+        self.assertIn("candidate_recall", result)
         self.assertTrue((self.config.artifacts_dir / "mention_model").exists())
         self.assertTrue((self.config.artifacts_dir / "relation_model").exists())
         self.assertTrue((self.config.artifacts_dir / "pre_cleanup_predicted_mentions.json").exists())
         self.assertTrue((self.config.artifacts_dir / "dev_predicted_mentions.json").exists())
         self.assertTrue((self.config.artifacts_dir / "dev_mention_metrics.json").exists())
+        self.assertTrue((self.config.artifacts_dir / "dev_entity_metrics.json").exists())
+        self.assertTrue((self.config.artifacts_dir / "dev_candidate_recall.json").exists())
+        self.assertTrue((self.config.artifacts_dir / "dev_pair_volume.json").exists())
         mention_metadata = json.loads((self.config.artifacts_dir / "mention_model" / "metadata.json").read_text(encoding="utf-8"))
         self.assertIn("mention_thresholds", mention_metadata)
 

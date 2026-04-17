@@ -119,25 +119,19 @@ def generate_relation_examples(
         for edge in document.gold_relation_edges:
             edge_lookup[(edge.subject, edge.object)].add(edge.predicate)
 
-        entities = sorted(document.canonical_entities, key=lambda entity: entity.earliest_start)
-        for subject in entities:
-            for obj in entities:
-                if subject.entity_id == obj.entity_id:
-                    continue
-                if not should_consider_pair(subject, obj, schema, config):
-                    continue
-                features = extract_pair_features(document, subject, obj)
-                examples.append(
-                    {
-                        "doc_id": document.doc_id,
-                        "subject": subject.canonical_form,
-                        "object": obj.canonical_form,
-                        "subject_type": subject.entity_type,
-                        "object_type": obj.entity_type,
-                        "features": features,
-                        "labels": edge_lookup.get((subject.canonical_form, obj.canonical_form), set()),
-                    }
-                )
+        for subject, obj in enumerate_candidate_entity_pairs(document, document.canonical_entities, schema, config):
+            features = extract_pair_features(document, subject, obj)
+            examples.append(
+                {
+                    "doc_id": document.doc_id,
+                    "subject": subject.canonical_form,
+                    "object": obj.canonical_form,
+                    "subject_type": subject.entity_type,
+                    "object_type": obj.entity_type,
+                    "features": features,
+                    "labels": edge_lookup.get((subject.canonical_form, obj.canonical_form), set()),
+                }
+            )
     return examples
 
 
@@ -151,13 +145,64 @@ def should_consider_pair(
         return False
     sentence_gap = min_distance(subject.sentence_indices, obj.sentence_indices)
     layout_gap = min_distance(subject.layout_indices, obj.layout_indices)
-    return sentence_gap <= config.max_sentence_distance and layout_gap <= config.max_layout_distance
+    if sentence_gap > config.max_sentence_distance or layout_gap > config.max_layout_distance:
+        return False
+    return _passes_pair_pruning_profile(subject, obj, sentence_gap, layout_gap, config)
+
+
+def enumerate_candidate_entity_pairs(
+    document: Document,
+    canonical_entities: Sequence[CanonicalEntity],
+    schema: RelationSchema,
+    config: ExperimentConfig,
+) -> List[Tuple[CanonicalEntity, CanonicalEntity]]:
+    del document
+    pairs: List[Tuple[CanonicalEntity, CanonicalEntity]] = []
+    entities = sorted(canonical_entities, key=lambda entity: entity.earliest_start)
+    for subject in entities:
+        for obj in entities:
+            if subject.entity_id == obj.entity_id:
+                continue
+            if should_consider_pair(subject, obj, schema, config):
+                pairs.append((subject, obj))
+    return pairs
 
 
 def min_distance(left: Iterable[int], right: Iterable[int]) -> int:
     left_values = list(left)
     right_values = list(right)
     return min(abs(a - b) for a in left_values for b in right_values)
+
+
+def _passes_pair_pruning_profile(
+    subject: CanonicalEntity,
+    obj: CanonicalEntity,
+    sentence_gap: int,
+    layout_gap: int,
+    config: ExperimentConfig,
+) -> bool:
+    if config.model_name != "modernbert_staged":
+        return True
+    profile = str(getattr(config, "relation_pair_pruning_profile", "legacy") or "legacy")
+    if profile == "legacy":
+        return True
+    subject_type = subject.entity_type
+    object_type = obj.entity_type
+    object_name = obj.canonical_form.strip()
+
+    if profile == "precision_v1":
+        if (subject_type, object_type) == ("Disease", "Date") or (subject_type, object_type) == ("Pest", "Date") or (subject_type, object_type) == ("Plant", "Date") or (subject_type, object_type) == ("Vector", "Date"):
+            if sentence_gap > 1 or layout_gap > 2:
+                return False
+            if len(object_name) <= 2:
+                return False
+        if (subject_type, object_type) == ("Disease", "Location") or (subject_type, object_type) == ("Pest", "Location") or (subject_type, object_type) == ("Plant", "Location") or (subject_type, object_type) == ("Vector", "Location"):
+            if sentence_gap > 2 or layout_gap > 4:
+                return False
+            if not object_name:
+                return False
+        return True
+    return True
 
 
 def extract_pair_features(document: Document, subject: CanonicalEntity, obj: CanonicalEntity) -> Dict[str, float]:
