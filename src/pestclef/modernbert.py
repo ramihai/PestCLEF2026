@@ -1549,10 +1549,20 @@ def train_modernbert_relation_model(
         threshold_scores = wrapped.predict_scores(threshold_examples)
         for label_index, label in enumerate(labels):
             gold = np.array([1.0 if label in example["labels"] else 0.0 for example in threshold_examples], dtype=np.float32)
+            positive_count = int(gold.sum())
+            default_threshold = config.relation_thresholds.get(label, 0.5)
+            min_threshold = config.relation_threshold_search_min
+            max_threshold = config.relation_threshold_search_max
+            if positive_count < config.relation_threshold_min_positives_for_full_tuning:
+                margin = max(0.0, config.relation_threshold_low_support_margin)
+                min_threshold = max(min_threshold, default_threshold - margin)
+                max_threshold = min(max_threshold, default_threshold + margin)
             wrapped.thresholds[label] = calibrate_threshold(
                 threshold_scores[:, label_index],
                 gold,
-                config.relation_thresholds.get(label, 0.5),
+                default_threshold,
+                min_threshold=min_threshold,
+                max_threshold=max_threshold,
             )
     return wrapped
 

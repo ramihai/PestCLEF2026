@@ -54,6 +54,10 @@ class ExperimentConfig:
     relation_predicted_entity_mix_ratio: float = 0.5
     relation_calibrate_on_predicted_entities: bool = True
     relation_pair_pruning_profile: str = "precision_v1"
+    relation_threshold_search_min: float = 0.05
+    relation_threshold_search_max: float = 0.95
+    relation_threshold_min_positives_for_full_tuning: int = 20
+    relation_threshold_low_support_margin: float = 0.15
     device: str = "auto"
     local_files_only: bool = False
     encoder_random_init: bool = False

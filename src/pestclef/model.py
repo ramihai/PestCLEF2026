@@ -264,11 +264,21 @@ def train_sklearn_relation_model(
     )
 
 
-def calibrate_threshold(scores: np.ndarray, gold: np.ndarray, default_threshold: float) -> float:
+def calibrate_threshold(
+    scores: np.ndarray,
+    gold: np.ndarray,
+    default_threshold: float,
+    min_threshold: float = 0.0,
+    max_threshold: float = 1.0,
+) -> float:
     if gold.sum() == 0:
         return default_threshold
+    clipped_default = float(np.clip(default_threshold, min_threshold, max_threshold))
     candidates = np.unique(np.quantile(scores, np.linspace(0.6, 0.995, 30)))
-    candidates = np.concatenate(([scores.min()], candidates, [scores.max()]))
+    candidates = np.concatenate(([scores.min()], candidates, [scores.max()], [clipped_default, min_threshold, max_threshold]))
+    candidates = np.array([float(candidate) for candidate in candidates if min_threshold <= float(candidate) <= max_threshold], dtype=np.float32)
+    if candidates.size == 0:
+        return clipped_default
     best_threshold = default_threshold
     best_f1 = -1.0
     for threshold in candidates:
@@ -282,4 +292,4 @@ def calibrate_threshold(scores: np.ndarray, gold: np.ndarray, default_threshold:
         if f1 > best_f1:
             best_f1 = f1
             best_threshold = float(threshold)
-    return best_threshold
+    return float(np.clip(best_threshold, min_threshold, max_threshold))

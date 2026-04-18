@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 from unittest.mock import patch
 
+import numpy as np
 from transformers import AutoTokenizer
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
@@ -14,6 +15,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 from pestclef.config import ExperimentConfig
 from pestclef.data import load_documents
 from pestclef.features import RelationSchema
+from pestclef.model import calibrate_threshold
 from pestclef.modernbert import (
     build_canonical_entities_from_mentions,
     build_mention_training_rows,
@@ -215,6 +217,13 @@ class ModernBertPipelineTests(unittest.TestCase):
         reloaded = ModernBertRelationModel.load(save_path, self.config)
         self.assertEqual(reloaded.labels, relation_model.labels)
         self.assertEqual(set(reloaded.thresholds.keys()), set(relation_model.thresholds.keys()))
+
+    def test_calibrate_threshold_respects_bounds(self) -> None:
+        scores = np.array([0.01, 0.02, 0.03, 0.08, 0.09], dtype=np.float32)
+        gold = np.array([0, 0, 0, 1, 1], dtype=np.float32)
+        threshold = calibrate_threshold(scores, gold, 0.48, min_threshold=0.33, max_threshold=0.63)
+        self.assertGreaterEqual(threshold, 0.33)
+        self.assertLessEqual(threshold, 0.63)
 
     def test_predicted_mentions_can_be_canonicalized(self) -> None:
         document = self.train_documents[0]
