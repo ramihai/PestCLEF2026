@@ -119,6 +119,10 @@ TYPE_DENYLISTS: Dict[str, set[str]] = {
         "since then",
         "so far",
         "for the first time",
+        "in 2020",
+        "in june",
+        "september 2022",
+        "2022",
     },
     "Location": {
         "green",
@@ -126,15 +130,29 @@ TYPE_DENYLISTS: Dict[str, set[str]] = {
         "supplementary",
         "latest",
         "faostat",
+        "territory of the union",
+        "entire provinces",
+        "asian countries",
+        "piedmont",
+        "individuals",
+        "farmers",
     },
     "Vector": {
         "individuals",
+        "individual",
         "orf",
         "supplementary",
         "red",
         "immunoglobulin-like",
         "5-10",
         "genbank",
+        "vector",
+        "vectors",
+        "insect",
+        "insects",
+        "species",
+        "pathotype",
+        "st2",
     },
     "Dissemination_pathway": {
         "fruit",
@@ -1287,6 +1305,7 @@ def generate_relation_text_examples(
             examples.append(
                 {
                     "doc_id": document.doc_id,
+                    "document": document,
                     "subject": subject.canonical_form,
                     "object": obj.canonical_form,
                     "subject_type": subject.entity_type,
@@ -1512,6 +1531,101 @@ class ModernBertRelationModel:
         )
 
 
+def augment_relation_example(example: Dict[str, object], config: ExperimentConfig) -> List[Dict[str, object]]:
+    augmented = []
+    document = example.get("document")
+    if not isinstance(document, Document):
+        return augmented
+
+    subject = example.get("subject_entity")
+    obj = example.get("object_entity")
+    if not isinstance(subject, CanonicalEntity) or not isinstance(obj, CanonicalEntity):
+        return augmented
+
+    base_radius = int(config.relation_context_sentence_radius)
+    for radius in [base_radius - 1, base_radius + 1]:
+        if radius < 0:
+            continue
+        jitter_config = ExperimentConfig(relation_context_sentence_radius=radius)
+        jitter_text = build_relation_context_text(document, subject, obj, jitter_config)
+        if jitter_text != example["text"]:
+            aug_example = example.copy()
+            aug_example["text"] = jitter_text
+            augmented.append(aug_example)
+    return augmented
+
+
+def oversample_relation_examples(
+    examples: Sequence[Dict[str, object]], config: ExperimentConfig
+) -> List[Dict[str, object]]:
+    if not examples:
+        return []
+    labels = list(config.relation_labels)
+    minority_labels = set(config.relation_minority_labels)
+    positive_indices: Dict[str, List[int]] = {label: [] for label in labels}
+    negative_indices_by_type_pair: Dict[tuple[str, str], List[int]] = {}
+
+    for idx, example in enumerate(examples):
+        active_labels = example["labels"]
+        subject_type = str(example.get("subject_type", ""))
+        object_type = str(example.get("object_type", ""))
+        type_pair = (subject_type, object_type)
+
+        if not active_labels:
+            negative_indices_by_type_pair.setdefault(type_pair, []).append(idx)
+        else:
+            for label in active_labels:
+                if label in positive_indices:
+                    positive_indices[label].append(idx)
+
+    counts = {label: len(indices) for label, indices in positive_indices.items()}
+    if not counts:
+        return list(examples)
+    max_count = max(counts.values())
+    target_count = int(max_count * config.relation_oversampling_ratio)
+
+    oversampled = list(examples)
+    rng = np.random.default_rng(config.random_seed)
+
+    for label in minority_labels:
+        indices = positive_indices.get(label, [])
+        if not indices or len(indices) >= target_count:
+            continue
+        to_add = target_count - len(indices)
+        selected_indices = rng.choice(indices, size=to_add, replace=True)
+        
+        type_pairs_added = []
+        for idx in selected_indices:
+            example = examples[idx]
+            oversampled.append(example)
+            subject_type = str(example.get("subject_type", ""))
+            object_type = str(example.get("object_type", ""))
+            type_pairs_added.append((subject_type, object_type))
+            if config.relation_augmentation_enabled:
+                oversampled.extend(augment_relation_example(example, config))
+                
+        # Hard Negative Mining
+        if config.relation_hard_negative_ratio > 0:
+            hard_negatives_to_add = int(to_add * config.relation_hard_negative_ratio)
+            if hard_negatives_to_add > 0 and type_pairs_added:
+                # Sample negative indices that match the types of the oversampled positives
+                candidate_negative_indices = []
+                for tp in set(type_pairs_added):
+                    candidate_negative_indices.extend(negative_indices_by_type_pair.get(tp, []))
+                
+                if candidate_negative_indices:
+                    # If we don't have enough unique hard negatives, we sample with replacement
+                    sampled_neg_indices = rng.choice(
+                        candidate_negative_indices, 
+                        size=hard_negatives_to_add, 
+                        replace=len(candidate_negative_indices) < hard_negatives_to_add
+                    )
+                    for neg_idx in sampled_neg_indices:
+                        oversampled.append(examples[neg_idx])
+
+    return oversampled
+
+
 def train_modernbert_relation_model(
     train_examples: Sequence[Dict[str, object]],
     config: ExperimentConfig,
@@ -1527,7 +1641,11 @@ def train_modernbert_relation_model(
 
     calibration_examples = list(calibration_examples or [])
     validation_examples = list(validation_examples or [])
-    train_rows = build_relation_training_rows(tokenizer, train_examples, labels, config)
+
+    # Apply v13 oversampling and augmentation
+    processed_train_examples = oversample_relation_examples(train_examples, config)
+    
+    train_rows = build_relation_training_rows(tokenizer, processed_train_examples, labels, config)
     validation_rows = build_relation_training_rows(tokenizer, validation_examples, labels, config)
     label_matrix = np.stack([row["labels"].numpy() for row in train_rows], axis=0) if train_rows else np.zeros((0, len(labels)), dtype=np.float32)
     positive_rate = label_matrix.mean(axis=0) if len(label_matrix) else np.zeros(len(labels), dtype=np.float32)

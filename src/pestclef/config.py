@@ -35,7 +35,7 @@ class ExperimentConfig:
     max_seq_length: int = 1024
     doc_stride: int = 256
     relation_max_seq_length: int = 768
-    relation_context_sentence_radius: int = 1
+    relation_context_sentence_radius: int = 2
     mention_positive_sentence_radius: int = 1
     mention_negative_sentence_ratio: float = 0.5
     mention_min_windows_per_document: int = 1
@@ -58,13 +58,19 @@ class ExperimentConfig:
     relation_threshold_search_max: float = 0.95
     relation_threshold_min_positives_for_full_tuning: int = 20
     relation_threshold_low_support_margin: float = 0.15
+    relation_oversampling_ratio: float = 0.05
+    relation_hard_negative_ratio: float = 1.0
+    relation_augmentation_enabled: bool = True
+    relation_minority_labels: List[str] = field(
+        default_factory=lambda: ["Transmits", "Dispersed_by", "Causes", "Affects"]
+    )
     device: str = "auto"
     local_files_only: bool = False
     encoder_random_init: bool = False
     relation_thresholds: Dict[str, float] = field(
         default_factory=lambda: {
-            "Located_in": 0.48,
-            "Found_on": 0.48,
+            "Located_in": 0.55,
+            "Found_on": 0.52,
             "Occurs_on": 0.48,
             "Affects": 0.48,
             "Causes": 0.48,
