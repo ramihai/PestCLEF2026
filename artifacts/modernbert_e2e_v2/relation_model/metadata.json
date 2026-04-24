@@ -1,0 +1,20 @@
+{
+  "labels": [
+    "Located_in",
+    "Found_on",
+    "Occurs_on",
+    "Affects",
+    "Causes",
+    "Dispersed_by",
+    "Transmits"
+  ],
+  "thresholds": {
+    "Located_in": 0.48210176393903525,
+    "Found_on": 0.1292168746734487,
+    "Occurs_on": 0.6958468905810653,
+    "Affects": 0.3254763233250585,
+    "Causes": 0.037850300993384996,
+    "Dispersed_by": 0.0039241134253298416,
+    "Transmits": 0.010502099746773984
+  }
+}

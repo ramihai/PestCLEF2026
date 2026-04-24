@@ -1,0 +1,3005 @@
+{
+  "train_documents": [
+    {
+      "doc_id": "104650",
+      "split": "train",
+      "text": "New Weed Hosts for Tomato Brown Rugose Fruit Virus in Wild Mediterranean Vegetation\nTomato brown rugose fruit virus (ToBRFV; genus, Tobamovirus, family, Virgaviridae) was first reported in 2015 infecting tomatoes grown under protected cropping in the Jordan Valley. Since then, ToBRFV has been detected in tomatoes grown in both protected and open fields across Jordan. The increased incidence of ToBRFV prompted this investigation of the potential role of natural weed hosts in the dissemination of ToBRFV. A survey was conducted in the Jordan Valley and highlands to determine possible reservoir hosts of ToBRFV in fields and greenhouse complexes in which tomatoes were grown. Detection of ToBRFV infection was made by double-antibody sandwich enzyme-linked immunosorbent assay (DAS-ELISA) and further confirmation by reverse-transcription polymerase chain reaction (RT-PCR), followed by DNA cloning and sequencing, and bioassays. Thirty weed species belonging to twenty-six genera from sixteen families were tested. Twelve species belonging to eight families were infected of which ten species are newly reported hosts for ToBRFV. Seed transmission of ToBRFV in Solanum nigrum was confirmed in a grow-out experiment. To our knowledge, this is the first report of the natural occurrence of ToBRFV on weed hosts. Identification of natural reservoirs of ToBRFV can help to develop management practices focused on weed plant species to prevent ToBRFV transmission. The extent to which ToBRFV survives in diverse alternate weed host species outside tomato growing seasons in different world regions requires further research in order to establish the risk associated with the possible contribution of weeds as a reservoir for primary infections in tomato crops. New Weed Hosts for Tomato Brown Rugose Fruit Virus in Wild Mediterranean Vegetation 1 2 3 * Plants 2022, 11(17), 2287; https://doi.org/10.3390/plants11172287 Keywords:ToBRFV; alternate host; Solanum nigrum; Malva parviflora; seed transmission Figure 1 Supplementary File 1: ZIP-Document (ZIP, 131 KiB) MDPI and ACS Style Salem, N.M.; Abumuslem, M.; Turina, M.; Samarah, N.; Sulaiman, A.; Abu-Irmaileh, B.; Ata, Y. New Weed Hosts for Tomato Brown Rugose Fruit Virus in Wild Mediterranean Vegetation. Plants 2022, 11, 2287.\nhttps://doi.org/10.3390/plants11172287 AMA Style Salem NM, Abumuslem M, Turina M, Samarah N, Sulaiman A, Abu-Irmaileh B, Ata Y. New Weed Hosts for Tomato Brown Rugose Fruit Virus in Wild Mediterranean Vegetation. Plants. 2022; 11(17):2287.\nhttps://doi.org/10.3390/plants11172287 Chicago/Turabian Style Salem, Nida’ M., Motasem Abumuslem, Massimo Turina, Nezar Samarah, Abdullah Sulaiman, Barakat Abu-Irmaileh, and Yousra Ata. 2022. \"New Weed Hosts for Tomato Brown Rugose Fruit Virus in Wild Mediterranean Vegetation\" Plants 11, no. 17: 2287.\nhttps://doi.org/10.3390/plants11172287 Find Other Styles \n",
+      "layout": [
+        {
+          "tag": "h1",
+          "offsets": [
+            0,
+            83
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            84,
+            1759
+          ]
+        },
+        {
+          "tag": "h1",
+          "offsets": [
+            1760,
+            1843
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            1843,
+            1845
+          ]
+        },
+        {
+          "tag": "sup",
+          "offsets": [
+            1844,
+            1845
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            1845,
+            1847
+          ]
+        },
+        {
+          "tag": "sup",
+          "offsets": [
+            1846,
+            1847
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            1847,
+            1849
+          ]
+        },
+        {
+          "tag": "sup",
+          "offsets": [
+            1848,
+            1849
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            1849,
+            1851
+          ]
+        },
+        {
+          "tag": "sup",
+          "offsets": [
+            1850,
+            1851
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            1851,
+            1858
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            1852,
+            1858
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            1859,
+            1864
+          ]
+        },
+        {
+          "tag": "b",
+          "offsets": [
+            1859,
+            1863
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            1865,
+            1917
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            1865,
+            1867
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            1918,
+            1950
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            1918,
+            1927
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            1951,
+            1966
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            1951,
+            1965
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            1967,
+            2002
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            1967,
+            1983
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            2003,
+            2011
+          ]
+        },
+        {
+          "tag": "li",
+          "offsets": [
+            2011,
+            2061
+          ]
+        },
+        {
+          "tag": "ul",
+          "offsets": [
+            2011,
+            2061
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            2011,
+            2033
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            2034,
+            2061
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            2061,
+            2080
+          ]
+        },
+        {
+          "tag": "b",
+          "offsets": [
+            2062,
+            2080
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            2080,
+            2320
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            2259,
+            2265
+          ]
+        },
+        {
+          "tag": "b",
+          "offsets": [
+            2266,
+            2270
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            2272,
+            2274
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            2320,
+            2330
+          ]
+        },
+        {
+          "tag": "b",
+          "offsets": [
+            2321,
+            2330
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            2330,
+            2560
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            2495,
+            2501
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            2560,
+            2583
+          ]
+        },
+        {
+          "tag": "b",
+          "offsets": [
+            2561,
+            2583
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            2583,
+            2863
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            2800,
+            2806
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            2863,
+            2881
+          ]
+        },
+        {
+          "tag": "b",
+          "offsets": [
+            2864,
+            2881
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "mention_id": "T45",
+          "entity_type": "Pest",
+          "form": "Tomato Brown Rugose Fruit Virus",
+          "offsets": [
+            [
+              19,
+              50
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 0
+        },
+        {
+          "mention_id": "T46",
+          "entity_type": "Location",
+          "form": "Mediterranean",
+          "offsets": [
+            [
+              59,
+              72
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "12217088"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 0
+        },
+        {
+          "mention_id": "T47",
+          "entity_type": "Pest",
+          "form": "Tomato brown rugose fruit virus",
+          "offsets": [
+            [
+              84,
+              115
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T48",
+          "entity_type": "Pest",
+          "form": "ToBRFV",
+          "offsets": [
+            [
+              117,
+              123
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T49",
+          "entity_type": "Pest",
+          "form": "Tobamovirus",
+          "offsets": [
+            [
+              132,
+              143
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "12234"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T50",
+          "entity_type": "Date",
+          "form": "in 2015",
+          "offsets": [
+            [
+              186,
+              193
+            ]
+          ],
+          "normalizations": [],
+          "sentence_index": 0,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T51",
+          "entity_type": "Plant",
+          "form": "tomatoes",
+          "offsets": [
+            [
+              204,
+              212
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "4081"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T52",
+          "entity_type": "Location",
+          "form": "Jordan Valley",
+          "offsets": [
+            [
+              251,
+              264
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "169015"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T53",
+          "entity_type": "Date",
+          "form": "Since then",
+          "offsets": [
+            [
+              266,
+              276
+            ]
+          ],
+          "normalizations": [],
+          "sentence_index": 1,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T54",
+          "entity_type": "Pest",
+          "form": "ToBRFV",
+          "offsets": [
+            [
+              278,
+              284
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 1,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T55",
+          "entity_type": "Plant",
+          "form": "tomatoes",
+          "offsets": [
+            [
+              306,
+              314
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "4081"
+            }
+          ],
+          "sentence_index": 1,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T56",
+          "entity_type": "Location",
+          "form": "Jordan",
+          "offsets": [
+            [
+              362,
+              368
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "248816"
+            }
+          ],
+          "sentence_index": 1,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T57",
+          "entity_type": "Pest",
+          "form": "ToBRFV",
+          "offsets": [
+            [
+              397,
+              403
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 2,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T58",
+          "entity_type": "Pest",
+          "form": "ToBRFV",
+          "offsets": [
+            [
+              500,
+              506
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 2,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T59",
+          "entity_type": "Location",
+          "form": "Jordan Valley",
+          "offsets": [
+            [
+              538,
+              551
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "169015"
+            }
+          ],
+          "sentence_index": 3,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T60",
+          "entity_type": "Pest",
+          "form": "ToBRFV",
+          "offsets": [
+            [
+              607,
+              613
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 3,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T61",
+          "entity_type": "Plant",
+          "form": "tomatoes",
+          "offsets": [
+            [
+              658,
+              666
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "4081"
+            }
+          ],
+          "sentence_index": 3,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T62",
+          "entity_type": "Pest",
+          "form": "ToBRFV",
+          "offsets": [
+            [
+              692,
+              698
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 4,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T63",
+          "entity_type": "Pest",
+          "form": "ToBRFV",
+          "offsets": [
+            [
+              1126,
+              1132
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 6,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T64",
+          "entity_type": "Dissemination_pathway",
+          "form": "Seed",
+          "offsets": [
+            [
+              1134,
+              1138
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "OntoBiotope",
+              "reference": "OBT:001765"
+            }
+          ],
+          "sentence_index": 7,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T65",
+          "entity_type": "Pest",
+          "form": "ToBRFV",
+          "offsets": [
+            [
+              1155,
+              1161
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 7,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T66",
+          "entity_type": "Plant",
+          "form": "Solanum nigrum",
+          "offsets": [
+            [
+              1165,
+              1179
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "4112"
+            }
+          ],
+          "sentence_index": 7,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T67",
+          "entity_type": "Pest",
+          "form": "ToBRFV",
+          "offsets": [
+            [
+              1292,
+              1298
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 8,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T68",
+          "entity_type": "Pest",
+          "form": "ToBRFV",
+          "offsets": [
+            [
+              1354,
+              1360
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 9,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T69",
+          "entity_type": "Pest",
+          "form": "ToBRFV",
+          "offsets": [
+            [
+              1443,
+              1449
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 9,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T70",
+          "entity_type": "Pest",
+          "form": "ToBRFV",
+          "offsets": [
+            [
+              1484,
+              1490
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 10,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T71",
+          "entity_type": "Plant",
+          "form": "tomato",
+          "offsets": [
+            [
+              1547,
+              1553
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "4081"
+            }
+          ],
+          "sentence_index": 10,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T72",
+          "entity_type": "Plant",
+          "form": "tomato crops",
+          "offsets": [
+            [
+              1746,
+              1758
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "4081"
+            }
+          ],
+          "sentence_index": 10,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T73",
+          "entity_type": "Pest",
+          "form": "Tomato Brown Rugose Fruit Virus",
+          "offsets": [
+            [
+              1779,
+              1810
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 11,
+          "layout_index": 2
+        },
+        {
+          "mention_id": "T74",
+          "entity_type": "Location",
+          "form": "Mediterranean",
+          "offsets": [
+            [
+              1819,
+              1832
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "12217088"
+            }
+          ],
+          "sentence_index": 11,
+          "layout_index": 2
+        },
+        {
+          "mention_id": "T75",
+          "entity_type": "Date",
+          "form": "2022",
+          "offsets": [
+            [
+              1859,
+              1863
+            ]
+          ],
+          "normalizations": [],
+          "sentence_index": 11,
+          "layout_index": 13
+        },
+        {
+          "mention_id": "T76",
+          "entity_type": "Pest",
+          "form": "ToBRFV",
+          "offsets": [
+            [
+              1927,
+              1933
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 11,
+          "layout_index": 17
+        },
+        {
+          "mention_id": "T77",
+          "entity_type": "Plant",
+          "form": "Solanum nigrum",
+          "offsets": [
+            [
+              1951,
+              1965
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "4112"
+            }
+          ],
+          "sentence_index": 11,
+          "layout_index": 19
+        },
+        {
+          "mention_id": "T78",
+          "entity_type": "Plant",
+          "form": "Malva parviflora",
+          "offsets": [
+            [
+              1967,
+              1983
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "145753"
+            }
+          ],
+          "sentence_index": 11,
+          "layout_index": 21
+        },
+        {
+          "mention_id": "T79",
+          "entity_type": "Pest",
+          "form": "Tomato Brown Rugose Fruit Virus",
+          "offsets": [
+            [
+              2193,
+              2224
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 12,
+          "layout_index": 30
+        },
+        {
+          "mention_id": "T80",
+          "entity_type": "Location",
+          "form": "Mediterranean",
+          "offsets": [
+            [
+              2233,
+              2246
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "12217088"
+            }
+          ],
+          "sentence_index": 12,
+          "layout_index": 30
+        },
+        {
+          "mention_id": "T81",
+          "entity_type": "Pest",
+          "form": "Tomato Brown Rugose Fruit Virus",
+          "offsets": [
+            [
+              2429,
+              2460
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 15,
+          "layout_index": 36
+        },
+        {
+          "mention_id": "T82",
+          "entity_type": "Location",
+          "form": "Mediterranean",
+          "offsets": [
+            [
+              2469,
+              2482
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "12217088"
+            }
+          ],
+          "sentence_index": 15,
+          "layout_index": 36
+        },
+        {
+          "mention_id": "T83",
+          "entity_type": "Pest",
+          "form": "Tomato Brown Rugose Fruit Virus",
+          "offsets": [
+            [
+              2734,
+              2765
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "1761477"
+            }
+          ],
+          "sentence_index": 20,
+          "layout_index": 40
+        },
+        {
+          "mention_id": "T84",
+          "entity_type": "Location",
+          "form": "Mediterranean",
+          "offsets": [
+            [
+              2774,
+              2787
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "12217088"
+            }
+          ],
+          "sentence_index": 20,
+          "layout_index": 40
+        }
+      ],
+      "canonical_entities": [
+        {
+          "entity_id": "C0",
+          "entity_type": "Pest",
+          "canonical_form": "Tomato Brown Rugose Fruit Virus",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tomato brown rugose fruit virus"
+          ]
+        },
+        {
+          "entity_id": "C1",
+          "entity_type": "Location",
+          "canonical_form": "Mediterranean",
+          "normalization_name": "GeoNames:12217088",
+          "alias_forms": [
+            "mediterranean"
+          ]
+        },
+        {
+          "entity_id": "C2",
+          "entity_type": "Pest",
+          "canonical_form": "Tomato brown rugose fruit virus",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tobrfv",
+            "tomato brown rugose fruit virus"
+          ]
+        },
+        {
+          "entity_id": "C3",
+          "entity_type": "Pest",
+          "canonical_form": "Tobamovirus",
+          "normalization_name": "NCBI_Taxonomy:12234",
+          "alias_forms": [
+            "tobamovirus"
+          ]
+        },
+        {
+          "entity_id": "C4",
+          "entity_type": "Date",
+          "canonical_form": "in 2015",
+          "normalization_name": null,
+          "alias_forms": [
+            "in 2015"
+          ]
+        },
+        {
+          "entity_id": "C5",
+          "entity_type": "Plant",
+          "canonical_form": "tomatoes",
+          "normalization_name": "NCBI_Taxonomy:4081",
+          "alias_forms": [
+            "tomatoes"
+          ]
+        },
+        {
+          "entity_id": "C6",
+          "entity_type": "Location",
+          "canonical_form": "Jordan Valley",
+          "normalization_name": "GeoNames:169015",
+          "alias_forms": [
+            "jordan valley"
+          ]
+        },
+        {
+          "entity_id": "C7",
+          "entity_type": "Date",
+          "canonical_form": "Since then",
+          "normalization_name": null,
+          "alias_forms": [
+            "since then"
+          ]
+        },
+        {
+          "entity_id": "C8",
+          "entity_type": "Pest",
+          "canonical_form": "ToBRFV",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tobrfv"
+          ]
+        },
+        {
+          "entity_id": "C9",
+          "entity_type": "Plant",
+          "canonical_form": "tomatoes",
+          "normalization_name": "NCBI_Taxonomy:4081",
+          "alias_forms": [
+            "tomatoes"
+          ]
+        },
+        {
+          "entity_id": "C10",
+          "entity_type": "Location",
+          "canonical_form": "Jordan",
+          "normalization_name": "GeoNames:248816",
+          "alias_forms": [
+            "jordan"
+          ]
+        },
+        {
+          "entity_id": "C11",
+          "entity_type": "Pest",
+          "canonical_form": "ToBRFV",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tobrfv"
+          ]
+        },
+        {
+          "entity_id": "C12",
+          "entity_type": "Location",
+          "canonical_form": "Jordan Valley",
+          "normalization_name": "GeoNames:169015",
+          "alias_forms": [
+            "jordan valley"
+          ]
+        },
+        {
+          "entity_id": "C13",
+          "entity_type": "Plant",
+          "canonical_form": "tomatoes",
+          "normalization_name": "NCBI_Taxonomy:4081",
+          "alias_forms": [
+            "tomatoes"
+          ]
+        },
+        {
+          "entity_id": "C14",
+          "entity_type": "Pest",
+          "canonical_form": "ToBRFV",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tobrfv"
+          ]
+        },
+        {
+          "entity_id": "C15",
+          "entity_type": "Pest",
+          "canonical_form": "ToBRFV",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tobrfv"
+          ]
+        },
+        {
+          "entity_id": "C16",
+          "entity_type": "Dissemination_pathway",
+          "canonical_form": "Seed",
+          "normalization_name": "OntoBiotope:OBT:001765",
+          "alias_forms": [
+            "seed"
+          ]
+        },
+        {
+          "entity_id": "C17",
+          "entity_type": "Pest",
+          "canonical_form": "ToBRFV",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tobrfv"
+          ]
+        },
+        {
+          "entity_id": "C18",
+          "entity_type": "Plant",
+          "canonical_form": "Solanum nigrum",
+          "normalization_name": "NCBI_Taxonomy:4112",
+          "alias_forms": [
+            "solanum nigrum"
+          ]
+        },
+        {
+          "entity_id": "C19",
+          "entity_type": "Pest",
+          "canonical_form": "ToBRFV",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tobrfv"
+          ]
+        },
+        {
+          "entity_id": "C20",
+          "entity_type": "Pest",
+          "canonical_form": "ToBRFV",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tobrfv"
+          ]
+        },
+        {
+          "entity_id": "C21",
+          "entity_type": "Pest",
+          "canonical_form": "ToBRFV",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tobrfv"
+          ]
+        },
+        {
+          "entity_id": "C22",
+          "entity_type": "Plant",
+          "canonical_form": "tomato",
+          "normalization_name": "NCBI_Taxonomy:4081",
+          "alias_forms": [
+            "tomato"
+          ]
+        },
+        {
+          "entity_id": "C23",
+          "entity_type": "Plant",
+          "canonical_form": "tomato crops",
+          "normalization_name": "NCBI_Taxonomy:4081",
+          "alias_forms": [
+            "tomato crops"
+          ]
+        },
+        {
+          "entity_id": "C24",
+          "entity_type": "Pest",
+          "canonical_form": "Tomato Brown Rugose Fruit Virus",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tomato brown rugose fruit virus"
+          ]
+        },
+        {
+          "entity_id": "C25",
+          "entity_type": "Location",
+          "canonical_form": "Mediterranean",
+          "normalization_name": "GeoNames:12217088",
+          "alias_forms": [
+            "mediterranean"
+          ]
+        },
+        {
+          "entity_id": "C26",
+          "entity_type": "Date",
+          "canonical_form": "2022",
+          "normalization_name": null,
+          "alias_forms": [
+            "2022"
+          ]
+        },
+        {
+          "entity_id": "C27",
+          "entity_type": "Pest",
+          "canonical_form": "ToBRFV",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tobrfv"
+          ]
+        },
+        {
+          "entity_id": "C28",
+          "entity_type": "Plant",
+          "canonical_form": "Solanum nigrum",
+          "normalization_name": "NCBI_Taxonomy:4112",
+          "alias_forms": [
+            "solanum nigrum"
+          ]
+        },
+        {
+          "entity_id": "C29",
+          "entity_type": "Plant",
+          "canonical_form": "Malva parviflora",
+          "normalization_name": "NCBI_Taxonomy:145753",
+          "alias_forms": [
+            "malva parviflora"
+          ]
+        },
+        {
+          "entity_id": "C30",
+          "entity_type": "Pest",
+          "canonical_form": "Tomato Brown Rugose Fruit Virus",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tomato brown rugose fruit virus"
+          ]
+        },
+        {
+          "entity_id": "C31",
+          "entity_type": "Location",
+          "canonical_form": "Mediterranean",
+          "normalization_name": "GeoNames:12217088",
+          "alias_forms": [
+            "mediterranean"
+          ]
+        },
+        {
+          "entity_id": "C32",
+          "entity_type": "Pest",
+          "canonical_form": "Tomato Brown Rugose Fruit Virus",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tomato brown rugose fruit virus"
+          ]
+        },
+        {
+          "entity_id": "C33",
+          "entity_type": "Location",
+          "canonical_form": "Mediterranean",
+          "normalization_name": "GeoNames:12217088",
+          "alias_forms": [
+            "mediterranean"
+          ]
+        },
+        {
+          "entity_id": "C34",
+          "entity_type": "Pest",
+          "canonical_form": "Tomato Brown Rugose Fruit Virus",
+          "normalization_name": "NCBI_Taxonomy:1761477",
+          "alias_forms": [
+            "tomato brown rugose fruit virus"
+          ]
+        },
+        {
+          "entity_id": "C35",
+          "entity_type": "Location",
+          "canonical_form": "Mediterranean",
+          "normalization_name": "GeoNames:12217088",
+          "alias_forms": [
+            "mediterranean"
+          ]
+        }
+      ],
+      "gold_relation_edges": [
+        {
+          "subject": "Tomato brown rugose fruit virus",
+          "predicate": "Occurs_on",
+          "object": "in 2015"
+        },
+        {
+          "subject": "Tobamovirus",
+          "predicate": "Occurs_on",
+          "object": "in 2015"
+        },
+        {
+          "subject": "Tomato brown rugose fruit virus",
+          "predicate": "Located_in",
+          "object": "Mediterranean"
+        },
+        {
+          "subject": "Tobamovirus",
+          "predicate": "Found_on",
+          "object": "tomatoes"
+        },
+        {
+          "subject": "Tomato brown rugose fruit virus",
+          "predicate": "Located_in",
+          "object": "Jordan Valley"
+        },
+        {
+          "subject": "Tomato brown rugose fruit virus",
+          "predicate": "Found_on",
+          "object": "tomatoes"
+        },
+        {
+          "subject": "tomatoes",
+          "predicate": "Occurs_on",
+          "object": "in 2015"
+        },
+        {
+          "subject": "tomatoes",
+          "predicate": "Located_in",
+          "object": "Jordan Valley"
+        },
+        {
+          "subject": "tomatoes",
+          "predicate": "Located_in",
+          "object": "Jordan"
+        },
+        {
+          "subject": "Tomato brown rugose fruit virus",
+          "predicate": "Dispersed_by",
+          "object": "Seed"
+        },
+        {
+          "subject": "Tomato brown rugose fruit virus",
+          "predicate": "Found_on",
+          "object": "Solanum nigrum"
+        },
+        {
+          "subject": "Tomato brown rugose fruit virus",
+          "predicate": "Located_in",
+          "object": "Jordan"
+        },
+        {
+          "subject": "Tobamovirus",
+          "predicate": "Located_in",
+          "object": "Jordan Valley"
+        }
+      ],
+      "unresolved_gold_edges": []
+    },
+    {
+      "doc_id": "117866",
+      "split": "train",
+      "text": "Fungus simultaneously combats two of the main threats to banana productivity\nScientists have identified in the species Beauveria caledonica potential for biological control of the borer and fusariosis; action of the microorganism would complement traditional field management strategies The borer pest and the fusariosis disease are among the most important threats to banana trees and their control is still a major challenge for producers. The borer is a beetle commonly known as “banana tree moleque” and causes a direct effect on the rhizome (underground stem capable of issuing branches and roots), weakening the root system of the plant, reducing the absorption of nutrients and causing significant loss of energy. productivity. Adult insects may also play a role in spreading and increasing plant pathogen infections. Fusariosis, also known as “Panama disease”, causes severe yield losses and spreads rapidly through various means. To mitigate its effects, a combination of management practices in commercial plantations is necessary, but it is very important to search for biological control alternatives to complement field management. A fungus still little studied in Brazil and in the world that fulfills this role was recently isolated by a group that brings together scientists from the Brazilian Agricultural Research Corporation (Embrapa), State University of Campinas (Unicamp) and Bioversity International (Colombia), with the aim of support from researchers from the São Paulo Agribusiness Technology Agency (APTA, regional Vale do Ribeira) and the Agronomic Institute (IAC). Beauveria caledonica was found in the commercial banana production region of Vale do Ribeira, about 190 kilometers southwest of the capital. Work supported by FAPESP and published in Pest Management Science describes the ability of Beauveria caledonica to infect and kill banana borer (Cosmopolites sordidus) and to inhibit the phytopathogen Fusarium oxysporum f. sp. cubense (FOC), which causes fusariosis. “The research demonstrated, for the first time, the dual role of this fungus, isolated from naturally infected banana borers, against the two main phytosanitary restrictions”, says Jeanne Scardini Marinho-Prado, agronomist with a doctorate in entomology from the University Federal de Viçosa and one of the authors of the article. The group proved that, comparatively, isolates of B. caledonica were more efficient in the biocontrol of borer adults than isolates from B. bassiana, a species currently used in the biological combat of the insect in the field. “We isolated B. caledonica from banana borer adults collected in the field and then we made a formulation in emulsifiable vegetable oil, totally biodegradable, with their conidia [spores responsible for asexual reproduction] to increase its effectiveness”, explains Gabriel Moura Mascarin, doctor in insect pathology and microbial control from the Luiz de Queiroz College of Agriculture at the University of São Paulo (Esalq-USP) and from Crop Bioprotection Research (research unit linked to the United States Department of Agriculture). Mascarin is the first author of the work and mainly responsible for the formulation in emulsifiable oil evaluated in the article. The oil plays an important role in the adhesion of the fungus to the insect's body, facilitating its infection. The group of scientists also discovered that the fungus produces a secondary compound called oosporin, which had an antagonistic action on the pathogenic fungus FOC. “This antagonistic effect of B. caledonica and its metabolite oosporin on the fungus FOC is unprecedented\", says Prado, who is currently a researcher at Embrapa Meio Ambiente. Oosporin was detected and quantified using nuclear magnetic resonance and mass spectrometry techniques. In an in vitro assay against Fusarium, it was verified that the acellular filtrates extracted from the fermented broth of B. caledonica containing the compound oosporin exhibited antifungal activity on conidia, resulting in strong inhibition of FOC phytopathogen germination. “In this study, it was demonstrated that certain commercial banana plantations infested by the banana borer can harbor a very specialized community of entomopathogenic fungal species,” says Prado. Soil is an important reservoir of these fungi that can parasitize insects, killing or incapacitating them. “Therefore, understanding the interaction between C. sordidus and entomopathogenic fungi, in addition to understanding how both can be related to other microorganisms in the soil, it is crucial for the development of fungi-based biopesticides”, explains the scientist, noting that for the time being there are no commercial products with B. caledonia. Also according to the researcher, the development of biopesticides with strains that are more virulent to the target insect, either by selection in the laboratory, formulation, new application strategies or genetic manipulation, can make this microorganism more competitive for use in management programs, thus contributing to more balanced banana cultivation systems. The article is signed by Mascarin, Prado and Márcia Regina Assalin (Embrapa Meio Ambiente), Lucas Gelin Martins, Erik Sobrinho Braga and Ljubica Tasic (Unicamp), Miguel Dita (Bioversity International, Cali, Colombia) and Rogerio Biaggioni Lopes ( Embrapa Genetic Resources and Biotechnology). The full study Natural occurrence of Beauveria caledonica, pathogenicity to Cosmopolites sordidus and antifungal activity against Fusarium oxysporum f. sp. cubense can be accessed here. Get the latest agriculture news by email \n",
+      "layout": [
+        {
+          "tag": "h1",
+          "offsets": [
+            0,
+            76
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            77,
+            286
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            287,
+            938
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            939,
+            1734
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            1594,
+            1614
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            1735,
+            2001
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            1777,
+            1800
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            1826,
+            1846
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            1880,
+            1901
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            1936,
+            1969
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            2002,
+            2560
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            2383,
+            2396
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            2470,
+            2481
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            2561,
+            3098
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            2574,
+            2587
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            3099,
+            3682
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            3536,
+            3549
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            3683,
+            4062
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            3793,
+            3801
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            3816,
+            3824
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            3909,
+            3922
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            4063,
+            4718
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            4417,
+            4428
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            4719,
+            5087
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            5088,
+            5380
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            5381,
+            5566
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            5396,
+            5544
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            5567,
+            5607
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "mention_id": "T29",
+          "entity_type": "Plant",
+          "form": "banana",
+          "offsets": [
+            [
+              57,
+              63
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "4640"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 0
+        },
+        {
+          "mention_id": "T30",
+          "entity_type": "Disease",
+          "form": "fusariosis",
+          "offsets": [
+            [
+              190,
+              200
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "Plant_Disease",
+              "reference": "484"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T31",
+          "entity_type": "Disease",
+          "form": "fusariosis disease",
+          "offsets": [
+            [
+              310,
+              328
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "Plant_Disease",
+              "reference": "484"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 2
+        },
+        {
+          "mention_id": "T32",
+          "entity_type": "Plant",
+          "form": "banana trees",
+          "offsets": [
+            [
+              369,
+              381
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "4640"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 2
+        },
+        {
+          "mention_id": "T33",
+          "entity_type": "Pest",
+          "form": "banana tree moleque",
+          "offsets": [
+            [
+              483,
+              502
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "206492"
+            }
+          ],
+          "sentence_index": 1,
+          "layout_index": 2
+        },
+        {
+          "mention_id": "T34",
+          "entity_type": "Disease",
+          "form": "Fusariosis",
+          "offsets": [
+            [
+              825,
+              835
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "Plant_Disease",
+              "reference": "484"
+            }
+          ],
+          "sentence_index": 4,
+          "layout_index": 2
+        },
+        {
+          "mention_id": "T35",
+          "entity_type": "Disease",
+          "form": "Panama disease",
+          "offsets": [
+            [
+              852,
+              866
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "Plant_Disease",
+              "reference": "484"
+            }
+          ],
+          "sentence_index": 4,
+          "layout_index": 2
+        },
+        {
+          "mention_id": "T36",
+          "entity_type": "Location",
+          "form": "Brazil",
+          "offsets": [
+            [
+              1178,
+              1184
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "3469034"
+            }
+          ],
+          "sentence_index": 6,
+          "layout_index": 3
+        },
+        {
+          "mention_id": "T37",
+          "entity_type": "Plant",
+          "form": "banana",
+          "offsets": [
+            [
+              1643,
+              1649
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "4640"
+            }
+          ],
+          "sentence_index": 7,
+          "layout_index": 3
+        },
+        {
+          "mention_id": "T38",
+          "entity_type": "Location",
+          "form": "region of Vale do Ribeira",
+          "offsets": [
+            [
+              1661,
+              1686
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "3448433"
+            },
+            {
+              "resource": "GeoNames",
+              "reference": "3455077"
+            }
+          ],
+          "sentence_index": 7,
+          "layout_index": 3
+        },
+        {
+          "mention_id": "T39",
+          "entity_type": "Pest",
+          "form": "banana borer",
+          "offsets": [
+            [
+              1866,
+              1878
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "206492"
+            }
+          ],
+          "sentence_index": 8,
+          "layout_index": 5
+        },
+        {
+          "mention_id": "T40",
+          "entity_type": "Pest",
+          "form": "Cosmopolites sordidus",
+          "offsets": [
+            [
+              1880,
+              1901
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "206492"
+            }
+          ],
+          "sentence_index": 8,
+          "layout_index": 5
+        },
+        {
+          "mention_id": "T41",
+          "entity_type": "Pest",
+          "form": "Fusarium oxysporum f. sp. cubense",
+          "offsets": [
+            [
+              1936,
+              1969
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "61366"
+            },
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "2502994"
+            }
+          ],
+          "sentence_index": 9,
+          "layout_index": 5
+        },
+        {
+          "mention_id": "T42",
+          "entity_type": "Pest",
+          "form": "FOC",
+          "offsets": [
+            [
+              1971,
+              1974
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "61366"
+            },
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "2502994"
+            }
+          ],
+          "sentence_index": 10,
+          "layout_index": 5
+        },
+        {
+          "mention_id": "T43",
+          "entity_type": "Disease",
+          "form": "fusariosis",
+          "offsets": [
+            [
+              1990,
+              2000
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "Plant_Disease",
+              "reference": "484"
+            }
+          ],
+          "sentence_index": 10,
+          "layout_index": 5
+        },
+        {
+          "mention_id": "T44",
+          "entity_type": "Date",
+          "form": "for the first time",
+          "offsets": [
+            [
+              2030,
+              2048
+            ]
+          ],
+          "normalizations": [],
+          "sentence_index": 11,
+          "layout_index": 10
+        },
+        {
+          "mention_id": "T45",
+          "entity_type": "Pest",
+          "form": "banana borers",
+          "offsets": [
+            [
+              2113,
+              2126
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "206492"
+            }
+          ],
+          "sentence_index": 11,
+          "layout_index": 10
+        },
+        {
+          "mention_id": "T46",
+          "entity_type": "Pest",
+          "form": "banana borer",
+          "offsets": [
+            [
+              2593,
+              2605
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "206492"
+            }
+          ],
+          "sentence_index": 16,
+          "layout_index": 13
+        },
+        {
+          "mention_id": "T47",
+          "entity_type": "Pest",
+          "form": "fungus FOC",
+          "offsets": [
+            [
+              3495,
+              3505
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "61366"
+            },
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "2502994"
+            }
+          ],
+          "sentence_index": 19,
+          "layout_index": 15
+        },
+        {
+          "mention_id": "T48",
+          "entity_type": "Pest",
+          "form": "fungus FOC",
+          "offsets": [
+            [
+              3585,
+              3595
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "61366"
+            },
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "2502994"
+            }
+          ],
+          "sentence_index": 21,
+          "layout_index": 15
+        },
+        {
+          "mention_id": "T49",
+          "entity_type": "Pest",
+          "form": "FOC",
+          "offsets": [
+            [
+              4032,
+              4035
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "61366"
+            },
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "2502994"
+            }
+          ],
+          "sentence_index": 24,
+          "layout_index": 17
+        },
+        {
+          "mention_id": "T50",
+          "entity_type": "Plant",
+          "form": "banana plantations",
+          "offsets": [
+            [
+              4123,
+              4141
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "4640"
+            }
+          ],
+          "sentence_index": 25,
+          "layout_index": 21
+        },
+        {
+          "mention_id": "T51",
+          "entity_type": "Pest",
+          "form": "banana borer",
+          "offsets": [
+            [
+              4158,
+              4170
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "206492"
+            }
+          ],
+          "sentence_index": 25,
+          "layout_index": 21
+        },
+        {
+          "mention_id": "T52",
+          "entity_type": "Pest",
+          "form": "C. sordidus",
+          "offsets": [
+            [
+              4417,
+              4428
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "206492"
+            }
+          ],
+          "sentence_index": 28,
+          "layout_index": 21
+        },
+        {
+          "mention_id": "T53",
+          "entity_type": "Plant",
+          "form": "banana cultivation",
+          "offsets": [
+            [
+              5060,
+              5078
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "4640"
+            }
+          ],
+          "sentence_index": 30,
+          "layout_index": 23
+        },
+        {
+          "mention_id": "T54",
+          "entity_type": "Pest",
+          "form": "Cosmopolites sordidus",
+          "offsets": [
+            [
+              5457,
+              5478
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "206492"
+            }
+          ],
+          "sentence_index": 32,
+          "layout_index": 25
+        },
+        {
+          "mention_id": "T55",
+          "entity_type": "Pest",
+          "form": "Fusarium oxysporum f. sp. cubense",
+          "offsets": [
+            [
+              5511,
+              5544
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "61366"
+            },
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "2502994"
+            }
+          ],
+          "sentence_index": 33,
+          "layout_index": 25
+        }
+      ],
+      "canonical_entities": [
+        {
+          "entity_id": "C0",
+          "entity_type": "Plant",
+          "canonical_form": "banana",
+          "normalization_name": "NCBI_Taxonomy:4640",
+          "alias_forms": [
+            "banana"
+          ]
+        },
+        {
+          "entity_id": "C1",
+          "entity_type": "Disease",
+          "canonical_form": "fusariosis",
+          "normalization_name": "Plant_Disease:484",
+          "alias_forms": [
+            "fusariosis"
+          ]
+        },
+        {
+          "entity_id": "C2",
+          "entity_type": "Disease",
+          "canonical_form": "fusariosis disease",
+          "normalization_name": "Plant_Disease:484",
+          "alias_forms": [
+            "fusariosis disease"
+          ]
+        },
+        {
+          "entity_id": "C3",
+          "entity_type": "Plant",
+          "canonical_form": "banana trees",
+          "normalization_name": "NCBI_Taxonomy:4640",
+          "alias_forms": [
+            "banana trees"
+          ]
+        },
+        {
+          "entity_id": "C4",
+          "entity_type": "Pest",
+          "canonical_form": "banana tree moleque",
+          "normalization_name": "NCBI_Taxonomy:206492",
+          "alias_forms": [
+            "banana tree moleque"
+          ]
+        },
+        {
+          "entity_id": "C5",
+          "entity_type": "Disease",
+          "canonical_form": "Fusariosis",
+          "normalization_name": "Plant_Disease:484",
+          "alias_forms": [
+            "fusariosis",
+            "panama disease"
+          ]
+        },
+        {
+          "entity_id": "C6",
+          "entity_type": "Location",
+          "canonical_form": "Brazil",
+          "normalization_name": "GeoNames:3469034",
+          "alias_forms": [
+            "brazil"
+          ]
+        },
+        {
+          "entity_id": "C7",
+          "entity_type": "Plant",
+          "canonical_form": "banana",
+          "normalization_name": "NCBI_Taxonomy:4640",
+          "alias_forms": [
+            "banana"
+          ]
+        },
+        {
+          "entity_id": "C8",
+          "entity_type": "Location",
+          "canonical_form": "region of Vale do Ribeira",
+          "normalization_name": "GeoNames:3448433",
+          "alias_forms": [
+            "region of vale do ribeira"
+          ]
+        },
+        {
+          "entity_id": "C9",
+          "entity_type": "Pest",
+          "canonical_form": "banana borer",
+          "normalization_name": "NCBI_Taxonomy:206492",
+          "alias_forms": [
+            "banana borer",
+            "cosmopolites sordidus"
+          ]
+        },
+        {
+          "entity_id": "C10",
+          "entity_type": "Pest",
+          "canonical_form": "Fusarium oxysporum f. sp. cubense",
+          "normalization_name": "NCBI_Taxonomy:61366",
+          "alias_forms": [
+            "foc",
+            "fusarium oxysporum f. sp. cubense"
+          ]
+        },
+        {
+          "entity_id": "C11",
+          "entity_type": "Disease",
+          "canonical_form": "fusariosis",
+          "normalization_name": "Plant_Disease:484",
+          "alias_forms": [
+            "fusariosis"
+          ]
+        },
+        {
+          "entity_id": "C12",
+          "entity_type": "Date",
+          "canonical_form": "for the first time",
+          "normalization_name": null,
+          "alias_forms": [
+            "for the first time"
+          ]
+        },
+        {
+          "entity_id": "C13",
+          "entity_type": "Pest",
+          "canonical_form": "banana borers",
+          "normalization_name": "NCBI_Taxonomy:206492",
+          "alias_forms": [
+            "banana borers"
+          ]
+        },
+        {
+          "entity_id": "C14",
+          "entity_type": "Pest",
+          "canonical_form": "banana borer",
+          "normalization_name": "NCBI_Taxonomy:206492",
+          "alias_forms": [
+            "banana borer"
+          ]
+        },
+        {
+          "entity_id": "C15",
+          "entity_type": "Pest",
+          "canonical_form": "fungus FOC",
+          "normalization_name": "NCBI_Taxonomy:61366",
+          "alias_forms": [
+            "fungus foc"
+          ]
+        },
+        {
+          "entity_id": "C16",
+          "entity_type": "Pest",
+          "canonical_form": "fungus FOC",
+          "normalization_name": "NCBI_Taxonomy:61366",
+          "alias_forms": [
+            "fungus foc"
+          ]
+        },
+        {
+          "entity_id": "C17",
+          "entity_type": "Pest",
+          "canonical_form": "FOC",
+          "normalization_name": "NCBI_Taxonomy:61366",
+          "alias_forms": [
+            "foc"
+          ]
+        },
+        {
+          "entity_id": "C18",
+          "entity_type": "Plant",
+          "canonical_form": "banana plantations",
+          "normalization_name": "NCBI_Taxonomy:4640",
+          "alias_forms": [
+            "banana plantations"
+          ]
+        },
+        {
+          "entity_id": "C19",
+          "entity_type": "Pest",
+          "canonical_form": "banana borer",
+          "normalization_name": "NCBI_Taxonomy:206492",
+          "alias_forms": [
+            "banana borer",
+            "c. sordidus"
+          ]
+        },
+        {
+          "entity_id": "C20",
+          "entity_type": "Plant",
+          "canonical_form": "banana cultivation",
+          "normalization_name": "NCBI_Taxonomy:4640",
+          "alias_forms": [
+            "banana cultivation"
+          ]
+        },
+        {
+          "entity_id": "C21",
+          "entity_type": "Pest",
+          "canonical_form": "Cosmopolites sordidus",
+          "normalization_name": "NCBI_Taxonomy:206492",
+          "alias_forms": [
+            "cosmopolites sordidus"
+          ]
+        },
+        {
+          "entity_id": "C22",
+          "entity_type": "Pest",
+          "canonical_form": "Fusarium oxysporum f. sp. cubense",
+          "normalization_name": "NCBI_Taxonomy:61366",
+          "alias_forms": [
+            "fusarium oxysporum f. sp. cubense"
+          ]
+        }
+      ],
+      "gold_relation_edges": [
+        {
+          "subject": "Fusariosis",
+          "predicate": "Affects",
+          "object": "banana"
+        },
+        {
+          "subject": "Fusarium oxysporum f. sp. cubense",
+          "predicate": "Causes",
+          "object": "Fusariosis"
+        },
+        {
+          "subject": "banana borer",
+          "predicate": "Found_on",
+          "object": "banana"
+        },
+        {
+          "subject": "banana",
+          "predicate": "Located_in",
+          "object": "region of Vale do Ribeira"
+        }
+      ],
+      "unresolved_gold_edges": []
+    },
+    {
+      "doc_id": "100018",
+      "split": "train",
+      "text": "A million trapped beetles\nSmall but treacherous, popilia japonica causes damage to Ticino agriculture - The traps have wreaked havoc, but it is difficult to eradicate them\nA million trapped beetles Small but treacherous, popilia japonica causes damage to Ticino agriculture - The traps have wreaked havoc, but it is difficult to eradicate them Apparently the Japanese beetle might seem a harmless insect but the damage it causes to agriculture is huge and clearly visible in our territory. In fact, popilias - popilia japonica this is its scientific name - have also been widespread in Ticino for 5 years and the cantonal phytosanitary service tries to contain their spread. The 67 traps located between Stabio and Genestrerio (where the main outbreaks are present) made it possible to capture almost one million specimens. An approximate but conspicuous figure that also includes the beetles collected individually in the pilot project involving the municipalities of Mendrisio, Stabio, Novazzano and Morcote. \"However, between Lombardy and Piedmont there is a huge outbreak - says Cristina Marazzi, head of the Ticino Phytosanitary Service - we can invest a lot of energy and we will do it but its presence nearby makes total eradication very difficult\". The overall assessment of this collection experience will be drawn up by the competent cantonal authorities in the autumn.\n\n",
+      "layout": [
+        {
+          "tag": "h1",
+          "offsets": [
+            0,
+            25
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            26,
+            171
+          ]
+        },
+        {
+          "tag": "h1",
+          "offsets": [
+            172,
+            197
+          ]
+        },
+        {
+          "tag": "h2",
+          "offsets": [
+            197,
+            343
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            343,
+            674
+          ]
+        },
+        {
+          "tag": "i",
+          "offsets": [
+            510,
+            526
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            674,
+            1010
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            1010,
+            1256
+          ]
+        },
+        {
+          "tag": "p",
+          "offsets": [
+            1256,
+            1379
+          ]
+        }
+      ],
+      "mentions": [
+        {
+          "mention_id": "T10",
+          "entity_type": "Pest",
+          "form": "popilia japonica",
+          "offsets": [
+            [
+              49,
+              65
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "7064"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T11",
+          "entity_type": "Location",
+          "form": "Ticino",
+          "offsets": [
+            [
+              83,
+              89
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "2658370"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 1
+        },
+        {
+          "mention_id": "T12",
+          "entity_type": "Pest",
+          "form": "popilia japonica",
+          "offsets": [
+            [
+              221,
+              237
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "7064"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 3
+        },
+        {
+          "mention_id": "T13",
+          "entity_type": "Location",
+          "form": "Ticino",
+          "offsets": [
+            [
+              255,
+              261
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "2658370"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 3
+        },
+        {
+          "mention_id": "T14",
+          "entity_type": "Pest",
+          "form": "Japanese beetle",
+          "offsets": [
+            [
+              359,
+              374
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "7064"
+            }
+          ],
+          "sentence_index": 0,
+          "layout_index": 4
+        },
+        {
+          "mention_id": "T15",
+          "entity_type": "Pest",
+          "form": "popilias",
+          "offsets": [
+            [
+              499,
+              507
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "7064"
+            }
+          ],
+          "sentence_index": 1,
+          "layout_index": 4
+        },
+        {
+          "mention_id": "T16",
+          "entity_type": "Pest",
+          "form": "popilia japonica",
+          "offsets": [
+            [
+              510,
+              526
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "NCBI_Taxonomy",
+              "reference": "7064"
+            }
+          ],
+          "sentence_index": 1,
+          "layout_index": 4
+        },
+        {
+          "mention_id": "T17",
+          "entity_type": "Location",
+          "form": "Ticino",
+          "offsets": [
+            [
+              586,
+              592
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "2658370"
+            }
+          ],
+          "sentence_index": 1,
+          "layout_index": 4
+        },
+        {
+          "mention_id": "T18",
+          "entity_type": "Date",
+          "form": "for 5 years",
+          "offsets": [
+            [
+              593,
+              604
+            ]
+          ],
+          "normalizations": [],
+          "sentence_index": 1,
+          "layout_index": 4
+        },
+        {
+          "mention_id": "T19",
+          "entity_type": "Location",
+          "form": "Stabio",
+          "offsets": [
+            [
+              704,
+              710
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "7287209"
+            }
+          ],
+          "sentence_index": 2,
+          "layout_index": 6
+        },
+        {
+          "mention_id": "T20",
+          "entity_type": "Location",
+          "form": "Genestrerio",
+          "offsets": [
+            [
+              715,
+              726
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "2660648"
+            }
+          ],
+          "sentence_index": 2,
+          "layout_index": 6
+        },
+        {
+          "mention_id": "T21",
+          "entity_type": "Location",
+          "form": "Mendrisio",
+          "offsets": [
+            [
+              969,
+              978
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "2659689"
+            }
+          ],
+          "sentence_index": 3,
+          "layout_index": 6
+        },
+        {
+          "mention_id": "T22",
+          "entity_type": "Location",
+          "form": "Stabio",
+          "offsets": [
+            [
+              980,
+              986
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "7287209"
+            }
+          ],
+          "sentence_index": 3,
+          "layout_index": 6
+        },
+        {
+          "mention_id": "T23",
+          "entity_type": "Location",
+          "form": "Novazzano",
+          "offsets": [
+            [
+              988,
+              997
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "7286663"
+            }
+          ],
+          "sentence_index": 3,
+          "layout_index": 6
+        },
+        {
+          "mention_id": "T24",
+          "entity_type": "Location",
+          "form": "Morcote",
+          "offsets": [
+            [
+              1002,
+              1009
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "2659592"
+            }
+          ],
+          "sentence_index": 3,
+          "layout_index": 6
+        },
+        {
+          "mention_id": "T25",
+          "entity_type": "Location",
+          "form": "Lombardy",
+          "offsets": [
+            [
+              1029,
+              1037
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "3174618"
+            }
+          ],
+          "sentence_index": 4,
+          "layout_index": 7
+        },
+        {
+          "mention_id": "T26",
+          "entity_type": "Location",
+          "form": "Piedmont",
+          "offsets": [
+            [
+              1042,
+              1050
+            ]
+          ],
+          "normalizations": [
+            {
+              "resource": "GeoNames",
+              "reference": "3170831"
+            }
+          ],
+          "sentence_index": 4,
+          "layout_index": 7
+        }
+      ],
+      "canonical_entities": [
+        {
+          "entity_id": "C0",
+          "entity_type": "Pest",
+          "canonical_form": "popilia japonica",
+          "normalization_name": "NCBI_Taxonomy:7064",
+          "alias_forms": [
+            "popilia japonica"
+          ]
+        },
+        {
+          "entity_id": "C1",
+          "entity_type": "Location",
+          "canonical_form": "Ticino",
+          "normalization_name": "GeoNames:2658370",
+          "alias_forms": [
+            "ticino"
+          ]
+        },
+        {
+          "entity_id": "C2",
+          "entity_type": "Pest",
+          "canonical_form": "popilia japonica",
+          "normalization_name": "NCBI_Taxonomy:7064",
+          "alias_forms": [
+            "japanese beetle",
+            "popilia japonica"
+          ]
+        },
+        {
+          "entity_id": "C3",
+          "entity_type": "Location",
+          "canonical_form": "Ticino",
+          "normalization_name": "GeoNames:2658370",
+          "alias_forms": [
+            "ticino"
+          ]
+        },
+        {
+          "entity_id": "C4",
+          "entity_type": "Pest",
+          "canonical_form": "popilias",
+          "normalization_name": "NCBI_Taxonomy:7064",
+          "alias_forms": [
+            "popilia japonica",
+            "popilias"
+          ]
+        },
+        {
+          "entity_id": "C5",
+          "entity_type": "Location",
+          "canonical_form": "Ticino",
+          "normalization_name": "GeoNames:2658370",
+          "alias_forms": [
+            "ticino"
+          ]
+        },
+        {
+          "entity_id": "C6",
+          "entity_type": "Date",
+          "canonical_form": "for 5 years",
+          "normalization_name": null,
+          "alias_forms": [
+            "for 5 years"
+          ]
+        },
+        {
+          "entity_id": "C7",
+          "entity_type": "Location",
+          "canonical_form": "Stabio",
+          "normalization_name": "GeoNames:7287209",
+          "alias_forms": [
+            "stabio"
+          ]
+        },
+        {
+          "entity_id": "C8",
+          "entity_type": "Location",
+          "canonical_form": "Genestrerio",
+          "normalization_name": "GeoNames:2660648",
+          "alias_forms": [
+            "genestrerio"
+          ]
+        },
+        {
+          "entity_id": "C9",
+          "entity_type": "Location",
+          "canonical_form": "Mendrisio",
+          "normalization_name": "GeoNames:2659689",
+          "alias_forms": [
+            "mendrisio"
+          ]
+        },
+        {
+          "entity_id": "C10",
+          "entity_type": "Location",
+          "canonical_form": "Stabio",
+          "normalization_name": "GeoNames:7287209",
+          "alias_forms": [
+            "stabio"
+          ]
+        },
+        {
+          "entity_id": "C11",
+          "entity_type": "Location",
+          "canonical_form": "Novazzano",
+          "normalization_name": "GeoNames:7286663",
+          "alias_forms": [
+            "novazzano"
+          ]
+        },
+        {
+          "entity_id": "C12",
+          "entity_type": "Location",
+          "canonical_form": "Morcote",
+          "normalization_name": "GeoNames:2659592",
+          "alias_forms": [
+            "morcote"
+          ]
+        },
+        {
+          "entity_id": "C13",
+          "entity_type": "Location",
+          "canonical_form": "Lombardy",
+          "normalization_name": "GeoNames:3174618",
+          "alias_forms": [
+            "lombardy"
+          ]
+        },
+        {
+          "entity_id": "C14",
+          "entity_type": "Location",
+          "canonical_form": "Piedmont",
+          "normalization_name": "GeoNames:3170831",
+          "alias_forms": [
+            "piedmont"
+          ]
+        }
+      ],
+      "gold_relation_edges": [
+        {
+          "subject": "popilia japonica",
+          "predicate": "Located_in",
+          "object": "Genestrerio"
+        },
+        {
+          "subject": "popilia japonica",
+          "predicate": "Located_in",
+          "object": "Mendrisio"
+        },
+        {
+          "subject": "popilia japonica",
+          "predicate": "Located_in",
+          "object": "Novazzano"
+        },
+        {
+          "subject": "popilia japonica",
+          "predicate": "Occurs_on",
+          "object": "for 5 years"
+        },
+        {
+          "subject": "popilia japonica",
+          "predicate": "Located_in",
+          "object": "Ticino"
+        },
+        {
+          "subject": "popilia japonica",
+          "predicate": "Located_in",
+          "object": "Stabio"
+        },
+        {
+          "subject": "popilia japonica",
+          "predicate": "Located_in",
+          "object": "Morcote"
+        }
+      ],
+      "unresolved_gold_edges": []
+    }
+  ]
+}

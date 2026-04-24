@@ -116,12 +116,25 @@ The **v14** evaluation (Oversampling Ratio 0.05, Hard Negative Ratio 1.0) yielde
 | v11 | Precision & Context | 0.200 | N/A |
 | v12 | Threshold Refinement | 0.184 | N/A |
 | v13 | Augmentation & Oversampling| 0.163 | N/A |
-| v14 | Hard Negative Mining | **0.226** | TBD |
+| v14 | Hard Negative Mining | **0.226** | **0.44297** |
+| v15 | Ensemble (v9 + v14 Heuristic) | N/A | 0.41716 |
+| v16 | Dynamic Hard Negatives | 0.213 | N/A |
+| v17 | Distant Supervision | 0.193 | N/A |
+| v18 | Hyperparameter Sweep | 0.203 | N/A |
+
+### 10. V18: Hyperparameter Sweep Results
+
+A 3x3 grid search over `learning_rate_encoder` (`1e-5`, `2e-5`, `3e-5`) and `warmup_ratio` (`0.0`, `0.06`, `0.1`) was conducted using the stable V14 configuration as a base.
+
+- **Best Configuration:** `learning_rate: 3e-05`, `warmup_ratio: 0.1` (Micro F1: **0.203**).
+- **Default Baseline:** The default `2e-05` / `0.06` configuration scored **0.192** in this run iteration.
+- **Volatility:** The fact that the exact same configuration scored **0.226** in the original V14 run but **0.192** during the sweep highlights the extreme volatility of fine-tuning ModernBERT on a dataset with such sparse positive examples. The random initialization of the classification head significantly impacts the final score when class support is low.
 
 ### Actionable Next Steps
 
-1.  **Generate Kaggle Submission:** The v14 model demonstrates a clear, structurally sound improvement over v9 (the previous best). Generate a submission using `--train-on-dev` to capture its performance on the public leaderboard.
-2.  **Ensemble Consideration:** If v14's Kaggle score is lower than v9 due to hidden test-set distribution differences, an ensemble blending v9's high precision on major classes with v14's improved *Affects* and *Located_in* reasoning could be the optimal path forward.
+1.  **Ensemble Diversity (V19):** Given the volatility of the training runs, generating 3-5 submissions using the exact same V14 configuration but different `random_seed` values, and then ensembling them via majority vote, is highly likely to yield a robust, higher-scoring Kaggle submission.
+2.  **Scale Distant Supervision:** The tiny KB in V17 (18 injections) was not enough. We need to drastically expand the external knowledge base using resources like EPPO or use an LLM to generate synthetic training documents.
+3.  **Cross-Document Coreference:** Implement a heuristic to link entities like "the vector" or "the insect" to a previously mentioned specific species (e.g., "Monochamus spp.") within the same document to massively boost vector recall.
 
 ---
 *Updated by Gemini CLI on 2026-04-20.*

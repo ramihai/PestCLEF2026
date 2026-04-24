@@ -1,0 +1,102 @@
+{
+  "schema": {
+    "Occurs_on": [
+      [
+        "Disease",
+        "Date"
+      ],
+      [
+        "Dissemination_pathway",
+        "Date"
+      ],
+      [
+        "Pest",
+        "Date"
+      ],
+      [
+        "Plant",
+        "Date"
+      ],
+      [
+        "Vector",
+        "Date"
+      ]
+    ],
+    "Located_in": [
+      [
+        "Disease",
+        "Location"
+      ],
+      [
+        "Dissemination_pathway",
+        "Location"
+      ],
+      [
+        "Pest",
+        "Location"
+      ],
+      [
+        "Plant",
+        "Location"
+      ],
+      [
+        "Vector",
+        "Location"
+      ]
+    ],
+    "Found_on": [
+      [
+        "Disease",
+        "Plant"
+      ],
+      [
+        "Pest",
+        "Dissemination_pathway"
+      ],
+      [
+        "Pest",
+        "Plant"
+      ],
+      [
+        "Vector",
+        "Dissemination_pathway"
+      ],
+      [
+        "Vector",
+        "Plant"
+      ]
+    ],
+    "Dispersed_by": [
+      [
+        "Disease",
+        "Dissemination_pathway"
+      ],
+      [
+        "Pest",
+        "Dissemination_pathway"
+      ]
+    ],
+    "Affects": [
+      [
+        "Disease",
+        "Plant"
+      ]
+    ],
+    "Causes": [
+      [
+        "Pest",
+        "Disease"
+      ]
+    ],
+    "Transmits": [
+      [
+        "Vector",
+        "Disease"
+      ],
+      [
+        "Vector",
+        "Pest"
+      ]
+    ]
+  }
+}

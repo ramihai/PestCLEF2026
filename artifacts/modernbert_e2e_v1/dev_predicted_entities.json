@@ -1,0 +1,3018 @@
+{
+  "predicted_entities": {
+    "103963": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "aphelenchus xylophilus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "xylophilus"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "xy"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "1980"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "wood"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": ". xylophilus"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "amus"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "ode"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "4A"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "Ap"
+      }
+    ],
+    "114259": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "orthe e"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "die"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Disease",
+        "canonical_form": "b"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "ush blueberry"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "ium corymbosum"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "ied"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "uneo"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "omycin"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "orthe"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "8"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "berry"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "ium"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "aporthe e"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "ush"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "blue"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "res"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "ilus"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "orthe phoenicic"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Plant",
+        "canonical_form": "ium vir"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "atum"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Plant",
+        "canonical_form": "ruit"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Location",
+        "canonical_form": "ap"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Pest",
+        "canonical_form": "orthe cercidis"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Pest",
+        "canonical_form": "ilis"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Plant",
+        "canonical_form": "dav"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Plant",
+        "canonical_form": "iana"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Pest",
+        "canonical_form": "."
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Plant",
+        "canonical_form": "le"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Plant",
+        "canonical_form": "fruit"
+      },
+      {
+        "entity_id": "C29",
+        "entity_type": "Pest",
+        "canonical_form": "rospora"
+      },
+      {
+        "entity_id": "C30",
+        "entity_type": "Plant",
+        "canonical_form": "er"
+      }
+    ],
+    "116119": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ruit fly"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "fly"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "ium"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "are"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "fruit fly"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "cer"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "areau"
+      }
+    ],
+    "99067": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "fruits"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ra"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ita"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "ere"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "rus"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "ily"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "za"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "iste"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "virus"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "long"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "ida"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "citrus fruits"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "ian"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "occo"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "Sc"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "ir"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "è"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Location",
+        "canonical_form": "rizo"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Date",
+        "canonical_form": "2014"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Date",
+        "canonical_form": "20"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Location",
+        "canonical_form": "iforn"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Location",
+        "canonical_form": "ri"
+      }
+    ],
+    "98142": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "í"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "os"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "íos"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "longbing"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "irus"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "oli"
+      }
+    ],
+    "117892": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "emat"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Bursaphelenchus xylophilus"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "ess"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "ursaphelenchus xylophilus"
+      }
+    ],
+    "107172": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "usarium fungus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "anas"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "usarium"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "ros"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "4"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "1"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "days"
+      }
+    ],
+    "98783": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "bun"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "anas"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Congo"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "C"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "rua"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "anda"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "awi"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "wino"
+      }
+    ],
+    "105611": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ari"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ellana"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "ign"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "ana"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "ire"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "tti"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "yle"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "lla"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "iretti"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "uglia"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "ignano"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "iretti Puglia"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Date",
+        "canonical_form": "December"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "ecce"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "indisi"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "aranto"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Location",
+        "canonical_form": "etrana"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Location",
+        "canonical_form": "osino"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Location",
+        "canonical_form": "agg"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Location",
+        "canonical_form": "agnano"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Location",
+        "canonical_form": "ano"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Plant",
+        "canonical_form": "uria"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Location",
+        "canonical_form": "uggio"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Location",
+        "canonical_form": "iasi"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Location",
+        "canonical_form": "zata"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Location",
+        "canonical_form": "zano"
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Location",
+        "canonical_form": "Giuseppe"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Location",
+        "canonical_form": "ava"
+      },
+      {
+        "entity_id": "C29",
+        "entity_type": "Location",
+        "canonical_form": "ricella"
+      },
+      {
+        "entity_id": "C30",
+        "entity_type": "Location",
+        "canonical_form": "ulian"
+      },
+      {
+        "entity_id": "C31",
+        "entity_type": "Pest",
+        "canonical_form": "idiosa"
+      },
+      {
+        "entity_id": "C32",
+        "entity_type": "Date",
+        "canonical_form": "2014"
+      }
+    ],
+    "98794": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "izopus arrhizus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": ". oryzae"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "Bul"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "b"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "Soft Rot"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "izopus soft rot"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "bulbs"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "Rhizopus oryzae"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "bulb"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "hizus"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "7"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "ava"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "tub"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "izopus"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "izus"
+      }
+    ],
+    "117299": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "Philippines"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "end"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ish"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "ama"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "ar"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "endish"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "disease"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "20"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "arium"
+      }
+    ],
+    "102488": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "rus"
+      }
+    ],
+    "106959": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "č"
+      }
+    ],
+    "98392": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "FV"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "ato brown"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "ose fruit virus"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "tomato"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "um lycopers"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "rika"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "icum"
+      }
+    ],
+    "116671": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "countries"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "os"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "ur"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "ruguay"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "nine"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "Africa"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "yll"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "icta citric"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "ar"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "pa"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "rus"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "yle"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "et"
+      }
+    ],
+    "105652": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ignano"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "ire"
+      }
+    ],
+    "106151": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "armyworm"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "fall armyworm"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "FAW"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "odoptera frug"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "iper"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "W"
+      }
+    ],
+    "104656": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "erne"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "ed beetle"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "on"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "ö"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "li"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "horned beetles"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "Tuesday"
+      }
+    ],
+    "115106": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "tree"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "France"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "tree"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "War"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "."
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "ia"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "pes"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "Côte"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "Azur"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "itan"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "Rh"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "ône"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "Loire"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "le"
+      }
+    ],
+    "99614": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "actrocera dorsalis"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "dorO"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "sensitivity"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "13"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "eugenol"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "octalact"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "al"
+      }
+    ],
+    "117298": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "anas"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "disease"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "disease"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "Fusarium oxysporum f. sp."
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "Fusarium oxysporum cubense Race"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "ropical"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "Race"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "plant"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "end"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "usarium oxysporum f. sp."
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "ropical Race"
+      }
+    ],
+    "115183": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "iretti"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Puglia"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "TG"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "yle"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "lla"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "ire"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "tti"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "ano"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "ina"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "a"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "ignano"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "ian"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Plant",
+        "canonical_form": "olive"
+      }
+    ],
+    "105862": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "ng"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "era"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ira"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "o"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Plant",
+        "canonical_form": "reira"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "res"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Mine"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "upor"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "yllid"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "20"
+      }
+    ],
+    "102904": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "IA"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "atus Liberibacter asiaticus"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "X"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "bing"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "andidatus Liberibacter asiaticus"
+      }
+    ],
+    "116223": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ac"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ruz"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "edar"
+      }
+    ],
+    "99107": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "ria"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "ila"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "oid"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "amarixia"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "dry"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "escusa"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "illana"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "ude"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "ave"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Plant",
+        "canonical_form": "Ll"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "ored"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "z"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "ana"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Plant",
+        "canonical_form": "é"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "es"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "cusa"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "dá"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Location",
+        "canonical_form": "engo"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Location",
+        "canonical_form": "ña"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Location",
+        "canonical_form": "á"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Plant",
+        "canonical_form": "rcena"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Plant",
+        "canonical_form": "ero"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Location",
+        "canonical_form": "María"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Location",
+        "canonical_form": "ón"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Location",
+        "canonical_form": "ino"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Location",
+        "canonical_form": "án"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Plant",
+        "canonical_form": "dez"
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Location",
+        "canonical_form": "rian"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Location",
+        "canonical_form": "ro"
+      },
+      {
+        "entity_id": "C29",
+        "entity_type": "Location",
+        "canonical_form": "icia"
+      },
+      {
+        "entity_id": "C30",
+        "entity_type": "Location",
+        "canonical_form": "Portugal"
+      },
+      {
+        "entity_id": "C31",
+        "entity_type": "Date",
+        "canonical_form": "2014"
+      },
+      {
+        "entity_id": "C32",
+        "entity_type": "Location",
+        "canonical_form": "longbing"
+      },
+      {
+        "entity_id": "C33",
+        "entity_type": "Location",
+        "canonical_form": "abria"
+      },
+      {
+        "entity_id": "C34",
+        "entity_type": "Date",
+        "canonical_form": "8"
+      }
+    ],
+    "98579": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "illia japonica"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ied"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Region"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "ardy"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "2014"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "Pied"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "mont"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "iedmont"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "ardy Region"
+      }
+    ],
+    "117674": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "Aires"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "20"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "N"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "December"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "O"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "OD"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "August 30"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "ap"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "horina cit"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "yll"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Date",
+        "canonical_form": "August 22"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "UM"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "ÁN"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "AMARCA"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Date",
+        "canonical_form": "13"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "ay"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "AM"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Location",
+        "canonical_form": "ARCA"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Location",
+        "canonical_form": "AMARCA"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Pest",
+        "canonical_form": "IC"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "URE"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Location",
+        "canonical_form": "AMAR"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Pest",
+        "canonical_form": "CA"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Location",
+        "canonical_form": "rus"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Location",
+        "canonical_form": "AR"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Date",
+        "canonical_form": "December 19"
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Pest",
+        "canonical_form": "rus Leafhopper"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Pest",
+        "canonical_form": "horina citri."
+      },
+      {
+        "entity_id": "C29",
+        "entity_type": "Pest",
+        "canonical_form": "ama"
+      },
+      {
+        "entity_id": "C30",
+        "entity_type": "Pest",
+        "canonical_form": "Leafhopper plague"
+      },
+      {
+        "entity_id": "C31",
+        "entity_type": "Pest",
+        "canonical_form": "Di"
+      },
+      {
+        "entity_id": "C32",
+        "entity_type": "Pest",
+        "canonical_form": "Leafho"
+      },
+      {
+        "entity_id": "C33",
+        "entity_type": "Pest",
+        "canonical_form": "ITY"
+      },
+      {
+        "entity_id": "C34",
+        "entity_type": "Date",
+        "canonical_form": "19"
+      },
+      {
+        "entity_id": "C35",
+        "entity_type": "Date",
+        "canonical_form": "February"
+      },
+      {
+        "entity_id": "C36",
+        "entity_type": "Date",
+        "canonical_form": "14"
+      },
+      {
+        "entity_id": "C37",
+        "entity_type": "Pest",
+        "canonical_form": "IF"
+      }
+    ],
+    "114379": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "o"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella Fastidiosa"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ila"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "Nova"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "de"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "Gaia"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "Maria da"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "Fe"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "spin"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "acia"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "long"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "if"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "olia"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Plant",
+        "canonical_form": "rus"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "on"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Plant",
+        "canonical_form": "rus reticul"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "ata"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Plant",
+        "canonical_form": "bl"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Pest",
+        "canonical_form": "enus spumarius"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Date",
+        "canonical_form": "January 18"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Pest",
+        "canonical_form": "oo"
+      }
+    ],
+    "103660": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "odoptera frugiperda"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "."
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "optera"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "ctuidae"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "China"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "odoptera frugiperda (J."
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "epidoptera"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "Noctuidae"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": ". frugiperda"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "ans"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "jiang"
+      }
+    ],
+    "98195": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "aragua"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "Rica"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "uras"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "ine"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "longbing"
+      }
+    ],
+    "115243": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "xylella fastidiosa"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "PA"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "20"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "pes"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "ôte"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "Azur"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "OA"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": ". fastidiosa"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "if"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Plant",
+        "canonical_form": "grape"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "ines"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "ylella fastidiosa"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "falfa"
+      }
+    ],
+    "115211": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      }
+    ],
+    "106336": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Fusarium Race 4"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "aretas"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "ropical"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "Foc R4T"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "es"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "ropical"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "ura"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "umbes"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "aye"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Plant",
+        "canonical_form": "arc"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "ore"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "uc"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "ali"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "RA"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "us"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "co"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "o"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "Fusarium R4T"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Location",
+        "canonical_form": "ana"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "Fusarium T"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Location",
+        "canonical_form": "ropical Race"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "4"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Location",
+        "canonical_form": "Peru"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Pest",
+        "canonical_form": "usarium Race 4"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Location",
+        "canonical_form": "ullana"
+      }
+    ],
+    "99132": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ia"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ara"
+      }
+    ],
+    "103847": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "av"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ira"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "ylella fastidiosa"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "avira"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "August"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "20"
+      }
+    ],
+    "116664": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "rus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ruguay"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ay"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "Africa"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "September"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "ict"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "citric"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "ar"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "pa"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "omicron variant"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "omicron"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "micron"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "E"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "Hype"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "hesia"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "omicron variant?"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "micron variant"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Location",
+        "canonical_form": "onia"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Pest",
+        "canonical_form": "agon"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Location",
+        "canonical_form": "raine"
+      }
+    ],
+    "104499": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "wood"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "ematode Bursaphelenchus xylophilus"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "wood nematode"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "ursaphelenchus xylophilus"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "wilt"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "ursaphelenchus"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "ematode"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "20"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "ode"
+      }
+    ],
+    "116761": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "usarium oxysporum f"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "."
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ropical"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "oc"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "4"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Plant",
+        "canonical_form": "anas"
+      }
+    ],
+    "103669": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "av"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "army"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "worm"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "hum"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "armyworm"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "oids"
+      }
+    ],
+    "104329": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ato brown rugose fruit virus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "ToBRFV"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "BRFV"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "August 20"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "IR"
+      }
+    ],
+    "104119": [],
+    "116125": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "riental"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Fruit Fly"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "ental fruit fly"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "rocera"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "actrocera dorsalis"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "fruit"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "ental fruit"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "Florida"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "ach"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "inam"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "cherry"
+      }
+    ],
+    "99984": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "Pop"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "illia"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "mont"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "el"
+      }
+    ],
+    "116507": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ylella fastidiosa"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "fastidiosa"
+      }
+    ],
+    "107272": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Fusarium wilt"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ambique"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "America"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "4"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "awi"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "usarium"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "usarium fungi"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "banana"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "anas"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "usarium wilt"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "ropical"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "Race"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "20"
+      }
+    ],
+    "98191": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "UES"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "EMBER"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "NES"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "7"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "AY"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "IDAY"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "EM"
+      }
+    ],
+    "99613": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "enus spumarius"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "ylella fastidiosa"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "fastidiosa"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "lla fastidiosa"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "oxaflor"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "reth"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "aenus spumarius"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "spumarius"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "oxafl"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "lla fastidios"
+      }
+    ],
+    "107207": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ylella fastidiosa"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": ". pauca"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "Xfp"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "fp"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "ina"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "di"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "ard"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "ò"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": ". fastidiosa"
+      }
+    ],
+    "100011": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "beetle"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "ia"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ib"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "pa"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "Jul 28, 2022"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "beet"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Z"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "Italy"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "20"
+      }
+    ],
+    "102584": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Disease",
+        "canonical_form": "aves"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "cence dorée"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "vine"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "ine"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "cence"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "d"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "orée"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "cence d"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "or"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "ée"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "on"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "icino"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "aud"
+      }
+    ],
+    "106963": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "ra"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "fenam"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "Bur"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "ggra"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "rol"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "aves"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "dorée"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "avescence dorèe"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "dorèe"
+      }
+    ],
+    "116070": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "countries"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "fruits"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ruguay"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "nine"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "8"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "Africa"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "yll"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "icta citric"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "ar"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "pa"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "African"
+      }
+    ],
+    "98917": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "ylella fastidiosa"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "Portugal"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      }
+    ],
+    "116983": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ental fruit fly"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ania"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ino"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "cer"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "a Dors"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "9"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "fruit"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1229 @@
+{
+  "predicted_entities": {
+    "103963": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Vector",
+        "canonical_form": "Bursaphelenchus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "Monochamus"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "10"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "fragments"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "Supplementary"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Plant",
+        "canonical_form": "Fig"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "A4"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "12"
+      }
+    ],
+    "114259": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "First"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "05.6"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Vector",
+        "canonical_form": "23.2"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "2-3"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "primer"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "GenBank"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Vector",
+        "canonical_form": "T1/Bt2b"
+      }
+    ],
+    "116119": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "Fruit"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Disease",
+        "canonical_form": "FDGDON"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "Individuals"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "It"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "158 euros) and another smaller, with a capacity of 80 liters, for individuals who will not have them. to pay only 15 euros to equip yourself. This year, more than 2,000"
+      }
+    ],
+    "99067": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Vector",
+        "canonical_form": "Di3A"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "This"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Disease",
+        "canonical_form": "HLB"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "In"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "another"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Vector",
+        "canonical_form": "TERRA"
+      }
+    ],
+    "98142": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "Around"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "Personnel"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Senasa"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Disease",
+        "canonical_form": "HLB"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "senasa.gob.ar"
+      }
+    ],
+    "117892": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "doi.org/10.3390/electronics11213497"
+      }
+    ],
+    "107172": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "Bananas"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "Somehow"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Banana"
+      }
+    ],
+    "98783": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Vector",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "NARO-Mak"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "MAAIF"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Vector",
+        "canonical_form": "660m"
+      }
+    ],
+    "105611": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Vector",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Disease",
+        "canonical_form": "New"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "Of"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "In"
+      }
+    ],
+    "98794": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "First"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "Jung"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "6.2"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "Zheng"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "Amadioha"
+      }
+    ],
+    "117299": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "After"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "Panama"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Vector",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Vector",
+        "canonical_form": "T4R"
+      }
+    ],
+    "102488": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "re informing scientists in Brazil and other places to screen plants for it,” said Allison Hansen, an entomologist at UC Riverside. “It"
+      }
+    ],
+    "106959": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "on"
+      }
+    ],
+    "98392": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "In"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "ToBRFV"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "Solanum"
+      }
+    ],
+    "116671": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "Scandal"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "Brazil"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "530"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "which"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "is"
+      }
+    ],
+    "105652": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      }
+    ],
+    "106151": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "The"
+      }
+    ],
+    "104656": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Vector",
+        "canonical_form": "An"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Vector",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "35"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "Due"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "Once"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "We"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "It"
+      }
+    ],
+    "115106": [],
+    "99614": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "Odorant-binding"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "OBPs"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "male"
+      }
+    ],
+    "117298": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "Breakthrough"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Vector",
+        "canonical_form": "wipe"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "This"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "Multi-site"
+      }
+    ],
+    "115183": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "Read"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "To"
+      }
+    ],
+    "105862": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "Laranja/Fundecitrus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Disease",
+        "canonical_form": "huanglongbing/HLB"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "approximately"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Vector",
+        "canonical_form": "Fundecitrus"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "from"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "less"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "This"
+      }
+    ],
+    "102904": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "Transgenic"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Disease",
+        "canonical_form": "Huanglongbing"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Vector",
+        "canonical_form": "stx"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Disease",
+        "canonical_form": "HLB"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "https"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "doi.org/10.3390/ijms23169300"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Candidatus"
+      }
+    ],
+    "116223": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "In"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "potentially"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Senasica"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "Sedarpa"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "There"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Disease",
+        "canonical_form": "HLB"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "80"
+      }
+    ],
+    "99107": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "Cantabria"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "Blanco"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Vector",
+        "canonical_form": "Tamarixia"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "important"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Disease",
+        "canonical_form": "HLB"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "sanidadvegetalcantabria"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "cantabria.es"
+      }
+    ],
+    "98579": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "Legambiente"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "Immediately"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "on"
+      }
+    ],
+    "117674": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "OFFICIAL"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "Resolution"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "SENASA"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Disease",
+        "canonical_form": "Huanglongbing"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Vector",
+        "canonical_form": "Diaphorina"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "NOA"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "NEA"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "SENASA"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "Guidelines"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "585"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "233"
+      }
+    ],
+    "114379": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "CAP"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "As"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "General"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "against"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "citrus"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "commonly"
+      }
+    ],
+    "103660": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "Spodoptera"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Vector",
+        "canonical_form": "Lepidoptera"
+      }
+    ],
+    "98195": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Vector",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Senasica"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Disease",
+        "canonical_form": "HLB"
+      }
+    ],
+    "115243": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "According"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "Occitanie"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "RAOA"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "xylella"
+      }
+    ],
+    "115211": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Vector",
+        "canonical_form": "Electronic"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Vector",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Cnr-Ipsp"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "early"
+      }
+    ],
+    "106336": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "SENASA"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Banana"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "environmental"
+      }
+    ],
+    "99132": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "Popillia"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Vector",
+        "canonical_form": "The"
+      }
+    ],
+    "103847": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "MENU"
+      }
+    ],
+    "116664": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Vector",
+        "canonical_form": "Scandal"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "Scandal"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "minutes"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "Despite"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "Brazil"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "530"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "South"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "Related"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "On"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "is"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "everything"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Vector",
+        "canonical_form": "Fear"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "with"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "When"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Vector",
+        "canonical_form": "GESOP"
+      }
+    ],
+    "104499": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Disease",
+        "canonical_form": "PWN"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Disease",
+        "canonical_form": "PWD"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "doi.org/10.3390/f13091419"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "1419"
+      }
+    ],
+    "116761": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Vector",
+        "canonical_form": "Multi-site"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "20"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "200"
+      }
+    ],
+    "103669": [],
+    "104329": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ToBRFV"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "Jordbruksbyrån"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "अन"
+      }
+    ],
+    "104119": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "OneZoom"
+      }
+    ],
+    "116125": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "Oriental"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Vector",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "FDACS"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "Bactrocera"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "This"
+      }
+    ],
+    "99984": [],
+    "116507": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "Simple"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "France"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "Although"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "Abstract"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "Global"
+      }
+    ],
+    "107272": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Vector",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "That"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Dissemination_pathway",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "For"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Vector",
+        "canonical_form": "It"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "As"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "But"
+      }
+    ],
+    "98191": [],
+    "99613": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Vector",
+        "canonical_form": "Feeding"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Vector",
+        "canonical_form": "Pyrethrin"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Vector",
+        "canonical_form": "acetamiprid"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "highest"
+      }
+    ],
+    "107207": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "Susceptible"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "Olive"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "Ψstem"
+      }
+    ],
+    "100011": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Vector",
+        "canonical_form": "Great"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Vector",
+        "canonical_form": "Freiburg"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Vector",
+        "canonical_form": "LTZ"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "Popillia"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "57am"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "email"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "220728-99-185926/2"
+      }
+    ],
+    "102584": [],
+    "106963": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "Big"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Disease",
+        "canonical_form": "quot"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Vector",
+        "canonical_form": "The"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "This"
+      }
+    ],
+    "116070": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "Brazil"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "530"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "which"
+      }
+    ],
+    "98917": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "NVWA"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "For"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "In"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "And"
+      }
+    ],
+    "116983": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Vector",
+        "canonical_form": "The"
+      }
+    ]
+  }
+}

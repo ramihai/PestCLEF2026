@@ -1,0 +1,170 @@
+{
+  "predicted_mentions": {
+    "103963": [],
+    "114259": [],
+    "116119": [],
+    "99067": [],
+    "98142": [],
+    "117892": [],
+    "107172": [],
+    "98783": [],
+    "105611": [],
+    "98794": [],
+    "117299": [],
+    "102488": [],
+    "106959": [],
+    "98392": [],
+    "116671": [],
+    "105652": [],
+    "106151": [],
+    "104656": [],
+    "115106": [],
+    "99614": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "male attractant) and γ-octalactone (female",
+        "offsets": [
+          [
+            1380,
+            1422
+          ]
+        ],
+        "sentence_index": 8,
+        "layout_index": 10
+      }
+    ],
+    "117298": [],
+    "115183": [],
+    "105862": [],
+    "102904": [],
+    "116223": [],
+    "99107": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "942",
+        "offsets": [
+          [
+            5068,
+            5071
+          ]
+        ],
+        "sentence_index": 15,
+        "layout_index": 2
+      }
+    ],
+    "98579": [],
+    "117674": [],
+    "114379": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            496,
+            503
+          ]
+        ],
+        "sentence_index": 2,
+        "layout_index": 4
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "zoo",
+        "offsets": [
+          [
+            1682,
+            1685
+          ]
+        ],
+        "sentence_index": 8,
+        "layout_index": 10
+      }
+    ],
+    "103660": [],
+    "98195": [],
+    "115243": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "xylella",
+        "offsets": [
+          [
+            2502,
+            2509
+          ]
+        ],
+        "sentence_index": 15,
+        "layout_index": 9
+      }
+    ],
+    "115211": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            0,
+            7
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0
+      }
+    ],
+    "106336": [],
+    "99132": [],
+    "103847": [],
+    "116664": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Location",
+        "form": "South",
+        "offsets": [
+          [
+            1357,
+            1362
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 14
+      }
+    ],
+    "104499": [],
+    "116761": [],
+    "103669": [],
+    "104329": [],
+    "104119": [],
+    "116125": [],
+    "99984": [],
+    "116507": [],
+    "107272": [],
+    "98191": [],
+    "99613": [],
+    "107207": [],
+    "100011": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "220728-99-185926/2",
+        "offsets": [
+          [
+            2083,
+            2101
+          ]
+        ],
+        "sentence_index": 18,
+        "layout_index": 13
+      }
+    ],
+    "102584": [],
+    "106963": [],
+    "116070": [],
+    "98917": [],
+    "116983": []
+  }
+}

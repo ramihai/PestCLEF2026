@@ -1,0 +1,70 @@
+{
+  "micro": {
+    "precision": 0.125,
+    "recall": 0.0006215040397762585,
+    "f1": 0.0012368583797155224
+  },
+  "macro": {
+    "precision": 0.03571428571428571,
+    "recall": 0.00042265426880811494,
+    "f1": 0.000835421888053467
+  },
+  "per_type": {
+    "Disease": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 144
+    },
+    "Date": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 215
+    },
+    "Dissemination_pathway": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 48
+    },
+    "Location": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 2,
+      "fn": 485
+    },
+    "Pest": {
+      "precision": 0.25,
+      "recall": 0.0029585798816568047,
+      "f1": 0.005847953216374269,
+      "tp": 1,
+      "fp": 3,
+      "fn": 337
+    },
+    "Plant": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 347
+    },
+    "Vector": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "tp": 0,
+      "fp": 0,
+      "fn": 32
+    }
+  }
+}

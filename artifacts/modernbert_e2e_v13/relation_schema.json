@@ -1,0 +1,90 @@
+{
+  "schema": {
+    "Affects": [
+      {
+        "subject_type": "Disease",
+        "object_type": "Plant"
+      }
+    ],
+    "Causes": [
+      {
+        "subject_type": "Pest",
+        "object_type": "Disease"
+      }
+    ],
+    "Dispersed_by": [
+      {
+        "subject_type": "Disease",
+        "object_type": "Dissemination_pathway"
+      },
+      {
+        "subject_type": "Pest",
+        "object_type": "Dissemination_pathway"
+      }
+    ],
+    "Found_on": [
+      {
+        "subject_type": "Pest",
+        "object_type": "Dissemination_pathway"
+      },
+      {
+        "subject_type": "Pest",
+        "object_type": "Plant"
+      },
+      {
+        "subject_type": "Vector",
+        "object_type": "Dissemination_pathway"
+      },
+      {
+        "subject_type": "Vector",
+        "object_type": "Plant"
+      }
+    ],
+    "Located_in": [
+      {
+        "subject_type": "Disease",
+        "object_type": "Location"
+      },
+      {
+        "subject_type": "Pest",
+        "object_type": "Location"
+      },
+      {
+        "subject_type": "Plant",
+        "object_type": "Location"
+      },
+      {
+        "subject_type": "Vector",
+        "object_type": "Location"
+      }
+    ],
+    "Occurs_on": [
+      {
+        "subject_type": "Disease",
+        "object_type": "Date"
+      },
+      {
+        "subject_type": "Pest",
+        "object_type": "Date"
+      },
+      {
+        "subject_type": "Plant",
+        "object_type": "Date"
+      },
+      {
+        "subject_type": "Vector",
+        "object_type": "Date"
+      }
+    ],
+    "Transmits": [
+      {
+        "subject_type": "Vector",
+        "object_type": "Disease"
+      },
+      {
+        "subject_type": "Vector",
+        "object_type": "Pest"
+      }
+    ]
+  }
+}

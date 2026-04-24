@@ -1,0 +1,506 @@
+{
+  "summary": {
+    "total": 655,
+    "bad_span": 421,
+    "bad_clustering_or_canonicalization": 19,
+    "candidate_missed_by_pruning": 30,
+    "valid_candidate": 185,
+    "predicted": 108,
+    "candidate_recall": 0.2824427480916031,
+    "prediction_recall_after_candidates": 0.5837837837837838
+  },
+  "per_relation": {
+    "Transmits": {
+      "total": 5,
+      "bad_span": 4,
+      "bad_clustering_or_canonicalization": 1,
+      "candidate_missed_by_pruning": 0,
+      "valid_candidate": 0,
+      "predicted": 0,
+      "candidate_recall": 0.0,
+      "prediction_recall_after_candidates": 0.0
+    },
+    "Found_on": {
+      "total": 106,
+      "bad_span": 44,
+      "bad_clustering_or_canonicalization": 4,
+      "candidate_missed_by_pruning": 6,
+      "valid_candidate": 52,
+      "predicted": 40,
+      "candidate_recall": 0.49056603773584906,
+      "prediction_recall_after_candidates": 0.7692307692307693
+    },
+    "Causes": {
+      "total": 27,
+      "bad_span": 11,
+      "bad_clustering_or_canonicalization": 1,
+      "candidate_missed_by_pruning": 1,
+      "valid_candidate": 14,
+      "predicted": 14,
+      "candidate_recall": 0.5185185185185185,
+      "prediction_recall_after_candidates": 1.0
+    },
+    "Occurs_on": {
+      "total": 94,
+      "bad_span": 81,
+      "bad_clustering_or_canonicalization": 0,
+      "candidate_missed_by_pruning": 2,
+      "valid_candidate": 11,
+      "predicted": 7,
+      "candidate_recall": 0.11702127659574468,
+      "prediction_recall_after_candidates": 0.6363636363636364
+    },
+    "Located_in": {
+      "total": 377,
+      "bad_span": 255,
+      "bad_clustering_or_canonicalization": 10,
+      "candidate_missed_by_pruning": 18,
+      "valid_candidate": 94,
+      "predicted": 40,
+      "candidate_recall": 0.2493368700265252,
+      "prediction_recall_after_candidates": 0.425531914893617
+    },
+    "Affects": {
+      "total": 30,
+      "bad_span": 12,
+      "bad_clustering_or_canonicalization": 3,
+      "candidate_missed_by_pruning": 2,
+      "valid_candidate": 13,
+      "predicted": 6,
+      "candidate_recall": 0.43333333333333335,
+      "prediction_recall_after_candidates": 0.46153846153846156
+    },
+    "Dispersed_by": {
+      "total": 16,
+      "bad_span": 14,
+      "bad_clustering_or_canonicalization": 0,
+      "candidate_missed_by_pruning": 1,
+      "valid_candidate": 1,
+      "predicted": 1,
+      "candidate_recall": 0.0625,
+      "prediction_recall_after_candidates": 1.0
+    }
+  },
+  "sampled_failures": {
+    "bad_clustering_or_canonicalization": [
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Transmits",
+        "object": "B. xylophilus"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Causes",
+        "object": "pine wilt disease"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Located_in",
+        "object": "Europe"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Located_in",
+        "object": "Japan"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "banana",
+        "predicate": "Located_in",
+        "object": "Malawi"
+      },
+      {
+        "doc_id": "116761",
+        "subject": "Fusarium oxysporum f.sp. cubense Tropical Race 4",
+        "predicate": "Found_on",
+        "object": "banana"
+      },
+      {
+        "doc_id": "107272",
+        "subject": "banana",
+        "predicate": "Located_in",
+        "object": "Tanzania"
+      },
+      {
+        "doc_id": "107272",
+        "subject": "banana disease",
+        "predicate": "Affects",
+        "object": "banana"
+      },
+      {
+        "doc_id": "107272",
+        "subject": "Tropical Race 4",
+        "predicate": "Found_on",
+        "object": "banana"
+      },
+      {
+        "doc_id": "107272",
+        "subject": "banana",
+        "predicate": "Located_in",
+        "object": "Mozambique"
+      },
+      {
+        "doc_id": "107272",
+        "subject": "Fusarium wilt",
+        "predicate": "Affects",
+        "object": "banana"
+      },
+      {
+        "doc_id": "107272",
+        "subject": "banana",
+        "predicate": "Located_in",
+        "object": "Latin America"
+      },
+      {
+        "doc_id": "107272",
+        "subject": "banana",
+        "predicate": "Located_in",
+        "object": "Uganda"
+      },
+      {
+        "doc_id": "100011",
+        "subject": "Japanese beetle",
+        "predicate": "Found_on",
+        "object": "freight"
+      },
+      {
+        "doc_id": "100011",
+        "subject": "Japanese beetle",
+        "predicate": "Located_in",
+        "object": "Freiburg"
+      },
+      {
+        "doc_id": "100011",
+        "subject": "Japanese beetle",
+        "predicate": "Found_on",
+        "object": "tourist traffic"
+      },
+      {
+        "doc_id": "100011",
+        "subject": "Japanese beetle",
+        "predicate": "Located_in",
+        "object": "northern Italy"
+      },
+      {
+        "doc_id": "100011",
+        "subject": "Japanese beetle",
+        "predicate": "Located_in",
+        "object": "Baden-Württemberg"
+      },
+      {
+        "doc_id": "102584",
+        "subject": "flavescence dorée",
+        "predicate": "Affects",
+        "object": "vine"
+      }
+    ],
+    "bad_span": [
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Found_on",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Occurs_on",
+        "object": "late 1990s"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine wilt disease",
+        "predicate": "Occurs_on",
+        "object": "late 1990s"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine tree",
+        "predicate": "Located_in",
+        "object": "Asian countries"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Occurs_on",
+        "object": "since the beginning of the twentieth century"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine wilt disease",
+        "predicate": "Occurs_on",
+        "object": "since the beginning of the twentieth century"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Found_on",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "blueberry cultivation",
+        "predicate": "Located_in",
+        "object": "U.S.A"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "passion fruit leaf blight",
+        "predicate": "Located_in",
+        "object": "China"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe cercidis",
+        "predicate": "Found_on",
+        "object": "Populus davidiana × P. bolleana"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Postharvest Fruit Rot Disease",
+        "predicate": "Affects",
+        "object": "Hardy Kiwifruit"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "highbush blueberry",
+        "predicate": "Located_in",
+        "object": "Piedmont"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Postharvest Fruit Rot Disease",
+        "predicate": "Located_in",
+        "object": "China"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "Netherlands"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "blueberry cultivation",
+        "predicate": "Located_in",
+        "object": "Netherlands"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Vaccinium virgatum",
+        "predicate": "Located_in",
+        "object": "China"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "Lithuania"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Causes",
+        "object": "Postharvest Fruit Rot Disease"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "blueberry cultivation",
+        "predicate": "Located_in",
+        "object": "Lithuania"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "China"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "D. nobilis",
+        "predicate": "Located_in",
+        "object": "China"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "Italy"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "Korea"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Hardy Kiwifruit",
+        "predicate": "Located_in",
+        "object": "China"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "leaf spot disease",
+        "predicate": "Located_in",
+        "object": "Korea"
+      }
+    ],
+    "candidate_missed_by_pruning": [
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Dispersed_by",
+        "object": "plant material"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Located_in",
+        "object": "United States"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Located_in",
+        "object": "Mediterranean"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "citrus fruits",
+        "predicate": "Located_in",
+        "object": "Spain"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Located_in",
+        "object": "Spain"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Affects",
+        "object": "citrus fruits"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "TR4",
+        "predicate": "Found_on",
+        "object": "Cavendish banana plants"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "tropical race 1",
+        "predicate": "Found_on",
+        "object": "Cavendish banana plants"
+      },
+      {
+        "doc_id": "105611",
+        "subject": "olive trees",
+        "predicate": "Located_in",
+        "object": "entire provinces Brindisi"
+      },
+      {
+        "doc_id": "116671",
+        "subject": "Phyllosticta citricarpa",
+        "predicate": "Located_in",
+        "object": "South Africa"
+      },
+      {
+        "doc_id": "116671",
+        "subject": "Citrus Black Spot disease",
+        "predicate": "Located_in",
+        "object": "South Africa"
+      },
+      {
+        "doc_id": "117674",
+        "subject": "HLB Disease",
+        "predicate": "Affects",
+        "object": "citrus"
+      },
+      {
+        "doc_id": "103660",
+        "subject": "Spodoptera frugiperda",
+        "predicate": "Located_in",
+        "object": "Shaanxi"
+      },
+      {
+        "doc_id": "103660",
+        "subject": "Spodoptera frugiperda",
+        "predicate": "Located_in",
+        "object": "Ningxia"
+      },
+      {
+        "doc_id": "103660",
+        "subject": "Spodoptera frugiperda",
+        "predicate": "Found_on",
+        "object": "wheat"
+      },
+      {
+        "doc_id": "103660",
+        "subject": "Spodoptera frugiperda",
+        "predicate": "Found_on",
+        "object": "corn"
+      },
+      {
+        "doc_id": "115243",
+        "subject": "Xylella",
+        "predicate": "Found_on",
+        "object": "grapevines"
+      },
+      {
+        "doc_id": "115243",
+        "subject": "Xylella",
+        "predicate": "Located_in",
+        "object": "Provence-Alpes-Côte d'Azur"
+      },
+      {
+        "doc_id": "115243",
+        "subject": "Xylella",
+        "predicate": "Found_on",
+        "object": "citrus species"
+      },
+      {
+        "doc_id": "115243",
+        "subject": "Xylella",
+        "predicate": "Located_in",
+        "object": "region of Occitanie"
+      },
+      {
+        "doc_id": "115243",
+        "subject": "Xylella",
+        "predicate": "Located_in",
+        "object": "territory of France"
+      },
+      {
+        "doc_id": "107272",
+        "subject": "Fusarium wilt",
+        "predicate": "Located_in",
+        "object": "Latin America"
+      },
+      {
+        "doc_id": "100011",
+        "subject": "tourist traffic",
+        "predicate": "Located_in",
+        "object": "northern Italy"
+      },
+      {
+        "doc_id": "100011",
+        "subject": "freight",
+        "predicate": "Located_in",
+        "object": "Freiburg"
+      },
+      {
+        "doc_id": "100011",
+        "subject": "freight",
+        "predicate": "Located_in",
+        "object": "northern Italy"
+      }
+    ]
+  }
+}

@@ -1,0 +1,5198 @@
+{
+  "pre_cleanup_predicted_mentions": {
+    "103963": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 6,
+        "form": "madd-4",
+        "confidence": 0.4248040020465851
+      },
+      {
+        "entity_type": "Vector",
+        "start": 94,
+        "end": 109,
+        "form": "Bursaphelenchus",
+        "confidence": 0.44063398241996765
+      },
+      {
+        "entity_type": "Disease",
+        "start": 834,
+        "end": 841,
+        "form": "mCherry",
+        "confidence": 0.468146413564682
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2239,
+        "end": 2246,
+        "form": "mCherry",
+        "confidence": 0.5307402014732361
+      },
+      {
+        "entity_type": "Date",
+        "start": 3039,
+        "end": 3040,
+        "form": "2",
+        "confidence": 0.3138851821422577
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3553,
+        "end": 3554,
+        "form": "h",
+        "confidence": 0.5460873246192932
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3584,
+        "end": 3586,
+        "form": "J2",
+        "confidence": 0.5473067760467529
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3596,
+        "end": 3599,
+        "form": "the",
+        "confidence": 0.3649789094924927
+      },
+      {
+        "entity_type": "Date",
+        "start": 3792,
+        "end": 3793,
+        "form": "d",
+        "confidence": 0.4900510609149933
+      },
+      {
+        "entity_type": "Location",
+        "start": 4283,
+        "end": 4293,
+        "form": "Monochamus",
+        "confidence": 0.5302711725234985
+      },
+      {
+        "entity_type": "Date",
+        "start": 4299,
+        "end": 4301,
+        "form": "10",
+        "confidence": 0.40246933698654175
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3584,
+        "end": 3586,
+        "form": "J2",
+        "confidence": 0.3987717926502228
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3596,
+        "end": 3599,
+        "form": "the",
+        "confidence": 0.23457853496074677
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3792,
+        "end": 3793,
+        "form": "d",
+        "confidence": 0.43835368752479553
+      },
+      {
+        "entity_type": "Location",
+        "start": 4283,
+        "end": 4293,
+        "form": "Monochamus",
+        "confidence": 0.5685018301010132
+      },
+      {
+        "entity_type": "Date",
+        "start": 4299,
+        "end": 4301,
+        "form": "10",
+        "confidence": 0.40504190325737
+      },
+      {
+        "entity_type": "Location",
+        "start": 6364,
+        "end": 6368,
+        "form": "madd",
+        "confidence": 0.40520209074020386
+      },
+      {
+        "entity_type": "Location",
+        "start": 6471,
+        "end": 6472,
+        "form": "a",
+        "confidence": 0.3355090916156769
+      },
+      {
+        "entity_type": "Vector",
+        "start": 6556,
+        "end": 6558,
+        "form": "17",
+        "confidence": 0.1609097123146057
+      },
+      {
+        "entity_type": "Location",
+        "start": 6605,
+        "end": 6606,
+        "form": "a",
+        "confidence": 0.29289013147354126
+      },
+      {
+        "entity_type": "Location",
+        "start": 7801,
+        "end": 7805,
+        "form": "RNAi",
+        "confidence": 0.42910367250442505
+      },
+      {
+        "entity_type": "Location",
+        "start": 7801,
+        "end": 7805,
+        "form": "RNAi",
+        "confidence": 0.45171597599983215
+      },
+      {
+        "entity_type": "Disease",
+        "start": 8602,
+        "end": 8606,
+        "form": "1000",
+        "confidence": 0.322073757648468
+      },
+      {
+        "entity_type": "Vector",
+        "start": 8659,
+        "end": 8661,
+        "form": "96",
+        "confidence": 0.19802293181419373
+      },
+      {
+        "entity_type": "Location",
+        "start": 9344,
+        "end": 9351,
+        "form": "GenBank",
+        "confidence": 0.4129873514175415
+      },
+      {
+        "entity_type": "Disease",
+        "start": 9396,
+        "end": 9403,
+        "form": "GenBank",
+        "confidence": 0.45172956585884094
+      },
+      {
+        "entity_type": "Disease",
+        "start": 9432,
+        "end": 9435,
+        "form": "Fig",
+        "confidence": 0.37902596592903137
+      },
+      {
+        "entity_type": "Disease",
+        "start": 9496,
+        "end": 9500,
+        "form": "UTRs",
+        "confidence": 0.6100497841835022
+      },
+      {
+        "entity_type": "Disease",
+        "start": 9552,
+        "end": 9555,
+        "form": "ORF",
+        "confidence": 0.7876389622688293
+      },
+      {
+        "entity_type": "Disease",
+        "start": 9803,
+        "end": 9811,
+        "form": "thrombin",
+        "confidence": 0.2439790815114975
+      },
+      {
+        "entity_type": "Disease",
+        "start": 9876,
+        "end": 9895,
+        "form": "immunoglobulin-like",
+        "confidence": 0.34283193945884705
+      },
+      {
+        "entity_type": "Disease",
+        "start": 10012,
+        "end": 10015,
+        "form": "Fig",
+        "confidence": 0.6268584728240967
+      },
+      {
+        "entity_type": "Disease",
+        "start": 10441,
+        "end": 10444,
+        "form": "Fig",
+        "confidence": 0.524306058883667
+      },
+      {
+        "entity_type": "Disease",
+        "start": 10804,
+        "end": 10806,
+        "form": "II",
+        "confidence": 0.406764954328537
+      },
+      {
+        "entity_type": "Plant",
+        "start": 11135,
+        "end": 11144,
+        "form": "fragments",
+        "confidence": 0.1713130623102188
+      },
+      {
+        "entity_type": "Location",
+        "start": 11208,
+        "end": 11221,
+        "form": "Supplementary",
+        "confidence": 0.4482158124446869
+      },
+      {
+        "entity_type": "Disease",
+        "start": 10441,
+        "end": 10444,
+        "form": "Fig",
+        "confidence": 0.5173828601837158
+      },
+      {
+        "entity_type": "Disease",
+        "start": 10804,
+        "end": 10806,
+        "form": "II",
+        "confidence": 0.4397895932197571
+      },
+      {
+        "entity_type": "Disease",
+        "start": 11135,
+        "end": 11144,
+        "form": "fragments",
+        "confidence": 0.2569551467895508
+      },
+      {
+        "entity_type": "Location",
+        "start": 11208,
+        "end": 11221,
+        "form": "Supplementary",
+        "confidence": 0.5851467251777649
+      },
+      {
+        "entity_type": "Plant",
+        "start": 11422,
+        "end": 11425,
+        "form": "Fig",
+        "confidence": 0.26875120401382446
+      },
+      {
+        "entity_type": "Date",
+        "start": 11680,
+        "end": 11681,
+        "form": "r",
+        "confidence": 0.3483615815639496
+      },
+      {
+        "entity_type": "Disease",
+        "start": 11833,
+        "end": 11836,
+        "form": "Fig",
+        "confidence": 0.4674917161464691
+      },
+      {
+        "entity_type": "Date",
+        "start": 12132,
+        "end": 12133,
+        "form": "6",
+        "confidence": 0.4396824240684509
+      },
+      {
+        "entity_type": "Disease",
+        "start": 12202,
+        "end": 12205,
+        "form": "red",
+        "confidence": 0.4047349691390991
+      },
+      {
+        "entity_type": "Disease",
+        "start": 12245,
+        "end": 12250,
+        "form": "green",
+        "confidence": 0.6630468368530273
+      },
+      {
+        "entity_type": "Disease",
+        "start": 12285,
+        "end": 12288,
+        "form": "Fig",
+        "confidence": 0.39043283462524414
+      },
+      {
+        "entity_type": "Pest",
+        "start": 12294,
+        "end": 12296,
+        "form": "A4",
+        "confidence": 0.4584045112133026
+      },
+      {
+        "entity_type": "Date",
+        "start": 12326,
+        "end": 12328,
+        "form": "12",
+        "confidence": 0.3391927182674408
+      },
+      {
+        "entity_type": "Disease",
+        "start": 12385,
+        "end": 12388,
+        "form": "red",
+        "confidence": 0.43614786863327026
+      },
+      {
+        "entity_type": "Disease",
+        "start": 12437,
+        "end": 12442,
+        "form": "green",
+        "confidence": 0.8430259227752686
+      },
+      {
+        "entity_type": "Disease",
+        "start": 12445,
+        "end": 12448,
+        "form": "Fig",
+        "confidence": 0.3804095685482025
+      },
+      {
+        "entity_type": "Disease",
+        "start": 12454,
+        "end": 12456,
+        "form": "B4",
+        "confidence": 0.30643320083618164
+      },
+      {
+        "entity_type": "Disease",
+        "start": 12591,
+        "end": 12596,
+        "form": "green",
+        "confidence": 0.7395675778388977
+      },
+      {
+        "entity_type": "Disease",
+        "start": 12670,
+        "end": 12673,
+        "form": "Fig",
+        "confidence": 0.2773965895175934
+      },
+      {
+        "entity_type": "Disease",
+        "start": 12838,
+        "end": 12841,
+        "form": "Fig",
+        "confidence": 0.35204407572746277
+      },
+      {
+        "entity_type": "Pest",
+        "start": 12847,
+        "end": 12849,
+        "form": "A4",
+        "confidence": 0.5176849365234375
+      },
+      {
+        "entity_type": "Disease",
+        "start": 12917,
+        "end": 12920,
+        "form": "Fig",
+        "confidence": 0.3748452663421631
+      },
+      {
+        "entity_type": "Disease",
+        "start": 12926,
+        "end": 12928,
+        "form": "B4",
+        "confidence": 0.31219443678855896
+      },
+      {
+        "entity_type": "Disease",
+        "start": 13104,
+        "end": 13107,
+        "form": "Fig",
+        "confidence": 0.3851509690284729
+      },
+      {
+        "entity_type": "Disease",
+        "start": 13312,
+        "end": 13315,
+        "form": "red",
+        "confidence": 0.39973121881484985
+      },
+      {
+        "entity_type": "Disease",
+        "start": 13335,
+        "end": 13340,
+        "form": "green",
+        "confidence": 0.8483260869979858
+      },
+      {
+        "entity_type": "Disease",
+        "start": 13368,
+        "end": 13371,
+        "form": "Fig",
+        "confidence": 0.5219481587409973
+      },
+      {
+        "entity_type": "Disease",
+        "start": 13490,
+        "end": 13493,
+        "form": "Fig",
+        "confidence": 0.617052435874939
+      },
+      {
+        "entity_type": "Disease",
+        "start": 13312,
+        "end": 13315,
+        "form": "red",
+        "confidence": 0.5317450761795044
+      },
+      {
+        "entity_type": "Disease",
+        "start": 13335,
+        "end": 13340,
+        "form": "green",
+        "confidence": 0.8441372513771057
+      },
+      {
+        "entity_type": "Disease",
+        "start": 13368,
+        "end": 13371,
+        "form": "Fig",
+        "confidence": 0.42075315117836
+      },
+      {
+        "entity_type": "Disease",
+        "start": 13490,
+        "end": 13493,
+        "form": "Fig",
+        "confidence": 0.5803957581520081
+      },
+      {
+        "entity_type": "Disease",
+        "start": 14060,
+        "end": 14063,
+        "form": "Fig",
+        "confidence": 0.23962737619876862
+      },
+      {
+        "entity_type": "Disease",
+        "start": 14255,
+        "end": 14258,
+        "form": "Fig",
+        "confidence": 0.3326561748981476
+      },
+      {
+        "entity_type": "Disease",
+        "start": 14429,
+        "end": 14432,
+        "form": "Fig",
+        "confidence": 0.25481557846069336
+      },
+      {
+        "entity_type": "Disease",
+        "start": 14664,
+        "end": 14667,
+        "form": "Fig",
+        "confidence": 0.37207749485969543
+      },
+      {
+        "entity_type": "Location",
+        "start": 14901,
+        "end": 14904,
+        "form": "Fig",
+        "confidence": 0.232293039560318
+      },
+      {
+        "entity_type": "Location",
+        "start": 15056,
+        "end": 15059,
+        "form": "Fig",
+        "confidence": 0.2736751139163971
+      }
+    ],
+    "114259": [
+      {
+        "entity_type": "Date",
+        "start": 0,
+        "end": 5,
+        "form": "First",
+        "confidence": 0.288020521402359
+      },
+      {
+        "entity_type": "Disease",
+        "start": 86,
+        "end": 95,
+        "form": "Vaccinium",
+        "confidence": 0.46435806155204773
+      },
+      {
+        "entity_type": "Disease",
+        "start": 378,
+        "end": 385,
+        "form": "FAOSTAT",
+        "confidence": 0.4578586518764496
+      },
+      {
+        "entity_type": "Disease",
+        "start": 536,
+        "end": 538,
+        "form": "cv",
+        "confidence": 0.8212542533874512
+      },
+      {
+        "entity_type": "Disease",
+        "start": 610,
+        "end": 618,
+        "form": "Piedmont",
+        "confidence": 0.3561161458492279
+      },
+      {
+        "entity_type": "Pest",
+        "start": 641,
+        "end": 645,
+        "form": "05.6",
+        "confidence": 0.4265567660331726
+      },
+      {
+        "entity_type": "Disease",
+        "start": 647,
+        "end": 648,
+        "form": "N",
+        "confidence": 0.21408429741859436
+      },
+      {
+        "entity_type": "Vector",
+        "start": 655,
+        "end": 659,
+        "form": "23.2",
+        "confidence": 0.37428048253059387
+      },
+      {
+        "entity_type": "Pest",
+        "start": 767,
+        "end": 771,
+        "form": "5-10",
+        "confidence": 0.31913992762565613
+      },
+      {
+        "entity_type": "Plant",
+        "start": 959,
+        "end": 962,
+        "form": "2-3",
+        "confidence": 0.23687034845352173
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1053,
+        "end": 1056,
+        "form": "PDA",
+        "confidence": 0.8361391425132751
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1320,
+        "end": 1327,
+        "form": "CVG1130",
+        "confidence": 0.6745330095291138
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1769,
+        "end": 1772,
+        "form": "PCR",
+        "confidence": 0.7466415166854858
+      },
+      {
+        "entity_type": "Location",
+        "start": 1801,
+        "end": 1807,
+        "form": "primer",
+        "confidence": 0.674271285533905
+      },
+      {
+        "entity_type": "Location",
+        "start": 1825,
+        "end": 1832,
+        "form": "GenBank",
+        "confidence": 0.651182234287262
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1873,
+        "end": 1888,
+        "form": "EF1-728/EF1-986",
+        "confidence": 0.4905892312526703
+      },
+      {
+        "entity_type": "Location",
+        "start": 1891,
+        "end": 1898,
+        "form": "GenBank",
+        "confidence": 0.4743104875087738
+      },
+      {
+        "entity_type": "Vector",
+        "start": 1943,
+        "end": 1950,
+        "form": "T1/Bt2b",
+        "confidence": 0.4743695557117462
+      },
+      {
+        "entity_type": "Location",
+        "start": 1953,
+        "end": 1960,
+        "form": "GenBank",
+        "confidence": 0.47353219985961914
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2041,
+        "end": 2046,
+        "form": "Gomes",
+        "confidence": 0.4302370846271515
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2124,
+        "end": 2132,
+        "form": "Altschul",
+        "confidence": 0.5961664915084839
+      },
+      {
+        "entity_type": "Location",
+        "start": 2231,
+        "end": 2238,
+        "form": "GenBank",
+        "confidence": 0.47349655628204346
+      },
+      {
+        "entity_type": "Location",
+        "start": 2288,
+        "end": 2295,
+        "form": "GenBank",
+        "confidence": 0.4326649308204651
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2346,
+        "end": 2353,
+        "form": "GenBank",
+        "confidence": 0.3375549614429474
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2568,
+        "end": 2581,
+        "form": "Supplementary",
+        "confidence": 0.8416992425918579
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2828,
+        "end": 2829,
+        "form": "5",
+        "confidence": 0.47922277450561523
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3656,
+        "end": 3660,
+        "form": "Farr",
+        "confidence": 0.7810859084129333
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3656,
+        "end": 3660,
+        "form": "Farr",
+        "confidence": 0.7334023714065552
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4300,
+        "end": 4309,
+        "form": "Vaccinium",
+        "confidence": 0.4478536546230316
+      }
+    ],
+    "116119": [
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 0,
+        "end": 5,
+        "form": "Fruit",
+        "confidence": 0.8115773797035217
+      },
+      {
+        "entity_type": "Pest",
+        "start": 92,
+        "end": 95,
+        "form": "How",
+        "confidence": 0.2505941689014435
+      },
+      {
+        "entity_type": "Disease",
+        "start": 601,
+        "end": 603,
+        "form": "We",
+        "confidence": 0.3293091356754303
+      },
+      {
+        "entity_type": "Disease",
+        "start": 891,
+        "end": 897,
+        "form": "FDGDON",
+        "confidence": 0.8898097276687622
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1087,
+        "end": 1090,
+        "form": "000",
+        "confidence": 0.4954572916030884
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 1099,
+        "end": 1110,
+        "form": "Individuals",
+        "confidence": 0.41439491510391235
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1237,
+        "end": 1239,
+        "form": "If",
+        "confidence": 0.3261060416698456
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 1481,
+        "end": 1483,
+        "form": "It",
+        "confidence": 0.21239842474460602
+      },
+      {
+        "entity_type": "Date",
+        "start": 2176,
+        "end": 2344,
+        "form": "158 euros) and another smaller, with a capacity of 80 liters, for individuals who will not have them. to pay only 15 euros to equip yourself. This year, more than 2,000",
+        "confidence": 0.38226205110549927
+      }
+    ],
+    "99067": [
+      {
+        "entity_type": "Disease",
+        "start": 0,
+        "end": 10,
+        "form": "Innovative",
+        "confidence": 0.3457604944705963
+      },
+      {
+        "entity_type": "Location",
+        "start": 64,
+        "end": 67,
+        "form": "The",
+        "confidence": 0.30224740505218506
+      },
+      {
+        "entity_type": "Date",
+        "start": 197,
+        "end": 200,
+        "form": "The",
+        "confidence": 0.47827354073524475
+      },
+      {
+        "entity_type": "Vector",
+        "start": 557,
+        "end": 561,
+        "form": "Di3A",
+        "confidence": 0.7941304445266724
+      },
+      {
+        "entity_type": "Location",
+        "start": 723,
+        "end": 728,
+        "form": "Order",
+        "confidence": 0.3790610432624817
+      },
+      {
+        "entity_type": "Location",
+        "start": 780,
+        "end": 784,
+        "form": "This",
+        "confidence": 0.5694101452827454
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1475,
+        "end": 1478,
+        "form": "HLB",
+        "confidence": 0.9771649241447449
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1520,
+        "end": 1526,
+        "form": "frosts",
+        "confidence": 0.5846074819564819
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1604,
+        "end": 1608,
+        "form": "size",
+        "confidence": 0.5012947916984558
+      },
+      {
+        "entity_type": "Location",
+        "start": 1818,
+        "end": 1822,
+        "form": "They",
+        "confidence": 0.3532417416572571
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1879,
+        "end": 1881,
+        "form": "or",
+        "confidence": 0.302246630191803
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2303,
+        "end": 2307,
+        "form": "Vida",
+        "confidence": 0.5566758513450623
+      },
+      {
+        "entity_type": "Date",
+        "start": 3420,
+        "end": 3422,
+        "form": "In",
+        "confidence": 0.9790998101234436
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3866,
+        "end": 3877,
+        "form": "anthocyanin",
+        "confidence": 0.5323341488838196
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4152,
+        "end": 4159,
+        "form": "favored",
+        "confidence": 0.4560169577598572
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4727,
+        "end": 4734,
+        "form": "another",
+        "confidence": 0.4082985818386078
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3866,
+        "end": 3877,
+        "form": "anthocyanin",
+        "confidence": 0.5533814430236816
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4152,
+        "end": 4159,
+        "form": "favored",
+        "confidence": 0.4833352565765381
+      },
+      {
+        "entity_type": "Date",
+        "start": 4727,
+        "end": 4734,
+        "form": "another",
+        "confidence": 0.21308939158916473
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4860,
+        "end": 4862,
+        "form": "Ct",
+        "confidence": 0.660716712474823
+      },
+      {
+        "entity_type": "Disease",
+        "start": 5128,
+        "end": 5130,
+        "form": "kg",
+        "confidence": 0.4492143392562866
+      },
+      {
+        "entity_type": "Vector",
+        "start": 5222,
+        "end": 5227,
+        "form": "TERRA",
+        "confidence": 0.3379408121109009
+      }
+    ],
+    "98142": [
+      {
+        "entity_type": "Date",
+        "start": 0,
+        "end": 6,
+        "form": "Around",
+        "confidence": 0.5522153377532959
+      },
+      {
+        "entity_type": "Plant",
+        "start": 10,
+        "end": 13,
+        "form": "000",
+        "confidence": 0.3603157103061676
+      },
+      {
+        "entity_type": "Disease",
+        "start": 105,
+        "end": 108,
+        "form": "HLB",
+        "confidence": 0.8138351440429688
+      },
+      {
+        "entity_type": "Location",
+        "start": 172,
+        "end": 181,
+        "form": "Personnel",
+        "confidence": 0.8266327381134033
+      },
+      {
+        "entity_type": "Location",
+        "start": 241,
+        "end": 247,
+        "form": "Senasa",
+        "confidence": 0.6663415431976318
+      },
+      {
+        "entity_type": "Disease",
+        "start": 272,
+        "end": 275,
+        "form": "000",
+        "confidence": 0.3228519558906555
+      },
+      {
+        "entity_type": "Disease",
+        "start": 380,
+        "end": 383,
+        "form": "HLB",
+        "confidence": 0.9414907097816467
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1045,
+        "end": 1048,
+        "form": "000",
+        "confidence": 0.29152703285217285
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1071,
+        "end": 1074,
+        "form": "768",
+        "confidence": 0.32625579833984375
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1128,
+        "end": 1136,
+        "form": "poncirus",
+        "confidence": 0.6653119325637817
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1528,
+        "end": 1531,
+        "form": "000",
+        "confidence": 0.3801720142364502
+      },
+      {
+        "entity_type": "Plant",
+        "start": 1998,
+        "end": 2001,
+        "form": "900",
+        "confidence": 0.3483274281024933
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2039,
+        "end": 2042,
+        "form": "387",
+        "confidence": 0.5151670575141907
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2081,
+        "end": 2084,
+        "form": "000",
+        "confidence": 0.6375529766082764
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2198,
+        "end": 2201,
+        "form": "000",
+        "confidence": 0.36907583475112915
+      },
+      {
+        "entity_type": "Pest",
+        "start": 2403,
+        "end": 2416,
+        "form": "senasa.gob.ar",
+        "confidence": 0.45382872223854065
+      }
+    ],
+    "117892": [
+      {
+        "entity_type": "Disease",
+        "start": 0,
+        "end": 4,
+        "form": "Fast",
+        "confidence": 0.3632778823375702
+      },
+      {
+        "entity_type": "Disease",
+        "start": 91,
+        "end": 105,
+        "form": "High-precision",
+        "confidence": 0.548976480960846
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 1395,
+        "end": 1398,
+        "form": "000",
+        "confidence": 0.5432681441307068
+      },
+      {
+        "entity_type": "Location",
+        "start": 1962,
+        "end": 1964,
+        "form": "21",
+        "confidence": 0.2749294340610504
+      },
+      {
+        "entity_type": "Location",
+        "start": 1981,
+        "end": 2016,
+        "form": "doi.org/10.3390/electronics11213497",
+        "confidence": 0.47591206431388855
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2026,
+        "end": 2041,
+        "form": "phytopathogenic",
+        "confidence": 0.3297226130962372
+      },
+      {
+        "entity_type": "Location",
+        "start": 2366,
+        "end": 2371,
+        "form": "https",
+        "confidence": 0.45572081208229065
+      },
+      {
+        "entity_type": "Location",
+        "start": 2374,
+        "end": 2409,
+        "form": "doi.org/10.3390/electronics11213497",
+        "confidence": 0.7470510601997375
+      },
+      {
+        "entity_type": "Location",
+        "start": 2585,
+        "end": 2587,
+        "form": "21",
+        "confidence": 0.27153781056404114
+      },
+      {
+        "entity_type": "Vector",
+        "start": 2589,
+        "end": 2593,
+        "form": "3497",
+        "confidence": 0.43376225233078003
+      },
+      {
+        "entity_type": "Location",
+        "start": 2595,
+        "end": 2600,
+        "form": "https",
+        "confidence": 0.45592549443244934
+      },
+      {
+        "entity_type": "Location",
+        "start": 2603,
+        "end": 2638,
+        "form": "doi.org/10.3390/electronics11213497",
+        "confidence": 0.6962641477584839
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2765,
+        "end": 2769,
+        "form": "Fast",
+        "confidence": 0.35213881731033325
+      },
+      {
+        "entity_type": "Location",
+        "start": 2887,
+        "end": 2892,
+        "form": "https",
+        "confidence": 0.4283437132835388
+      },
+      {
+        "entity_type": "Location",
+        "start": 2895,
+        "end": 2930,
+        "form": "doi.org/10.3390/electronics11213497",
+        "confidence": 0.6750911474227905
+      }
+    ],
+    "107172": [
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 0,
+        "end": 7,
+        "form": "Bananas",
+        "confidence": 0.5040608048439026
+      },
+      {
+        "entity_type": "Disease",
+        "start": 68,
+        "end": 450,
+        "form": "A way to make Cavendish banana plants temporarily resistant to Fusarium fungus could lead to new ways to protect them from Panama disease Bananas threatened by devastating fungus given temporary resistance A way to make Cavendish banana plants temporarily resistant to Fusarium fungus could lead to new ways to protect them from Panama disease Banana plants that produce the world’s",
+        "confidence": 0.24311119318008423
+      },
+      {
+        "entity_type": "Location",
+        "start": 707,
+        "end": 832,
+        "form": "The question is, can we continuously trigger this mechanism?” says Gert Kema at Wageningen University in the Netherlands. “We",
+        "confidence": 0.21663005650043488
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1019,
+        "end": 1186,
+        "form": "TR1), which causes Panama disease, began wiping out plantations in banana-producing areas. By the late 1950s, growers had switched to the Cavendish banana, which isn’t",
+        "confidence": 0.4818638116121292
+      },
+      {
+        "entity_type": "Plant",
+        "start": 1988,
+        "end": 1995,
+        "form": "Somehow",
+        "confidence": 0.19934454560279846
+      },
+      {
+        "entity_type": "Location",
+        "start": 2089,
+        "end": 2092,
+        "form": "But",
+        "confidence": 0.18209727108478546
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2225,
+        "end": 2675,
+        "form": "t have immune cells that remember pathogens like animals do, so the effect is the result of switching on general protective mechanisms rather than specific ones that result from a vaccine. The team is now trying to work out the precise mechanisms in bananas, with the aim of finding ways to permanently turn them on without exposing plants to a live fungal disease. Even if it can be done, this, or other approaches such as genetic engineering, won’t",
+        "confidence": 0.4111179858446121
+      },
+      {
+        "entity_type": "Vector",
+        "start": 2699,
+        "end": 2700,
+        "form": "s",
+        "confidence": 0.20769159495830536
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2820,
+        "end": 2821,
+        "form": "s",
+        "confidence": 0.4016197621822357
+      },
+      {
+        "entity_type": "Location",
+        "start": 3355,
+        "end": 3361,
+        "form": "Banana",
+        "confidence": 0.773753821849823
+      }
+    ],
+    "98783": [
+      {
+        "entity_type": "Disease",
+        "start": 0,
+        "end": 3,
+        "form": "New",
+        "confidence": 0.5000825524330139
+      },
+      {
+        "entity_type": "Vector",
+        "start": 55,
+        "end": 58,
+        "form": "The",
+        "confidence": 0.25822681188583374
+      },
+      {
+        "entity_type": "Location",
+        "start": 228,
+        "end": 231,
+        "form": "New",
+        "confidence": 0.2765370309352875
+      },
+      {
+        "entity_type": "Location",
+        "start": 415,
+        "end": 423,
+        "form": "NARO-Mak",
+        "confidence": 0.5083779096603394
+      },
+      {
+        "entity_type": "Disease",
+        "start": 744,
+        "end": 747,
+        "form": "The",
+        "confidence": 0.3902689218521118
+      },
+      {
+        "entity_type": "Disease",
+        "start": 900,
+        "end": 904,
+        "form": "1.5b",
+        "confidence": 0.35326844453811646
+      },
+      {
+        "entity_type": "Disease",
+        "start": 906,
+        "end": 919,
+        "form": "approximately",
+        "confidence": 0.8006147742271423
+      },
+      {
+        "entity_type": "Location",
+        "start": 1169,
+        "end": 1174,
+        "form": "MAAIF",
+        "confidence": 0.6273175477981567
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1944,
+        "end": 1947,
+        "form": "DRC",
+        "confidence": 0.8210226893424988
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2184,
+        "end": 2187,
+        "form": "DRC",
+        "confidence": 0.8236108422279358
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2210,
+        "end": 2212,
+        "form": "If",
+        "confidence": 0.17215596139431
+      },
+      {
+        "entity_type": "Location",
+        "start": 2469,
+        "end": 2471,
+        "form": "We",
+        "confidence": 0.18966473639011383
+      },
+      {
+        "entity_type": "Location",
+        "start": 3141,
+        "end": 3146,
+        "form": "MAAIF",
+        "confidence": 0.622438907623291
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3167,
+        "end": 3169,
+        "form": "As",
+        "confidence": 0.2743298411369324
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3524,
+        "end": 3531,
+        "form": "Without",
+        "confidence": 0.2400289922952652
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3840,
+        "end": 3844,
+        "form": "479m",
+        "confidence": 0.3613794147968292
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3846,
+        "end": 3851,
+        "form": "about",
+        "confidence": 0.4309577941894531
+      },
+      {
+        "entity_type": "Vector",
+        "start": 3891,
+        "end": 3895,
+        "form": "660m",
+        "confidence": 0.2582298219203949
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3897,
+        "end": 3910,
+        "form": "approximately",
+        "confidence": 0.7855265140533447
+      }
+    ],
+    "105611": [
+      {
+        "entity_type": "Vector",
+        "start": 0,
+        "end": 3,
+        "form": "The",
+        "confidence": 0.3247933089733124
+      },
+      {
+        "entity_type": "Pest",
+        "start": 127,
+        "end": 137,
+        "form": "Coldiretti",
+        "confidence": 0.32255831360816956
+      },
+      {
+        "entity_type": "Disease",
+        "start": 174,
+        "end": 177,
+        "form": "New",
+        "confidence": 0.8686867952346802
+      },
+      {
+        "entity_type": "Vector",
+        "start": 265,
+        "end": 268,
+        "form": "The",
+        "confidence": 0.3882768452167511
+      },
+      {
+        "entity_type": "Disease",
+        "start": 437,
+        "end": 440,
+        "form": "New",
+        "confidence": 0.9132562279701233
+      },
+      {
+        "entity_type": "Date",
+        "start": 718,
+        "end": 720,
+        "form": "Of",
+        "confidence": 0.5701854228973389
+      },
+      {
+        "entity_type": "Location",
+        "start": 1694,
+        "end": 1695,
+        "form": "a",
+        "confidence": 0.3418717384338379
+      },
+      {
+        "entity_type": "Date",
+        "start": 2015,
+        "end": 2017,
+        "form": "In",
+        "confidence": 0.7447397112846375
+      }
+    ],
+    "98794": [
+      {
+        "entity_type": "Date",
+        "start": 0,
+        "end": 5,
+        "form": "First",
+        "confidence": 0.4476720094680786
+      },
+      {
+        "entity_type": "Disease",
+        "start": 35,
+        "end": 38,
+        "form": "syn",
+        "confidence": 0.35899224877357483
+      },
+      {
+        "entity_type": "Disease",
+        "start": 231,
+        "end": 234,
+        "form": "Cui",
+        "confidence": 0.48882025480270386
+      },
+      {
+        "entity_type": "Disease",
+        "start": 305,
+        "end": 308,
+        "form": "Fig",
+        "confidence": 0.7873602509498596
+      },
+      {
+        "entity_type": "Disease",
+        "start": 463,
+        "end": 464,
+        "form": "N",
+        "confidence": 0.3049389719963074
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1185,
+        "end": 1188,
+        "form": "PDA",
+        "confidence": 0.7590351104736328
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1474,
+        "end": 1477,
+        "form": "ITS",
+        "confidence": 0.48167964816093445
+      },
+      {
+        "entity_type": "Plant",
+        "start": 1497,
+        "end": 1501,
+        "form": "Jung",
+        "confidence": 0.46418923139572144
+      },
+      {
+        "entity_type": "Location",
+        "start": 1566,
+        "end": 1575,
+        "form": "accession",
+        "confidence": 0.3374584913253784
+      },
+      {
+        "entity_type": "Location",
+        "start": 1600,
+        "end": 1609,
+        "form": "accession",
+        "confidence": 0.33972975611686707
+      },
+      {
+        "entity_type": "Location",
+        "start": 1634,
+        "end": 1643,
+        "form": "accession",
+        "confidence": 0.2872178554534912
+      },
+      {
+        "entity_type": "Location",
+        "start": 1668,
+        "end": 1677,
+        "form": "accession",
+        "confidence": 0.31795409321784973
+      },
+      {
+        "entity_type": "Location",
+        "start": 1705,
+        "end": 1714,
+        "form": "accession",
+        "confidence": 0.3395498991012573
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1777,
+        "end": 1780,
+        "form": "syn",
+        "confidence": 0.5747246742248535
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1921,
+        "end": 1928,
+        "form": "Walther",
+        "confidence": 0.42552268505096436
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2022,
+        "end": 2025,
+        "form": "syn",
+        "confidence": 0.43877774477005005
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2045,
+        "end": 2048,
+        "form": "Fig",
+        "confidence": 0.6591395139694214
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2270,
+        "end": 2273,
+        "form": "Fig",
+        "confidence": 0.8301904797554016
+      },
+      {
+        "entity_type": "Pest",
+        "start": 2360,
+        "end": 2363,
+        "form": "6.2",
+        "confidence": 0.4457149803638458
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2379,
+        "end": 2382,
+        "form": "4.1",
+        "confidence": 0.25361862778663635
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2394,
+        "end": 2395,
+        "form": "n",
+        "confidence": 0.9100950360298157
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2457,
+        "end": 2459,
+        "form": "65",
+        "confidence": 0.5889659523963928
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2471,
+        "end": 2472,
+        "form": "n",
+        "confidence": 0.9045475721359253
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2621,
+        "end": 2624,
+        "form": "syn",
+        "confidence": 0.5023238062858582
+      },
+      {
+        "entity_type": "Plant",
+        "start": 2644,
+        "end": 2649,
+        "form": "Zheng",
+        "confidence": 0.42071810364723206
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3209,
+        "end": 3212,
+        "form": "Fig",
+        "confidence": 0.6129224896430969
+      },
+      {
+        "entity_type": "Location",
+        "start": 3534,
+        "end": 3542,
+        "form": "Amadioha",
+        "confidence": 0.34030967950820923
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3638,
+        "end": 3641,
+        "form": "syn",
+        "confidence": 0.5512029528617859
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3209,
+        "end": 3212,
+        "form": "Fig",
+        "confidence": 0.670107901096344
+      },
+      {
+        "entity_type": "Location",
+        "start": 3534,
+        "end": 3542,
+        "form": "Amadioha",
+        "confidence": 0.5635135173797607
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3638,
+        "end": 3641,
+        "form": "syn",
+        "confidence": 0.5245604515075684
+      }
+    ],
+    "117299": [
+      {
+        "entity_type": "Disease",
+        "start": 0,
+        "end": 3,
+        "form": "New",
+        "confidence": 0.37718307971954346
+      },
+      {
+        "entity_type": "Date",
+        "start": 65,
+        "end": 70,
+        "form": "After",
+        "confidence": 0.9464518427848816
+      },
+      {
+        "entity_type": "Location",
+        "start": 266,
+        "end": 272,
+        "form": "Panama",
+        "confidence": 0.45489034056663513
+      },
+      {
+        "entity_type": "Location",
+        "start": 943,
+        "end": 949,
+        "form": "Panama",
+        "confidence": 0.5257238745689392
+      },
+      {
+        "entity_type": "Vector",
+        "start": 1138,
+        "end": 1141,
+        "form": "The",
+        "confidence": 0.4167579710483551
+      },
+      {
+        "entity_type": "Vector",
+        "start": 1681,
+        "end": 1684,
+        "form": "T4R",
+        "confidence": 0.810890257358551
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1855,
+        "end": 1858,
+        "form": "000",
+        "confidence": 0.48665332794189453
+      }
+    ],
+    "102488": [
+      {
+        "entity_type": "Disease",
+        "start": 0,
+        "end": 7,
+        "form": "Quickly",
+        "confidence": 0.4440743029117584
+      },
+      {
+        "entity_type": "Disease",
+        "start": 97,
+        "end": 105,
+        "form": "Psyllids",
+        "confidence": 0.17195859551429749
+      },
+      {
+        "entity_type": "Disease",
+        "start": 487,
+        "end": 504,
+        "form": "or beneficial—the",
+        "confidence": 0.37550146877765656
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2216,
+        "end": 2218,
+        "form": "We",
+        "confidence": 0.20464372634887695
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 2219,
+        "end": 2353,
+        "form": "re informing scientists in Brazil and other places to screen plants for it,” said Allison Hansen, an entomologist at UC Riverside. “It",
+        "confidence": 0.20294705033302307
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2376,
+        "end": 2377,
+        "form": "s",
+        "confidence": 0.6720772981643677
+      }
+    ],
+    "106959": [
+      {
+        "entity_type": "Date",
+        "start": 0,
+        "end": 2,
+        "form": "on",
+        "confidence": 0.4076610505580902
+      },
+      {
+        "entity_type": "Disease",
+        "start": 135,
+        "end": 142,
+        "form": "defined",
+        "confidence": 0.3282342851161957
+      }
+    ],
+    "98392": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 11,
+        "form": "Elimination",
+        "confidence": 0.41125035285949707
+      },
+      {
+        "entity_type": "Date",
+        "start": 103,
+        "end": 105,
+        "form": "In",
+        "confidence": 0.9092437028884888
+      },
+      {
+        "entity_type": "Pest",
+        "start": 196,
+        "end": 202,
+        "form": "ToBRFV",
+        "confidence": 0.8364553451538086
+      },
+      {
+        "entity_type": "Plant",
+        "start": 248,
+        "end": 255,
+        "form": "Solanum",
+        "confidence": 0.45120084285736084
+      },
+      {
+        "entity_type": "Pest",
+        "start": 297,
+        "end": 305,
+        "form": "Capsicum",
+        "confidence": 0.3015472888946533
+      }
+    ],
+    "116671": [
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 0,
+        "end": 7,
+        "form": "Scandal",
+        "confidence": 0.26913216710090637
+      },
+      {
+        "entity_type": "Location",
+        "start": 81,
+        "end": 85,
+        "form": "They",
+        "confidence": 0.24733488261699677
+      },
+      {
+        "entity_type": "Disease",
+        "start": 417,
+        "end": 427,
+        "form": "scandalous",
+        "confidence": 0.5856960415840149
+      },
+      {
+        "entity_type": "Location",
+        "start": 724,
+        "end": 730,
+        "form": "Brazil",
+        "confidence": 0.9337192177772522
+      },
+      {
+        "entity_type": "Date",
+        "start": 909,
+        "end": 912,
+        "form": "530",
+        "confidence": 0.2705927789211273
+      },
+      {
+        "entity_type": "Vector",
+        "start": 940,
+        "end": 943,
+        "form": "200",
+        "confidence": 0.3456234633922577
+      },
+      {
+        "entity_type": "Date",
+        "start": 1439,
+        "end": 1444,
+        "form": "which",
+        "confidence": 0.253350168466568
+      },
+      {
+        "entity_type": "Date",
+        "start": 2398,
+        "end": 2400,
+        "form": "is",
+        "confidence": 0.34321632981300354
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2750,
+        "end": 2758,
+        "form": "anything",
+        "confidence": 0.2814505100250244
+      },
+      {
+        "entity_type": "Location",
+        "start": 3303,
+        "end": 3307,
+        "form": "with",
+        "confidence": 0.2233416736125946
+      }
+    ],
+    "105652": [
+      {
+        "entity_type": "Pest",
+        "start": 0,
+        "end": 7,
+        "form": "Xylella",
+        "confidence": 0.3846261203289032
+      }
+    ],
+    "106151": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 6,
+        "form": "Global",
+        "confidence": 0.3321109712123871
+      },
+      {
+        "entity_type": "Date",
+        "start": 117,
+        "end": 120,
+        "form": "The",
+        "confidence": 0.35390782356262207
+      },
+      {
+        "entity_type": "Disease",
+        "start": 153,
+        "end": 156,
+        "form": "FAW",
+        "confidence": 0.42585650086402893
+      }
+    ],
+    "104656": [
+      {
+        "entity_type": "Vector",
+        "start": 0,
+        "end": 2,
+        "form": "An",
+        "confidence": 0.15992575883865356
+      },
+      {
+        "entity_type": "Vector",
+        "start": 73,
+        "end": 76,
+        "form": "The",
+        "confidence": 0.4302266836166382
+      },
+      {
+        "entity_type": "Disease",
+        "start": 432,
+        "end": 436,
+        "form": "This",
+        "confidence": 0.3018687963485718
+      },
+      {
+        "entity_type": "Disease",
+        "start": 673,
+        "end": 676,
+        "form": "ALB",
+        "confidence": 0.7042015194892883
+      },
+      {
+        "entity_type": "Disease",
+        "start": 751,
+        "end": 755,
+        "form": "FOEN",
+        "confidence": 0.8642032742500305
+      },
+      {
+        "entity_type": "Vector",
+        "start": 848,
+        "end": 851,
+        "form": "The",
+        "confidence": 0.3203287422657013
+      },
+      {
+        "entity_type": "Date",
+        "start": 1043,
+        "end": 1045,
+        "form": "35",
+        "confidence": 0.4871218800544739
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1409,
+        "end": 1414,
+        "form": "lu.ch",
+        "confidence": 0.26992863416671753
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1500,
+        "end": 1503,
+        "form": "zgc",
+        "confidence": 0.5027695298194885
+      },
+      {
+        "entity_type": "Date",
+        "start": 1774,
+        "end": 1777,
+        "form": "Due",
+        "confidence": 0.2584449350833893
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1965,
+        "end": 1967,
+        "form": "He",
+        "confidence": 0.20379464328289032
+      },
+      {
+        "entity_type": "Date",
+        "start": 2375,
+        "end": 2379,
+        "form": "Once",
+        "confidence": 0.3800465762615204
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 2899,
+        "end": 2901,
+        "form": "We",
+        "confidence": 0.17302502691745758
+      },
+      {
+        "entity_type": "Vector",
+        "start": 3033,
+        "end": 3036,
+        "form": "The",
+        "confidence": 0.4311447739601135
+      },
+      {
+        "entity_type": "Location",
+        "start": 3385,
+        "end": 3387,
+        "form": "FR",
+        "confidence": 0.4461761713027954
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3421,
+        "end": 3424,
+        "form": "000",
+        "confidence": 0.4299187958240509
+      },
+      {
+        "entity_type": "Location",
+        "start": 3556,
+        "end": 3558,
+        "form": "We",
+        "confidence": 0.26026996970176697
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 3723,
+        "end": 3725,
+        "form": "It",
+        "confidence": 0.41313472390174866
+      }
+    ],
+    "115106": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 6,
+        "form": "Canker",
+        "confidence": 0.28569284081459045
+      },
+      {
+        "entity_type": "Location",
+        "start": 50,
+        "end": 60,
+        "form": "Introduced",
+        "confidence": 0.29079335927963257
+      },
+      {
+        "entity_type": "Pest",
+        "start": 1936,
+        "end": 1940,
+        "form": "Azur",
+        "confidence": 0.2215452343225479
+      }
+    ],
+    "99614": [
+      {
+        "entity_type": "Pest",
+        "start": 0,
+        "end": 2,
+        "form": "An",
+        "confidence": 0.2988412380218506
+      },
+      {
+        "entity_type": "Plant",
+        "start": 141,
+        "end": 156,
+        "form": "Odorant-binding",
+        "confidence": 0.581855833530426
+      },
+      {
+        "entity_type": "Location",
+        "start": 167,
+        "end": 171,
+        "form": "OBPs",
+        "confidence": 0.38310009241104126
+      },
+      {
+        "entity_type": "Location",
+        "start": 794,
+        "end": 798,
+        "form": "OBPs",
+        "confidence": 0.4744434356689453
+      },
+      {
+        "entity_type": "Plant",
+        "start": 1380,
+        "end": 1384,
+        "form": "male",
+        "confidence": 0.3111211359500885
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1416,
+        "end": 1422,
+        "form": "female",
+        "confidence": 0.38705867528915405
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1588,
+        "end": 1597,
+        "form": "dipentene",
+        "confidence": 0.3813057243824005
+      }
+    ],
+    "117298": [
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 0,
+        "end": 12,
+        "form": "Breakthrough",
+        "confidence": 0.5523346066474915
+      },
+      {
+        "entity_type": "Disease",
+        "start": 55,
+        "end": 60,
+        "form": "Image",
+        "confidence": 0.5899116396903992
+      },
+      {
+        "entity_type": "Vector",
+        "start": 591,
+        "end": 592,
+        "form": "s",
+        "confidence": 0.19830691814422607
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1264,
+        "end": 1274,
+        "form": "fungicides",
+        "confidence": 0.80937659740448
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1329,
+        "end": 1332,
+        "form": "GFS",
+        "confidence": 0.8421875238418579
+      },
+      {
+        "entity_type": "Location",
+        "start": 1759,
+        "end": 1769,
+        "form": "resistance",
+        "confidence": 0.30827945470809937
+      },
+      {
+        "entity_type": "Location",
+        "start": 2242,
+        "end": 2249,
+        "form": "Bananas",
+        "confidence": 0.46015554666519165
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2262,
+        "end": 2263,
+        "form": "s",
+        "confidence": 0.4217853248119354
+      },
+      {
+        "entity_type": "Vector",
+        "start": 2304,
+        "end": 2308,
+        "form": "wipe",
+        "confidence": 0.23427645862102509
+      },
+      {
+        "entity_type": "Location",
+        "start": 2629,
+        "end": 2632,
+        "form": "Our",
+        "confidence": 0.29661765694618225
+      },
+      {
+        "entity_type": "Location",
+        "start": 3022,
+        "end": 3026,
+        "form": "This",
+        "confidence": 0.4869382679462433
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3133,
+        "end": 3134,
+        "form": "s",
+        "confidence": 0.3307413160800934
+      },
+      {
+        "entity_type": "Location",
+        "start": 3520,
+        "end": 3524,
+        "form": "Prof",
+        "confidence": 0.1672290712594986
+      },
+      {
+        "entity_type": "Location",
+        "start": 3549,
+        "end": 3550,
+        "form": "s",
+        "confidence": 0.2353588342666626
+      },
+      {
+        "entity_type": "Location",
+        "start": 3824,
+        "end": 3834,
+        "form": "Multi-site",
+        "confidence": 0.5931973457336426
+      }
+    ],
+    "115183": [
+      {
+        "entity_type": "Pest",
+        "start": 0,
+        "end": 7,
+        "form": "Xylella",
+        "confidence": 0.5438004732131958
+      },
+      {
+        "entity_type": "Date",
+        "start": 60,
+        "end": 64,
+        "form": "Read",
+        "confidence": 0.5462297201156616
+      },
+      {
+        "entity_type": "Disease",
+        "start": 209,
+        "end": 213,
+        "form": "ANSA",
+        "confidence": 0.6884424090385437
+      },
+      {
+        "entity_type": "Date",
+        "start": 677,
+        "end": 679,
+        "form": "To",
+        "confidence": 0.2795623540878296
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1049,
+        "end": 1053,
+        "form": "ANSA",
+        "confidence": 0.4789367616176605
+      }
+    ],
+    "105862": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 19,
+        "form": "Laranja/Fundecitrus",
+        "confidence": 0.51240074634552
+      },
+      {
+        "entity_type": "Disease",
+        "start": 76,
+        "end": 82,
+        "form": "Annual",
+        "confidence": 0.8182481527328491
+      },
+      {
+        "entity_type": "Disease",
+        "start": 111,
+        "end": 128,
+        "form": "huanglongbing/HLB",
+        "confidence": 0.917035698890686
+      },
+      {
+        "entity_type": "Date",
+        "start": 235,
+        "end": 248,
+        "form": "approximately",
+        "confidence": 0.5785735249519348
+      },
+      {
+        "entity_type": "Vector",
+        "start": 418,
+        "end": 429,
+        "form": "Fundecitrus",
+        "confidence": 0.7386634349822998
+      },
+      {
+        "entity_type": "Location",
+        "start": 862,
+        "end": 864,
+        "form": "We",
+        "confidence": 0.18213976919651031
+      },
+      {
+        "entity_type": "Date",
+        "start": 1812,
+        "end": 1816,
+        "form": "from",
+        "confidence": 0.7792487144470215
+      },
+      {
+        "entity_type": "Date",
+        "start": 1852,
+        "end": 1856,
+        "form": "from",
+        "confidence": 0.6156056523323059
+      },
+      {
+        "entity_type": "Location",
+        "start": 2022,
+        "end": 2026,
+        "form": "8.90",
+        "confidence": 0.33100593090057373
+      },
+      {
+        "entity_type": "Date",
+        "start": 2118,
+        "end": 2122,
+        "form": "less",
+        "confidence": 0.42566272616386414
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2643,
+        "end": 2649,
+        "form": "insect",
+        "confidence": 0.38809871673583984
+      },
+      {
+        "entity_type": "Date",
+        "start": 2820,
+        "end": 2824,
+        "form": "This",
+        "confidence": 0.31753137707710266
+      }
+    ],
+    "102904": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 10,
+        "form": "Transgenic",
+        "confidence": 0.7349041700363159
+      },
+      {
+        "entity_type": "Disease",
+        "start": 110,
+        "end": 120,
+        "form": "Candidatus",
+        "confidence": 0.46149948239326477
+      },
+      {
+        "entity_type": "Disease",
+        "start": 145,
+        "end": 158,
+        "form": "Huanglongbing",
+        "confidence": 0.8873450756072998
+      },
+      {
+        "entity_type": "Disease",
+        "start": 160,
+        "end": 169,
+        "form": "otherwise",
+        "confidence": 0.8737435340881348
+      },
+      {
+        "entity_type": "Disease",
+        "start": 322,
+        "end": 332,
+        "form": "Candidatus",
+        "confidence": 0.4558655917644501
+      },
+      {
+        "entity_type": "Disease",
+        "start": 358,
+        "end": 362,
+        "form": "CLas",
+        "confidence": 0.796977698802948
+      },
+      {
+        "entity_type": "Disease",
+        "start": 560,
+        "end": 564,
+        "form": "AMPs",
+        "confidence": 0.808048665523529
+      },
+      {
+        "entity_type": "Vector",
+        "start": 779,
+        "end": 782,
+        "form": "stx",
+        "confidence": 0.216558039188385
+      },
+      {
+        "entity_type": "Location",
+        "start": 1970,
+        "end": 1980,
+        "form": "Candidatus",
+        "confidence": 0.2754133343696594
+      },
+      {
+        "entity_type": "Location",
+        "start": 2042,
+        "end": 2044,
+        "form": "16",
+        "confidence": 0.2888958752155304
+      },
+      {
+        "entity_type": "Location",
+        "start": 2061,
+        "end": 2089,
+        "form": "doi.org/10.3390/ijms23169300",
+        "confidence": 0.4529576003551483
+      },
+      {
+        "entity_type": "Location",
+        "start": 2117,
+        "end": 2118,
+        "form": "L",
+        "confidence": 0.4345714747905731
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2173,
+        "end": 2176,
+        "form": "GMC",
+        "confidence": 0.8328579664230347
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2202,
+        "end": 2205,
+        "form": "AMP",
+        "confidence": 0.36458784341812134
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2223,
+        "end": 2226,
+        "form": "HLB",
+        "confidence": 0.9772794246673584
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2288,
+        "end": 2291,
+        "form": "ZIP",
+        "confidence": 0.32884421944618225
+      },
+      {
+        "entity_type": "Location",
+        "start": 2510,
+        "end": 2520,
+        "form": "Candidatus",
+        "confidence": 0.35713085532188416
+      },
+      {
+        "entity_type": "Location",
+        "start": 2580,
+        "end": 2585,
+        "form": "https",
+        "confidence": 0.5760182738304138
+      },
+      {
+        "entity_type": "Location",
+        "start": 2588,
+        "end": 2616,
+        "form": "doi.org/10.3390/ijms23169300",
+        "confidence": 0.5749489068984985
+      },
+      {
+        "entity_type": "Location",
+        "start": 2802,
+        "end": 2812,
+        "form": "Candidatus",
+        "confidence": 0.3980264365673065
+      },
+      {
+        "entity_type": "Location",
+        "start": 2892,
+        "end": 2894,
+        "form": "16",
+        "confidence": 0.5031870007514954
+      },
+      {
+        "entity_type": "Vector",
+        "start": 2896,
+        "end": 2900,
+        "form": "9300",
+        "confidence": 0.5302575826644897
+      },
+      {
+        "entity_type": "Location",
+        "start": 2902,
+        "end": 2907,
+        "form": "https",
+        "confidence": 0.6097235083580017
+      },
+      {
+        "entity_type": "Location",
+        "start": 2910,
+        "end": 2938,
+        "form": "doi.org/10.3390/ijms23169300",
+        "confidence": 0.5311795473098755
+      },
+      {
+        "entity_type": "Location",
+        "start": 3092,
+        "end": 3102,
+        "form": "Transgenic",
+        "confidence": 0.48825621604919434
+      },
+      {
+        "entity_type": "Location",
+        "start": 3202,
+        "end": 3212,
+        "form": "Candidatus",
+        "confidence": 0.4726855754852295
+      },
+      {
+        "entity_type": "Location",
+        "start": 3300,
+        "end": 3305,
+        "form": "https",
+        "confidence": 0.6246163845062256
+      },
+      {
+        "entity_type": "Location",
+        "start": 3308,
+        "end": 3336,
+        "form": "doi.org/10.3390/ijms23169300",
+        "confidence": 0.5944617390632629
+      }
+    ],
+    "116223": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 2,
+        "form": "In",
+        "confidence": 0.43154609203338623
+      },
+      {
+        "entity_type": "Date",
+        "start": 66,
+        "end": 68,
+        "form": "In",
+        "confidence": 0.24486853182315826
+      },
+      {
+        "entity_type": "Plant",
+        "start": 111,
+        "end": 122,
+        "form": "potentially",
+        "confidence": 0.45764073729515076
+      },
+      {
+        "entity_type": "Plant",
+        "start": 232,
+        "end": 243,
+        "form": "potentially",
+        "confidence": 0.43118423223495483
+      },
+      {
+        "entity_type": "Location",
+        "start": 363,
+        "end": 371,
+        "form": "Senasica",
+        "confidence": 0.5443751811981201
+      },
+      {
+        "entity_type": "Location",
+        "start": 552,
+        "end": 559,
+        "form": "Sedarpa",
+        "confidence": 0.5000960230827332
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 1037,
+        "end": 1042,
+        "form": "There",
+        "confidence": 0.30760708451271057
+      },
+      {
+        "entity_type": "Location",
+        "start": 1425,
+        "end": 1429,
+        "form": "They",
+        "confidence": 0.24705909192562103
+      },
+      {
+        "entity_type": "Location",
+        "start": 1784,
+        "end": 1788,
+        "form": "does",
+        "confidence": 0.30754733085632324
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2047,
+        "end": 2050,
+        "form": "HLB",
+        "confidence": 0.9759848117828369
+      },
+      {
+        "entity_type": "Date",
+        "start": 2168,
+        "end": 2170,
+        "form": "80",
+        "confidence": 0.4743627905845642
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2643,
+        "end": 2644,
+        "form": "I",
+        "confidence": 0.2728053331375122
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2990,
+        "end": 2993,
+        "form": "you",
+        "confidence": 0.24319492280483246
+      }
+    ],
+    "99107": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 9,
+        "form": "Cantabria",
+        "confidence": 0.8525941967964172
+      },
+      {
+        "entity_type": "Plant",
+        "start": 21,
+        "end": 24,
+        "form": "154",
+        "confidence": 0.1979367733001709
+      },
+      {
+        "entity_type": "Location",
+        "start": 91,
+        "end": 97,
+        "form": "Blanco",
+        "confidence": 0.8112859725952148
+      },
+      {
+        "entity_type": "Location",
+        "start": 205,
+        "end": 211,
+        "form": "Blanco",
+        "confidence": 0.802892804145813
+      },
+      {
+        "entity_type": "Disease",
+        "start": 358,
+        "end": 364,
+        "form": "EUROPE",
+        "confidence": 0.5419442653656006
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 464,
+        "end": 467,
+        "form": "154",
+        "confidence": 0.27919480204582214
+      },
+      {
+        "entity_type": "Vector",
+        "start": 497,
+        "end": 506,
+        "form": "Tamarixia",
+        "confidence": 0.9373325705528259
+      },
+      {
+        "entity_type": "Disease",
+        "start": 807,
+        "end": 818,
+        "form": "Villaescusa",
+        "confidence": 0.43054646253585815
+      },
+      {
+        "entity_type": "Disease",
+        "start": 959,
+        "end": 963,
+        "form": "CIFA",
+        "confidence": 0.48588860034942627
+      },
+      {
+        "entity_type": "Location",
+        "start": 1752,
+        "end": 1761,
+        "form": "important",
+        "confidence": 0.7665324211120605
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1831,
+        "end": 1834,
+        "form": "The",
+        "confidence": 0.2095022201538086
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2376,
+        "end": 2380,
+        "form": "very",
+        "confidence": 0.39559751749038696
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2741,
+        "end": 2745,
+        "form": "test",
+        "confidence": 0.5812614560127258
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3002,
+        "end": 3005,
+        "form": "OCB",
+        "confidence": 0.7826862931251526
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3054,
+        "end": 3058,
+        "form": "high",
+        "confidence": 0.44401639699935913
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4335,
+        "end": 4338,
+        "form": "HLB",
+        "confidence": 0.9851731061935425
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4370,
+        "end": 4378,
+        "form": "Greening",
+        "confidence": 0.5694928765296936
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4335,
+        "end": 4338,
+        "form": "HLB",
+        "confidence": 0.9783445596694946
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4370,
+        "end": 4378,
+        "form": "Greening",
+        "confidence": 0.5617637634277344
+      },
+      {
+        "entity_type": "Disease",
+        "start": 5068,
+        "end": 5071,
+        "form": "942",
+        "confidence": 0.5205461382865906
+      },
+      {
+        "entity_type": "Location",
+        "start": 5095,
+        "end": 5118,
+        "form": "sanidadvegetalcantabria",
+        "confidence": 0.7019482851028442
+      },
+      {
+        "entity_type": "Location",
+        "start": 5119,
+        "end": 5131,
+        "form": "cantabria.es",
+        "confidence": 0.48557594418525696
+      }
+    ],
+    "98579": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 11,
+        "form": "Legambiente",
+        "confidence": 0.50209641456604
+      },
+      {
+        "entity_type": "Date",
+        "start": 99,
+        "end": 110,
+        "form": "Immediately",
+        "confidence": 0.3968510031700134
+      },
+      {
+        "entity_type": "Location",
+        "start": 328,
+        "end": 339,
+        "form": "Immediately",
+        "confidence": 0.44122985005378723
+      },
+      {
+        "entity_type": "Date",
+        "start": 1262,
+        "end": 1264,
+        "form": "on",
+        "confidence": 0.44912269711494446
+      }
+    ],
+    "117674": [
+      {
+        "entity_type": "Plant",
+        "start": 0,
+        "end": 8,
+        "form": "OFFICIAL",
+        "confidence": 0.30764490365982056
+      },
+      {
+        "entity_type": "Location",
+        "start": 95,
+        "end": 105,
+        "form": "Resolution",
+        "confidence": 0.635315477848053
+      },
+      {
+        "entity_type": "Pest",
+        "start": 139,
+        "end": 145,
+        "form": "SENASA",
+        "confidence": 0.430795818567276
+      },
+      {
+        "entity_type": "Disease",
+        "start": 213,
+        "end": 222,
+        "form": "APN-DGTYA",
+        "confidence": 0.7891488671302795
+      },
+      {
+        "entity_type": "Pest",
+        "start": 223,
+        "end": 229,
+        "form": "SENASA",
+        "confidence": 0.3602088391780853
+      },
+      {
+        "entity_type": "Plant",
+        "start": 244,
+        "end": 247,
+        "form": "888",
+        "confidence": 0.39119651913642883
+      },
+      {
+        "entity_type": "Disease",
+        "start": 255,
+        "end": 258,
+        "form": "233",
+        "confidence": 0.3207904100418091
+      },
+      {
+        "entity_type": "Pest",
+        "start": 419,
+        "end": 425,
+        "form": "SENASA",
+        "confidence": 0.44698548316955566
+      },
+      {
+        "entity_type": "Pest",
+        "start": 473,
+        "end": 479,
+        "form": "SENASA",
+        "confidence": 0.5223162770271301
+      },
+      {
+        "entity_type": "Pest",
+        "start": 525,
+        "end": 531,
+        "form": "SENASA",
+        "confidence": 0.44493409991264343
+      },
+      {
+        "entity_type": "Disease",
+        "start": 651,
+        "end": 660,
+        "form": "APN-DGTYA",
+        "confidence": 0.8153109550476074
+      },
+      {
+        "entity_type": "Pest",
+        "start": 661,
+        "end": 667,
+        "form": "SENASA",
+        "confidence": 0.3714805543422699
+      },
+      {
+        "entity_type": "Plant",
+        "start": 682,
+        "end": 685,
+        "form": "888",
+        "confidence": 0.3765740990638733
+      },
+      {
+        "entity_type": "Disease",
+        "start": 693,
+        "end": 696,
+        "form": "233",
+        "confidence": 0.3783123195171356
+      },
+      {
+        "entity_type": "Pest",
+        "start": 857,
+        "end": 863,
+        "form": "SENASA",
+        "confidence": 0.4440340995788574
+      },
+      {
+        "entity_type": "Pest",
+        "start": 911,
+        "end": 917,
+        "form": "SENASA",
+        "confidence": 0.4760167598724365
+      },
+      {
+        "entity_type": "Pest",
+        "start": 963,
+        "end": 969,
+        "form": "SENASA",
+        "confidence": 0.5021342039108276
+      },
+      {
+        "entity_type": "Pest",
+        "start": 1013,
+        "end": 1019,
+        "form": "SENASA",
+        "confidence": 0.3769260346889496
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1144,
+        "end": 1147,
+        "form": "233",
+        "confidence": 0.30214375257492065
+      },
+      {
+        "entity_type": "Location",
+        "start": 1775,
+        "end": 1781,
+        "form": "SENASA",
+        "confidence": 0.2670721411705017
+      },
+      {
+        "entity_type": "Location",
+        "start": 2398,
+        "end": 2401,
+        "form": "888",
+        "confidence": 0.3000170588493347
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2459,
+        "end": 2472,
+        "form": "Huanglongbing",
+        "confidence": 0.9569341540336609
+      },
+      {
+        "entity_type": "Pest",
+        "start": 2655,
+        "end": 2661,
+        "form": "SENASA",
+        "confidence": 0.44477054476737976
+      },
+      {
+        "entity_type": "Pest",
+        "start": 2984,
+        "end": 2990,
+        "form": "SENASA",
+        "confidence": 0.40503859519958496
+      },
+      {
+        "entity_type": "Vector",
+        "start": 3119,
+        "end": 3129,
+        "form": "Diaphorina",
+        "confidence": 0.8092299699783325
+      },
+      {
+        "entity_type": "Pest",
+        "start": 3201,
+        "end": 3207,
+        "form": "SENASA",
+        "confidence": 0.42651695013046265
+      },
+      {
+        "entity_type": "Pest",
+        "start": 2984,
+        "end": 2990,
+        "form": "SENASA",
+        "confidence": 0.2678062915802002
+      },
+      {
+        "entity_type": "Vector",
+        "start": 3119,
+        "end": 3129,
+        "form": "Diaphorina",
+        "confidence": 0.8983626961708069
+      },
+      {
+        "entity_type": "Pest",
+        "start": 3201,
+        "end": 3207,
+        "form": "SENASA",
+        "confidence": 0.30194351077079773
+      },
+      {
+        "entity_type": "Location",
+        "start": 4099,
+        "end": 4102,
+        "form": "NOA",
+        "confidence": 0.4701685309410095
+      },
+      {
+        "entity_type": "Location",
+        "start": 4310,
+        "end": 4313,
+        "form": "NEA",
+        "confidence": 0.5127705931663513
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4505,
+        "end": 4511,
+        "form": "citrus",
+        "confidence": 0.4918970763683319
+      },
+      {
+        "entity_type": "Plant",
+        "start": 5065,
+        "end": 5071,
+        "form": "SENASA",
+        "confidence": 0.35304898023605347
+      },
+      {
+        "entity_type": "Vector",
+        "start": 5526,
+        "end": 5527,
+        "form": "s",
+        "confidence": 0.21466107666492462
+      },
+      {
+        "entity_type": "Location",
+        "start": 5939,
+        "end": 5943,
+        "form": "INTA",
+        "confidence": 0.39165475964546204
+      },
+      {
+        "entity_type": "Disease",
+        "start": 6111,
+        "end": 6116,
+        "form": "EEAOC",
+        "confidence": 0.5796023607254028
+      },
+      {
+        "entity_type": "Disease",
+        "start": 6261,
+        "end": 6267,
+        "form": "AFINOA",
+        "confidence": 0.4435977339744568
+      },
+      {
+        "entity_type": "Location",
+        "start": 6558,
+        "end": 6568,
+        "form": "Guidelines",
+        "confidence": 0.6001818776130676
+      },
+      {
+        "entity_type": "Disease",
+        "start": 6743,
+        "end": 6749,
+        "form": "COSAVE",
+        "confidence": 0.41734200716018677
+      },
+      {
+        "entity_type": "Disease",
+        "start": 6764,
+        "end": 6769,
+        "form": "EEAOC",
+        "confidence": 0.6085020899772644
+      },
+      {
+        "entity_type": "Disease",
+        "start": 5939,
+        "end": 5943,
+        "form": "INTA",
+        "confidence": 0.43537387251853943
+      },
+      {
+        "entity_type": "Disease",
+        "start": 6111,
+        "end": 6116,
+        "form": "EEAOC",
+        "confidence": 0.6424737572669983
+      },
+      {
+        "entity_type": "Disease",
+        "start": 6261,
+        "end": 6267,
+        "form": "AFINOA",
+        "confidence": 0.5803606510162354
+      },
+      {
+        "entity_type": "Location",
+        "start": 6558,
+        "end": 6568,
+        "form": "Guidelines",
+        "confidence": 0.6733511686325073
+      },
+      {
+        "entity_type": "Disease",
+        "start": 6743,
+        "end": 6749,
+        "form": "COSAVE",
+        "confidence": 0.476254403591156
+      },
+      {
+        "entity_type": "Disease",
+        "start": 6764,
+        "end": 6769,
+        "form": "EEAOC",
+        "confidence": 0.6869676113128662
+      },
+      {
+        "entity_type": "Date",
+        "start": 8139,
+        "end": 8142,
+        "form": "585",
+        "confidence": 0.7844266295433044
+      },
+      {
+        "entity_type": "Vector",
+        "start": 8301,
+        "end": 8311,
+        "form": "Diaphorina",
+        "confidence": 0.8209763169288635
+      },
+      {
+        "entity_type": "Vector",
+        "start": 8484,
+        "end": 8494,
+        "form": "Diaphorina",
+        "confidence": 0.8444801568984985
+      },
+      {
+        "entity_type": "Disease",
+        "start": 8900,
+        "end": 8903,
+        "form": "egg",
+        "confidence": 0.8326955437660217
+      },
+      {
+        "entity_type": "Pest",
+        "start": 9177,
+        "end": 9183,
+        "form": "SENASA",
+        "confidence": 0.3267371654510498
+      },
+      {
+        "entity_type": "Date",
+        "start": 10075,
+        "end": 10078,
+        "form": "233",
+        "confidence": 0.32456719875335693
+      },
+      {
+        "entity_type": "Date",
+        "start": 10075,
+        "end": 10078,
+        "form": "233",
+        "confidence": 0.2998933494091034
+      }
+    ],
+    "114379": [
+      {
+        "entity_type": "Disease",
+        "start": 0,
+        "end": 8,
+        "form": "Bacteria",
+        "confidence": 0.2776206433773041
+      },
+      {
+        "entity_type": "Location",
+        "start": 88,
+        "end": 91,
+        "form": "The",
+        "confidence": 0.8715186715126038
+      },
+      {
+        "entity_type": "Disease",
+        "start": 131,
+        "end": 144,
+        "form": "phytosanitary",
+        "confidence": 0.35004615783691406
+      },
+      {
+        "entity_type": "Plant",
+        "start": 204,
+        "end": 207,
+        "form": "The",
+        "confidence": 0.27576297521591187
+      },
+      {
+        "entity_type": "Pest",
+        "start": 219,
+        "end": 226,
+        "form": "Xylella",
+        "confidence": 0.6179133057594299
+      },
+      {
+        "entity_type": "Location",
+        "start": 423,
+        "end": 426,
+        "form": "CAP",
+        "confidence": 0.5194870233535767
+      },
+      {
+        "entity_type": "Date",
+        "start": 430,
+        "end": 432,
+        "form": "As",
+        "confidence": 0.5996322631835938
+      },
+      {
+        "entity_type": "Pest",
+        "start": 496,
+        "end": 503,
+        "form": "Xylella",
+        "confidence": 0.6197696924209595
+      },
+      {
+        "entity_type": "Location",
+        "start": 635,
+        "end": 642,
+        "form": "General",
+        "confidence": 0.8083544969558716
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 894,
+        "end": 901,
+        "form": "against",
+        "confidence": 0.23727795481681824
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1018,
+        "end": 1024,
+        "form": "acacia",
+        "confidence": 0.3885597288608551
+      },
+      {
+        "entity_type": "Plant",
+        "start": 1039,
+        "end": 1045,
+        "form": "citrus",
+        "confidence": 0.3164125084877014
+      },
+      {
+        "entity_type": "Plant",
+        "start": 1058,
+        "end": 1064,
+        "form": "citrus",
+        "confidence": 0.32040777802467346
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1270,
+        "end": 1279,
+        "form": "Philaenus",
+        "confidence": 0.4825844466686249
+      },
+      {
+        "entity_type": "Location",
+        "start": 1292,
+        "end": 1300,
+        "form": "commonly",
+        "confidence": 0.7485675811767578
+      },
+      {
+        "entity_type": "Pest",
+        "start": 1623,
+        "end": 1630,
+        "form": "Xylella",
+        "confidence": 0.7164024710655212
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1682,
+        "end": 1685,
+        "form": "zoo",
+        "confidence": 0.283099502325058
+      }
+    ],
+    "103660": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 8,
+        "form": "Analysis",
+        "confidence": 0.27281075716018677
+      },
+      {
+        "entity_type": "Plant",
+        "start": 77,
+        "end": 87,
+        "form": "Spodoptera",
+        "confidence": 0.4369488060474396
+      },
+      {
+        "entity_type": "Location",
+        "start": 100,
+        "end": 101,
+        "form": "J",
+        "confidence": 0.37748315930366516
+      },
+      {
+        "entity_type": "Vector",
+        "start": 114,
+        "end": 125,
+        "form": "Lepidoptera",
+        "confidence": 0.338899701833725
+      },
+      {
+        "entity_type": "Plant",
+        "start": 556,
+        "end": 557,
+        "form": "J",
+        "confidence": 0.3728450536727905
+      },
+      {
+        "entity_type": "Vector",
+        "start": 570,
+        "end": 581,
+        "form": "Lepidoptera",
+        "confidence": 0.38783973455429077
+      }
+    ],
+    "98195": [
+      {
+        "entity_type": "Vector",
+        "start": 0,
+        "end": 3,
+        "form": "The",
+        "confidence": 0.35666584968566895
+      },
+      {
+        "entity_type": "Location",
+        "start": 51,
+        "end": 54,
+        "form": "The",
+        "confidence": 0.6370335221290588
+      },
+      {
+        "entity_type": "Location",
+        "start": 116,
+        "end": 121,
+        "form": "OIRSA",
+        "confidence": 0.45994845032691956
+      },
+      {
+        "entity_type": "Location",
+        "start": 217,
+        "end": 225,
+        "form": "Senasica",
+        "confidence": 0.6502205729484558
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1117,
+        "end": 1120,
+        "form": "HLB",
+        "confidence": 0.9837172031402588
+      }
+    ],
+    "115243": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 3,
+        "form": "The",
+        "confidence": 0.23361042141914368
+      },
+      {
+        "entity_type": "Date",
+        "start": 70,
+        "end": 79,
+        "form": "According",
+        "confidence": 0.4797074794769287
+      },
+      {
+        "entity_type": "Disease",
+        "start": 428,
+        "end": 435,
+        "form": "nursery",
+        "confidence": 0.7520564198493958
+      },
+      {
+        "entity_type": "Disease",
+        "start": 864,
+        "end": 871,
+        "form": "nursery",
+        "confidence": 0.6722580790519714
+      },
+      {
+        "entity_type": "Location",
+        "start": 1282,
+        "end": 1291,
+        "form": "Occitanie",
+        "confidence": 0.6669625043869019
+      },
+      {
+        "entity_type": "Location",
+        "start": 1319,
+        "end": 1323,
+        "form": "Azur",
+        "confidence": 0.2875349223613739
+      },
+      {
+        "entity_type": "Location",
+        "start": 1325,
+        "end": 1329,
+        "form": "RAOA",
+        "confidence": 0.7294086813926697
+      },
+      {
+        "entity_type": "Location",
+        "start": 2285,
+        "end": 2290,
+        "form": "after",
+        "confidence": 0.28651389479637146
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2416,
+        "end": 2425,
+        "form": "detection",
+        "confidence": 0.6032570600509644
+      },
+      {
+        "entity_type": "Pest",
+        "start": 2502,
+        "end": 2509,
+        "form": "xylella",
+        "confidence": 0.580722451210022
+      }
+    ],
+    "115211": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 7,
+        "form": "Xylella",
+        "confidence": 0.41650065779685974
+      },
+      {
+        "entity_type": "Vector",
+        "start": 64,
+        "end": 74,
+        "form": "Electronic",
+        "confidence": 0.24091000854969025
+      },
+      {
+        "entity_type": "Location",
+        "start": 622,
+        "end": 630,
+        "form": "Cnr-Ipsp",
+        "confidence": 0.3428103029727936
+      },
+      {
+        "entity_type": "Disease",
+        "start": 686,
+        "end": 693,
+        "form": "Cnr-Ifn",
+        "confidence": 0.385006844997406
+      },
+      {
+        "entity_type": "Disease",
+        "start": 791,
+        "end": 805,
+        "form": "Pharmaceutical",
+        "confidence": 0.4178914427757263
+      },
+      {
+        "entity_type": "Vector",
+        "start": 959,
+        "end": 962,
+        "form": "The",
+        "confidence": 0.2171742171049118
+      },
+      {
+        "entity_type": "Location",
+        "start": 1686,
+        "end": 1694,
+        "form": "Cnr-Ipsp",
+        "confidence": 0.5458033680915833
+      },
+      {
+        "entity_type": "Date",
+        "start": 1708,
+        "end": 1713,
+        "form": "early",
+        "confidence": 0.500618040561676
+      }
+    ],
+    "106336": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 6,
+        "form": "SENASA",
+        "confidence": 0.775165855884552
+      },
+      {
+        "entity_type": "Location",
+        "start": 103,
+        "end": 106,
+        "form": "The",
+        "confidence": 0.5253050923347473
+      },
+      {
+        "entity_type": "Location",
+        "start": 145,
+        "end": 151,
+        "form": "SENASA",
+        "confidence": 0.5482080578804016
+      },
+      {
+        "entity_type": "Disease",
+        "start": 304,
+        "end": 307,
+        "form": "Foc",
+        "confidence": 0.6872034668922424
+      },
+      {
+        "entity_type": "Location",
+        "start": 445,
+        "end": 448,
+        "form": "The",
+        "confidence": 0.6269136667251587
+      },
+      {
+        "entity_type": "Location",
+        "start": 487,
+        "end": 493,
+        "form": "SENASA",
+        "confidence": 0.5249505043029785
+      },
+      {
+        "entity_type": "Disease",
+        "start": 646,
+        "end": 649,
+        "form": "Foc",
+        "confidence": 0.67740398645401
+      },
+      {
+        "entity_type": "Location",
+        "start": 1649,
+        "end": 1660,
+        "form": "Development",
+        "confidence": 0.32735878229141235
+      },
+      {
+        "entity_type": "Location",
+        "start": 1764,
+        "end": 1770,
+        "form": "Banana",
+        "confidence": 0.8018118143081665
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1963,
+        "end": 1968,
+        "form": "NPPOs",
+        "confidence": 0.6509790420532227
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 2422,
+        "end": 2435,
+        "form": "environmental",
+        "confidence": 0.3231385052204132
+      }
+    ],
+    "99132": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 8,
+        "form": "Popillia",
+        "confidence": 0.5709813237190247
+      },
+      {
+        "entity_type": "Location",
+        "start": 55,
+        "end": 59,
+        "form": "œOur",
+        "confidence": 0.3094645142555237
+      },
+      {
+        "entity_type": "Vector",
+        "start": 78,
+        "end": 81,
+        "form": "The",
+        "confidence": 0.410620778799057
+      },
+      {
+        "entity_type": "Location",
+        "start": 169,
+        "end": 177,
+        "form": "Popillia",
+        "confidence": 0.5910796523094177
+      },
+      {
+        "entity_type": "Location",
+        "start": 224,
+        "end": 228,
+        "form": "œOur",
+        "confidence": 0.2864449620246887
+      }
+    ],
+    "103847": [
+      {
+        "entity_type": "Pest",
+        "start": 0,
+        "end": 7,
+        "form": "Xylella",
+        "confidence": 0.47773364186286926
+      },
+      {
+        "entity_type": "Location",
+        "start": 66,
+        "end": 70,
+        "form": "MENU",
+        "confidence": 0.5678605437278748
+      }
+    ],
+    "116664": [
+      {
+        "entity_type": "Vector",
+        "start": 0,
+        "end": 7,
+        "form": "Scandal",
+        "confidence": 0.20279574394226074
+      },
+      {
+        "entity_type": "Location",
+        "start": 81,
+        "end": 88,
+        "form": "Farmers",
+        "confidence": 0.3508586585521698
+      },
+      {
+        "entity_type": "Plant",
+        "start": 215,
+        "end": 222,
+        "form": "Scandal",
+        "confidence": 0.278790682554245
+      },
+      {
+        "entity_type": "Location",
+        "start": 296,
+        "end": 303,
+        "form": "Farmers",
+        "confidence": 0.28787961602211
+      },
+      {
+        "entity_type": "Date",
+        "start": 420,
+        "end": 427,
+        "form": "minutes",
+        "confidence": 0.2844765782356262
+      },
+      {
+        "entity_type": "Date",
+        "start": 428,
+        "end": 435,
+        "form": "Despite",
+        "confidence": 0.4859777092933655
+      },
+      {
+        "entity_type": "Disease",
+        "start": 669,
+        "end": 679,
+        "form": "scandalous",
+        "confidence": 0.5528885722160339
+      },
+      {
+        "entity_type": "Location",
+        "start": 952,
+        "end": 955,
+        "form": "The",
+        "confidence": 0.42788445949554443
+      },
+      {
+        "entity_type": "Location",
+        "start": 976,
+        "end": 982,
+        "form": "Brazil",
+        "confidence": 0.9290611147880554
+      },
+      {
+        "entity_type": "Date",
+        "start": 1161,
+        "end": 1164,
+        "form": "530",
+        "confidence": 0.27008870244026184
+      },
+      {
+        "entity_type": "Vector",
+        "start": 1192,
+        "end": 1195,
+        "form": "200",
+        "confidence": 0.3233664035797119
+      },
+      {
+        "entity_type": "Location",
+        "start": 1357,
+        "end": 1362,
+        "form": "South",
+        "confidence": 0.707759439945221
+      },
+      {
+        "entity_type": "Location",
+        "start": 1370,
+        "end": 1375,
+        "form": "South",
+        "confidence": 0.6327484250068665
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1689,
+        "end": 1694,
+        "form": "which",
+        "confidence": 0.2136320173740387
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1750,
+        "end": 1756,
+        "form": "rdquor",
+        "confidence": 0.3048907220363617
+      },
+      {
+        "entity_type": "Location",
+        "start": 2527,
+        "end": 2534,
+        "form": "Related",
+        "confidence": 0.4848357141017914
+      },
+      {
+        "entity_type": "Date",
+        "start": 2540,
+        "end": 2542,
+        "form": "On",
+        "confidence": 0.8823274374008179
+      },
+      {
+        "entity_type": "Date",
+        "start": 2665,
+        "end": 2667,
+        "form": "is",
+        "confidence": 0.45090141892433167
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2945,
+        "end": 2951,
+        "form": "Carles",
+        "confidence": 0.4707214832305908
+      },
+      {
+        "entity_type": "Date",
+        "start": 3009,
+        "end": 3019,
+        "form": "everything",
+        "confidence": 0.343994140625
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3502,
+        "end": 3508,
+        "form": "rdquor",
+        "confidence": 0.45086416602134705
+      },
+      {
+        "entity_type": "Vector",
+        "start": 3511,
+        "end": 3515,
+        "form": "Fear",
+        "confidence": 0.3025229573249817
+      },
+      {
+        "entity_type": "Location",
+        "start": 3537,
+        "end": 3542,
+        "form": "Peris",
+        "confidence": 0.39682310819625854
+      },
+      {
+        "entity_type": "Date",
+        "start": 3564,
+        "end": 3568,
+        "form": "with",
+        "confidence": 0.20151673257350922
+      },
+      {
+        "entity_type": "Location",
+        "start": 3902,
+        "end": 3907,
+        "form": "These",
+        "confidence": 0.17257453501224518
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 4011,
+        "end": 4015,
+        "form": "When",
+        "confidence": 0.18450164794921875
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4044,
+        "end": 4046,
+        "form": "XE",
+        "confidence": 0.49506330490112305
+      },
+      {
+        "entity_type": "Location",
+        "start": 4221,
+        "end": 4226,
+        "form": "These",
+        "confidence": 0.26109778881073
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 4332,
+        "end": 4336,
+        "form": "When",
+        "confidence": 0.22777438163757324
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4365,
+        "end": 4367,
+        "form": "XE",
+        "confidence": 0.5739250779151917
+      },
+      {
+        "entity_type": "Location",
+        "start": 4530,
+        "end": 4535,
+        "form": "GESOP",
+        "confidence": 0.3403569757938385
+      },
+      {
+        "entity_type": "Location",
+        "start": 3902,
+        "end": 3907,
+        "form": "These",
+        "confidence": 0.2039497047662735
+      },
+      {
+        "entity_type": "Vector",
+        "start": 4011,
+        "end": 4015,
+        "form": "When",
+        "confidence": 0.1428353637456894
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4044,
+        "end": 4046,
+        "form": "XE",
+        "confidence": 0.5188591480255127
+      },
+      {
+        "entity_type": "Location",
+        "start": 4221,
+        "end": 4226,
+        "form": "These",
+        "confidence": 0.3314610421657562
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 4332,
+        "end": 4336,
+        "form": "When",
+        "confidence": 0.3069740831851959
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4365,
+        "end": 4367,
+        "form": "XE",
+        "confidence": 0.51374351978302
+      },
+      {
+        "entity_type": "Vector",
+        "start": 4530,
+        "end": 4535,
+        "form": "GESOP",
+        "confidence": 0.36019060015678406
+      },
+      {
+        "entity_type": "Disease",
+        "start": 4911,
+        "end": 4914,
+        "form": "Who",
+        "confidence": 0.2613433003425598
+      }
+    ],
+    "104499": [
+      {
+        "entity_type": "Disease",
+        "start": 0,
+        "end": 15,
+        "form": "Enzyme-Mediated",
+        "confidence": 0.7105393409729004
+      },
+      {
+        "entity_type": "Location",
+        "start": 31,
+        "end": 34,
+        "form": "EMA",
+        "confidence": 0.19377775490283966
+      },
+      {
+        "entity_type": "Disease",
+        "start": 102,
+        "end": 105,
+        "form": "The",
+        "confidence": 0.29644882678985596
+      },
+      {
+        "entity_type": "Disease",
+        "start": 125,
+        "end": 128,
+        "form": "PWN",
+        "confidence": 0.970352828502655
+      },
+      {
+        "entity_type": "Disease",
+        "start": 238,
+        "end": 241,
+        "form": "PWD",
+        "confidence": 0.9755939841270447
+      },
+      {
+        "entity_type": "Disease",
+        "start": 612,
+        "end": 615,
+        "form": "EMA",
+        "confidence": 0.23556774854660034
+      },
+      {
+        "entity_type": "Location",
+        "start": 1329,
+        "end": 1332,
+        "form": "EMA",
+        "confidence": 0.2511327564716339
+      },
+      {
+        "entity_type": "Plant",
+        "start": 1419,
+        "end": 1420,
+        "form": "9",
+        "confidence": 0.3590220510959625
+      },
+      {
+        "entity_type": "Location",
+        "start": 1437,
+        "end": 1462,
+        "form": "doi.org/10.3390/f13091419",
+        "confidence": 0.5987755060195923
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1464,
+        "end": 1475,
+        "form": "registering",
+        "confidence": 0.5029858946800232
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1518,
+        "end": 1519,
+        "form": "C",
+        "confidence": 0.5059752464294434
+      },
+      {
+        "entity_type": "Location",
+        "start": 1540,
+        "end": 1541,
+        "form": "C",
+        "confidence": 0.3841925859451294
+      },
+      {
+        "entity_type": "Location",
+        "start": 1553,
+        "end": 1554,
+        "form": "M",
+        "confidence": 0.6303109526634216
+      },
+      {
+        "entity_type": "Location",
+        "start": 1587,
+        "end": 1590,
+        "form": "EMA",
+        "confidence": 0.3375852704048157
+      },
+      {
+        "entity_type": "Location",
+        "start": 1683,
+        "end": 1688,
+        "form": "https",
+        "confidence": 0.4179877042770386
+      },
+      {
+        "entity_type": "Location",
+        "start": 1691,
+        "end": 1716,
+        "form": "doi.org/10.3390/f13091419",
+        "confidence": 0.6903681755065918
+      },
+      {
+        "entity_type": "Location",
+        "start": 1795,
+        "end": 1798,
+        "form": "EMA",
+        "confidence": 0.45902517437934875
+      },
+      {
+        "entity_type": "Plant",
+        "start": 1885,
+        "end": 1886,
+        "form": "9",
+        "confidence": 0.46211060881614685
+      },
+      {
+        "entity_type": "Date",
+        "start": 1888,
+        "end": 1892,
+        "form": "1419",
+        "confidence": 0.2734513580799103
+      },
+      {
+        "entity_type": "Location",
+        "start": 1894,
+        "end": 1899,
+        "form": "https",
+        "confidence": 0.37649738788604736
+      },
+      {
+        "entity_type": "Location",
+        "start": 1902,
+        "end": 1927,
+        "form": "doi.org/10.3390/f13091419",
+        "confidence": 0.6666133999824524
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2017,
+        "end": 2032,
+        "form": "Enzyme-Mediated",
+        "confidence": 0.5469439625740051
+      },
+      {
+        "entity_type": "Location",
+        "start": 2048,
+        "end": 2051,
+        "form": "EMA",
+        "confidence": 0.2646428942680359
+      },
+      {
+        "entity_type": "Location",
+        "start": 2145,
+        "end": 2150,
+        "form": "https",
+        "confidence": 0.3756515681743622
+      },
+      {
+        "entity_type": "Location",
+        "start": 2153,
+        "end": 2178,
+        "form": "doi.org/10.3390/f13091419",
+        "confidence": 0.686086118221283
+      }
+    ],
+    "116761": [
+      {
+        "entity_type": "Vector",
+        "start": 0,
+        "end": 10,
+        "form": "Multi-site",
+        "confidence": 0.38306036591529846
+      },
+      {
+        "entity_type": "Disease",
+        "start": 251,
+        "end": 257,
+        "form": "FocTR4",
+        "confidence": 0.7096364498138428
+      },
+      {
+        "entity_type": "Disease",
+        "start": 545,
+        "end": 550,
+        "form": "FocR1",
+        "confidence": 0.7801864743232727
+      },
+      {
+        "entity_type": "Disease",
+        "start": 901,
+        "end": 906,
+        "form": "SDHIs",
+        "confidence": 0.7495337128639221
+      },
+      {
+        "entity_type": "Location",
+        "start": 1061,
+        "end": 1070,
+        "form": "persister",
+        "confidence": 0.30009815096855164
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1254,
+        "end": 1256,
+        "form": "up",
+        "confidence": 0.7435516715049744
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1321,
+        "end": 1323,
+        "form": "up",
+        "confidence": 0.705605149269104
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1376,
+        "end": 1378,
+        "form": "up",
+        "confidence": 0.618999719619751
+      },
+      {
+        "entity_type": "Date",
+        "start": 1719,
+        "end": 1721,
+        "form": "20",
+        "confidence": 0.605929434299469
+      },
+      {
+        "entity_type": "Date",
+        "start": 1759,
+        "end": 1762,
+        "form": "200",
+        "confidence": 0.3130580484867096
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1945,
+        "end": 1946,
+        "form": "s",
+        "confidence": 0.4193044900894165
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2117,
+        "end": 2125,
+        "form": "Fusarium",
+        "confidence": 0.7786813378334045
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2183,
+        "end": 2193,
+        "form": "Antifungal",
+        "confidence": 0.3046893775463104
+      }
+    ],
+    "103669": [
+      {
+        "entity_type": "Disease",
+        "start": 0,
+        "end": 10,
+        "form": "Flavonoids",
+        "confidence": 0.4486222565174103
+      },
+      {
+        "entity_type": "Disease",
+        "start": 63,
+        "end": 73,
+        "form": "Flavonoids",
+        "confidence": 0.5382863283157349
+      },
+      {
+        "entity_type": "Vector",
+        "start": 869,
+        "end": 870,
+        "form": "s",
+        "confidence": 0.35428595542907715
+      }
+    ],
+    "104329": [
+      {
+        "entity_type": "Disease",
+        "start": 0,
+        "end": 3,
+        "form": "New",
+        "confidence": 0.7687792778015137
+      },
+      {
+        "entity_type": "Disease",
+        "start": 55,
+        "end": 58,
+        "form": "New",
+        "confidence": 0.679919421672821
+      },
+      {
+        "entity_type": "Pest",
+        "start": 145,
+        "end": 151,
+        "form": "ToBRFV",
+        "confidence": 0.9253252148628235
+      },
+      {
+        "entity_type": "Location",
+        "start": 203,
+        "end": 217,
+        "form": "Jordbruksbyrån",
+        "confidence": 0.8873140215873718
+      },
+      {
+        "entity_type": "Location",
+        "start": 236,
+        "end": 237,
+        "form": "च",
+        "confidence": 0.3886791169643402
+      },
+      {
+        "entity_type": "Pest",
+        "start": 263,
+        "end": 264,
+        "form": "ग",
+        "confidence": 0.2261742204427719
+      },
+      {
+        "entity_type": "Pest",
+        "start": 265,
+        "end": 267,
+        "form": "अन",
+        "confidence": 0.36652952432632446
+      },
+      {
+        "entity_type": "Disease",
+        "start": 268,
+        "end": 269,
+        "form": "क",
+        "confidence": 0.3302769362926483
+      },
+      {
+        "entity_type": "Pest",
+        "start": 270,
+        "end": 271,
+        "form": "त",
+        "confidence": 0.5326411724090576
+      },
+      {
+        "entity_type": "Pest",
+        "start": 274,
+        "end": 275,
+        "form": "न",
+        "confidence": 0.4592716097831726
+      },
+      {
+        "entity_type": "Pest",
+        "start": 278,
+        "end": 279,
+        "form": "ण",
+        "confidence": 0.3389246463775635
+      },
+      {
+        "entity_type": "Pest",
+        "start": 295,
+        "end": 296,
+        "form": "च",
+        "confidence": 0.49274730682373047
+      },
+      {
+        "entity_type": "Disease",
+        "start": 335,
+        "end": 336,
+        "form": "च",
+        "confidence": 0.33508798480033875
+      },
+      {
+        "entity_type": "Pest",
+        "start": 362,
+        "end": 363,
+        "form": "ग",
+        "confidence": 0.33086106181144714
+      },
+      {
+        "entity_type": "Pest",
+        "start": 364,
+        "end": 366,
+        "form": "अन",
+        "confidence": 0.4484935402870178
+      },
+      {
+        "entity_type": "Disease",
+        "start": 367,
+        "end": 368,
+        "form": "क",
+        "confidence": 0.29931482672691345
+      },
+      {
+        "entity_type": "Pest",
+        "start": 369,
+        "end": 370,
+        "form": "त",
+        "confidence": 0.6753134727478027
+      },
+      {
+        "entity_type": "Pest",
+        "start": 373,
+        "end": 374,
+        "form": "न",
+        "confidence": 0.4095233380794525
+      },
+      {
+        "entity_type": "Pest",
+        "start": 377,
+        "end": 378,
+        "form": "ण",
+        "confidence": 0.551581859588623
+      },
+      {
+        "entity_type": "Pest",
+        "start": 394,
+        "end": 395,
+        "form": "च",
+        "confidence": 0.5109108686447144
+      },
+      {
+        "entity_type": "Pest",
+        "start": 491,
+        "end": 497,
+        "form": "ToBRFV",
+        "confidence": 0.8883196711540222
+      },
+      {
+        "entity_type": "Location",
+        "start": 779,
+        "end": 808,
+        "form": "www.ruokavirasto.fi/sv/tobrfv",
+        "confidence": 0.33757203817367554
+      },
+      {
+        "entity_type": "Pest",
+        "start": 858,
+        "end": 864,
+        "form": "ToBRFV",
+        "confidence": 0.9269770979881287
+      }
+    ],
+    "104119": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 5,
+        "form": "Error",
+        "confidence": 0.3551326394081116
+      },
+      {
+        "entity_type": "Plant",
+        "start": 6,
+        "end": 13,
+        "form": "OneZoom",
+        "confidence": 0.28367623686790466
+      },
+      {
+        "entity_type": "Disease",
+        "start": 165,
+        "end": 392,
+        "form": "particularly subspecies and fossils). To check if this is why we cannot find your species or group, you can look for this taxon on the Open Tree of Life, or search the taxonomy database that they maintain. However, if you can’t",
+        "confidence": 0.4233895540237427
+      }
+    ],
+    "116125": [
+      {
+        "entity_type": "Plant",
+        "start": 0,
+        "end": 8,
+        "form": "Oriental",
+        "confidence": 0.793965756893158
+      },
+      {
+        "entity_type": "Vector",
+        "start": 75,
+        "end": 78,
+        "form": "The",
+        "confidence": 0.4600798785686493
+      },
+      {
+        "entity_type": "Location",
+        "start": 136,
+        "end": 141,
+        "form": "FDACS",
+        "confidence": 0.7832136154174805
+      },
+      {
+        "entity_type": "Location",
+        "start": 194,
+        "end": 204,
+        "form": "Bactrocera",
+        "confidence": 0.7110245227813721
+      },
+      {
+        "entity_type": "Location",
+        "start": 269,
+        "end": 274,
+        "form": "FDACS",
+        "confidence": 0.6877564191818237
+      },
+      {
+        "entity_type": "Location",
+        "start": 327,
+        "end": 337,
+        "form": "Bactrocera",
+        "confidence": 0.5862696766853333
+      },
+      {
+        "entity_type": "Plant",
+        "start": 962,
+        "end": 970,
+        "form": "Oriental",
+        "confidence": 0.8465684652328491
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1216,
+        "end": 1338,
+        "form": "000 fruit fly traps statewide as an early detection network against exotic fruit fly introductions that threaten Florida’s",
+        "confidence": 0.44766949117183685
+      },
+      {
+        "entity_type": "Date",
+        "start": 1365,
+        "end": 1369,
+        "form": "This",
+        "confidence": 0.40964093804359436
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1798,
+        "end": 1799,
+        "form": "s",
+        "confidence": 0.33750319480895996
+      }
+    ],
+    "99984": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 8,
+        "form": "Presence",
+        "confidence": 0.3657073378562927
+      }
+    ],
+    "116507": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 7,
+        "form": "Vectors",
+        "confidence": 0.25232821702957153
+      },
+      {
+        "entity_type": "Location",
+        "start": 92,
+        "end": 98,
+        "form": "Simple",
+        "confidence": 0.7029268145561218
+      },
+      {
+        "entity_type": "Location",
+        "start": 553,
+        "end": 559,
+        "form": "France",
+        "confidence": 0.7098790407180786
+      },
+      {
+        "entity_type": "Location",
+        "start": 1834,
+        "end": 1840,
+        "form": "France",
+        "confidence": 0.6890110373497009
+      },
+      {
+        "entity_type": "Date",
+        "start": 2601,
+        "end": 2609,
+        "form": "Although",
+        "confidence": 0.18474836647510529
+      },
+      {
+        "entity_type": "Location",
+        "start": 3047,
+        "end": 3053,
+        "form": "France",
+        "confidence": 0.7485750317573547
+      },
+      {
+        "entity_type": "Location",
+        "start": 3887,
+        "end": 3895,
+        "form": "Abstract",
+        "confidence": 0.7706873416900635
+      },
+      {
+        "entity_type": "Location",
+        "start": 3896,
+        "end": 3902,
+        "form": "Global",
+        "confidence": 0.8325117230415344
+      },
+      {
+        "entity_type": "Location",
+        "start": 4328,
+        "end": 4334,
+        "form": "France",
+        "confidence": 0.7003503441810608
+      }
+    ],
+    "107272": [
+      {
+        "entity_type": "Disease",
+        "start": 0,
+        "end": 83,
+        "form": "New banana disease is spreading fast and poses a threat to Africa's food security\nA",
+        "confidence": 0.35977908968925476
+      },
+      {
+        "entity_type": "Disease",
+        "start": 461,
+        "end": 463,
+        "form": "UU",
+        "confidence": 0.46468639373779297
+      },
+      {
+        "entity_type": "Disease",
+        "start": 503,
+        "end": 506,
+        "form": "WUR",
+        "confidence": 0.7970476150512695
+      },
+      {
+        "entity_type": "Disease",
+        "start": 664,
+        "end": 667,
+        "form": "TR4",
+        "confidence": 0.35226932168006897
+      },
+      {
+        "entity_type": "Vector",
+        "start": 919,
+        "end": 922,
+        "form": "The",
+        "confidence": 0.31503182649612427
+      },
+      {
+        "entity_type": "Date",
+        "start": 1678,
+        "end": 1682,
+        "form": "That",
+        "confidence": 0.26025572419166565
+      },
+      {
+        "entity_type": "Vector",
+        "start": 1766,
+        "end": 1769,
+        "form": "The",
+        "confidence": 0.25899991393089294
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 1981,
+        "end": 1984,
+        "form": "The",
+        "confidence": 0.3707925081253052
+      },
+      {
+        "entity_type": "Date",
+        "start": 2319,
+        "end": 2322,
+        "form": "For",
+        "confidence": 0.36682233214378357
+      },
+      {
+        "entity_type": "Vector",
+        "start": 2525,
+        "end": 2526,
+        "form": "s",
+        "confidence": 0.30042099952697754
+      },
+      {
+        "entity_type": "Vector",
+        "start": 3348,
+        "end": 3350,
+        "form": "It",
+        "confidence": 0.3642783761024475
+      },
+      {
+        "entity_type": "Disease",
+        "start": 3392,
+        "end": 3398,
+        "form": "Floods",
+        "confidence": 0.8560888171195984
+      },
+      {
+        "entity_type": "Vector",
+        "start": 3634,
+        "end": 3636,
+        "form": "It",
+        "confidence": 0.27777260541915894
+      },
+      {
+        "entity_type": "Vector",
+        "start": 3955,
+        "end": 3957,
+        "form": "It",
+        "confidence": 0.27928677201271057
+      },
+      {
+        "entity_type": "Date",
+        "start": 4209,
+        "end": 4211,
+        "form": "As",
+        "confidence": 0.485818475484848
+      },
+      {
+        "entity_type": "Vector",
+        "start": 4315,
+        "end": 4318,
+        "form": "The",
+        "confidence": 0.32579290866851807
+      },
+      {
+        "entity_type": "Location",
+        "start": 4636,
+        "end": 4639,
+        "form": "But",
+        "confidence": 0.19152741134166718
+      },
+      {
+        "entity_type": "Dissemination_pathway",
+        "start": 3634,
+        "end": 3636,
+        "form": "It",
+        "confidence": 0.15735842287540436
+      },
+      {
+        "entity_type": "Vector",
+        "start": 3955,
+        "end": 3957,
+        "form": "It",
+        "confidence": 0.1730201244354248
+      },
+      {
+        "entity_type": "Date",
+        "start": 4209,
+        "end": 4211,
+        "form": "As",
+        "confidence": 0.6482051610946655
+      },
+      {
+        "entity_type": "Vector",
+        "start": 4315,
+        "end": 4318,
+        "form": "The",
+        "confidence": 0.15288855135440826
+      },
+      {
+        "entity_type": "Date",
+        "start": 4636,
+        "end": 4639,
+        "form": "But",
+        "confidence": 0.21384340524673462
+      },
+      {
+        "entity_type": "Location",
+        "start": 5151,
+        "end": 5185,
+        "form": "doi.org/10.1094/PDIS-07-22-1576-SC",
+        "confidence": 0.2524735629558563
+      }
+    ],
+    "98191": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 11,
+        "form": "Preliminary",
+        "confidence": 0.4578207731246948
+      }
+    ],
+    "99613": [
+      {
+        "entity_type": "Vector",
+        "start": 0,
+        "end": 7,
+        "form": "Feeding",
+        "confidence": 0.2079405039548874
+      },
+      {
+        "entity_type": "Vector",
+        "start": 140,
+        "end": 149,
+        "form": "Pyrethrin",
+        "confidence": 0.44160860776901245
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1087,
+        "end": 1095,
+        "form": "survival",
+        "confidence": 0.7715237736701965
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1113,
+        "end": 1120,
+        "form": "feeding",
+        "confidence": 0.6586621403694153
+      },
+      {
+        "entity_type": "Vector",
+        "start": 1168,
+        "end": 1179,
+        "form": "acetamiprid",
+        "confidence": 0.49337318539619446
+      },
+      {
+        "entity_type": "Plant",
+        "start": 1429,
+        "end": 1436,
+        "form": "highest",
+        "confidence": 0.25867727398872375
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2707,
+        "end": 2710,
+        "form": "EPG",
+        "confidence": 0.8102370500564575
+      },
+      {
+        "entity_type": "Location",
+        "start": 2741,
+        "end": 2744,
+        "form": "IPM",
+        "confidence": 0.46577921509742737
+      }
+    ],
+    "107207": [
+      {
+        "entity_type": "Plant",
+        "start": 0,
+        "end": 11,
+        "form": "Susceptible",
+        "confidence": 0.6810654401779175
+      },
+      {
+        "entity_type": "Plant",
+        "start": 116,
+        "end": 121,
+        "form": "Olive",
+        "confidence": 0.7142136693000793
+      },
+      {
+        "entity_type": "Disease",
+        "start": 146,
+        "end": 150,
+        "form": "OQDS",
+        "confidence": 0.570909321308136
+      },
+      {
+        "entity_type": "Disease",
+        "start": 266,
+        "end": 269,
+        "form": "Xfp",
+        "confidence": 0.5445205569267273
+      },
+      {
+        "entity_type": "Disease",
+        "start": 634,
+        "end": 636,
+        "form": "gs",
+        "confidence": 0.44362348318099976
+      },
+      {
+        "entity_type": "Pest",
+        "start": 664,
+        "end": 669,
+        "form": "Ψstem",
+        "confidence": 0.4127834737300873
+      },
+      {
+        "entity_type": "Location",
+        "start": 753,
+        "end": 760,
+        "form": "Cellina",
+        "confidence": 0.4026014506816864
+      },
+      {
+        "entity_type": "Pest",
+        "start": 786,
+        "end": 793,
+        "form": "Leccino",
+        "confidence": 0.3456149101257324
+      },
+      {
+        "entity_type": "Disease",
+        "start": 800,
+        "end": 804,
+        "form": "FS17",
+        "confidence": 0.35873550176620483
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1206,
+        "end": 1211,
+        "form": "Ψstem",
+        "confidence": 0.5577049851417542
+      }
+    ],
+    "100011": [
+      {
+        "entity_type": "Vector",
+        "start": 0,
+        "end": 5,
+        "form": "Great",
+        "confidence": 0.22099919617176056
+      },
+      {
+        "entity_type": "Vector",
+        "start": 59,
+        "end": 67,
+        "form": "Freiburg",
+        "confidence": 0.5737285017967224
+      },
+      {
+        "entity_type": "Disease",
+        "start": 69,
+        "end": 72,
+        "form": "dpa",
+        "confidence": 0.44750508666038513
+      },
+      {
+        "entity_type": "Vector",
+        "start": 294,
+        "end": 297,
+        "form": "LTZ",
+        "confidence": 0.3551066815853119
+      },
+      {
+        "entity_type": "Location",
+        "start": 324,
+        "end": 332,
+        "form": "Popillia",
+        "confidence": 0.5857450366020203
+      },
+      {
+        "entity_type": "Vector",
+        "start": 367,
+        "end": 370,
+        "form": "LTZ",
+        "confidence": 0.5137608051300049
+      },
+      {
+        "entity_type": "Date",
+        "start": 469,
+        "end": 473,
+        "form": "57am",
+        "confidence": 0.41354840993881226
+      },
+      {
+        "entity_type": "Disease",
+        "start": 576,
+        "end": 579,
+        "form": "dpa",
+        "confidence": 0.47019416093826294
+      },
+      {
+        "entity_type": "Vector",
+        "start": 801,
+        "end": 804,
+        "form": "LTZ",
+        "confidence": 0.4292183816432953
+      },
+      {
+        "entity_type": "Location",
+        "start": 831,
+        "end": 839,
+        "form": "Popillia",
+        "confidence": 0.6852646470069885
+      },
+      {
+        "entity_type": "Location",
+        "start": 1624,
+        "end": 1632,
+        "form": "priority",
+        "confidence": 0.28106027841567993
+      },
+      {
+        "entity_type": "Location",
+        "start": 2012,
+        "end": 2017,
+        "form": "email",
+        "confidence": 0.5172976851463318
+      },
+      {
+        "entity_type": "Date",
+        "start": 2083,
+        "end": 2101,
+        "form": "220728-99-185926/2",
+        "confidence": 0.5174673199653625
+      }
+    ],
+    "102584": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 3,
+        "form": "The",
+        "confidence": 0.22063277661800385
+      },
+      {
+        "entity_type": "Location",
+        "start": 88,
+        "end": 97,
+        "form": "Agroscope",
+        "confidence": 0.3667256832122803
+      },
+      {
+        "entity_type": "Location",
+        "start": 358,
+        "end": 367,
+        "form": "Agroscope",
+        "confidence": 0.38546276092529297
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1062,
+        "end": 1070,
+        "form": "bacteria",
+        "confidence": 0.4730348587036133
+      }
+    ],
+    "106963": [
+      {
+        "entity_type": "Disease",
+        "start": 1,
+        "end": 5,
+        "form": "quot",
+        "confidence": 0.6896380186080933
+      },
+      {
+        "entity_type": "Date",
+        "start": 6,
+        "end": 9,
+        "form": "Big",
+        "confidence": 0.22145773470401764
+      },
+      {
+        "entity_type": "Disease",
+        "start": 18,
+        "end": 22,
+        "form": "quot",
+        "confidence": 0.9208487272262573
+      },
+      {
+        "entity_type": "Location",
+        "start": 25,
+        "end": 28,
+        "form": "Big",
+        "confidence": 0.3429221212863922
+      },
+      {
+        "entity_type": "Vector",
+        "start": 584,
+        "end": 587,
+        "form": "The",
+        "confidence": 0.5246999859809875
+      },
+      {
+        "entity_type": "Date",
+        "start": 1139,
+        "end": 1143,
+        "form": "This",
+        "confidence": 0.9734833240509033
+      },
+      {
+        "entity_type": "Date",
+        "start": 1700,
+        "end": 1704,
+        "form": "This",
+        "confidence": 0.9550464153289795
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2653,
+        "end": 2656,
+        "form": "FDp",
+        "confidence": 0.7057045102119446
+      }
+    ],
+    "116070": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 13,
+        "form": "Interceptions",
+        "confidence": 0.3984626233577728
+      },
+      {
+        "entity_type": "Location",
+        "start": 84,
+        "end": 97,
+        "form": "Interceptions",
+        "confidence": 0.32458484172821045
+      },
+      {
+        "entity_type": "Disease",
+        "start": 618,
+        "end": 628,
+        "form": "scandalous",
+        "confidence": 0.6374601125717163
+      },
+      {
+        "entity_type": "Disease",
+        "start": 642,
+        "end": 645,
+        "form": "the",
+        "confidence": 0.4509052038192749
+      },
+      {
+        "entity_type": "Location",
+        "start": 746,
+        "end": 752,
+        "form": "Brazil",
+        "confidence": 0.9314762949943542
+      },
+      {
+        "entity_type": "Date",
+        "start": 931,
+        "end": 934,
+        "form": "530",
+        "confidence": 0.29165154695510864
+      },
+      {
+        "entity_type": "Vector",
+        "start": 962,
+        "end": 965,
+        "form": "200",
+        "confidence": 0.34560418128967285
+      },
+      {
+        "entity_type": "Date",
+        "start": 1483,
+        "end": 1488,
+        "form": "which",
+        "confidence": 0.3571920692920685
+      },
+      {
+        "entity_type": "Disease",
+        "start": 2768,
+        "end": 2776,
+        "form": "anything",
+        "confidence": 0.3025757074356079
+      },
+      {
+        "entity_type": "Location",
+        "start": 3285,
+        "end": 3289,
+        "form": "with",
+        "confidence": 0.20298700034618378
+      }
+    ],
+    "98917": [
+      {
+        "entity_type": "Location",
+        "start": 0,
+        "end": 4,
+        "form": "NVWA",
+        "confidence": 0.9277459979057312
+      },
+      {
+        "entity_type": "Location",
+        "start": 50,
+        "end": 53,
+        "form": "The",
+        "confidence": 0.32711392641067505
+      },
+      {
+        "entity_type": "Location",
+        "start": 104,
+        "end": 108,
+        "form": "NVWA",
+        "confidence": 0.5817633867263794
+      },
+      {
+        "entity_type": "Location",
+        "start": 239,
+        "end": 243,
+        "form": "very",
+        "confidence": 0.21472297608852386
+      },
+      {
+        "entity_type": "Disease",
+        "start": 483,
+        "end": 487,
+        "form": "with",
+        "confidence": 0.32196927070617676
+      },
+      {
+        "entity_type": "Date",
+        "start": 623,
+        "end": 626,
+        "form": "For",
+        "confidence": 0.6640502214431763
+      },
+      {
+        "entity_type": "Date",
+        "start": 861,
+        "end": 863,
+        "form": "In",
+        "confidence": 0.9256551265716553
+      },
+      {
+        "entity_type": "Date",
+        "start": 1085,
+        "end": 1088,
+        "form": "And",
+        "confidence": 0.44070401787757874
+      },
+      {
+        "entity_type": "Disease",
+        "start": 1234,
+        "end": 1237,
+        "form": "ANP",
+        "confidence": 0.49754801392555237
+      }
+    ],
+    "116983": [
+      {
+        "entity_type": "Vector",
+        "start": 0,
+        "end": 3,
+        "form": "The",
+        "confidence": 0.745771050453186
+      },
+      {
+        "entity_type": "Location",
+        "start": 49,
+        "end": 50,
+        "form": "A",
+        "confidence": 0.21781638264656067
+      }
+    ]
+  },
+  "mention_thresholds": {
+    "Disease": 0.8873,
+    "Date": 0.0,
+    "Dissemination_pathway": 0.0,
+    "Location": 0.4658,
+    "Pest": 0.3846,
+    "Plant": 0.0,
+    "Vector": 0.0
+  }
+}

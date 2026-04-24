@@ -1,0 +1,65 @@
+[
+  {
+    "config": "lr3e-05_w0.1",
+    "learning_rate_encoder": 3e-05,
+    "warmup_ratio": 0.1,
+    "micro_f1": 0.20323741007194246,
+    "macro_f1": 0.15942957680992992
+  },
+  {
+    "config": "lr3e-05_w0.0",
+    "learning_rate_encoder": 3e-05,
+    "warmup_ratio": 0.0,
+    "micro_f1": 0.2028740490278952,
+    "macro_f1": 0.1633000904805882
+  },
+  {
+    "config": "lr1e-05_w0.0",
+    "learning_rate_encoder": 1e-05,
+    "warmup_ratio": 0.0,
+    "micro_f1": 0.2011605415860735,
+    "macro_f1": 0.1735791678675898
+  },
+  {
+    "config": "lr2e-05_w0.1",
+    "learning_rate_encoder": 2e-05,
+    "warmup_ratio": 0.1,
+    "micro_f1": 0.19985517740767558,
+    "macro_f1": 0.15234573706578552
+  },
+  {
+    "config": "lr1e-05_w0.06",
+    "learning_rate_encoder": 1e-05,
+    "warmup_ratio": 0.06,
+    "micro_f1": 0.19793814432989693,
+    "macro_f1": 0.16703867534658037
+  },
+  {
+    "config": "lr1e-05_w0.1",
+    "learning_rate_encoder": 1e-05,
+    "warmup_ratio": 0.1,
+    "micro_f1": 0.19648397104446744,
+    "macro_f1": 0.1825978530684349
+  },
+  {
+    "config": "lr2e-05_w0.06",
+    "learning_rate_encoder": 2e-05,
+    "warmup_ratio": 0.06,
+    "micro_f1": 0.19291338582677164,
+    "macro_f1": 0.17723631149180033
+  },
+  {
+    "config": "lr3e-05_w0.06",
+    "learning_rate_encoder": 3e-05,
+    "warmup_ratio": 0.06,
+    "micro_f1": 0.18006993006993005,
+    "macro_f1": 0.153712951958566
+  },
+  {
+    "config": "lr2e-05_w0.0",
+    "learning_rate_encoder": 2e-05,
+    "warmup_ratio": 0.0,
+    "micro_f1": 0.17813051146384482,
+    "macro_f1": 0.15334975924183475
+  }
+]

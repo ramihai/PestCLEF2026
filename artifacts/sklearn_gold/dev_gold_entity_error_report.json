@@ -1,0 +1,626 @@
+{
+  "relation_false_positives": {
+    "Found_on": 37,
+    "Occurs_on": 35,
+    "Located_in": 82,
+    "Causes": 23,
+    "Affects": 10,
+    "Dispersed_by": 3
+  },
+  "relation_false_negatives": {
+    "Causes": 10,
+    "Found_on": 56,
+    "Located_in": 279,
+    "Occurs_on": 75,
+    "Transmits": 4,
+    "Affects": 19,
+    "Dispersed_by": 14
+  },
+  "entity_detection_errors": {},
+  "examples": {
+    "false_positives": [
+      {
+        "doc_id": "103963",
+        "subject": "Bursaphelenchus xylophilus",
+        "predicate": "Found_on",
+        "object": "pine"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Found_on",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine wilt disease",
+        "predicate": "Occurs_on",
+        "object": "in the late 1980s"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine wood nematode",
+        "predicate": "Found_on",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "D. eres",
+        "predicate": "Found_on",
+        "object": "Machilus thunbergii"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Found_on",
+        "object": "cultivated blueberry cultivars"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe phoenicicola",
+        "predicate": "Found_on",
+        "object": "blueberry"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "blueberry",
+        "predicate": "Located_in",
+        "object": "China"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "highbush blueberry",
+        "predicate": "Located_in",
+        "object": "Northern Italy"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "CTV",
+        "predicate": "Causes",
+        "object": "Huanglongbing"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "CTV",
+        "predicate": "Found_on",
+        "object": "citrus"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Located_in",
+        "object": "Sicily"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Occurs_on",
+        "object": "in recent years"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Phytophthora",
+        "predicate": "Causes",
+        "object": "Huanglongbing"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Phytophthora",
+        "predicate": "Found_on",
+        "object": "citrus"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "citrus",
+        "predicate": "Located_in",
+        "object": "Acireale"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "citrus",
+        "predicate": "Located_in",
+        "object": "Etnean capital"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "citrus",
+        "predicate": "Located_in",
+        "object": "Italy"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "citrus",
+        "predicate": "Located_in",
+        "object": "Sicily"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "citrus",
+        "predicate": "Located_in",
+        "object": "United States"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "citrus",
+        "predicate": "Occurs_on",
+        "object": "In the last 12 years"
+      },
+      {
+        "doc_id": "98142",
+        "subject": "Citrus",
+        "predicate": "Located_in",
+        "object": "northeast of Entre Ríos"
+      },
+      {
+        "doc_id": "98142",
+        "subject": "Huanglongbing",
+        "predicate": "Located_in",
+        "object": "department of Concordia"
+      },
+      {
+        "doc_id": "98142",
+        "subject": "Huanglongbing",
+        "predicate": "Located_in",
+        "object": "town of Osvaldo Magnasco"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "Panama disease",
+        "predicate": "Affects",
+        "object": "bananas"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "Panama disease",
+        "predicate": "Affects",
+        "object": "variety called Gros Michel"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "TR1",
+        "predicate": "Causes",
+        "object": "Panama disease"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "TR1",
+        "predicate": "Found_on",
+        "object": "Cavendish banana"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "TR1",
+        "predicate": "Found_on",
+        "object": "Cavendish bananas"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "TR1",
+        "predicate": "Found_on",
+        "object": "bananas"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "TR4",
+        "predicate": "Causes",
+        "object": "Panama disease"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "TR4",
+        "predicate": "Found_on",
+        "object": "Cavendish bananas"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "tropical race 1",
+        "predicate": "Found_on",
+        "object": "Cavendish banana"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "tropical race 1",
+        "predicate": "Found_on",
+        "object": "banana"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "tropical race 1",
+        "predicate": "Found_on",
+        "object": "bananas"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "banana",
+        "predicate": "Located_in",
+        "object": "Democratic Republic of Congo"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "banana bunchy",
+        "predicate": "Affects",
+        "object": "bananas"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "banana bunchy",
+        "predicate": "Located_in",
+        "object": "Kamwenge"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "banana bunchy",
+        "predicate": "Located_in",
+        "object": "Kitagwenda"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "banana plantation",
+        "predicate": "Located_in",
+        "object": "Asia"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "banana plantation",
+        "predicate": "Located_in",
+        "object": "Democratic Republic of Congo"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "banana plantations",
+        "predicate": "Located_in",
+        "object": "Democratic Republic of Congo"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "maize",
+        "predicate": "Located_in",
+        "object": "Asia"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "maize",
+        "predicate": "Located_in",
+        "object": "Democratic Republic of Congo"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "maize",
+        "predicate": "Occurs_on",
+        "object": "in early 2000"
+      },
+      {
+        "doc_id": "105611",
+        "subject": "Xylella",
+        "predicate": "Found_on",
+        "object": "olive tree"
+      },
+      {
+        "doc_id": "105611",
+        "subject": "Xylella",
+        "predicate": "Located_in",
+        "object": "Apulian territory"
+      },
+      {
+        "doc_id": "105611",
+        "subject": "Xylella",
+        "predicate": "Located_in",
+        "object": "Polignano a Mare"
+      },
+      {
+        "doc_id": "105611",
+        "subject": "Xylella",
+        "predicate": "Located_in",
+        "object": "territory of the province of Bari"
+      },
+      {
+        "doc_id": "105611",
+        "subject": "Xylella fastidiosa",
+        "predicate": "Found_on",
+        "object": "olive trees"
+      }
+    ],
+    "false_negatives": [
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Causes",
+        "object": "pine wilt disease"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Found_on",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Located_in",
+        "object": "Europe"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Located_in",
+        "object": "Japan"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Occurs_on",
+        "object": "late 1990s"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Occurs_on",
+        "object": "since the beginning of the twentieth century"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Transmits",
+        "object": "B. xylophilus"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine tree",
+        "predicate": "Located_in",
+        "object": "Asian countries"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine wilt disease",
+        "predicate": "Located_in",
+        "object": "Europe"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine wilt disease",
+        "predicate": "Occurs_on",
+        "object": "late 1990s"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine wilt disease",
+        "predicate": "Occurs_on",
+        "object": "since the beginning of the twentieth century"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe cercidis",
+        "predicate": "Found_on",
+        "object": "Populus davidiana × P. bolleana"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe cercidis",
+        "predicate": "Located_in",
+        "object": "China"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Causes",
+        "object": "Postharvest Fruit Rot Disease"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Causes",
+        "object": "leaf spot disease"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Found_on",
+        "object": "Hardy Kiwifruit"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Found_on",
+        "object": "blueberry cultivation"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Found_on",
+        "object": "highbush blueberry"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "Chile"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "Italy"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "Lithuania"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "Netherlands"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "Piedmont"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "U.S.A"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Machilus thunbergii",
+        "predicate": "Located_in",
+        "object": "Korea"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Nigrospora sphaerica",
+        "predicate": "Causes",
+        "object": "passion fruit leaf blight"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Populus davidiana × P. bolleana",
+        "predicate": "Located_in",
+        "object": "China"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Postharvest Fruit Rot Disease",
+        "predicate": "Affects",
+        "object": "Hardy Kiwifruit"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "blueberry cultivation",
+        "predicate": "Located_in",
+        "object": "Chile"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "blueberry cultivation",
+        "predicate": "Located_in",
+        "object": "Europe"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "blueberry cultivation",
+        "predicate": "Located_in",
+        "object": "Lithuania"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "blueberry cultivation",
+        "predicate": "Located_in",
+        "object": "Netherlands"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "blueberry cultivation",
+        "predicate": "Located_in",
+        "object": "U.S.A"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "highbush blueberry",
+        "predicate": "Located_in",
+        "object": "Cuneo Province"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "highbush blueberry",
+        "predicate": "Located_in",
+        "object": "Peveragno"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "highbush blueberry",
+        "predicate": "Located_in",
+        "object": "Piedmont"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "leaf spot disease",
+        "predicate": "Affects",
+        "object": "Machilus thunbergii"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "leaf spot disease",
+        "predicate": "Located_in",
+        "object": "Korea"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "passion fruit leaf blight",
+        "predicate": "Located_in",
+        "object": "China"
+      },
+      {
+        "doc_id": "116119",
+        "subject": "Bactrocera dorsalis",
+        "predicate": "Found_on",
+        "object": "citrus fruits"
+      },
+      {
+        "doc_id": "116119",
+        "subject": "Bactrocera dorsalis",
+        "predicate": "Located_in",
+        "object": "Petite-Ile"
+      },
+      {
+        "doc_id": "116119",
+        "subject": "citrus fruits",
+        "predicate": "Located_in",
+        "object": "Petite-Ile"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Affects",
+        "object": "citrus fruits"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Dispersed_by",
+        "object": "plant material"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Located_in",
+        "object": "Mediterranean"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Located_in",
+        "object": "Spain"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Located_in",
+        "object": "United States"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Tristeza",
+        "predicate": "Affects",
+        "object": "citrus fruits"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Tristeza",
+        "predicate": "Located_in",
+        "object": "Italy"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Tristeza",
+        "predicate": "Located_in",
+        "object": "Sicily"
+      }
+    ]
+  }
+}

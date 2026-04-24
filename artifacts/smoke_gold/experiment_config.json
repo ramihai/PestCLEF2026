@@ -1,0 +1,37 @@
+{
+  "config": {
+    "project_root": ".",
+    "data_dir": "data",
+    "json_dir": "data/json",
+    "docs_dir": "data/EPOP_documents",
+    "artifacts_dir": "artifacts/smoke_gold",
+    "random_seed": 13,
+    "max_sentence_distance": 3,
+    "max_layout_distance": 6,
+    "min_alias_length": 3,
+    "learning_rate": 0.08,
+    "epochs": 8,
+    "batch_size": 256,
+    "l2": 0.0001,
+    "feature_cap": 25000,
+    "relation_thresholds": {
+      "Located_in": 0.48,
+      "Found_on": 0.48,
+      "Occurs_on": 0.48,
+      "Affects": 0.48,
+      "Causes": 0.48,
+      "Dispersed_by": 0.48,
+      "Transmits": 0.48
+    },
+    "relation_labels": [
+      "Located_in",
+      "Found_on",
+      "Occurs_on",
+      "Affects",
+      "Causes",
+      "Dispersed_by",
+      "Transmits"
+    ],
+    "mps_device_note": "Designed to stay CPU/NumPy friendly; suitable for M4 Pro notebook workflow."
+  }
+}

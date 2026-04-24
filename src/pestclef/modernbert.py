@@ -1278,6 +1278,24 @@ def build_relation_context_text(
     return snippet
 
 
+DISTANT_SUPERVISION_KB = {
+    "Transmits": {
+        ("monochamus", "b. xylophilus"),
+        ("monochamus spp.", "b. xylophilus"),
+        ("monochamus galloprovincialis", "b. xylophilus"),
+        ("aphid", "plum pox virus"),
+        ("aphids", "plum pox virus"),
+        ("whitefly", "tomato yellow leaf curl virus"),
+    },
+    "Causes": {
+        ("xylella fastidiosa", "olive quick decline syndrome"),
+        ("b. xylophilus", "pine wilt disease"),
+        ("bursaphelenchus xylophilus", "pine wilt disease"),
+        ("candidatus liberibacter asiaticus", "huanglongbing"),
+        ("candidatus liberibacter asiaticus", "hlb"),
+    },
+}
+
 def generate_relation_text_examples(
     documents: Sequence[Document],
     schema: RelationSchema,
@@ -1285,6 +1303,9 @@ def generate_relation_text_examples(
     entities_override: Optional[Dict[str, Sequence[CanonicalEntity]]] = None,
 ) -> List[Dict[str, object]]:
     examples = []
+    distant_supervision_enabled = getattr(config, "relation_distant_supervision_enabled", False)
+    injected_count = 0
+    
     for document in documents:
         edge_lookup: Dict[tuple[str, str], set[str]] = {}
         for edge in document.gold_relation_edges:
@@ -1302,6 +1323,18 @@ def generate_relation_text_examples(
                 if aligned_subject is not None and aligned_object is not None
                 else set()
             )
+            
+            is_distant_supervision = False
+            if distant_supervision_enabled and not labels:
+                norm_sub = normalize_text(subject.canonical_form)
+                norm_obj = normalize_text(obj.canonical_form)
+                for relation, pairs in DISTANT_SUPERVISION_KB.items():
+                    if (norm_sub, norm_obj) in pairs and schema.is_valid_pair(relation, subject.entity_type, obj.entity_type):
+                        labels = {relation}
+                        is_distant_supervision = True
+                        injected_count += 1
+                        break
+
             examples.append(
                 {
                     "doc_id": document.doc_id,
@@ -1316,8 +1349,13 @@ def generate_relation_text_examples(
                     "object_entity": obj,
                     "aligned_subject": aligned_subject.canonical_form if aligned_subject is not None else None,
                     "aligned_object": aligned_object.canonical_form if aligned_object is not None else None,
+                    "is_distant_supervision": is_distant_supervision,
                 }
             )
+            
+    if distant_supervision_enabled and injected_count > 0:
+        print(f"Distant Supervision: Injected {injected_count} positive relation examples based on KB.")
+        
     return examples
 
 
@@ -1556,7 +1594,9 @@ def augment_relation_example(example: Dict[str, object], config: ExperimentConfi
 
 
 def oversample_relation_examples(
-    examples: Sequence[Dict[str, object]], config: ExperimentConfig
+    examples: Sequence[Dict[str, object]], 
+    config: ExperimentConfig,
+    dynamic_hard_negative_indices: List[int] | None = None
 ) -> List[Dict[str, object]]:
     if not examples:
         return []
@@ -1607,21 +1647,29 @@ def oversample_relation_examples(
         # Hard Negative Mining
         if config.relation_hard_negative_ratio > 0:
             hard_negatives_to_add = int(to_add * config.relation_hard_negative_ratio)
-            if hard_negatives_to_add > 0 and type_pairs_added:
-                # Sample negative indices that match the types of the oversampled positives
-                candidate_negative_indices = []
-                for tp in set(type_pairs_added):
-                    candidate_negative_indices.extend(negative_indices_by_type_pair.get(tp, []))
-                
-                if candidate_negative_indices:
-                    # If we don't have enough unique hard negatives, we sample with replacement
+            if hard_negatives_to_add > 0:
+                if dynamic_hard_negative_indices is not None and dynamic_hard_negative_indices:
                     sampled_neg_indices = rng.choice(
-                        candidate_negative_indices, 
+                        dynamic_hard_negative_indices, 
                         size=hard_negatives_to_add, 
-                        replace=len(candidate_negative_indices) < hard_negatives_to_add
+                        replace=len(dynamic_hard_negative_indices) < hard_negatives_to_add
                     )
                     for neg_idx in sampled_neg_indices:
                         oversampled.append(examples[neg_idx])
+                elif type_pairs_added:
+                    # Fallback to V14 Type-Aware Hard Negative Mining
+                    candidate_negative_indices = []
+                    for tp in set(type_pairs_added):
+                        candidate_negative_indices.extend(negative_indices_by_type_pair.get(tp, []))
+                    
+                    if candidate_negative_indices:
+                        sampled_neg_indices = rng.choice(
+                            candidate_negative_indices, 
+                            size=hard_negatives_to_add, 
+                            replace=len(candidate_negative_indices) < hard_negatives_to_add
+                        )
+                        for neg_idx in sampled_neg_indices:
+                            oversampled.append(examples[neg_idx])
 
     return oversampled
 
@@ -1642,17 +1690,77 @@ def train_modernbert_relation_model(
     calibration_examples = list(calibration_examples or [])
     validation_examples = list(validation_examples or [])
 
-    # Apply v13 oversampling and augmentation
-    processed_train_examples = oversample_relation_examples(train_examples, config)
-    
-    train_rows = build_relation_training_rows(tokenizer, processed_train_examples, labels, config)
-    validation_rows = build_relation_training_rows(tokenizer, validation_examples, labels, config)
-    label_matrix = np.stack([row["labels"].numpy() for row in train_rows], axis=0) if train_rows else np.zeros((0, len(labels)), dtype=np.float32)
-    positive_rate = label_matrix.mean(axis=0) if len(label_matrix) else np.zeros(len(labels), dtype=np.float32)
-    pos_weight = np.where(positive_rate > 0, (1.0 - positive_rate) / np.maximum(positive_rate, 1e-4), 1.0).astype(np.float32)
-    model = MultiLabelSequenceClassifier(base_model, pos_weight=torch.tensor(pos_weight, dtype=torch.float32))
     device = resolve_torch_device(config.device)
-    trained_model = _train_transformer_model(model, train_rows, config, device, validation_rows)
+    dynamic_epochs = getattr(config, "relation_dynamic_hard_negative_epoch", 0)
+
+    if dynamic_epochs > 0 and dynamic_epochs < config.epochs:
+        from copy import deepcopy
+        
+        # Stage 1: Warmup with Type-Aware Hard Negatives
+        config_stage1 = deepcopy(config)
+        config_stage1.epochs = dynamic_epochs
+        
+        processed_train_examples = oversample_relation_examples(train_examples, config_stage1)
+        train_rows = build_relation_training_rows(tokenizer, processed_train_examples, labels, config_stage1)
+        validation_rows = build_relation_training_rows(tokenizer, validation_examples, labels, config_stage1)
+        
+        label_matrix = np.stack([row["labels"].numpy() for row in train_rows], axis=0) if train_rows else np.zeros((0, len(labels)), dtype=np.float32)
+        positive_rate = label_matrix.mean(axis=0) if len(label_matrix) else np.zeros(len(labels), dtype=np.float32)
+        pos_weight = np.where(positive_rate > 0, (1.0 - positive_rate) / np.maximum(positive_rate, 1e-4), 1.0).astype(np.float32)
+        
+        model = MultiLabelSequenceClassifier(base_model, pos_weight=torch.tensor(pos_weight, dtype=torch.float32))
+        trained_model = _train_transformer_model(model, train_rows, config_stage1, device, validation_rows)
+        
+        # Dynamic Scoring of Negatives
+        wrapped_temp = ModernBertRelationModel(
+            labels=labels,
+            tokenizer=tokenizer,
+            model=trained_model,
+            thresholds={label: 0.5 for label in labels},
+            device=device,
+            config=config,
+        )
+        scores = wrapped_temp.predict_scores(train_examples)
+        
+        minority_indices = [labels.index(m_label) for m_label in config.relation_minority_labels if m_label in labels]
+        negative_scores = []
+        for idx, example in enumerate(train_examples):
+            if not example["labels"]:
+                max_minority_score = float(np.max(scores[idx, minority_indices])) if minority_indices else float(np.max(scores[idx]))
+                negative_scores.append((max_minority_score, idx))
+                
+        negative_scores.sort(key=lambda x: x[0], reverse=True)
+        top_k = max(100, int(len(negative_scores) * 0.2))
+        dynamic_hard_negative_indices = [idx for _, idx in negative_scores[:top_k]]
+        
+        # Stage 2: Refinement with Dynamic Hard Negatives
+        config_stage2 = deepcopy(config)
+        config_stage2.epochs = config.epochs - dynamic_epochs
+        
+        processed_train_examples_stage2 = oversample_relation_examples(
+            train_examples, config_stage2, dynamic_hard_negative_indices=dynamic_hard_negative_indices
+        )
+        train_rows_stage2 = build_relation_training_rows(tokenizer, processed_train_examples_stage2, labels, config_stage2)
+        
+        label_matrix_stage2 = np.stack([row["labels"].numpy() for row in train_rows_stage2], axis=0) if train_rows_stage2 else np.zeros((0, len(labels)), dtype=np.float32)
+        positive_rate_stage2 = label_matrix_stage2.mean(axis=0) if len(label_matrix_stage2) else np.zeros(len(labels), dtype=np.float32)
+        pos_weight_stage2 = np.where(positive_rate_stage2 > 0, (1.0 - positive_rate_stage2) / np.maximum(positive_rate_stage2, 1e-4), 1.0).astype(np.float32)
+        trained_model.pos_weight = torch.tensor(pos_weight_stage2, dtype=torch.float32).to(device)
+        
+        trained_model = _train_transformer_model(trained_model, train_rows_stage2, config_stage2, device, validation_rows)
+        
+    else:
+        processed_train_examples = oversample_relation_examples(train_examples, config)
+        train_rows = build_relation_training_rows(tokenizer, processed_train_examples, labels, config)
+        validation_rows = build_relation_training_rows(tokenizer, validation_examples, labels, config)
+        
+        label_matrix = np.stack([row["labels"].numpy() for row in train_rows], axis=0) if train_rows else np.zeros((0, len(labels)), dtype=np.float32)
+        positive_rate = label_matrix.mean(axis=0) if len(label_matrix) else np.zeros(len(labels), dtype=np.float32)
+        pos_weight = np.where(positive_rate > 0, (1.0 - positive_rate) / np.maximum(positive_rate, 1e-4), 1.0).astype(np.float32)
+        
+        model = MultiLabelSequenceClassifier(base_model, pos_weight=torch.tensor(pos_weight, dtype=torch.float32))
+        device = resolve_torch_device(config.device)
+        trained_model = _train_transformer_model(model, train_rows, config, device, validation_rows)
 
     wrapped = ModernBertRelationModel(
         labels=labels,

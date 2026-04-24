@@ -1,0 +1,189 @@
+{
+  "predicted_entities": {
+    "103963": [],
+    "114259": [],
+    "116119": [],
+    "99067": [],
+    "98142": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "HLB"
+      }
+    ],
+    "117892": [],
+    "107172": [],
+    "98783": [],
+    "105611": [],
+    "98794": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "syn"
+      }
+    ],
+    "117299": [],
+    "102488": [],
+    "106959": [],
+    "98392": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Solanum"
+      }
+    ],
+    "116671": [],
+    "105652": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      }
+    ],
+    "106151": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "FAW"
+      }
+    ],
+    "104656": [],
+    "115106": [],
+    "99614": [],
+    "117298": [],
+    "115183": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      }
+    ],
+    "105862": [],
+    "102904": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Candidatus"
+      }
+    ],
+    "116223": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "potentially"
+      }
+    ],
+    "99107": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "HLB"
+      }
+    ],
+    "98579": [],
+    "117674": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Huanglongbing"
+      }
+    ],
+    "114379": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      }
+    ],
+    "103660": [],
+    "98195": [],
+    "115243": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "xylella"
+      }
+    ],
+    "115211": [],
+    "106336": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Foc"
+      }
+    ],
+    "99132": [],
+    "103847": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      }
+    ],
+    "116664": [],
+    "104499": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "PWD"
+      }
+    ],
+    "116761": [],
+    "103669": [],
+    "104329": [],
+    "104119": [],
+    "116125": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Oriental"
+      }
+    ],
+    "99984": [],
+    "116507": [],
+    "107272": [],
+    "98191": [],
+    "99613": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "acetamiprid"
+      }
+    ],
+    "107207": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "OQDS"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Xfp"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "gs"
+      }
+    ],
+    "100011": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "57am"
+      }
+    ],
+    "102584": [],
+    "106963": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "This year we are concentrating equally on all wine-growing zones in South Tyrol in order to determine the spread and derive the necessary measures from it,\" emphasizes Hansjörg Hafner, Head of Viticulture at the South Tyrolean Advisory Board. The plant protection service and the South Tyrolean Advisory Board randomly take leaf samples from all over the country, which are taken to the Laimburg test center for laboratory analysis. Flavescence dorée, the scientific name of golden yellowing, cannot be distinguished from blackwood disease with the naked eye. “This"
+      }
+    ],
+    "116070": [],
+    "98917": [],
+    "116983": []
+  }
+}

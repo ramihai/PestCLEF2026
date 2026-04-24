@@ -60,7 +60,9 @@ class ExperimentConfig:
     relation_threshold_low_support_margin: float = 0.15
     relation_oversampling_ratio: float = 0.05
     relation_hard_negative_ratio: float = 1.0
+    relation_dynamic_hard_negative_epoch: int = 0
     relation_augmentation_enabled: bool = True
+    relation_distant_supervision_enabled: bool = False
     relation_minority_labels: List[str] = field(
         default_factory=lambda: ["Transmits", "Dispersed_by", "Causes", "Affects"]
     )

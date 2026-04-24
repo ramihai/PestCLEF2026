@@ -1,0 +1,443 @@
+{
+  "predicted_mentions": {
+    "103963": [],
+    "114259": [],
+    "116119": [],
+    "99067": [],
+    "98142": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "HLB",
+        "offsets": [
+          [
+            380,
+            383
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 2,
+        "confidence": 0.2746012508869171
+      }
+    ],
+    "117892": [],
+    "107172": [],
+    "98783": [],
+    "105611": [],
+    "98794": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "syn",
+        "offsets": [
+          [
+            35,
+            38
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.3431721329689026
+      }
+    ],
+    "117299": [],
+    "102488": [],
+    "106959": [],
+    "98392": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Solanum",
+        "offsets": [
+          [
+            248,
+            255
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.39699220657348633
+      }
+    ],
+    "116671": [],
+    "105652": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            0,
+            7
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.3988769054412842
+      }
+    ],
+    "106151": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "FAW",
+        "offsets": [
+          [
+            153,
+            156
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.2826549708843231
+      }
+    ],
+    "104656": [],
+    "115106": [],
+    "99614": [],
+    "117298": [],
+    "115183": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            0,
+            7
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.34144458174705505
+      }
+    ],
+    "105862": [],
+    "102904": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Candidatus",
+        "offsets": [
+          [
+            322,
+            332
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 1,
+        "confidence": 0.3278895914554596
+      }
+    ],
+    "116223": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "potentially",
+        "offsets": [
+          [
+            232,
+            243
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 2,
+        "confidence": 0.4873043894767761
+      }
+    ],
+    "99107": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "HLB",
+        "offsets": [
+          [
+            4335,
+            4338
+          ]
+        ],
+        "sentence_index": 10,
+        "layout_index": 2,
+        "confidence": 0.29720914363861084
+      }
+    ],
+    "98579": [],
+    "117674": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Huanglongbing",
+        "offsets": [
+          [
+            2459,
+            2472
+          ]
+        ],
+        "sentence_index": 11,
+        "layout_index": 7,
+        "confidence": 0.43990558385849
+      }
+    ],
+    "114379": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            219,
+            226
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 2,
+        "confidence": 0.4272226393222809
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            496,
+            503
+          ]
+        ],
+        "sentence_index": 2,
+        "layout_index": 4,
+        "confidence": 0.4324357211589813
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            1623,
+            1630
+          ]
+        ],
+        "sentence_index": 8,
+        "layout_index": 10,
+        "confidence": 0.3978954553604126
+      }
+    ],
+    "103660": [],
+    "98195": [],
+    "115243": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "xylella",
+        "offsets": [
+          [
+            2502,
+            2509
+          ]
+        ],
+        "sentence_index": 15,
+        "layout_index": 9,
+        "confidence": 0.356037974357605
+      }
+    ],
+    "115211": [],
+    "106336": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Foc",
+        "offsets": [
+          [
+            304,
+            307
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.4131622016429901
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Pest",
+        "form": "Foc",
+        "offsets": [
+          [
+            646,
+            649
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 2,
+        "confidence": 0.399247944355011
+      }
+    ],
+    "99132": [],
+    "103847": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            0,
+            7
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.42402154207229614
+      }
+    ],
+    "116664": [],
+    "104499": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "PWD",
+        "offsets": [
+          [
+            238,
+            241
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.47478964924812317
+      }
+    ],
+    "116761": [],
+    "103669": [],
+    "104329": [],
+    "104119": [],
+    "116125": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Oriental",
+        "offsets": [
+          [
+            0,
+            8
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.39484214782714844
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Pest",
+        "form": "Oriental",
+        "offsets": [
+          [
+            962,
+            970
+          ]
+        ],
+        "sentence_index": 11,
+        "layout_index": 5,
+        "confidence": 0.3538872301578522
+      }
+    ],
+    "99984": [],
+    "116507": [],
+    "107272": [],
+    "98191": [],
+    "99613": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Plant",
+        "form": "acetamiprid",
+        "offsets": [
+          [
+            1168,
+            1179
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 10,
+        "confidence": 0.3997596800327301
+      }
+    ],
+    "107207": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "OQDS",
+        "offsets": [
+          [
+            146,
+            150
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.49325957894325256
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Pest",
+        "form": "Xfp",
+        "offsets": [
+          [
+            266,
+            269
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 1,
+        "confidence": 0.6633999943733215
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Pest",
+        "form": "gs",
+        "offsets": [
+          [
+            634,
+            636
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 1,
+        "confidence": 0.460286945104599
+      }
+    ],
+    "100011": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "57am",
+        "offsets": [
+          [
+            469,
+            473
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 5,
+        "confidence": 0.2832028269767761
+      }
+    ],
+    "102584": [],
+    "106963": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "This year we are concentrating equally on all wine-growing zones in South Tyrol in order to determine the spread and derive the necessary measures from it,\" emphasizes Hansjörg Hafner, Head of Viticulture at the South Tyrolean Advisory Board. The plant protection service and the South Tyrolean Advisory Board randomly take leaf samples from all over the country, which are taken to the Laimburg test center for laboratory analysis. Flavescence dorée, the scientific name of golden yellowing, cannot be distinguished from blackwood disease with the naked eye. “This",
+        "offsets": [
+          [
+            1139,
+            1704
+          ]
+        ],
+        "sentence_index": 8,
+        "layout_index": 11,
+        "confidence": 0.8110462129116058
+      }
+    ],
+    "116070": [],
+    "98917": [],
+    "116983": []
+  }
+}

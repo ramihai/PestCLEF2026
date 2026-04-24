@@ -1,0 +1,7733 @@
+{
+  "predicted_entities": {
+    "104657": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "horned beet"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ell"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "long"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "horned beetle"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "LU"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "longhorned beetle"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "beet"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "erne"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "years"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "times"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "le"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Date",
+        "canonical_form": "on Tuesday"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "first time in 2011"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "on"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "riborg"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Date",
+        "canonical_form": "2019"
+      }
+    ],
+    "107116": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "CR4T"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "Mozambique"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "oc R4"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Disease",
+        "canonical_form": "T"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "roll dwarf"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "Brazil"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "irskii"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "oglyphus lact"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "rot"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "ytophthora nicotian"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "ytophthora nicotianae"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "brown rot"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "rus"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "Africa"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "anare"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Disease",
+        "canonical_form": "ail"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "of Casanare"
+      }
+    ],
+    "97985": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "olive trees"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "opoli"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "Polignano"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "May 2022"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "months"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "lia"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "tree"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "xylella fastidiosa July"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "14, 2022"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "opoli and"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "two months"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "uglia"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "ox"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "yle"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "uglia Region"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Location",
+        "canonical_form": "opoli. In Polignano"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Date",
+        "canonical_form": "on August 14, 2020"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella Fastidiosa"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Date",
+        "canonical_form": "next 50 years"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa pa"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Plant",
+        "canonical_form": "uca"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Location",
+        "canonical_form": "Italy"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Location",
+        "canonical_form": "Greece"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Location",
+        "canonical_form": "Spain"
+      }
+    ],
+    "103005": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "July 2022"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "beetle"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "beetles"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "illia japonica)"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "illia japonica"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "2017"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "2021"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "el"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "itzerland"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "capricorns"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "oplophora glabripennis"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": ". chinensis"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "Asia"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "horn beetle"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "Anoplophora glabripennis"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "citrus longhorn beetle"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "Anoplophora chinensis"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Location",
+        "canonical_form": "ric"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "orn"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Location",
+        "canonical_form": "iret"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "capricorn"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Location",
+        "canonical_form": "antique"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Location",
+        "canonical_form": "hin"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Date",
+        "canonical_form": "22"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Pest",
+        "canonical_form": "citrus capricorn"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Date",
+        "canonical_form": "2003"
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Pest",
+        "canonical_form": "ylella fastidiosa Xylella fastidiosa"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C29",
+        "entity_type": "Pest",
+        "canonical_form": "yle"
+      },
+      {
+        "entity_id": "C30",
+        "entity_type": "Date",
+        "canonical_form": "time"
+      },
+      {
+        "entity_id": "C31",
+        "entity_type": "Date",
+        "canonical_form": "in October 2015"
+      },
+      {
+        "entity_id": "C32",
+        "entity_type": "Pest",
+        "canonical_form": "le"
+      },
+      {
+        "entity_id": "C33",
+        "entity_type": "Pest",
+        "canonical_form": "leaved"
+      },
+      {
+        "entity_id": "C34",
+        "entity_type": "Pest",
+        "canonical_form": "kwort"
+      },
+      {
+        "entity_id": "C35",
+        "entity_type": "Pest",
+        "canonical_form": "Polygala myrtifolia"
+      },
+      {
+        "entity_id": "C36",
+        "entity_type": "Location",
+        "canonical_form": "South Corsica"
+      },
+      {
+        "entity_id": "C37",
+        "entity_type": "Location",
+        "canonical_form": "Provence-Alpes Côte d'Azur region"
+      },
+      {
+        "entity_id": "C38",
+        "entity_type": "Date",
+        "canonical_form": "2020"
+      },
+      {
+        "entity_id": "C39",
+        "entity_type": "Location",
+        "canonical_form": "itania"
+      },
+      {
+        "entity_id": "C40",
+        "entity_type": "Pest",
+        "canonical_form": "ylloxera"
+      },
+      {
+        "entity_id": "C41",
+        "entity_type": "Pest",
+        "canonical_form": "um"
+      },
+      {
+        "entity_id": "C42",
+        "entity_type": "Plant",
+        "canonical_form": "et"
+      },
+      {
+        "entity_id": "C43",
+        "entity_type": "Pest",
+        "canonical_form": "opoea"
+      },
+      {
+        "entity_id": "C44",
+        "entity_type": "Plant",
+        "canonical_form": "campa"
+      },
+      {
+        "entity_id": "C45",
+        "entity_type": "Plant",
+        "canonical_form": "ary"
+      },
+      {
+        "entity_id": "C46",
+        "entity_type": "Pest",
+        "canonical_form": "ione"
+      },
+      {
+        "entity_id": "C47",
+        "entity_type": "Plant",
+        "canonical_form": "a box"
+      },
+      {
+        "entity_id": "C48",
+        "entity_type": "Disease",
+        "canonical_form": "Hornet"
+      },
+      {
+        "entity_id": "C49",
+        "entity_type": "Plant",
+        "canonical_form": "pa"
+      },
+      {
+        "entity_id": "C50",
+        "entity_type": "Pest",
+        "canonical_form": "vel"
+      },
+      {
+        "entity_id": "C51",
+        "entity_type": "Plant",
+        "canonical_form": "utina"
+      },
+      {
+        "entity_id": "C52",
+        "entity_type": "Pest",
+        "canonical_form": "alyomorpha halys"
+      },
+      {
+        "entity_id": "C53",
+        "entity_type": "Plant",
+        "canonical_form": "illia"
+      },
+      {
+        "entity_id": "C54",
+        "entity_type": "Pest",
+        "canonical_form": "j"
+      },
+      {
+        "entity_id": "C55",
+        "entity_type": "Plant",
+        "canonical_form": "apon"
+      }
+    ],
+    "107265": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "banana fungus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "fungus"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Africa"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "ten years ago"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "usarium"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Disease",
+        "canonical_form": "ilt"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Mozambique"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "4"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "past decade"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "America"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "4 fungus"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "ambique"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "awi"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "Ruanda"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Plant",
+        "canonical_form": "bananas"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Plant",
+        "canonical_form": "end"
+      }
+    ],
+    "116678": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "to September"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "rus"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "last year"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "Brazil"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "ruguay"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "first nine months of"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "year"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "2021"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "this year"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "Africa"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "in September"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Date",
+        "canonical_form": "far this year"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "September"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "yll"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Plant",
+        "canonical_form": "ost"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "icta citric"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Plant",
+        "canonical_form": "arpa"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Plant",
+        "canonical_form": "citrus black"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Location",
+        "canonical_form": "ur"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Location",
+        "canonical_form": "otonet"
+      }
+    ],
+    "104725": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "earic Islands"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Corsica"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "October 2019"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "year"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "October"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "fastidiosa"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "uca"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "iza"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "ylella fastidiosa"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "carob"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "orca"
+      }
+    ],
+    "105286": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ylella fastidiosa"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "06"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "09"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "2022"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "August"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "ence-Alpes-Côte d"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Azur region"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "Occitanie region"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "2020"
+      }
+    ],
+    "99054": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "August 4 and 11"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "California"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ide County"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "Aug"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "4"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "j"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Pasqual"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "Diego County"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "Riverside County"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "uejito Vineyard"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "on Aug"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Date",
+        "canonical_form": "11"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "ide"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Plant",
+        "canonical_form": "citrus psyllid"
+      }
+    ],
+    "107268": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "fungus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "globe"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Africa"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "decade ago"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "usarium"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Disease",
+        "canonical_form": "ilt"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Mozambique"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "4"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "past decade"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "America"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "2013"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Date",
+        "canonical_form": "years"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "4 fungus"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "countries"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "Tanzania"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "awi"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "anda"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Plant",
+        "canonical_form": "bananas"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Plant",
+        "canonical_form": "end"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "ish"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Plant",
+        "canonical_form": "banana"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "usarium fungus"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Date",
+        "canonical_form": "enties"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Date",
+        "canonical_form": "last century"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Pest",
+        "canonical_form": "usarium fungi"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Date",
+        "canonical_form": "ten years"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Date",
+        "canonical_form": "century"
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Date",
+        "canonical_form": "this week"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Date",
+        "canonical_form": "future"
+      }
+    ],
+    "105574": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ari area"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "ignano"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "Lecce"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "Brindisi"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Taranto"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "uglia"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "Basilicata"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "case September 18"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "2022"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "Polignano"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "are"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Plant",
+        "canonical_form": "olive trees"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "Lecce, Brindisi and Taranto"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "province of Bari"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Date",
+        "canonical_form": "January to December 2021"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Location",
+        "canonical_form": "id"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "ios"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Location",
+        "canonical_form": "provinces of Lecce and Brindisi"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Location",
+        "canonical_form": "of Taranto Avetrana"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Location",
+        "canonical_form": "Carosino"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Location",
+        "canonical_form": "Faggiano"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Location",
+        "canonical_form": "Fragagnano"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Location",
+        "canonical_form": "Lizzano"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Location",
+        "canonical_form": "Manduria"
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Location",
+        "canonical_form": "Maruggio"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Location",
+        "canonical_form": "Monteiasi"
+      },
+      {
+        "entity_id": "C29",
+        "entity_type": "Location",
+        "canonical_form": "Pulsano"
+      },
+      {
+        "entity_id": "C30",
+        "entity_type": "Location",
+        "canonical_form": "Roccaforzata"
+      },
+      {
+        "entity_id": "C31",
+        "entity_type": "Location",
+        "canonical_form": "San Marzano di San Giuseppe"
+      },
+      {
+        "entity_id": "C32",
+        "entity_type": "Location",
+        "canonical_form": "ava"
+      },
+      {
+        "entity_id": "C33",
+        "entity_type": "Location",
+        "canonical_form": "ric"
+      }
+    ],
+    "97966": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ylella fastidiosa"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "fastidiosa"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "avel"
+      }
+    ],
+    "100506": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "Polignano"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "yle"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "of Polignano"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "opoli"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "of Fasano"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "uglia"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "ilic"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "July 29, 2022"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Disease",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "of Brindisi"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "province of Bari"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "Mare"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "of"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "versano"
+      }
+    ],
+    "117305": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "fusarium wilt"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "bananas"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "usarium wilt"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "Fusarium oxysporum f. sp. cubense (Foc"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Plant",
+        "canonical_form": "banana"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "Fusarium kalimantanense"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "Foc"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "F. kalimantanense"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "Fusarium oxysporum"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "OSC"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "cultivar Ma"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "ç"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "ã"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Plant",
+        "canonical_form": "k"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "ar Ma"
+      }
+    ],
+    "115318": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Fruit Fly"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "Sept"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "fruit"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "Bactrocera dorsalis"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "Fountain Valley area of Orange County"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "California"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Fountain Valley area"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "Aug"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "15 and Sept"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "12"
+      }
+    ],
+    "117451": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Xyl"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "years"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "ia"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "Rica"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "rdoba"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "irona"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "ear"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "yle"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Disease",
+        "canonical_form": "lla"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "X"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "órdoba"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Date",
+        "canonical_form": "October 17 to 19"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Date",
+        "canonical_form": "This week"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "ylem"
+      }
+    ],
+    "100108": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "tomato virus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "BRFV virus"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Europe"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "time"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "N"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "months"
+      }
+    ],
+    "100424": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ind"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ella"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "Salento"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "uglia Region"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "ito"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "Norm"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "a"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Plant",
+        "canonical_form": "en"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "um"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "arius"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "put"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "ch"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "uglia"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "Africa"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "ento"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Location",
+        "canonical_form": "anca"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Location",
+        "canonical_form": "car"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Plant",
+        "canonical_form": "ach"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Plant",
+        "canonical_form": "que"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Location",
+        "canonical_form": "ano"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Location",
+        "canonical_form": "ecce"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Plant",
+        "canonical_form": "olive trees"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Location",
+        "canonical_form": "ob"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Date",
+        "canonical_form": "October"
+      }
+    ],
+    "115568": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "tomato brown rugose fruit virus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "obamovirus"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "BRFV"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "Jordan Valley"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "2015"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "Jordan"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "February 2019 to November 2021"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "crops"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "ot"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Plant",
+        "canonical_form": "tabacum"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "aranthus retroflexus"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "vulgaris subsp. mar"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "it"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "ima"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Plant",
+        "canonical_form": "op"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "odium mural"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "anthaceae"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "za can"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Plant",
+        "canonical_form": "ad"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "ensis"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Pest",
+        "canonical_form": "axacum officinale"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "aceae"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Pest",
+        "canonical_form": "va parviflora"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Pest",
+        "canonical_form": "vaceae"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Pest",
+        "canonical_form": "alis corniculata"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Pest",
+        "canonical_form": "Oxalidaceae"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Pest",
+        "canonical_form": "ulaca oleracea"
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Pest",
+        "canonical_form": "ulaceae"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Pest",
+        "canonical_form": "syriaca"
+      },
+      {
+        "entity_id": "C29",
+        "entity_type": "Pest",
+        "canonical_form": "rophulariaceae"
+      },
+      {
+        "entity_id": "C30",
+        "entity_type": "Plant",
+        "canonical_form": "an"
+      },
+      {
+        "entity_id": "C31",
+        "entity_type": "Pest",
+        "canonical_form": "um elaeagnifolium"
+      },
+      {
+        "entity_id": "C32",
+        "entity_type": "Pest",
+        "canonical_form": "."
+      },
+      {
+        "entity_id": "C33",
+        "entity_type": "Plant",
+        "canonical_form": "nig"
+      },
+      {
+        "entity_id": "C34",
+        "entity_type": "Pest",
+        "canonical_form": "rum"
+      },
+      {
+        "entity_id": "C35",
+        "entity_type": "Location",
+        "canonical_form": "olan"
+      },
+      {
+        "entity_id": "C36",
+        "entity_type": "Pest",
+        "canonical_form": "chorus olitorius"
+      },
+      {
+        "entity_id": "C37",
+        "entity_type": "Pest",
+        "canonical_form": "iliaceae"
+      },
+      {
+        "entity_id": "C38",
+        "entity_type": "Pest",
+        "canonical_form": ". retroflexus"
+      },
+      {
+        "entity_id": "C39",
+        "entity_type": "Pest",
+        "canonical_form": ". canadensis"
+      },
+      {
+        "entity_id": "C40",
+        "entity_type": "Pest",
+        "canonical_form": ". officinale"
+      },
+      {
+        "entity_id": "C41",
+        "entity_type": "Pest",
+        "canonical_form": ". murale"
+      },
+      {
+        "entity_id": "C42",
+        "entity_type": "Pest",
+        "canonical_form": ". parviflora"
+      },
+      {
+        "entity_id": "C43",
+        "entity_type": "Pest",
+        "canonical_form": ". syriaca"
+      },
+      {
+        "entity_id": "C44",
+        "entity_type": "Plant",
+        "canonical_form": "nigrum"
+      }
+    ],
+    "104422": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "legre"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "August 31"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "2022"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "this Tuesday"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "30"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "22"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "y"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "ceps javanica"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "ditis"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "iophora"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "Spodoptera frugiperda"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "apt"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "ocor"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "anea"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "od"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "ode"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "ernema carpocapsae"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "odoptera cater"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Location",
+        "canonical_form": "ys"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "ia mat"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Plant",
+        "canonical_form": "og"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "ross"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Plant",
+        "canonical_form": "arc"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Pest",
+        "canonical_form": "ane weevil"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Pest",
+        "canonical_form": "Sphenophorus levis"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Pest",
+        "canonical_form": "etrastichus how"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Pest",
+        "canonical_form": "omus podisi"
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Date",
+        "canonical_form": "week 08/26"
+      }
+    ],
+    "115980": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "hours"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "minutes"
+      }
+    ],
+    "105066": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "flavescence dorée"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "avescence dorée"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "on of Ticino"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "Candidatus phytoplasma vitis"
+      }
+    ],
+    "99835": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "winia amylovora"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "porium herbarum"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "Colletotrichum salicis"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "Neofabraea alba"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "obodera rostochiensis"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "rosophila suzukii (Diptera"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "Drosophilidae"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "ope"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "ädenswil"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Plant",
+        "canonical_form": "an"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "ophila fug"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "ax"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "ia florilega"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "ia radicum"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "Diptera"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "omyiidae"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "Wädenswil"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Date",
+        "canonical_form": "2017 and 2020"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Pest",
+        "canonical_form": "omyza sativae"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "omyza trifolii"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Pest",
+        "canonical_form": "romyz"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "uro"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Pest",
+        "canonical_form": "vapor"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Plant",
+        "canonical_form": "ar"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Pest",
+        "canonical_form": "iorum"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Pest",
+        "canonical_form": "iptera"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Pest",
+        "canonical_form": "rodidae"
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Pest",
+        "canonical_form": "gossypii"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Pest",
+        "canonical_form": "emiptera"
+      },
+      {
+        "entity_id": "C29",
+        "entity_type": "Pest",
+        "canonical_form": "id"
+      },
+      {
+        "entity_id": "C30",
+        "entity_type": "Pest",
+        "canonical_form": "ucinodes orbonal"
+      },
+      {
+        "entity_id": "C31",
+        "entity_type": "Pest",
+        "canonical_form": "epidoptera"
+      },
+      {
+        "entity_id": "C32",
+        "entity_type": "Pest",
+        "canonical_form": "amb"
+      },
+      {
+        "entity_id": "C33",
+        "entity_type": "Pest",
+        "canonical_form": "ig"
+      },
+      {
+        "entity_id": "C34",
+        "entity_type": "Pest",
+        "canonical_form": "odoptera"
+      },
+      {
+        "entity_id": "C35",
+        "entity_type": "Pest",
+        "canonical_form": "odoptera litura"
+      },
+      {
+        "entity_id": "C36",
+        "entity_type": "Pest",
+        "canonical_form": "ctuidae"
+      },
+      {
+        "entity_id": "C37",
+        "entity_type": "Pest",
+        "canonical_form": "omorpha halys"
+      },
+      {
+        "entity_id": "C38",
+        "entity_type": "Pest",
+        "canonical_form": "ristiphora appendiculata"
+      },
+      {
+        "entity_id": "C39",
+        "entity_type": "Pest",
+        "canonical_form": "en"
+      },
+      {
+        "entity_id": "C40",
+        "entity_type": "Pest",
+        "canonical_form": "in"
+      },
+      {
+        "entity_id": "C41",
+        "entity_type": "Pest",
+        "canonical_form": "repha obliqua"
+      },
+      {
+        "entity_id": "C42",
+        "entity_type": "Pest",
+        "canonical_form": "actrocera dorsalis"
+      },
+      {
+        "entity_id": "C43",
+        "entity_type": "Pest",
+        "canonical_form": "actrocera latifrons"
+      },
+      {
+        "entity_id": "C44",
+        "entity_type": "Pest",
+        "canonical_form": "atitis anon"
+      },
+      {
+        "entity_id": "C45",
+        "entity_type": "Plant",
+        "canonical_form": "ae"
+      },
+      {
+        "entity_id": "C46",
+        "entity_type": "Plant",
+        "canonical_form": "atitis"
+      },
+      {
+        "entity_id": "C47",
+        "entity_type": "Pest",
+        "canonical_form": "capit"
+      },
+      {
+        "entity_id": "C48",
+        "entity_type": "Plant",
+        "canonical_form": "ata"
+      },
+      {
+        "entity_id": "C49",
+        "entity_type": "Pest",
+        "canonical_form": "ugodacus cucurbitae (Diptera"
+      },
+      {
+        "entity_id": "C50",
+        "entity_type": "Pest",
+        "canonical_form": "phritidae"
+      },
+      {
+        "entity_id": "C51",
+        "entity_type": "Pest",
+        "canonical_form": "pal"
+      },
+      {
+        "entity_id": "C52",
+        "entity_type": "Pest",
+        "canonical_form": "ys"
+      },
+      {
+        "entity_id": "C53",
+        "entity_type": "Pest",
+        "canonical_form": "ripidae"
+      },
+      {
+        "entity_id": "C54",
+        "entity_type": "Location",
+        "canonical_form": "ich"
+      },
+      {
+        "entity_id": "C55",
+        "entity_type": "Pest",
+        "canonical_form": "edes j"
+      },
+      {
+        "entity_id": "C56",
+        "entity_type": "Plant",
+        "canonical_form": "ap"
+      },
+      {
+        "entity_id": "C57",
+        "entity_type": "Pest",
+        "canonical_form": "onicus"
+      },
+      {
+        "entity_id": "C58",
+        "entity_type": "Pest",
+        "canonical_form": "Culic"
+      },
+      {
+        "entity_id": "C59",
+        "entity_type": "Plant",
+        "canonical_form": "legt"
+      },
+      {
+        "entity_id": "C60",
+        "entity_type": "Pest",
+        "canonical_form": "us"
+      },
+      {
+        "entity_id": "C61",
+        "entity_type": "Plant",
+        "canonical_form": "ag"
+      },
+      {
+        "entity_id": "C62",
+        "entity_type": "Pest",
+        "canonical_form": "iolepis py"
+      },
+      {
+        "entity_id": "C63",
+        "entity_type": "Plant",
+        "canonical_form": "g"
+      },
+      {
+        "entity_id": "C64",
+        "entity_type": "Pest",
+        "canonical_form": "maea"
+      },
+      {
+        "entity_id": "C65",
+        "entity_type": "Plant",
+        "canonical_form": "in"
+      },
+      {
+        "entity_id": "C66",
+        "entity_type": "Pest",
+        "canonical_form": "magn"
+      },
+      {
+        "entity_id": "C67",
+        "entity_type": "Pest",
+        "canonical_form": "or"
+      },
+      {
+        "entity_id": "C68",
+        "entity_type": "Pest",
+        "canonical_form": "meridionale"
+      },
+      {
+        "entity_id": "C69",
+        "entity_type": "Pest",
+        "canonical_form": "enoptera"
+      },
+      {
+        "entity_id": "C70",
+        "entity_type": "Pest",
+        "canonical_form": "ic"
+      },
+      {
+        "entity_id": "C71",
+        "entity_type": "Pest",
+        "canonical_form": "obacterales"
+      },
+      {
+        "entity_id": "C72",
+        "entity_type": "Pest",
+        "canonical_form": "obacteriaceae"
+      },
+      {
+        "entity_id": "C73",
+        "entity_type": "Pest",
+        "canonical_form": "ode Globodera rostochiensis"
+      },
+      {
+        "entity_id": "C74",
+        "entity_type": "Plant",
+        "canonical_form": "cv"
+      },
+      {
+        "entity_id": "C75",
+        "entity_type": "Plant",
+        "canonical_form": "ire"
+      },
+      {
+        "entity_id": "C76",
+        "entity_type": "Plant",
+        "canonical_form": "ato tub"
+      },
+      {
+        "entity_id": "C77",
+        "entity_type": "Date",
+        "canonical_form": "10"
+      },
+      {
+        "entity_id": "C78",
+        "entity_type": "Date",
+        "canonical_form": "weeks"
+      },
+      {
+        "entity_id": "C79",
+        "entity_type": "Plant",
+        "canonical_form": "shoots"
+      },
+      {
+        "entity_id": "C80",
+        "entity_type": "Date",
+        "canonical_form": "days"
+      },
+      {
+        "entity_id": "C81",
+        "entity_type": "Date",
+        "canonical_form": "30 days"
+      },
+      {
+        "entity_id": "C82",
+        "entity_type": "Plant",
+        "canonical_form": "fruit"
+      },
+      {
+        "entity_id": "C83",
+        "entity_type": "Pest",
+        "canonical_form": "Malus p"
+      },
+      {
+        "entity_id": "C84",
+        "entity_type": "Plant",
+        "canonical_form": "um"
+      },
+      {
+        "entity_id": "C85",
+        "entity_type": "Pest",
+        "canonical_form": "ila var"
+      },
+      {
+        "entity_id": "C86",
+        "entity_type": "Location",
+        "canonical_form": "denswil"
+      },
+      {
+        "entity_id": "C87",
+        "entity_type": "Pest",
+        "canonical_form": "oviruses"
+      },
+      {
+        "entity_id": "C88",
+        "entity_type": "Pest",
+        "canonical_form": "ymb"
+      },
+      {
+        "entity_id": "C89",
+        "entity_type": "Disease",
+        "canonical_form": "bl"
+      },
+      {
+        "entity_id": "C90",
+        "entity_type": "Plant",
+        "canonical_form": "ight"
+      },
+      {
+        "entity_id": "C91",
+        "entity_type": "Plant",
+        "canonical_form": "ab"
+      }
+    ],
+    "116219": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "northern Veracruz"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "20 years ago"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Disease",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "long"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "zone of Veracruz"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Plant",
+        "canonical_form": "acle"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "for 20 years"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "anglong"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "north of Veracruz"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "iz"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "years"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "fruits"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "last year"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "ihuatlán"
+      }
+    ],
+    "115219": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      }
+    ],
+    "102892": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "province of Bari"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Italy"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "province of Bari In Italy"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "uglia"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "Thursday 18 August 2022"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "yg"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Disease",
+        "canonical_form": "20"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "yle"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Disease",
+        "canonical_form": "lla"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "Polignano"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "of Fasano"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "of Martina Franca"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "Alberobello area"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "provinces of Brindisi"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Location",
+        "canonical_form": "Taranto"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Date",
+        "canonical_form": "22"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Location",
+        "canonical_form": "of Bari"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Disease",
+        "canonical_form": "X"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "ylella Fastidiosa"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Date",
+        "canonical_form": "next 50 years"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Location",
+        "canonical_form": "Europe"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Disease",
+        "canonical_form": "fast"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Pest",
+        "canonical_form": "idiosa"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Plant",
+        "canonical_form": "pauca"
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Location",
+        "canonical_form": "Greece"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Location",
+        "canonical_form": "Spain"
+      },
+      {
+        "entity_id": "C29",
+        "entity_type": "Pest",
+        "canonical_form": "y"
+      },
+      {
+        "entity_id": "C30",
+        "entity_type": "Disease",
+        "canonical_form": "ella"
+      },
+      {
+        "entity_id": "C31",
+        "entity_type": "Location",
+        "canonical_form": "ari"
+      },
+      {
+        "entity_id": "C32",
+        "entity_type": "Pest",
+        "canonical_form": "ire"
+      },
+      {
+        "entity_id": "C33",
+        "entity_type": "Pest",
+        "canonical_form": "Puglia"
+      },
+      {
+        "entity_id": "C34",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella Fastidiosa"
+      },
+      {
+        "entity_id": "C35",
+        "entity_type": "Location",
+        "canonical_form": "lia"
+      },
+      {
+        "entity_id": "C36",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa pauca"
+      },
+      {
+        "entity_id": "C37",
+        "entity_type": "Location",
+        "canonical_form": "agening"
+      },
+      {
+        "entity_id": "C38",
+        "entity_type": "Pest",
+        "canonical_form": "yella"
+      }
+    ],
+    "116554": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ruit"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "day of"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "year"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "fruit"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "years"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "Tuesday"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "act"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "cer"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "dors"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "2017 and 2019"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "fruits"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Date",
+        "canonical_form": "2020"
+      }
+    ],
+    "100458": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "beetle"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "iburg"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Z"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "illia j"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Plant",
+        "canonical_form": "apon"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "ica"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "last autumn"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "Italy"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "May 2022"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "iburg area"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "aden"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "t"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "beet"
+      }
+    ],
+    "103887": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ecce"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ari"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "road"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "Bari"
+      }
+    ],
+    "115121": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "usarium oxysporum f. sp. cubense"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "usarium"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "ilt"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "banana"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "oc"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "oc4"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "oc4 con"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "ros"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "olline"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "fusarium oxysporum f. sp. cubense race"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "el"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "aproleg"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "arium oxysporum f. sp. cubense race"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Date",
+        "canonical_form": "21"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "arium oxysporum f. sp. cubense tropical"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "Guajira"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "arium oxysporum f. sp. cubense tropical race"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Plant",
+        "canonical_form": "wilt"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Location",
+        "canonical_form": "East"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "yt"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Plant",
+        "canonical_form": "aras"
+      }
+    ],
+    "105854": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "2021"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "year"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "citrus"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "belt of São Paulo and Triângulo Mineiro"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "fifth consecutive year"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Plant",
+        "canonical_form": "citrus belt"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "regions of Brotas, Limeira and Porto Ferreira"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "interior of São Paulo"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "years"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "regions of Avaré and Duartina"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "previous years"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "regions of Altinópolis and Bebedouro"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "regions of São José do Rio Preto"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "etining"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "of Matão"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Date",
+        "canonical_form": "last six years"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "regions of Tri"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Location",
+        "canonical_form": "ngulo Mineiro and Votuporanga"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Pest",
+        "canonical_form": "yllid"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "andidatus"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Pest",
+        "canonical_form": "ibacter spp"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Location",
+        "canonical_form": "ane"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Pest",
+        "canonical_form": "yll"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Date",
+        "canonical_form": "2020"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Date",
+        "canonical_form": "2022"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Pest",
+        "canonical_form": "it"
+      }
+    ],
+    "117194": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ato brown rugose fruit virus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "brown rugose fruit virus"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "BRFV"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "amovirus"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "2019"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "FV"
+      }
+    ],
+    "106215": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "race 4 ("
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "4)"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "Fusarium wilt"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "America"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "usarium wilt"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Disease",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Disease",
+        "canonical_form": "WB"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "Fusarium ox"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "porum"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "."
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": ". cubense"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "oc"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "1950"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "4 ("
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "4"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "oc TR4"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Date",
+        "canonical_form": "21"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "Foc TR4"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Location",
+        "canonical_form": "Guajira"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Location",
+        "canonical_form": "ombia"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Location",
+        "canonical_form": "uv"
+      }
+    ],
+    "118127": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Disease",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "Huelva"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "citrus"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "ru"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "October 2021"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "region of"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Algarve"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "Aljezur"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "year"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "most Portuguese Atlantic coast"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "Ayamonte"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "o"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "2015"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "yllid"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "of Galicia"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "abria"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "ur"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Date",
+        "canonical_form": "in November last year"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Disease",
+        "canonical_form": "za"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "cit"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Location",
+        "canonical_form": "feliu"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Location",
+        "canonical_form": "za"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Location",
+        "canonical_form": "Algarve coastline"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Location",
+        "canonical_form": "Portugal"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Location",
+        "canonical_form": "inland"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Location",
+        "canonical_form": "fer Valley"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Location",
+        "canonical_form": "north of Tel Aviv"
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Plant",
+        "canonical_form": "range"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Pest",
+        "canonical_form": "yll"
+      },
+      {
+        "entity_id": "C29",
+        "entity_type": "Pest",
+        "canonical_form": "andidatus Liberibacter asiaticus"
+      },
+      {
+        "entity_id": "C30",
+        "entity_type": "Date",
+        "canonical_form": "January 2022"
+      },
+      {
+        "entity_id": "C31",
+        "entity_type": "Date",
+        "canonical_form": "months"
+      },
+      {
+        "entity_id": "C32",
+        "entity_type": "Date",
+        "canonical_form": "July"
+      },
+      {
+        "entity_id": "C33",
+        "entity_type": "Date",
+        "canonical_form": "in"
+      },
+      {
+        "entity_id": "C34",
+        "entity_type": "Date",
+        "canonical_form": "years"
+      },
+      {
+        "entity_id": "C35",
+        "entity_type": "Location",
+        "canonical_form": "Florida"
+      },
+      {
+        "entity_id": "C36",
+        "entity_type": "Plant",
+        "canonical_form": "ar"
+      },
+      {
+        "entity_id": "C37",
+        "entity_type": "Pest",
+        "canonical_form": "dry"
+      },
+      {
+        "entity_id": "C38",
+        "entity_type": "Location",
+        "canonical_form": "ary Islands"
+      },
+      {
+        "entity_id": "C39",
+        "entity_type": "Location",
+        "canonical_form": "icia"
+      },
+      {
+        "entity_id": "C40",
+        "entity_type": "Plant",
+        "canonical_form": "ul"
+      },
+      {
+        "entity_id": "C41",
+        "entity_type": "Location",
+        "canonical_form": "f"
+      },
+      {
+        "entity_id": "C42",
+        "entity_type": "Plant",
+        "canonical_form": "eli"
+      }
+    ],
+    "115840": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Salento"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "ulian provinces"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "hours"
+      }
+    ],
+    "102433": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "rus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Disease",
+        "canonical_form": "dragon"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Disease",
+        "canonical_form": "bing"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "andidatus Liberibacter asiaticus"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Plant",
+        "canonical_form": "citrus"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "andid"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "Liberibacter asiaticus"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "citrus trees"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "citrus ps"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "yll"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "id"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "as"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "now"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": ". capsica"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "ibacter"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "acter"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Plant",
+        "canonical_form": "pepper"
+      }
+    ],
+    "106950": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "September 21"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "20"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "rapevine flavescence dorée"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "oplasma"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "22"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "30"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "21 September 20"
+      }
+    ],
+    "106417": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "FV"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "ato"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "ato"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "fruit"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "BRFV"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Plant",
+        "canonical_form": "olan"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "lycopers"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "m"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "first time"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "years ago"
+      }
+    ],
+    "105490": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "horned beetle"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "deburg"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "September 8th"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "2022"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "longhorned beetle"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "zone"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "Magdeburg"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "on August 22, 2022"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "ies"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "eastern area"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Date",
+        "canonical_form": "2018 and 2020"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "On August 23"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "ü"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "unschweig"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Date",
+        "canonical_form": "time of year"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Disease",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Date",
+        "canonical_form": "of the week"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Date",
+        "canonical_form": "time"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Location",
+        "canonical_form": "area of Lake Neustadt"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Date",
+        "canonical_form": "in 2021"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Date",
+        "canonical_form": "years"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Date",
+        "canonical_form": "in September"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Date",
+        "canonical_form": "days"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Location",
+        "canonical_form": "²"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Date",
+        "canonical_form": "years until 2026"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Date",
+        "canonical_form": "long"
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Date",
+        "canonical_form": "end"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Date",
+        "canonical_form": "year"
+      }
+    ],
+    "103391": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "vis"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "eto"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "ine"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "flaves"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Disease",
+        "canonical_form": "Mar"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "ca"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "flavescence"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "summer"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "vine"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "REVISO"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Disease",
+        "canonical_form": "flaves"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "cence"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "vineyards"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "viso"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "er"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "ilipp"
+      }
+    ],
+    "99733": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "iana degli Ulivi"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "ylella fastidiosa"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "uglia"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "province of Brindisi"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "province of Bari"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Polignano a Mare"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "of Polignano"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "Mare"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "of Monopoli"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "of Fasano"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "versano-Polignano"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "Sauli"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "of Gallipoli"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "ennaro Sicolo"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "of Bari"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      }
+    ],
+    "106012": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Disease",
+        "canonical_form": "Delhi"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "tomato leaf curl virus"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "Tomato leaf curl"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Disease",
+        "canonical_form": "New Delhi"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "virus"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "akia"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "09"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "22"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "atislava"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "20"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "06"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "a"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "ov"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Plant",
+        "canonical_form": "apple blossom"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Plant",
+        "canonical_form": "vine"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Plant",
+        "canonical_form": "rape"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "vine fl"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Plant",
+        "canonical_form": "avescence"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Date",
+        "canonical_form": "2022"
+      }
+    ],
+    "104453": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "22"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "this Tuesday"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "30"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "yceps javanica"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "ditis"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "iophora"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "odoptera frugiperda"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "aptocoris castanea caterpill"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "odoptera"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "ode"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "ernema carpocapsae"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "odoptera caterp"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "ysia mat"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "og"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "ross"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Plant",
+        "canonical_form": "arc"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "ane weevil"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "henophorus levis"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Pest",
+        "canonical_form": "etr"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "ichus how"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Pest",
+        "canonical_form": "omus podisi"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "bass"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Pest",
+        "canonical_form": "id"
+      }
+    ],
+    "102894": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "province of Bari"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "olive trees"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "uglia"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "yg"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "irt"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "if"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Disease",
+        "canonical_form": "20"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "Polignano"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "tree"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "opoli"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "of Fasano"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "of Martina Franca"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "Alberobello area"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "provinces of Brindisi and Taranto"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Location",
+        "canonical_form": "port of Bari"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Pest",
+        "canonical_form": "P"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella Fastidiosa"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Date",
+        "canonical_form": "next 50 years"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Plant",
+        "canonical_form": "pauca"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Location",
+        "canonical_form": "Italy"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Pest",
+        "canonical_form": "yella"
+      }
+    ],
+    "103643": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "beetle"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "aden"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "rttember"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "beet"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "autumn"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "in July"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "iburg area"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "Württember"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "time"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "Württ"
+      }
+    ],
+    "98065": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Pinewood N"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "odes Bursaphelenchus xylophilus"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "pinewood nematode Bursaphelenchus xylophilus"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "wilt"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "Pinewood"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "au"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "ematodes Bursaphelenchus xylophilus"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": ". xylophilus"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "ry"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "cine"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "forests"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "us"
+      }
+    ],
+    "104562": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Date",
+        "canonical_form": "Sep 5, 2022"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "August 29"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "2022"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "avon"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "orghum"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "armyworm"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "corn"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "ec"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "utriafol"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Plant",
+        "canonical_form": "nuts"
+      }
+    ],
+    "100478": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ato brown rugose fruit virus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "BRFV"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "ose"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "a"
+      }
+    ],
+    "104868": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "actrocera dorsalis insect"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "astern fruit"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "of Campania"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "territory of Palma Campania"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "ola"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "ania Region"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "uto"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": ". dorsalis"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "Palma Campania"
+      }
+    ],
+    "102441": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Citrus Greening"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "This week"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "andid"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "ibacter asiaticus"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "as"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Plant",
+        "canonical_form": "rus"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "green"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Disease",
+        "canonical_form": "ing"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "citrus green"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "ors"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "Central Valley"
+      }
+    ],
+    "116242": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "én"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ópez"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ida"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "iecer"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "errano"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Plant",
+        "canonical_form": "oa"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "ogollo"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "avo"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "wilt"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Plant",
+        "canonical_form": "á"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "ce"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "as"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Disease",
+        "canonical_form": "bing"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Disease",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Disease",
+        "canonical_form": "Dragon"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Plant",
+        "canonical_form": "PC"
+      }
+    ],
+    "115232": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ari"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "olive trees"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "Polignano"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "Fasano"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Martina Franca"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "orotondo"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "ul"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "ian olive"
+      }
+    ],
+    "100333": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Disease",
+        "canonical_form": "A"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "maize"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "ELA maize"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "Africa"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "Egypt"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "EL"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Disease",
+        "canonical_form": "drought"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "October 8, 2021 to October 5, 2024"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "iy"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "Nigeria"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "A maize"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "Ma"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "ize"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "Mozambique"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Plant",
+        "canonical_form": "t"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Date",
+        "canonical_form": "2017"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Date",
+        "canonical_form": "2016"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Date",
+        "canonical_form": "years"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Date",
+        "canonical_form": "for"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Date",
+        "canonical_form": "20 years"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Location",
+        "canonical_form": "Portugal"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Location",
+        "canonical_form": "Republic"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Location",
+        "canonical_form": "Burkina Faso"
+      }
+    ],
+    "99970": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "actrocera dors"
+      }
+    ],
+    "102516": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Popillia japonica"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "cia"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ze"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "ova"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "ona"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "ardy Region"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "iazza Città di Lombardia"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "beet"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "Italy"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "2017 and 2019"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": ". japonica"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "illia japonica"
+      }
+    ],
+    "115859": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "ug"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "lia"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "olive trees"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Disease",
+        "canonical_form": "IA"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Polignano"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "Fasano"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "Martina Franca"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "Locorotondo"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "ulian olive growing"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "ari"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "next 50 years"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Plant",
+        "canonical_form": "pauca"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "Italy"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "Greece"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "Spain"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "yella"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Location",
+        "canonical_form": "ug"
+      }
+    ],
+    "99433": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ictyophara europaea"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Dictyophar"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "andidatus Phytoplasma solani"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "grapevine"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Disease",
+        "canonical_form": "yellows"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Plant",
+        "canonical_form": "vines"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "ixi"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "solet"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "zeri"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "Dic"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "ophara"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "vineyards"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": ". solani"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Plant",
+        "canonical_form": "aranthus roseus"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Plant",
+        "canonical_form": "v"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "rep"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "fo"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Plant",
+        "canonical_form": "uc"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Plant",
+        "canonical_form": "car"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "Dictyopharidae"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Plant",
+        "canonical_form": "rapevine"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Disease",
+        "canonical_form": "s"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Pest",
+        "canonical_form": "olbur"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Pest",
+        "canonical_form": "ic"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Pest",
+        "canonical_form": "Dictyophara europaea"
+      }
+    ],
+    "105882": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Disease",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "Argentina"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ruguay"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "aguay"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "September 12, 2022"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "ruguay and Paraguay"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Disease",
+        "canonical_form": "ang"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "plant"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "andidatus"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "acter spp"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "aphorina citri"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "American continent"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "2012"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "Paraguay"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Date",
+        "canonical_form": "2013"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Plant",
+        "canonical_form": "citrus"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Location",
+        "canonical_form": "ivia"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Location",
+        "canonical_form": "America"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Location",
+        "canonical_form": "Venezuela"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Location",
+        "canonical_form": "countries"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "aphorina citri -vector"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Pest",
+        "canonical_form": "B vector"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Date",
+        "canonical_form": "15 days"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Date",
+        "canonical_form": "a month"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Date",
+        "canonical_form": "time"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Date",
+        "canonical_form": "year"
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Plant",
+        "canonical_form": "ar"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Pest",
+        "canonical_form": "ixi radiata"
+      },
+      {
+        "entity_id": "C29",
+        "entity_type": "Location",
+        "canonical_form": "Vista"
+      },
+      {
+        "entity_id": "C30",
+        "entity_type": "Location",
+        "canonical_form": "Corrientes"
+      },
+      {
+        "entity_id": "C31",
+        "entity_type": "Location",
+        "canonical_form": "to"
+      },
+      {
+        "entity_id": "C32",
+        "entity_type": "Location",
+        "canonical_form": "ap"
+      },
+      {
+        "entity_id": "C33",
+        "entity_type": "Location",
+        "canonical_form": "a"
+      },
+      {
+        "entity_id": "C34",
+        "entity_type": "Location",
+        "canonical_form": "erme"
+      },
+      {
+        "entity_id": "C35",
+        "entity_type": "Location",
+        "canonical_form": "olivia"
+      },
+      {
+        "entity_id": "C36",
+        "entity_type": "Plant",
+        "canonical_form": "ercit"
+      },
+      {
+        "entity_id": "C37",
+        "entity_type": "Pest",
+        "canonical_form": "rus"
+      },
+      {
+        "entity_id": "C38",
+        "entity_type": "Location",
+        "canonical_form": "f"
+      },
+      {
+        "entity_id": "C39",
+        "entity_type": "Pest",
+        "canonical_form": "ru"
+      },
+      {
+        "entity_id": "C40",
+        "entity_type": "Date",
+        "canonical_form": "2019"
+      },
+      {
+        "entity_id": "C41",
+        "entity_type": "Date",
+        "canonical_form": "of 20"
+      }
+    ],
+    "116192": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "citrus"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "ps"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "yll"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "id"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "summer"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "yllid"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": ")"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "ap"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "horina"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "cit"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "ri"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "Ku"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "wayama"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "long"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Disease",
+        "canonical_form": "bing"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Disease",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "Los Angeles"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Location",
+        "canonical_form": "California basin"
+      }
+    ],
+    "114258": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ocriconema xenoplax"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Apricots (Prunus armeniaca"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "Ontario"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "itic"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "2019"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "agara region"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "odes"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "esocriconema"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "ots"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Plant",
+        "canonical_form": "ricot"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "ven"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "."
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "oplax"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Date",
+        "canonical_form": "6 and"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Date",
+        "canonical_form": "months"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Date",
+        "canonical_form": "6 months"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Date",
+        "canonical_form": "and"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "ode"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Pest",
+        "canonical_form": ". xenoplax"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "ricots"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Pest",
+        "canonical_form": "Prunus armeniaca"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "asitic"
+      }
+    ],
+    "118038": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "bananas"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "disease"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "banana plants"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "plant"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Disease",
+        "canonical_form": "Ban"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Plant",
+        "canonical_form": "anas"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "Fusarium oxysporum cubense"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "end"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "ish"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Disease",
+        "canonical_form": "ish"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "banana"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Disease",
+        "canonical_form": "Cav"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "far"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Disease",
+        "canonical_form": "disease"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Plant",
+        "canonical_form": "banana plant"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Disease",
+        "canonical_form": "Panama disease"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "usarium oxysporum f"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": ". cubense"
+      }
+    ],
+    "116010": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "hours"
+      }
+    ],
+    "116509": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "enc"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "fruits"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "citrus fruits"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "to September"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "last year"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Brazil"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "ruguay"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "first nine months of"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "year"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "year for 1 last year"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "Africa"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "in September"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Date",
+        "canonical_form": "far this year"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Date",
+        "canonical_form": "4"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Plant",
+        "canonical_form": "yllostict"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "a"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Plant",
+        "canonical_form": "ricarpa"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Plant",
+        "canonical_form": "black"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Location",
+        "canonical_form": "ur"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Pest",
+        "canonical_form": "yle"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Location",
+        "canonical_form": "African Cotton"
+      }
+    ],
+    "98134": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "anges"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Plant",
+        "canonical_form": "rus"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "ang"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Plant",
+        "canonical_form": "fruit"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "last two decades"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Disease",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "citrus psyllid"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Disease",
+        "canonical_form": "ang"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Plant",
+        "canonical_form": "bing"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "citrus groves"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "tree"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "B"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "-"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Plant",
+        "canonical_form": "citrus trees"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Plant",
+        "canonical_form": "grove"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Location",
+        "canonical_form": "ale"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Date",
+        "canonical_form": "the 2017"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Date",
+        "canonical_form": "2019"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Plant",
+        "canonical_form": "groves"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Plant",
+        "canonical_form": "citrus leaves"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Plant",
+        "canonical_form": "ig"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Plant",
+        "canonical_form": "plant"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Plant",
+        "canonical_form": "leaves"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Plant",
+        "canonical_form": "citrus"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Pest",
+        "canonical_form": "."
+      },
+      {
+        "entity_id": "C27",
+        "entity_type": "Plant",
+        "canonical_form": "z"
+      },
+      {
+        "entity_id": "C28",
+        "entity_type": "Pest",
+        "canonical_form": "iesii var"
+      },
+      {
+        "entity_id": "C29",
+        "entity_type": "Pest",
+        "canonical_form": "glauca"
+      },
+      {
+        "entity_id": "C30",
+        "entity_type": "Pest",
+        "canonical_form": "ziesii"
+      },
+      {
+        "entity_id": "C31",
+        "entity_type": "Pest",
+        "canonical_form": "viridis"
+      },
+      {
+        "entity_id": "C32",
+        "entity_type": "Plant",
+        "canonical_form": "grapefruit"
+      },
+      {
+        "entity_id": "C33",
+        "entity_type": "Plant",
+        "canonical_form": "grapefruit leaves"
+      },
+      {
+        "entity_id": "C34",
+        "entity_type": "Plant",
+        "canonical_form": "orky"
+      },
+      {
+        "entity_id": "C35",
+        "entity_type": "Plant",
+        "canonical_form": "squash leaves"
+      }
+    ],
+    "99826": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Bactrocera dorsalis"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "actrocera dorsalis"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "dorOBP"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "O"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "ugenol"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "octalact"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "eugenol"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": ". dorsalis"
+      }
+    ],
+    "105440": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ixia triozae"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "en"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "oph"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "icera cockerelli"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "emip"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "Triozidae"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "tomato"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "psyllid"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "ic"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "cockerelli"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "andidatus"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": ". cockerelli"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "."
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "ozae"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": ". cockerelli N"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Plant",
+        "canonical_form": "3"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Date",
+        "canonical_form": "22"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Plant",
+        "canonical_form": "ps"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Pest",
+        "canonical_form": "yllid"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "actericera cockerelli"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Pest",
+        "canonical_form": "emiptera"
+      }
+    ],
+    "116622": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "endish"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "disease R4"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Disease",
+        "canonical_form": "T"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "2024"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Plant",
+        "canonical_form": "end"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "ish"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "banana"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Disease",
+        "canonical_form": "Panama"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "R4"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "beginning of 2024"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "4"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Disease",
+        "canonical_form": "T Panama"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "disease"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "4R"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Plant",
+        "canonical_form": "endish banana"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Date",
+        "canonical_form": "years"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "4T"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Date",
+        "canonical_form": "2022"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Date",
+        "canonical_form": "20"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Date",
+        "canonical_form": "for 2024"
+      }
+    ],
+    "117546": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ursaphelenchus xylophilus Invasion"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Pinus massoniana"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Plant",
+        "canonical_form": "ine"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "wood nematode"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "ursaphelenchus xylophilus"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "tree"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "nidus"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Pest",
+        "canonical_form": "us massoniana"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": ". xylophilus"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Plant",
+        "canonical_form": "ilt"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "pine trees"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "."
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "oniana"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Plant",
+        "canonical_form": "P"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": ". massoniana"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "obial"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Plant",
+        "canonical_form": "pines"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Pest",
+        "canonical_form": "ial"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "ell"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Pest",
+        "canonical_form": "wood"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "ode"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Pest",
+        "canonical_form": "Bursaphelenchus xylophilus Inv"
+      }
+    ],
+    "117415": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "banana"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Disease",
+        "canonical_form": "disease"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "usarium"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Disease",
+        "canonical_form": "w"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Plant",
+        "canonical_form": "ilt"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Plant",
+        "canonical_form": "bananas"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "anas"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "usarium ox"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "um"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "oc"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "ocR1"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "4"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "ocTR4"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "ama"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "America"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Date",
+        "canonical_form": "year 2019"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Plant",
+        "canonical_form": "endish bananas"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Plant",
+        "canonical_form": "at"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Pest",
+        "canonical_form": "ydosp"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "oc 4"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Disease",
+        "canonical_form": "wilt"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "ocR"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Pest",
+        "canonical_form": "ymoseptoria tr"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Plant",
+        "canonical_form": "it"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Pest",
+        "canonical_form": "ici"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Plant",
+        "canonical_form": "itici"
+      }
+    ],
+    "99581": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "FV"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "BRFV"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "brown"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "vel"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "on June 1"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Date",
+        "canonical_form": "2022"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "Tomato brown rugose fruit virus"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Plant",
+        "canonical_form": "farms"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "mid"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "2019"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "June 1"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "ovir"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "2015"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Date",
+        "canonical_form": "first time"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "Sicily"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "Italy"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Date",
+        "canonical_form": "2018"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Location",
+        "canonical_form": "ily"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Date",
+        "canonical_form": "of 2019"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "V"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Pest",
+        "canonical_form": "MV"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "BRFV virus"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Date",
+        "canonical_form": "November 1"
+      }
+    ],
+    "116208": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "plants"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "igas Highway"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "asa"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "days"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "14 José Gervasio Artigas Highway"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": "andid"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "acter"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "930"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "09 and 1678/2019"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "years"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "2019"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "fruits"
+      }
+    ],
+    "115188": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "22"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "September 26"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "parish of Colares"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "municipality of Sintra"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": ". fastidiosa"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "."
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "idious"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Plant",
+        "canonical_form": "and"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "ula dentata"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "19 September"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "Area of Porto"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "X. fastidiosa"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "of Vila Nova de Gaia"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "Santa Maria da Feira"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "Porto"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Location",
+        "canonical_form": "spinho"
+      }
+    ],
+    "115119": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Spodoptera"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "rugiperda"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "worm"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Disease",
+        "canonical_form": "W"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "Spodoptera frugiperda"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Pest",
+        "canonical_form": ">"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "Lepidoptera"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "Noctuidae"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "America"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "past decade"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "odoptera frugiperda"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "odoptera"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Pest",
+        "canonical_form": "Spodoptera frugiperda (Lepidoptera"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "range"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": ". frugiperda"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "ranges"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Date",
+        "canonical_form": "January 20"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "armyworm Spodoptera frugiperda (Lepidoptera"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Pest",
+        "canonical_form": "armyworm Spodoptera frugiperda"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "ArmywormSpodoptera frugiperda"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Pest",
+        "canonical_form": "worm Spodoptera frugiperda"
+      }
+    ],
+    "100454": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "beetle"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "iburg"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "illia japonica"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "fall of"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "of Baden Württemberg"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "sace"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Europe"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "year"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "aden Württemberg"
+      }
+    ],
+    "104752": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "earic Islands"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella fastidiosa"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "on 09/06"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "2022 13"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Date",
+        "canonical_form": "this Tuesday"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "Corsica"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Balearic Islands"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "three days"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "October 2019"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "year"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Date",
+        "canonical_form": "October"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "fastidiosa"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "carob"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "orca"
+      }
+    ],
+    "99632": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Plant",
+        "canonical_form": "Ban"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "ana Moko"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "stonia solanacearum Race"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Location",
+        "canonical_form": "of Chiapas and Tabasco"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "outheast region"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "era"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Location",
+        "canonical_form": "Tabasco"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Location",
+        "canonical_form": "ado"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "zano"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "ana"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "alstonia solanacearum Race"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Pest",
+        "canonical_form": "oko del Pl"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "át"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "ano"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Location",
+        "canonical_form": "America"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "Caribbean"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "."
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "anacearum"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Plant",
+        "canonical_form": "bananas"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "go"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Pest",
+        "canonical_form": "anacearum Race"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Location",
+        "canonical_form": "Municipalities of Chiapas and Tabasco"
+      },
+      {
+        "entity_id": "C22",
+        "entity_type": "Pest",
+        "canonical_form": "oko"
+      },
+      {
+        "entity_id": "C23",
+        "entity_type": "Pest",
+        "canonical_form": "usariosis de"
+      },
+      {
+        "entity_id": "C24",
+        "entity_type": "Pest",
+        "canonical_form": "áceas"
+      },
+      {
+        "entity_id": "C25",
+        "entity_type": "Pest",
+        "canonical_form": "oc R4"
+      },
+      {
+        "entity_id": "C26",
+        "entity_type": "Pest",
+        "canonical_form": "usarium oxysporum"
+      }
+    ],
+    "106250": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Pine Wilt"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "ine wilt"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "WD"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Plant",
+        "canonical_form": "pine trees"
+      }
+    ],
+    "102276": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "province of Bari"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Location",
+        "canonical_form": "uglia"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "trees"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "yg"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "irtif"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Disease",
+        "canonical_form": "20"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "of Polignano"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "opoli"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "of Fasano"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Location",
+        "canonical_form": "of Martina Franca"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "Alberobello area"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Location",
+        "canonical_form": "provinces of Brindisi and Taranto"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "ylella 20"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Location",
+        "canonical_form": "port of Bari"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "Xylella Fastidiosa"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Date",
+        "canonical_form": "next 50 years"
+      },
+      {
+        "entity_id": "C18",
+        "entity_type": "Plant",
+        "canonical_form": "pa"
+      },
+      {
+        "entity_id": "C19",
+        "entity_type": "Pest",
+        "canonical_form": "uca"
+      },
+      {
+        "entity_id": "C20",
+        "entity_type": "Location",
+        "canonical_form": "Italy"
+      },
+      {
+        "entity_id": "C21",
+        "entity_type": "Pest",
+        "canonical_form": "yella"
+      }
+    ],
+    "100471": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "armyworm"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "worm"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "armyworm pest"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Pest",
+        "canonical_form": "odoptera"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Pest",
+        "canonical_form": "rugiper"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Disease",
+        "canonical_form": "Fall"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "org"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "1980s"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Location",
+        "canonical_form": "zam"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Date",
+        "canonical_form": "time"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "z"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Date",
+        "canonical_form": "22"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Location",
+        "canonical_form": "Bangladesh"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Date",
+        "canonical_form": "2022, July 27"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Date",
+        "canonical_form": "27 July 2022"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Date",
+        "canonical_form": "2022"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Date",
+        "canonical_form": "hours"
+      }
+    ],
+    "104732": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "ylella"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Location",
+        "canonical_form": "ess"
+      }
+    ],
+    "100296": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Pest",
+        "canonical_form": "4"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Pest",
+        "canonical_form": "Pine Wood Nematode"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Pest",
+        "canonical_form": "Bursaphelenchus xylophilus"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Plant",
+        "canonical_form": "w"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Disease",
+        "canonical_form": "WD"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Plant",
+        "canonical_form": "us"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Plant",
+        "canonical_form": "unberg"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Pest",
+        "canonical_form": "wood nematode"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Disease",
+        "canonical_form": "WN"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Pest",
+        "canonical_form": "ursaphelenchus xylophilus"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Pest",
+        "canonical_form": "he"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Plant",
+        "canonical_form": "wood"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Plant",
+        "canonical_form": "odes"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Plant",
+        "canonical_form": "black"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "pine"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Plant",
+        "canonical_form": "seedlings"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Pest",
+        "canonical_form": "imonas M4"
+      },
+      {
+        "entity_id": "C17",
+        "entity_type": "Pest",
+        "canonical_form": "imonas"
+      }
+    ],
+    "117314": [
+      {
+        "entity_id": "C0",
+        "entity_type": "Location",
+        "canonical_form": "ora"
+      },
+      {
+        "entity_id": "C1",
+        "entity_type": "Date",
+        "canonical_form": "last year"
+      },
+      {
+        "entity_id": "C2",
+        "entity_type": "Date",
+        "canonical_form": "January"
+      },
+      {
+        "entity_id": "C3",
+        "entity_type": "Date",
+        "canonical_form": "September"
+      },
+      {
+        "entity_id": "C4",
+        "entity_type": "Location",
+        "canonical_form": "Brazil"
+      },
+      {
+        "entity_id": "C5",
+        "entity_type": "Location",
+        "canonical_form": "ruguay"
+      },
+      {
+        "entity_id": "C6",
+        "entity_type": "Date",
+        "canonical_form": "first nine months of this year"
+      },
+      {
+        "entity_id": "C7",
+        "entity_type": "Date",
+        "canonical_form": "year"
+      },
+      {
+        "entity_id": "C8",
+        "entity_type": "Date",
+        "canonical_form": "10"
+      },
+      {
+        "entity_id": "C9",
+        "entity_type": "Location",
+        "canonical_form": "osur"
+      },
+      {
+        "entity_id": "C10",
+        "entity_type": "Location",
+        "canonical_form": "Africa"
+      },
+      {
+        "entity_id": "C11",
+        "entity_type": "Date",
+        "canonical_form": "this year"
+      },
+      {
+        "entity_id": "C12",
+        "entity_type": "Date",
+        "canonical_form": "4 in September"
+      },
+      {
+        "entity_id": "C13",
+        "entity_type": "Pest",
+        "canonical_form": "yll"
+      },
+      {
+        "entity_id": "C14",
+        "entity_type": "Pest",
+        "canonical_form": "ict"
+      },
+      {
+        "entity_id": "C15",
+        "entity_type": "Pest",
+        "canonical_form": "ric"
+      },
+      {
+        "entity_id": "C16",
+        "entity_type": "Plant",
+        "canonical_form": "arpa"
+      }
+    ]
+  }
+}

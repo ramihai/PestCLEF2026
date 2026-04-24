@@ -1,0 +1,3378 @@
+{
+  "103963": [],
+  "114259": [
+    {
+      "subject": "orthe e",
+      "predicate": "Located_in",
+      "object": "ied"
+    },
+    {
+      "subject": "orthe e",
+      "predicate": "Located_in",
+      "object": "uneo"
+    },
+    {
+      "subject": "orthe e",
+      "predicate": "Located_in",
+      "object": "ap"
+    },
+    {
+      "subject": "die",
+      "predicate": "Located_in",
+      "object": "ied"
+    },
+    {
+      "subject": "die",
+      "predicate": "Located_in",
+      "object": "uneo"
+    },
+    {
+      "subject": "ush blueberry",
+      "predicate": "Located_in",
+      "object": "ied"
+    },
+    {
+      "subject": "ush blueberry",
+      "predicate": "Located_in",
+      "object": "uneo"
+    },
+    {
+      "subject": "orthe",
+      "predicate": "Found_on",
+      "object": "omycin"
+    },
+    {
+      "subject": "berry",
+      "predicate": "Located_in",
+      "object": "ush"
+    },
+    {
+      "subject": "blue",
+      "predicate": "Located_in",
+      "object": "ush"
+    },
+    {
+      "subject": "blue",
+      "predicate": "Found_on",
+      "object": "ium vir"
+    },
+    {
+      "subject": "orthe phoenicic",
+      "predicate": "Found_on",
+      "object": "berry"
+    },
+    {
+      "subject": "orthe phoenicic",
+      "predicate": "Found_on",
+      "object": "ium vir"
+    },
+    {
+      "subject": "ruit",
+      "predicate": "Located_in",
+      "object": "ap"
+    },
+    {
+      "subject": "orthe cercidis",
+      "predicate": "Found_on",
+      "object": "dav"
+    },
+    {
+      "subject": "orthe cercidis",
+      "predicate": "Found_on",
+      "object": "iana"
+    }
+  ],
+  "116119": [
+    {
+      "subject": "ruit fly",
+      "predicate": "Located_in",
+      "object": "are"
+    },
+    {
+      "subject": "fly",
+      "predicate": "Located_in",
+      "object": "are"
+    },
+    {
+      "subject": "ium",
+      "predicate": "Located_in",
+      "object": "are"
+    }
+  ],
+  "99067": [
+    {
+      "subject": "fruits",
+      "predicate": "Located_in",
+      "object": "ra"
+    },
+    {
+      "subject": "fruits",
+      "predicate": "Located_in",
+      "object": "ita"
+    },
+    {
+      "subject": "fruits",
+      "predicate": "Located_in",
+      "object": "ere"
+    },
+    {
+      "subject": "iste",
+      "predicate": "Located_in",
+      "object": "rus"
+    },
+    {
+      "subject": "iste",
+      "predicate": "Located_in",
+      "object": "ily"
+    },
+    {
+      "subject": "iste",
+      "predicate": "Located_in",
+      "object": "za"
+    },
+    {
+      "subject": "iste",
+      "predicate": "Located_in",
+      "object": "long"
+    },
+    {
+      "subject": "virus",
+      "predicate": "Located_in",
+      "object": "rus"
+    },
+    {
+      "subject": "virus",
+      "predicate": "Located_in",
+      "object": "ily"
+    },
+    {
+      "subject": "virus",
+      "predicate": "Located_in",
+      "object": "za"
+    },
+    {
+      "subject": "virus",
+      "predicate": "Located_in",
+      "object": "long"
+    },
+    {
+      "subject": "citrus fruits",
+      "predicate": "Located_in",
+      "object": "ily"
+    },
+    {
+      "subject": "citrus fruits",
+      "predicate": "Located_in",
+      "object": "za"
+    }
+  ],
+  "98142": [
+    {
+      "subject": "í",
+      "predicate": "Located_in",
+      "object": "os"
+    },
+    {
+      "subject": "irus",
+      "predicate": "Located_in",
+      "object": "os"
+    }
+  ],
+  "117892": [],
+  "107172": [
+    {
+      "subject": "usarium fungus",
+      "predicate": "Found_on",
+      "object": "anas"
+    }
+  ],
+  "98783": [
+    {
+      "subject": "anas",
+      "predicate": "Located_in",
+      "object": "bun"
+    }
+  ],
+  "105611": [
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ari"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ellana"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ign"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ana"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ire"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "lla"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "iretti"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "uglia"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ignano"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ecce"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "etrana"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "uggio"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "iasi"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "zano"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "Giuseppe"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ava"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ricella"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ulian"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Occurs_on",
+      "object": "2014"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "ari"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "ellana"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "ign"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "ana"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "ire"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "lla"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "iretti"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "uglia"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "ignano"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "iretti Puglia"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "ecce"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "indisi"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "aranto"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "agnano"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "ano"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "uggio"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "zata"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "zano"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "Giuseppe"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ari"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ellana"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ign"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ana"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ire"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "lla"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "iretti"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "uglia"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ignano"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "iretti Puglia"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ecce"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "indisi"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "aranto"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "etrana"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "osino"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "agg"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "agnano"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ano"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "uggio"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "iasi"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "zata"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "zano"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "Giuseppe"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ava"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "ari"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "ellana"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "ign"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "ana"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "ire"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "lla"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "iretti"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "uglia"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "ignano"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "iretti Puglia"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "ecce"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "indisi"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "aranto"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "etrana"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "osino"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "agg"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "agnano"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "ano"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "uggio"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "iasi"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "zata"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "zano"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "Giuseppe"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "ava"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "ricella"
+    },
+    {
+      "subject": "uria",
+      "predicate": "Located_in",
+      "object": "ulian"
+    },
+    {
+      "subject": "idiosa",
+      "predicate": "Located_in",
+      "object": "ecce"
+    },
+    {
+      "subject": "idiosa",
+      "predicate": "Located_in",
+      "object": "ano"
+    },
+    {
+      "subject": "idiosa",
+      "predicate": "Located_in",
+      "object": "uggio"
+    },
+    {
+      "subject": "idiosa",
+      "predicate": "Located_in",
+      "object": "iasi"
+    },
+    {
+      "subject": "idiosa",
+      "predicate": "Located_in",
+      "object": "zata"
+    },
+    {
+      "subject": "idiosa",
+      "predicate": "Located_in",
+      "object": "zano"
+    },
+    {
+      "subject": "idiosa",
+      "predicate": "Located_in",
+      "object": "ricella"
+    }
+  ],
+  "98794": [
+    {
+      "subject": "izopus arrhizus",
+      "predicate": "Found_on",
+      "object": "Bul"
+    },
+    {
+      "subject": "izopus arrhizus",
+      "predicate": "Located_in",
+      "object": "b"
+    },
+    {
+      "subject": ". oryzae",
+      "predicate": "Found_on",
+      "object": "Bul"
+    },
+    {
+      "subject": ". oryzae",
+      "predicate": "Located_in",
+      "object": "b"
+    },
+    {
+      "subject": "Bul",
+      "predicate": "Located_in",
+      "object": "b"
+    },
+    {
+      "subject": "Soft Rot",
+      "predicate": "Found_on",
+      "object": "Bul"
+    },
+    {
+      "subject": "Soft Rot",
+      "predicate": "Located_in",
+      "object": "b"
+    },
+    {
+      "subject": "izopus soft rot",
+      "predicate": "Found_on",
+      "object": "Bul"
+    },
+    {
+      "subject": "izopus soft rot",
+      "predicate": "Located_in",
+      "object": "b"
+    },
+    {
+      "subject": "izopus soft rot",
+      "predicate": "Found_on",
+      "object": "bulbs"
+    },
+    {
+      "subject": "Rhizopus oryzae",
+      "predicate": "Found_on",
+      "object": "bulb"
+    },
+    {
+      "subject": "hizus",
+      "predicate": "Found_on",
+      "object": "bulb"
+    }
+  ],
+  "117299": [
+    {
+      "subject": "end",
+      "predicate": "Located_in",
+      "object": "Philippines"
+    },
+    {
+      "subject": "end",
+      "predicate": "Located_in",
+      "object": "ish"
+    },
+    {
+      "subject": "end",
+      "predicate": "Located_in",
+      "object": "ama"
+    },
+    {
+      "subject": "end",
+      "predicate": "Located_in",
+      "object": "ar"
+    },
+    {
+      "subject": "disease",
+      "predicate": "Located_in",
+      "object": "endish"
+    },
+    {
+      "subject": "disease",
+      "predicate": "Occurs_on",
+      "object": "20"
+    }
+  ],
+  "102488": [],
+  "106959": [],
+  "98392": [],
+  "116671": [
+    {
+      "subject": "ur",
+      "predicate": "Located_in",
+      "object": "countries"
+    },
+    {
+      "subject": "ur",
+      "predicate": "Located_in",
+      "object": "os"
+    },
+    {
+      "subject": "ur",
+      "predicate": "Located_in",
+      "object": "ruguay"
+    },
+    {
+      "subject": "yll",
+      "predicate": "Located_in",
+      "object": "Africa"
+    },
+    {
+      "subject": "yll",
+      "predicate": "Found_on",
+      "object": "ar"
+    },
+    {
+      "subject": "yll",
+      "predicate": "Located_in",
+      "object": "pa"
+    },
+    {
+      "subject": "yll",
+      "predicate": "Located_in",
+      "object": "rus"
+    },
+    {
+      "subject": "icta citric",
+      "predicate": "Located_in",
+      "object": "Africa"
+    },
+    {
+      "subject": "icta citric",
+      "predicate": "Found_on",
+      "object": "ar"
+    },
+    {
+      "subject": "icta citric",
+      "predicate": "Located_in",
+      "object": "pa"
+    },
+    {
+      "subject": "icta citric",
+      "predicate": "Located_in",
+      "object": "rus"
+    },
+    {
+      "subject": "ar",
+      "predicate": "Located_in",
+      "object": "Africa"
+    },
+    {
+      "subject": "ar",
+      "predicate": "Located_in",
+      "object": "pa"
+    },
+    {
+      "subject": "ar",
+      "predicate": "Located_in",
+      "object": "rus"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "Africa"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "et"
+    }
+  ],
+  "105652": [
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "ignano"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "ire"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ignano"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Found_on",
+      "object": "ire"
+    }
+  ],
+  "106151": [
+    {
+      "subject": "armyworm",
+      "predicate": "Located_in",
+      "object": "iper"
+    },
+    {
+      "subject": "armyworm",
+      "predicate": "Located_in",
+      "object": "W"
+    },
+    {
+      "subject": "fall armyworm",
+      "predicate": "Located_in",
+      "object": "iper"
+    },
+    {
+      "subject": "fall armyworm",
+      "predicate": "Located_in",
+      "object": "W"
+    },
+    {
+      "subject": "FAW",
+      "predicate": "Located_in",
+      "object": "iper"
+    },
+    {
+      "subject": "FAW",
+      "predicate": "Located_in",
+      "object": "W"
+    },
+    {
+      "subject": "odoptera frug",
+      "predicate": "Located_in",
+      "object": "iper"
+    },
+    {
+      "subject": "odoptera frug",
+      "predicate": "Located_in",
+      "object": "W"
+    }
+  ],
+  "104656": [
+    {
+      "subject": "ed beetle",
+      "predicate": "Located_in",
+      "object": "erne"
+    },
+    {
+      "subject": "ed beetle",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "ö",
+      "predicate": "Located_in",
+      "object": "erne"
+    },
+    {
+      "subject": "ö",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "li",
+      "predicate": "Located_in",
+      "object": "erne"
+    },
+    {
+      "subject": "li",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "horned beetles",
+      "predicate": "Located_in",
+      "object": "erne"
+    },
+    {
+      "subject": "horned beetles",
+      "predicate": "Located_in",
+      "object": "on"
+    }
+  ],
+  "115106": [
+    {
+      "subject": "tree",
+      "predicate": "Located_in",
+      "object": "France"
+    },
+    {
+      "subject": "tree",
+      "predicate": "Located_in",
+      "object": "War"
+    },
+    {
+      "subject": "tree",
+      "predicate": "Located_in",
+      "object": "ia"
+    },
+    {
+      "subject": "tree",
+      "predicate": "Located_in",
+      "object": "pes"
+    },
+    {
+      "subject": "tree",
+      "predicate": "Located_in",
+      "object": "Côte"
+    },
+    {
+      "subject": "tree",
+      "predicate": "Located_in",
+      "object": "Azur"
+    },
+    {
+      "subject": "tree",
+      "predicate": "Located_in",
+      "object": "itan"
+    },
+    {
+      "subject": "tree",
+      "predicate": "Located_in",
+      "object": "Rh"
+    },
+    {
+      "subject": "tree",
+      "predicate": "Located_in",
+      "object": "Loire"
+    },
+    {
+      "subject": "tree",
+      "predicate": "Located_in",
+      "object": "le"
+    },
+    {
+      "subject": "ône",
+      "predicate": "Located_in",
+      "object": "France"
+    },
+    {
+      "subject": "ône",
+      "predicate": "Located_in",
+      "object": "ia"
+    },
+    {
+      "subject": "ône",
+      "predicate": "Located_in",
+      "object": "pes"
+    },
+    {
+      "subject": "ône",
+      "predicate": "Located_in",
+      "object": "Côte"
+    },
+    {
+      "subject": "ône",
+      "predicate": "Located_in",
+      "object": "Azur"
+    },
+    {
+      "subject": "ône",
+      "predicate": "Located_in",
+      "object": "itan"
+    },
+    {
+      "subject": "ône",
+      "predicate": "Located_in",
+      "object": "Rh"
+    },
+    {
+      "subject": "ône",
+      "predicate": "Located_in",
+      "object": "Loire"
+    },
+    {
+      "subject": "ône",
+      "predicate": "Located_in",
+      "object": "le"
+    }
+  ],
+  "99614": [],
+  "117298": [
+    {
+      "subject": "disease",
+      "predicate": "Found_on",
+      "object": "disease"
+    },
+    {
+      "subject": "Fusarium oxysporum f. sp.",
+      "predicate": "Found_on",
+      "object": "anas"
+    },
+    {
+      "subject": "Fusarium oxysporum f. sp.",
+      "predicate": "Found_on",
+      "object": "disease"
+    },
+    {
+      "subject": "Race",
+      "predicate": "Found_on",
+      "object": "anas"
+    }
+  ],
+  "115183": [
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "Puglia"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "TG"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "lla"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ire"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ano"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ina"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "a"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ignano"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Located_in",
+      "object": "ian"
+    },
+    {
+      "subject": "ylella",
+      "predicate": "Found_on",
+      "object": "olive"
+    },
+    {
+      "subject": "iretti",
+      "predicate": "Located_in",
+      "object": "Puglia"
+    },
+    {
+      "subject": "iretti",
+      "predicate": "Located_in",
+      "object": "TG"
+    },
+    {
+      "subject": "iretti",
+      "predicate": "Located_in",
+      "object": "lla"
+    },
+    {
+      "subject": "iretti",
+      "predicate": "Located_in",
+      "object": "ire"
+    },
+    {
+      "subject": "iretti",
+      "predicate": "Located_in",
+      "object": "ano"
+    },
+    {
+      "subject": "iretti",
+      "predicate": "Located_in",
+      "object": "ina"
+    },
+    {
+      "subject": "iretti",
+      "predicate": "Located_in",
+      "object": "a"
+    },
+    {
+      "subject": "iretti",
+      "predicate": "Located_in",
+      "object": "ignano"
+    },
+    {
+      "subject": "iretti",
+      "predicate": "Located_in",
+      "object": "ian"
+    },
+    {
+      "subject": "iretti",
+      "predicate": "Found_on",
+      "object": "olive"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "Puglia"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "TG"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "lla"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ire"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ano"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ina"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "a"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ignano"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Located_in",
+      "object": "ian"
+    },
+    {
+      "subject": "yle",
+      "predicate": "Found_on",
+      "object": "olive"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "Puglia"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "TG"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "lla"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "ire"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "ano"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "ina"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "a"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "ignano"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Located_in",
+      "object": "ian"
+    },
+    {
+      "subject": "tti",
+      "predicate": "Found_on",
+      "object": "olive"
+    },
+    {
+      "subject": "olive",
+      "predicate": "Located_in",
+      "object": "Puglia"
+    },
+    {
+      "subject": "olive",
+      "predicate": "Located_in",
+      "object": "ire"
+    },
+    {
+      "subject": "olive",
+      "predicate": "Located_in",
+      "object": "ian"
+    }
+  ],
+  "105862": [
+    {
+      "subject": "ng",
+      "predicate": "Located_in",
+      "object": "ira"
+    },
+    {
+      "subject": "ng",
+      "predicate": "Located_in",
+      "object": "o"
+    },
+    {
+      "subject": "ng",
+      "predicate": "Located_in",
+      "object": "Mine"
+    },
+    {
+      "subject": "reira",
+      "predicate": "Located_in",
+      "object": "ira"
+    }
+  ],
+  "102904": [],
+  "116223": [
+    {
+      "subject": "ac",
+      "predicate": "Located_in",
+      "object": "ruz"
+    }
+  ],
+  "99107": [
+    {
+      "subject": "ila",
+      "predicate": "Located_in",
+      "object": "ria"
+    },
+    {
+      "subject": "ila",
+      "predicate": "Located_in",
+      "object": "illana"
+    },
+    {
+      "subject": "ila",
+      "predicate": "Located_in",
+      "object": "ude"
+    },
+    {
+      "subject": "ila",
+      "predicate": "Located_in",
+      "object": "ored"
+    },
+    {
+      "subject": "ila",
+      "predicate": "Located_in",
+      "object": "z"
+    },
+    {
+      "subject": "ila",
+      "predicate": "Located_in",
+      "object": "dá"
+    },
+    {
+      "subject": "ila",
+      "predicate": "Located_in",
+      "object": "engo"
+    },
+    {
+      "subject": "ila",
+      "predicate": "Located_in",
+      "object": "ña"
+    },
+    {
+      "subject": "ila",
+      "predicate": "Located_in",
+      "object": "á"
+    },
+    {
+      "subject": "ila",
+      "predicate": "Located_in",
+      "object": "ón"
+    },
+    {
+      "subject": "oid",
+      "predicate": "Located_in",
+      "object": "ria"
+    },
+    {
+      "subject": "oid",
+      "predicate": "Located_in",
+      "object": "dry"
+    },
+    {
+      "subject": "oid",
+      "predicate": "Located_in",
+      "object": "es"
+    },
+    {
+      "subject": "oid",
+      "predicate": "Located_in",
+      "object": "dá"
+    },
+    {
+      "subject": "oid",
+      "predicate": "Located_in",
+      "object": "engo"
+    },
+    {
+      "subject": "oid",
+      "predicate": "Located_in",
+      "object": "ña"
+    },
+    {
+      "subject": "oid",
+      "predicate": "Located_in",
+      "object": "ón"
+    },
+    {
+      "subject": "amarixia",
+      "predicate": "Located_in",
+      "object": "ria"
+    },
+    {
+      "subject": "amarixia",
+      "predicate": "Located_in",
+      "object": "dry"
+    },
+    {
+      "subject": "amarixia",
+      "predicate": "Located_in",
+      "object": "illana"
+    },
+    {
+      "subject": "amarixia",
+      "predicate": "Located_in",
+      "object": "ude"
+    },
+    {
+      "subject": "amarixia",
+      "predicate": "Located_in",
+      "object": "ored"
+    },
+    {
+      "subject": "amarixia",
+      "predicate": "Located_in",
+      "object": "z"
+    },
+    {
+      "subject": "amarixia",
+      "predicate": "Located_in",
+      "object": "es"
+    },
+    {
+      "subject": "amarixia",
+      "predicate": "Located_in",
+      "object": "dá"
+    },
+    {
+      "subject": "amarixia",
+      "predicate": "Located_in",
+      "object": "engo"
+    },
+    {
+      "subject": "amarixia",
+      "predicate": "Located_in",
+      "object": "ña"
+    },
+    {
+      "subject": "amarixia",
+      "predicate": "Located_in",
+      "object": "á"
+    },
+    {
+      "subject": "amarixia",
+      "predicate": "Located_in",
+      "object": "María"
+    },
+    {
+      "subject": "amarixia",
+      "predicate": "Located_in",
+      "object": "ón"
+    },
+    {
+      "subject": "escusa",
+      "predicate": "Located_in",
+      "object": "illana"
+    },
+    {
+      "subject": "escusa",
+      "predicate": "Located_in",
+      "object": "ude"
+    },
+    {
+      "subject": "escusa",
+      "predicate": "Located_in",
+      "object": "ored"
+    },
+    {
+      "subject": "escusa",
+      "predicate": "Located_in",
+      "object": "es"
+    },
+    {
+      "subject": "escusa",
+      "predicate": "Located_in",
+      "object": "dá"
+    },
+    {
+      "subject": "escusa",
+      "predicate": "Located_in",
+      "object": "María"
+    },
+    {
+      "subject": "ave",
+      "predicate": "Located_in",
+      "object": "illana"
+    },
+    {
+      "subject": "ave",
+      "predicate": "Located_in",
+      "object": "ude"
+    },
+    {
+      "subject": "ave",
+      "predicate": "Located_in",
+      "object": "ored"
+    },
+    {
+      "subject": "ave",
+      "predicate": "Located_in",
+      "object": "z"
+    },
+    {
+      "subject": "ave",
+      "predicate": "Located_in",
+      "object": "es"
+    },
+    {
+      "subject": "ave",
+      "predicate": "Located_in",
+      "object": "dá"
+    },
+    {
+      "subject": "ave",
+      "predicate": "Located_in",
+      "object": "engo"
+    },
+    {
+      "subject": "ave",
+      "predicate": "Located_in",
+      "object": "ña"
+    },
+    {
+      "subject": "ave",
+      "predicate": "Located_in",
+      "object": "á"
+    },
+    {
+      "subject": "ave",
+      "predicate": "Located_in",
+      "object": "María"
+    },
+    {
+      "subject": "ave",
+      "predicate": "Located_in",
+      "object": "ón"
+    },
+    {
+      "subject": "ave",
+      "predicate": "Located_in",
+      "object": "ino"
+    },
+    {
+      "subject": "ave",
+      "predicate": "Located_in",
+      "object": "án"
+    },
+    {
+      "subject": "Ll",
+      "predicate": "Located_in",
+      "object": "dry"
+    },
+    {
+      "subject": "Ll",
+      "predicate": "Located_in",
+      "object": "illana"
+    },
+    {
+      "subject": "Ll",
+      "predicate": "Located_in",
+      "object": "ude"
+    },
+    {
+      "subject": "Ll",
+      "predicate": "Located_in",
+      "object": "ored"
+    },
+    {
+      "subject": "Ll",
+      "predicate": "Located_in",
+      "object": "z"
+    },
+    {
+      "subject": "Ll",
+      "predicate": "Located_in",
+      "object": "es"
+    },
+    {
+      "subject": "Ll",
+      "predicate": "Located_in",
+      "object": "dá"
+    },
+    {
+      "subject": "Ll",
+      "predicate": "Located_in",
+      "object": "engo"
+    },
+    {
+      "subject": "Ll",
+      "predicate": "Located_in",
+      "object": "ña"
+    },
+    {
+      "subject": "Ll",
+      "predicate": "Located_in",
+      "object": "á"
+    },
+    {
+      "subject": "Ll",
+      "predicate": "Located_in",
+      "object": "María"
+    },
+    {
+      "subject": "Ll",
+      "predicate": "Located_in",
+      "object": "ón"
+    },
+    {
+      "subject": "ana",
+      "predicate": "Located_in",
+      "object": "ria"
+    },
+    {
+      "subject": "ana",
+      "predicate": "Located_in",
+      "object": "dry"
+    },
+    {
+      "subject": "ana",
+      "predicate": "Located_in",
+      "object": "illana"
+    },
+    {
+      "subject": "ana",
+      "predicate": "Located_in",
+      "object": "ude"
+    },
+    {
+      "subject": "ana",
+      "predicate": "Located_in",
+      "object": "ored"
+    },
+    {
+      "subject": "ana",
+      "predicate": "Located_in",
+      "object": "z"
+    },
+    {
+      "subject": "ana",
+      "predicate": "Located_in",
+      "object": "es"
+    },
+    {
+      "subject": "ana",
+      "predicate": "Located_in",
+      "object": "dá"
+    },
+    {
+      "subject": "ana",
+      "predicate": "Located_in",
+      "object": "engo"
+    },
+    {
+      "subject": "ana",
+      "predicate": "Located_in",
+      "object": "ña"
+    },
+    {
+      "subject": "ana",
+      "predicate": "Located_in",
+      "object": "á"
+    },
+    {
+      "subject": "ana",
+      "predicate": "Located_in",
+      "object": "María"
+    },
+    {
+      "subject": "ana",
+      "predicate": "Located_in",
+      "object": "ón"
+    },
+    {
+      "subject": "é",
+      "predicate": "Located_in",
+      "object": "illana"
+    },
+    {
+      "subject": "é",
+      "predicate": "Located_in",
+      "object": "ude"
+    },
+    {
+      "subject": "é",
+      "predicate": "Located_in",
+      "object": "dá"
+    },
+    {
+      "subject": "é",
+      "predicate": "Located_in",
+      "object": "engo"
+    },
+    {
+      "subject": "é",
+      "predicate": "Located_in",
+      "object": "ña"
+    },
+    {
+      "subject": "é",
+      "predicate": "Located_in",
+      "object": "á"
+    },
+    {
+      "subject": "é",
+      "predicate": "Located_in",
+      "object": "María"
+    },
+    {
+      "subject": "é",
+      "predicate": "Located_in",
+      "object": "ón"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Located_in",
+      "object": "ria"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Located_in",
+      "object": "dry"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Located_in",
+      "object": "illana"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Located_in",
+      "object": "ude"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Found_on",
+      "object": "ave"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Found_on",
+      "object": "Ll"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Located_in",
+      "object": "ored"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Found_on",
+      "object": "ana"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Found_on",
+      "object": "é"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Located_in",
+      "object": "es"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Located_in",
+      "object": "dá"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Located_in",
+      "object": "engo"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Located_in",
+      "object": "ña"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Located_in",
+      "object": "á"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Found_on",
+      "object": "rcena"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Found_on",
+      "object": "ero"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Located_in",
+      "object": "María"
+    },
+    {
+      "subject": "cusa",
+      "predicate": "Located_in",
+      "object": "ón"
+    },
+    {
+      "subject": "rcena",
+      "predicate": "Located_in",
+      "object": "illana"
+    },
+    {
+      "subject": "rcena",
+      "predicate": "Located_in",
+      "object": "ude"
+    },
+    {
+      "subject": "rcena",
+      "predicate": "Located_in",
+      "object": "ored"
+    },
+    {
+      "subject": "rcena",
+      "predicate": "Located_in",
+      "object": "z"
+    },
+    {
+      "subject": "rcena",
+      "predicate": "Located_in",
+      "object": "es"
+    },
+    {
+      "subject": "rcena",
+      "predicate": "Located_in",
+      "object": "dá"
+    },
+    {
+      "subject": "rcena",
+      "predicate": "Located_in",
+      "object": "engo"
+    },
+    {
+      "subject": "rcena",
+      "predicate": "Located_in",
+      "object": "ña"
+    },
+    {
+      "subject": "rcena",
+      "predicate": "Located_in",
+      "object": "á"
+    },
+    {
+      "subject": "rcena",
+      "predicate": "Located_in",
+      "object": "María"
+    },
+    {
+      "subject": "rcena",
+      "predicate": "Located_in",
+      "object": "ón"
+    },
+    {
+      "subject": "ero",
+      "predicate": "Located_in",
+      "object": "illana"
+    },
+    {
+      "subject": "ero",
+      "predicate": "Located_in",
+      "object": "ude"
+    },
+    {
+      "subject": "ero",
+      "predicate": "Located_in",
+      "object": "ored"
+    },
+    {
+      "subject": "ero",
+      "predicate": "Located_in",
+      "object": "z"
+    },
+    {
+      "subject": "ero",
+      "predicate": "Located_in",
+      "object": "es"
+    },
+    {
+      "subject": "ero",
+      "predicate": "Located_in",
+      "object": "engo"
+    },
+    {
+      "subject": "ero",
+      "predicate": "Located_in",
+      "object": "ña"
+    },
+    {
+      "subject": "ero",
+      "predicate": "Located_in",
+      "object": "á"
+    },
+    {
+      "subject": "ero",
+      "predicate": "Located_in",
+      "object": "María"
+    },
+    {
+      "subject": "ero",
+      "predicate": "Located_in",
+      "object": "ón"
+    },
+    {
+      "subject": "dez",
+      "predicate": "Located_in",
+      "object": "á"
+    },
+    {
+      "subject": "dez",
+      "predicate": "Located_in",
+      "object": "ino"
+    },
+    {
+      "subject": "dez",
+      "predicate": "Located_in",
+      "object": "án"
+    }
+  ],
+  "98579": [
+    {
+      "subject": "illia japonica",
+      "predicate": "Located_in",
+      "object": "ied"
+    },
+    {
+      "subject": "illia japonica",
+      "predicate": "Located_in",
+      "object": "Region"
+    },
+    {
+      "subject": "illia japonica",
+      "predicate": "Located_in",
+      "object": "ardy"
+    },
+    {
+      "subject": "illia japonica",
+      "predicate": "Occurs_on",
+      "object": "2014"
+    },
+    {
+      "subject": "illia japonica",
+      "predicate": "Located_in",
+      "object": "Pied"
+    },
+    {
+      "subject": "illia japonica",
+      "predicate": "Located_in",
+      "object": "iedmont"
+    },
+    {
+      "subject": "illia japonica",
+      "predicate": "Located_in",
+      "object": "ardy Region"
+    },
+    {
+      "subject": "mont",
+      "predicate": "Located_in",
+      "object": "ied"
+    },
+    {
+      "subject": "mont",
+      "predicate": "Located_in",
+      "object": "ardy"
+    },
+    {
+      "subject": "mont",
+      "predicate": "Occurs_on",
+      "object": "2014"
+    },
+    {
+      "subject": "mont",
+      "predicate": "Located_in",
+      "object": "Pied"
+    }
+  ],
+  "117674": [
+    {
+      "subject": "UM",
+      "predicate": "Located_in",
+      "object": "ay"
+    },
+    {
+      "subject": "UM",
+      "predicate": "Located_in",
+      "object": "ARCA"
+    },
+    {
+      "subject": "AMARCA",
+      "predicate": "Located_in",
+      "object": "ap"
+    },
+    {
+      "subject": "AMARCA",
+      "predicate": "Located_in",
+      "object": "ÁN"
+    },
+    {
+      "subject": "AM",
+      "predicate": "Located_in",
+      "object": "ÁN"
+    },
+    {
+      "subject": "AM",
+      "predicate": "Located_in",
+      "object": "AR"
+    },
+    {
+      "subject": "URE",
+      "predicate": "Located_in",
+      "object": "ÁN"
+    },
+    {
+      "subject": "URE",
+      "predicate": "Located_in",
+      "object": "AMARCA"
+    },
+    {
+      "subject": "CA",
+      "predicate": "Located_in",
+      "object": "ay"
+    },
+    {
+      "subject": "CA",
+      "predicate": "Located_in",
+      "object": "rus"
+    },
+    {
+      "subject": "CA",
+      "predicate": "Located_in",
+      "object": "AR"
+    },
+    {
+      "subject": "rus Leafhopper",
+      "predicate": "Located_in",
+      "object": "ap"
+    },
+    {
+      "subject": "horina citri.",
+      "predicate": "Occurs_on",
+      "object": "20"
+    },
+    {
+      "subject": "horina citri.",
+      "predicate": "Located_in",
+      "object": "ap"
+    },
+    {
+      "subject": "horina citri.",
+      "predicate": "Located_in",
+      "object": "AMARCA"
+    },
+    {
+      "subject": "horina citri.",
+      "predicate": "Located_in",
+      "object": "rus"
+    },
+    {
+      "subject": "ama",
+      "predicate": "Located_in",
+      "object": "ap"
+    },
+    {
+      "subject": "ama",
+      "predicate": "Located_in",
+      "object": "AMARCA"
+    },
+    {
+      "subject": "Leafhopper plague",
+      "predicate": "Occurs_on",
+      "object": "20"
+    },
+    {
+      "subject": "Leafhopper plague",
+      "predicate": "Located_in",
+      "object": "ap"
+    },
+    {
+      "subject": "Leafhopper plague",
+      "predicate": "Located_in",
+      "object": "AMARCA"
+    },
+    {
+      "subject": "Leafhopper plague",
+      "predicate": "Located_in",
+      "object": "rus"
+    },
+    {
+      "subject": "Di",
+      "predicate": "Located_in",
+      "object": "AMARCA"
+    },
+    {
+      "subject": "Di",
+      "predicate": "Located_in",
+      "object": "rus"
+    },
+    {
+      "subject": "Leafho",
+      "predicate": "Located_in",
+      "object": "rus"
+    },
+    {
+      "subject": "ITY",
+      "predicate": "Located_in",
+      "object": "ap"
+    },
+    {
+      "subject": "IF",
+      "predicate": "Occurs_on",
+      "object": "20"
+    }
+  ],
+  "114379": [
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "o"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "ila"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Found_on",
+      "object": "Nova"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "Gaia"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Found_on",
+      "object": "Maria da"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "Fe"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "spin"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "ata"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Occurs_on",
+      "object": "January 18"
+    },
+    {
+      "subject": "Nova",
+      "predicate": "Located_in",
+      "object": "o"
+    },
+    {
+      "subject": "Nova",
+      "predicate": "Located_in",
+      "object": "ila"
+    },
+    {
+      "subject": "Nova",
+      "predicate": "Located_in",
+      "object": "Gaia"
+    },
+    {
+      "subject": "Nova",
+      "predicate": "Located_in",
+      "object": "Fe"
+    },
+    {
+      "subject": "Nova",
+      "predicate": "Located_in",
+      "object": "spin"
+    },
+    {
+      "subject": "Nova",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": "Nova",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "Nova",
+      "predicate": "Located_in",
+      "object": "ata"
+    },
+    {
+      "subject": "Nova",
+      "predicate": "Occurs_on",
+      "object": "January 18"
+    },
+    {
+      "subject": "de",
+      "predicate": "Located_in",
+      "object": "o"
+    },
+    {
+      "subject": "de",
+      "predicate": "Located_in",
+      "object": "ila"
+    },
+    {
+      "subject": "de",
+      "predicate": "Located_in",
+      "object": "Gaia"
+    },
+    {
+      "subject": "de",
+      "predicate": "Found_on",
+      "object": "Maria da"
+    },
+    {
+      "subject": "de",
+      "predicate": "Located_in",
+      "object": "Fe"
+    },
+    {
+      "subject": "de",
+      "predicate": "Located_in",
+      "object": "spin"
+    },
+    {
+      "subject": "de",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": "de",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "de",
+      "predicate": "Located_in",
+      "object": "ata"
+    },
+    {
+      "subject": "de",
+      "predicate": "Occurs_on",
+      "object": "January 18"
+    },
+    {
+      "subject": "Maria da",
+      "predicate": "Located_in",
+      "object": "o"
+    },
+    {
+      "subject": "Maria da",
+      "predicate": "Located_in",
+      "object": "ila"
+    },
+    {
+      "subject": "Maria da",
+      "predicate": "Located_in",
+      "object": "Gaia"
+    },
+    {
+      "subject": "Maria da",
+      "predicate": "Located_in",
+      "object": "Fe"
+    },
+    {
+      "subject": "Maria da",
+      "predicate": "Located_in",
+      "object": "spin"
+    },
+    {
+      "subject": "Maria da",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": "Maria da",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "Maria da",
+      "predicate": "Located_in",
+      "object": "ata"
+    },
+    {
+      "subject": "acia",
+      "predicate": "Located_in",
+      "object": "ila"
+    },
+    {
+      "subject": "acia",
+      "predicate": "Located_in",
+      "object": "Gaia"
+    },
+    {
+      "subject": "acia",
+      "predicate": "Located_in",
+      "object": "Fe"
+    },
+    {
+      "subject": "acia",
+      "predicate": "Located_in",
+      "object": "spin"
+    },
+    {
+      "subject": "acia",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": "acia",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "acia",
+      "predicate": "Located_in",
+      "object": "ata"
+    },
+    {
+      "subject": "long",
+      "predicate": "Located_in",
+      "object": "ila"
+    },
+    {
+      "subject": "long",
+      "predicate": "Located_in",
+      "object": "Gaia"
+    },
+    {
+      "subject": "long",
+      "predicate": "Located_in",
+      "object": "Fe"
+    },
+    {
+      "subject": "long",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": "long",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "long",
+      "predicate": "Located_in",
+      "object": "ata"
+    },
+    {
+      "subject": "olia",
+      "predicate": "Located_in",
+      "object": "ila"
+    },
+    {
+      "subject": "olia",
+      "predicate": "Located_in",
+      "object": "Gaia"
+    },
+    {
+      "subject": "olia",
+      "predicate": "Located_in",
+      "object": "Fe"
+    },
+    {
+      "subject": "olia",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": "olia",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "olia",
+      "predicate": "Located_in",
+      "object": "ata"
+    },
+    {
+      "subject": "rus",
+      "predicate": "Located_in",
+      "object": "ila"
+    },
+    {
+      "subject": "rus",
+      "predicate": "Located_in",
+      "object": "Gaia"
+    },
+    {
+      "subject": "rus",
+      "predicate": "Located_in",
+      "object": "Fe"
+    },
+    {
+      "subject": "rus",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": "rus",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "rus",
+      "predicate": "Located_in",
+      "object": "ata"
+    },
+    {
+      "subject": "rus reticul",
+      "predicate": "Located_in",
+      "object": "o"
+    },
+    {
+      "subject": "rus reticul",
+      "predicate": "Located_in",
+      "object": "ila"
+    },
+    {
+      "subject": "rus reticul",
+      "predicate": "Located_in",
+      "object": "Fe"
+    },
+    {
+      "subject": "rus reticul",
+      "predicate": "Located_in",
+      "object": "spin"
+    },
+    {
+      "subject": "rus reticul",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": "rus reticul",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "rus reticul",
+      "predicate": "Located_in",
+      "object": "ata"
+    },
+    {
+      "subject": "bl",
+      "predicate": "Located_in",
+      "object": "ila"
+    },
+    {
+      "subject": "bl",
+      "predicate": "Located_in",
+      "object": "Gaia"
+    },
+    {
+      "subject": "bl",
+      "predicate": "Located_in",
+      "object": "Fe"
+    },
+    {
+      "subject": "bl",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": "bl",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "bl",
+      "predicate": "Located_in",
+      "object": "ata"
+    },
+    {
+      "subject": "enus spumarius",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": "enus spumarius",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "enus spumarius",
+      "predicate": "Occurs_on",
+      "object": "January 18"
+    },
+    {
+      "subject": "oo",
+      "predicate": "Located_in",
+      "object": "o"
+    },
+    {
+      "subject": "oo",
+      "predicate": "Located_in",
+      "object": "ila"
+    },
+    {
+      "subject": "oo",
+      "predicate": "Found_on",
+      "object": "Nova"
+    },
+    {
+      "subject": "oo",
+      "predicate": "Located_in",
+      "object": "Gaia"
+    },
+    {
+      "subject": "oo",
+      "predicate": "Occurs_on",
+      "object": "January 18"
+    }
+  ],
+  "103660": [
+    {
+      "subject": "odoptera frugiperda",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": "optera",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": "ctuidae",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": "odoptera frugiperda (J.",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": "epidoptera",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": ". frugiperda",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": ". frugiperda",
+      "predicate": "Located_in",
+      "object": "ans"
+    },
+    {
+      "subject": ". frugiperda",
+      "predicate": "Located_in",
+      "object": "jiang"
+    }
+  ],
+  "98195": [],
+  "115243": [
+    {
+      "subject": "xylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "Azur"
+    },
+    {
+      "subject": "xylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "OA"
+    },
+    {
+      "subject": "xylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": ". fastidiosa",
+      "predicate": "Located_in",
+      "object": "pes"
+    },
+    {
+      "subject": ". fastidiosa",
+      "predicate": "Located_in",
+      "object": "ôte"
+    },
+    {
+      "subject": ". fastidiosa",
+      "predicate": "Located_in",
+      "object": "Azur"
+    },
+    {
+      "subject": ". fastidiosa",
+      "predicate": "Located_in",
+      "object": "OA"
+    },
+    {
+      "subject": ". fastidiosa",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": "grape",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": "grape",
+      "predicate": "Located_in",
+      "object": "ines"
+    },
+    {
+      "subject": "ylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "if"
+    },
+    {
+      "subject": "ylella fastidiosa",
+      "predicate": "Found_on",
+      "object": "grape"
+    },
+    {
+      "subject": "ylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "ines"
+    }
+  ],
+  "115211": [],
+  "106336": [
+    {
+      "subject": "Fusarium Race 4",
+      "predicate": "Located_in",
+      "object": "aretas"
+    },
+    {
+      "subject": "Fusarium Race 4",
+      "predicate": "Located_in",
+      "object": "ropical"
+    },
+    {
+      "subject": "ropical",
+      "predicate": "Located_in",
+      "object": "ropical"
+    },
+    {
+      "subject": "Foc R4T",
+      "predicate": "Located_in",
+      "object": "aretas"
+    },
+    {
+      "subject": "Foc R4T",
+      "predicate": "Located_in",
+      "object": "es"
+    },
+    {
+      "subject": "Foc R4T",
+      "predicate": "Located_in",
+      "object": "ropical"
+    },
+    {
+      "subject": "arc",
+      "predicate": "Located_in",
+      "object": "ropical"
+    },
+    {
+      "subject": "arc",
+      "predicate": "Located_in",
+      "object": "ura"
+    },
+    {
+      "subject": "arc",
+      "predicate": "Located_in",
+      "object": "umbes"
+    },
+    {
+      "subject": "arc",
+      "predicate": "Located_in",
+      "object": "aye"
+    },
+    {
+      "subject": "arc",
+      "predicate": "Located_in",
+      "object": "ore"
+    },
+    {
+      "subject": "arc",
+      "predicate": "Located_in",
+      "object": "ali"
+    },
+    {
+      "subject": "arc",
+      "predicate": "Located_in",
+      "object": "RA"
+    },
+    {
+      "subject": "arc",
+      "predicate": "Located_in",
+      "object": "us"
+    },
+    {
+      "subject": "arc",
+      "predicate": "Located_in",
+      "object": "o"
+    },
+    {
+      "subject": "arc",
+      "predicate": "Located_in",
+      "object": "ana"
+    },
+    {
+      "subject": "uc",
+      "predicate": "Located_in",
+      "object": "ropical"
+    },
+    {
+      "subject": "uc",
+      "predicate": "Located_in",
+      "object": "aye"
+    },
+    {
+      "subject": "uc",
+      "predicate": "Located_in",
+      "object": "ali"
+    },
+    {
+      "subject": "uc",
+      "predicate": "Located_in",
+      "object": "RA"
+    },
+    {
+      "subject": "uc",
+      "predicate": "Located_in",
+      "object": "us"
+    },
+    {
+      "subject": "co",
+      "predicate": "Located_in",
+      "object": "ura"
+    },
+    {
+      "subject": "co",
+      "predicate": "Located_in",
+      "object": "umbes"
+    },
+    {
+      "subject": "co",
+      "predicate": "Located_in",
+      "object": "aye"
+    },
+    {
+      "subject": "co",
+      "predicate": "Found_on",
+      "object": "arc"
+    },
+    {
+      "subject": "co",
+      "predicate": "Located_in",
+      "object": "ali"
+    },
+    {
+      "subject": "co",
+      "predicate": "Located_in",
+      "object": "o"
+    },
+    {
+      "subject": "Fusarium R4T",
+      "predicate": "Located_in",
+      "object": "ura"
+    },
+    {
+      "subject": "Fusarium R4T",
+      "predicate": "Located_in",
+      "object": "ana"
+    },
+    {
+      "subject": "Fusarium T",
+      "predicate": "Located_in",
+      "object": "ropical Race"
+    },
+    {
+      "subject": "Fusarium T",
+      "predicate": "Located_in",
+      "object": "Peru"
+    },
+    {
+      "subject": "4",
+      "predicate": "Located_in",
+      "object": "ana"
+    },
+    {
+      "subject": "usarium Race 4",
+      "predicate": "Located_in",
+      "object": "ura"
+    }
+  ],
+  "99132": [
+    {
+      "subject": "ia",
+      "predicate": "Located_in",
+      "object": "ara"
+    }
+  ],
+  "103847": [
+    {
+      "subject": "Xylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "ira"
+    },
+    {
+      "subject": "Xylella fastidiosa",
+      "predicate": "Occurs_on",
+      "object": "August"
+    },
+    {
+      "subject": "av",
+      "predicate": "Located_in",
+      "object": "ira"
+    },
+    {
+      "subject": "av",
+      "predicate": "Occurs_on",
+      "object": "August"
+    },
+    {
+      "subject": "ylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "ira"
+    },
+    {
+      "subject": "ylella fastidiosa",
+      "predicate": "Occurs_on",
+      "object": "August"
+    },
+    {
+      "subject": "avira",
+      "predicate": "Located_in",
+      "object": "ira"
+    },
+    {
+      "subject": "avira",
+      "predicate": "Occurs_on",
+      "object": "August"
+    }
+  ],
+  "116664": [
+    {
+      "subject": "ict",
+      "predicate": "Located_in",
+      "object": "rus"
+    },
+    {
+      "subject": "ict",
+      "predicate": "Located_in",
+      "object": "Africa"
+    },
+    {
+      "subject": "ict",
+      "predicate": "Occurs_on",
+      "object": "September"
+    },
+    {
+      "subject": "ict",
+      "predicate": "Found_on",
+      "object": "ar"
+    },
+    {
+      "subject": "ict",
+      "predicate": "Located_in",
+      "object": "pa"
+    },
+    {
+      "subject": "citric",
+      "predicate": "Located_in",
+      "object": "rus"
+    },
+    {
+      "subject": "citric",
+      "predicate": "Located_in",
+      "object": "Africa"
+    },
+    {
+      "subject": "citric",
+      "predicate": "Occurs_on",
+      "object": "September"
+    },
+    {
+      "subject": "citric",
+      "predicate": "Located_in",
+      "object": "pa"
+    },
+    {
+      "subject": "ar",
+      "predicate": "Located_in",
+      "object": "rus"
+    },
+    {
+      "subject": "ar",
+      "predicate": "Occurs_on",
+      "object": "September"
+    },
+    {
+      "subject": "ar",
+      "predicate": "Located_in",
+      "object": "pa"
+    },
+    {
+      "subject": "E",
+      "predicate": "Located_in",
+      "object": "onia"
+    },
+    {
+      "subject": "E",
+      "predicate": "Located_in",
+      "object": "raine"
+    },
+    {
+      "subject": "Hype",
+      "predicate": "Located_in",
+      "object": "onia"
+    },
+    {
+      "subject": "agon",
+      "predicate": "Located_in",
+      "object": "onia"
+    },
+    {
+      "subject": "agon",
+      "predicate": "Located_in",
+      "object": "raine"
+    }
+  ],
+  "104499": [],
+  "116761": [
+    {
+      "subject": "usarium oxysporum f",
+      "predicate": "Located_in",
+      "object": "ropical"
+    },
+    {
+      "subject": ".",
+      "predicate": "Located_in",
+      "object": "ropical"
+    }
+  ],
+  "103669": [
+    {
+      "subject": "av",
+      "predicate": "Found_on",
+      "object": "army"
+    },
+    {
+      "subject": "worm",
+      "predicate": "Found_on",
+      "object": "army"
+    },
+    {
+      "subject": "hum",
+      "predicate": "Found_on",
+      "object": "army"
+    },
+    {
+      "subject": "armyworm",
+      "predicate": "Found_on",
+      "object": "army"
+    },
+    {
+      "subject": "oids",
+      "predicate": "Found_on",
+      "object": "army"
+    }
+  ],
+  "104329": [
+    {
+      "subject": "ToBRFV",
+      "predicate": "Occurs_on",
+      "object": "August 20"
+    },
+    {
+      "subject": "IR",
+      "predicate": "Occurs_on",
+      "object": "August 20"
+    }
+  ],
+  "104119": [],
+  "116125": [
+    {
+      "subject": "Fruit Fly",
+      "predicate": "Located_in",
+      "object": "riental"
+    },
+    {
+      "subject": "Fruit Fly",
+      "predicate": "Occurs_on",
+      "object": "Florida"
+    },
+    {
+      "subject": "ental fruit fly",
+      "predicate": "Located_in",
+      "object": "riental"
+    },
+    {
+      "subject": "ental fruit fly",
+      "predicate": "Occurs_on",
+      "object": "Florida"
+    },
+    {
+      "subject": "cherry",
+      "predicate": "Located_in",
+      "object": "ach"
+    },
+    {
+      "subject": "cherry",
+      "predicate": "Located_in",
+      "object": "inam"
+    }
+  ],
+  "99984": [
+    {
+      "subject": "illia",
+      "predicate": "Located_in",
+      "object": "Pop"
+    },
+    {
+      "subject": "mont",
+      "predicate": "Located_in",
+      "object": "Pop"
+    },
+    {
+      "subject": "el",
+      "predicate": "Located_in",
+      "object": "Pop"
+    }
+  ],
+  "116507": [],
+  "107272": [
+    {
+      "subject": "Fusarium wilt",
+      "predicate": "Located_in",
+      "object": "ambique"
+    },
+    {
+      "subject": "Fusarium wilt",
+      "predicate": "Located_in",
+      "object": "America"
+    },
+    {
+      "subject": "usarium",
+      "predicate": "Located_in",
+      "object": "ambique"
+    },
+    {
+      "subject": "usarium",
+      "predicate": "Found_on",
+      "object": "anas"
+    },
+    {
+      "subject": "usarium",
+      "predicate": "Located_in",
+      "object": "Race"
+    },
+    {
+      "subject": "banana",
+      "predicate": "Located_in",
+      "object": "ambique"
+    },
+    {
+      "subject": "usarium wilt",
+      "predicate": "Located_in",
+      "object": "ambique"
+    },
+    {
+      "subject": "usarium wilt",
+      "predicate": "Located_in",
+      "object": "Race"
+    },
+    {
+      "subject": "ropical",
+      "predicate": "Located_in",
+      "object": "ambique"
+    },
+    {
+      "subject": "ropical",
+      "predicate": "Located_in",
+      "object": "Race"
+    }
+  ],
+  "98191": [
+    {
+      "subject": "EMBER",
+      "predicate": "Located_in",
+      "object": "NES"
+    },
+    {
+      "subject": "EMBER",
+      "predicate": "Occurs_on",
+      "object": "7"
+    },
+    {
+      "subject": "EMBER",
+      "predicate": "Located_in",
+      "object": "AY"
+    },
+    {
+      "subject": "EMBER",
+      "predicate": "Located_in",
+      "object": "IDAY"
+    },
+    {
+      "subject": "EM",
+      "predicate": "Located_in",
+      "object": "UES"
+    },
+    {
+      "subject": "EM",
+      "predicate": "Located_in",
+      "object": "NES"
+    },
+    {
+      "subject": "EM",
+      "predicate": "Occurs_on",
+      "object": "7"
+    },
+    {
+      "subject": "EM",
+      "predicate": "Located_in",
+      "object": "AY"
+    }
+  ],
+  "99613": [],
+  "107207": [],
+  "100011": [
+    {
+      "subject": "beetle",
+      "predicate": "Located_in",
+      "object": "ib"
+    },
+    {
+      "subject": "beetle",
+      "predicate": "Located_in",
+      "object": "pa"
+    },
+    {
+      "subject": "beetle",
+      "predicate": "Occurs_on",
+      "object": "Jul 28, 2022"
+    },
+    {
+      "subject": "beetle",
+      "predicate": "Located_in",
+      "object": "Z"
+    },
+    {
+      "subject": "beetle",
+      "predicate": "Occurs_on",
+      "object": "Italy"
+    },
+    {
+      "subject": "beetle",
+      "predicate": "Occurs_on",
+      "object": "20"
+    },
+    {
+      "subject": "ia",
+      "predicate": "Located_in",
+      "object": "ib"
+    },
+    {
+      "subject": "ia",
+      "predicate": "Located_in",
+      "object": "pa"
+    },
+    {
+      "subject": "ia",
+      "predicate": "Occurs_on",
+      "object": "Jul 28, 2022"
+    },
+    {
+      "subject": "ia",
+      "predicate": "Located_in",
+      "object": "Z"
+    },
+    {
+      "subject": "ia",
+      "predicate": "Occurs_on",
+      "object": "Italy"
+    },
+    {
+      "subject": "ia",
+      "predicate": "Occurs_on",
+      "object": "20"
+    },
+    {
+      "subject": "beet",
+      "predicate": "Located_in",
+      "object": "ib"
+    },
+    {
+      "subject": "beet",
+      "predicate": "Located_in",
+      "object": "pa"
+    },
+    {
+      "subject": "beet",
+      "predicate": "Occurs_on",
+      "object": "Jul 28, 2022"
+    },
+    {
+      "subject": "beet",
+      "predicate": "Located_in",
+      "object": "Z"
+    }
+  ],
+  "102584": [
+    {
+      "subject": "aves",
+      "predicate": "Affects",
+      "object": "vine"
+    },
+    {
+      "subject": "aves",
+      "predicate": "Located_in",
+      "object": "on"
+    },
+    {
+      "subject": "aves",
+      "predicate": "Located_in",
+      "object": "icino"
+    },
+    {
+      "subject": "cence dorée",
+      "predicate": "Located_in",
+      "object": "ine"
+    },
+    {
+      "subject": "cence d",
+      "predicate": "Located_in",
+      "object": "icino"
+    },
+    {
+      "subject": "ée",
+      "predicate": "Located_in",
+      "object": "icino"
+    }
+  ],
+  "106963": [
+    {
+      "subject": "fenam",
+      "predicate": "Located_in",
+      "object": "ra"
+    },
+    {
+      "subject": "dorèe",
+      "predicate": "Located_in",
+      "object": "rol"
+    }
+  ],
+  "116070": [
+    {
+      "subject": "fruits",
+      "predicate": "Located_in",
+      "object": "ruguay"
+    },
+    {
+      "subject": "fruits",
+      "predicate": "Occurs_on",
+      "object": "8"
+    },
+    {
+      "subject": "fruits",
+      "predicate": "Located_in",
+      "object": "pa"
+    },
+    {
+      "subject": "yll",
+      "predicate": "Found_on",
+      "object": "fruits"
+    },
+    {
+      "subject": "yll",
+      "predicate": "Located_in",
+      "object": "Africa"
+    },
+    {
+      "subject": "yll",
+      "predicate": "Found_on",
+      "object": "ar"
+    },
+    {
+      "subject": "yll",
+      "predicate": "Located_in",
+      "object": "pa"
+    },
+    {
+      "subject": "icta citric",
+      "predicate": "Found_on",
+      "object": "fruits"
+    },
+    {
+      "subject": "icta citric",
+      "predicate": "Located_in",
+      "object": "Africa"
+    },
+    {
+      "subject": "icta citric",
+      "predicate": "Found_on",
+      "object": "ar"
+    },
+    {
+      "subject": "icta citric",
+      "predicate": "Located_in",
+      "object": "pa"
+    },
+    {
+      "subject": "ar",
+      "predicate": "Located_in",
+      "object": "Africa"
+    },
+    {
+      "subject": "ar",
+      "predicate": "Located_in",
+      "object": "pa"
+    }
+  ],
+  "98917": [
+    {
+      "subject": "ylella",
+      "predicate": "Occurs_on",
+      "object": "Portugal"
+    },
+    {
+      "subject": "Xylella fastidiosa",
+      "predicate": "Occurs_on",
+      "object": "Portugal"
+    }
+  ],
+  "116983": [
+    {
+      "subject": "ental fruit fly",
+      "predicate": "Located_in",
+      "object": "ania"
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "103963": [
+    {
+      "subject": "fragments",
+      "predicate": "Located_in",
+      "object": "Supplementary"
+    }
+  ],
+  "114259": [
+    {
+      "subject": "23.2",
+      "predicate": "Transmits",
+      "object": "05.6"
+    }
+  ],
+  "116119": [],
+  "99067": [
+    {
+      "subject": "Di3A",
+      "predicate": "Located_in",
+      "object": "This"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "This"
+    }
+  ],
+  "98142": [
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Personnel"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Senasa"
+    }
+  ],
+  "117892": [],
+  "107172": [],
+  "98783": [
+    {
+      "subject": "The",
+      "predicate": "Located_in",
+      "object": "NARO-Mak"
+    }
+  ],
+  "105611": [
+    {
+      "subject": "The",
+      "predicate": "Transmits",
+      "object": "New"
+    },
+    {
+      "subject": "The",
+      "predicate": "Occurs_on",
+      "object": "Of"
+    },
+    {
+      "subject": "New",
+      "predicate": "Occurs_on",
+      "object": "Of"
+    }
+  ],
+  "98794": [],
+  "117299": [],
+  "102488": [],
+  "106959": [],
+  "98392": [
+    {
+      "subject": "ToBRFV",
+      "predicate": "Occurs_on",
+      "object": "In"
+    },
+    {
+      "subject": "ToBRFV",
+      "predicate": "Found_on",
+      "object": "Solanum"
+    },
+    {
+      "subject": "Solanum",
+      "predicate": "Occurs_on",
+      "object": "In"
+    }
+  ],
+  "116671": [],
+  "105652": [],
+  "106151": [],
+  "104656": [],
+  "115106": [],
+  "99614": [],
+  "117298": [],
+  "115183": [
+    {
+      "subject": "Xylella",
+      "predicate": "Occurs_on",
+      "object": "Read"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Occurs_on",
+      "object": "To"
+    }
+  ],
+  "105862": [
+    {
+      "subject": "huanglongbing/HLB",
+      "predicate": "Located_in",
+      "object": "Laranja/Fundecitrus"
+    },
+    {
+      "subject": "huanglongbing/HLB",
+      "predicate": "Occurs_on",
+      "object": "approximately"
+    }
+  ],
+  "102904": [
+    {
+      "subject": "Huanglongbing",
+      "predicate": "Located_in",
+      "object": "Transgenic"
+    }
+  ],
+  "116223": [
+    {
+      "subject": "potentially",
+      "predicate": "Located_in",
+      "object": "Senasica"
+    },
+    {
+      "subject": "potentially",
+      "predicate": "Located_in",
+      "object": "Sedarpa"
+    }
+  ],
+  "99107": [],
+  "98579": [],
+  "117674": [
+    {
+      "subject": "OFFICIAL",
+      "predicate": "Located_in",
+      "object": "Resolution"
+    },
+    {
+      "subject": "SENASA",
+      "predicate": "Found_on",
+      "object": "OFFICIAL"
+    },
+    {
+      "subject": "SENASA",
+      "predicate": "Causes",
+      "object": "Huanglongbing"
+    },
+    {
+      "subject": "Diaphorina",
+      "predicate": "Transmits",
+      "object": "SENASA"
+    }
+  ],
+  "114379": [
+    {
+      "subject": "The",
+      "predicate": "Located_in",
+      "object": "The"
+    },
+    {
+      "subject": "The",
+      "predicate": "Located_in",
+      "object": "CAP"
+    },
+    {
+      "subject": "The",
+      "predicate": "Occurs_on",
+      "object": "As"
+    },
+    {
+      "subject": "The",
+      "predicate": "Located_in",
+      "object": "General"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "The"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "The"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "CAP"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Occurs_on",
+      "object": "As"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "General"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "citrus"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "commonly"
+    },
+    {
+      "subject": "citrus",
+      "predicate": "Located_in",
+      "object": "CAP"
+    },
+    {
+      "subject": "citrus",
+      "predicate": "Located_in",
+      "object": "General"
+    },
+    {
+      "subject": "citrus",
+      "predicate": "Located_in",
+      "object": "commonly"
+    }
+  ],
+  "103660": [
+    {
+      "subject": "Lepidoptera",
+      "predicate": "Found_on",
+      "object": "Spodoptera"
+    }
+  ],
+  "98195": [
+    {
+      "subject": "The",
+      "predicate": "Located_in",
+      "object": "The"
+    },
+    {
+      "subject": "The",
+      "predicate": "Located_in",
+      "object": "Senasica"
+    },
+    {
+      "subject": "The",
+      "predicate": "Transmits",
+      "object": "HLB"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "The"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Senasica"
+    }
+  ],
+  "115243": [],
+  "115211": [
+    {
+      "subject": "The",
+      "predicate": "Located_in",
+      "object": "Cnr-Ipsp"
+    }
+  ],
+  "106336": [],
+  "99132": [
+    {
+      "subject": "The",
+      "predicate": "Located_in",
+      "object": "Popillia"
+    }
+  ],
+  "103847": [
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "MENU"
+    }
+  ],
+  "116664": [
+    {
+      "subject": "Scandal",
+      "predicate": "Found_on",
+      "object": "Scandal"
+    },
+    {
+      "subject": "Scandal",
+      "predicate": "Occurs_on",
+      "object": "minutes"
+    }
+  ],
+  "104499": [],
+  "116761": [],
+  "103669": [],
+  "104329": [
+    {
+      "subject": "ToBRFV",
+      "predicate": "Located_in",
+      "object": "Jordbruksbyrån"
+    },
+    {
+      "subject": "अन",
+      "predicate": "Located_in",
+      "object": "Jordbruksbyrån"
+    }
+  ],
+  "104119": [],
+  "116125": [
+    {
+      "subject": "Oriental",
+      "predicate": "Located_in",
+      "object": "FDACS"
+    },
+    {
+      "subject": "Oriental",
+      "predicate": "Located_in",
+      "object": "Bactrocera"
+    },
+    {
+      "subject": "The",
+      "predicate": "Found_on",
+      "object": "Oriental"
+    },
+    {
+      "subject": "The",
+      "predicate": "Located_in",
+      "object": "FDACS"
+    },
+    {
+      "subject": "The",
+      "predicate": "Located_in",
+      "object": "Bactrocera"
+    }
+  ],
+  "99984": [],
+  "116507": [],
+  "107272": [],
+  "98191": [],
+  "99613": [
+    {
+      "subject": "acetamiprid",
+      "predicate": "Found_on",
+      "object": "highest"
+    }
+  ],
+  "107207": [],
+  "100011": [
+    {
+      "subject": "Great",
+      "predicate": "Located_in",
+      "object": "Popillia"
+    },
+    {
+      "subject": "Freiburg",
+      "predicate": "Located_in",
+      "object": "Popillia"
+    },
+    {
+      "subject": "Freiburg",
+      "predicate": "Occurs_on",
+      "object": "57am"
+    },
+    {
+      "subject": "LTZ",
+      "predicate": "Located_in",
+      "object": "Popillia"
+    },
+    {
+      "subject": "LTZ",
+      "predicate": "Occurs_on",
+      "object": "57am"
+    }
+  ],
+  "102584": [],
+  "106963": [
+    {
+      "subject": "quot",
+      "predicate": "Occurs_on",
+      "object": "Big"
+    }
+  ],
+  "116070": [],
+  "98917": [],
+  "116983": []
+}

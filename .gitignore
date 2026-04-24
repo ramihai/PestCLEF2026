@@ -4,7 +4,7 @@ __pycache__/
 .DS_Store
 
 # Generated experiment outputs
-artifacts/
+# artifacts/
 
 # Large model/checkpoint files
 *.safetensors

@@ -1,0 +1,4085 @@
+{
+  "predicted_mentions": {
+    "103963": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Vector",
+        "form": "Bursaphelenchus",
+        "offsets": [
+          [
+            94,
+            109
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.44063398241996765
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "Monochamus",
+        "offsets": [
+          [
+            4283,
+            4293
+          ]
+        ],
+        "sentence_index": 40,
+        "layout_index": 17,
+        "confidence": 0.5302711725234985
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Date",
+        "form": "10",
+        "offsets": [
+          [
+            4299,
+            4301
+          ]
+        ],
+        "sentence_index": 40,
+        "layout_index": 17,
+        "confidence": 0.40246933698654175
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Plant",
+        "form": "fragments",
+        "offsets": [
+          [
+            11135,
+            11144
+          ]
+        ],
+        "sentence_index": 103,
+        "layout_index": 94,
+        "confidence": 0.1713130623102188
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Location",
+        "form": "Supplementary",
+        "offsets": [
+          [
+            11208,
+            11221
+          ]
+        ],
+        "sentence_index": 103,
+        "layout_index": 94,
+        "confidence": 0.4482158124446869
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Plant",
+        "form": "Fig",
+        "offsets": [
+          [
+            11422,
+            11425
+          ]
+        ],
+        "sentence_index": 103,
+        "layout_index": 94,
+        "confidence": 0.26875120401382446
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Pest",
+        "form": "A4",
+        "offsets": [
+          [
+            12294,
+            12296
+          ]
+        ],
+        "sentence_index": 112,
+        "layout_index": 102,
+        "confidence": 0.4584045112133026
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Date",
+        "form": "12",
+        "offsets": [
+          [
+            12326,
+            12328
+          ]
+        ],
+        "sentence_index": 113,
+        "layout_index": 102,
+        "confidence": 0.3391927182674408
+      },
+      {
+        "mention_id": "P8",
+        "entity_type": "Pest",
+        "form": "A4",
+        "offsets": [
+          [
+            12847,
+            12849
+          ]
+        ],
+        "sentence_index": 120,
+        "layout_index": 111,
+        "confidence": 0.5176849365234375
+      }
+    ],
+    "114259": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "First",
+        "offsets": [
+          [
+            0,
+            5
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.288020521402359
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Pest",
+        "form": "05.6",
+        "offsets": [
+          [
+            641,
+            645
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 2,
+        "confidence": 0.4265567660331726
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Vector",
+        "form": "23.2",
+        "offsets": [
+          [
+            655,
+            659
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 2,
+        "confidence": 0.37428048253059387
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Plant",
+        "form": "2-3",
+        "offsets": [
+          [
+            959,
+            962
+          ]
+        ],
+        "sentence_index": 7,
+        "layout_index": 2,
+        "confidence": 0.23687034845352173
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Location",
+        "form": "primer",
+        "offsets": [
+          [
+            1801,
+            1807
+          ]
+        ],
+        "sentence_index": 15,
+        "layout_index": 2,
+        "confidence": 0.674271285533905
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Location",
+        "form": "GenBank",
+        "offsets": [
+          [
+            1825,
+            1832
+          ]
+        ],
+        "sentence_index": 15,
+        "layout_index": 2,
+        "confidence": 0.651182234287262
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Location",
+        "form": "GenBank",
+        "offsets": [
+          [
+            1891,
+            1898
+          ]
+        ],
+        "sentence_index": 16,
+        "layout_index": 2,
+        "confidence": 0.4743104875087738
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Vector",
+        "form": "T1/Bt2b",
+        "offsets": [
+          [
+            1943,
+            1950
+          ]
+        ],
+        "sentence_index": 17,
+        "layout_index": 2,
+        "confidence": 0.4743695557117462
+      },
+      {
+        "mention_id": "P8",
+        "entity_type": "Location",
+        "form": "GenBank",
+        "offsets": [
+          [
+            1953,
+            1960
+          ]
+        ],
+        "sentence_index": 17,
+        "layout_index": 2,
+        "confidence": 0.47353219985961914
+      },
+      {
+        "mention_id": "P9",
+        "entity_type": "Location",
+        "form": "GenBank",
+        "offsets": [
+          [
+            2231,
+            2238
+          ]
+        ],
+        "sentence_index": 22,
+        "layout_index": 2,
+        "confidence": 0.47349655628204346
+      }
+    ],
+    "116119": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Dissemination_pathway",
+        "form": "Fruit",
+        "offsets": [
+          [
+            0,
+            5
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.8115773797035217
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Disease",
+        "form": "FDGDON",
+        "offsets": [
+          [
+            891,
+            897
+          ]
+        ],
+        "sentence_index": 5,
+        "layout_index": 4,
+        "confidence": 0.8898097276687622
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Dissemination_pathway",
+        "form": "Individuals",
+        "offsets": [
+          [
+            1099,
+            1110
+          ]
+        ],
+        "sentence_index": 7,
+        "layout_index": 7,
+        "confidence": 0.41439491510391235
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Dissemination_pathway",
+        "form": "It",
+        "offsets": [
+          [
+            1481,
+            1483
+          ]
+        ],
+        "sentence_index": 10,
+        "layout_index": 12,
+        "confidence": 0.21239842474460602
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Date",
+        "form": "158 euros) and another smaller, with a capacity of 80 liters, for individuals who will not have them. to pay only 15 euros to equip yourself. This year, more than 2,000",
+        "offsets": [
+          [
+            2176,
+            2344
+          ]
+        ],
+        "sentence_index": 14,
+        "layout_index": 17,
+        "confidence": 0.38226205110549927
+      }
+    ],
+    "99067": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "The",
+        "offsets": [
+          [
+            197,
+            200
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 2,
+        "confidence": 0.47827354073524475
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Vector",
+        "form": "Di3A",
+        "offsets": [
+          [
+            557,
+            561
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 2,
+        "confidence": 0.7941304445266724
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "This",
+        "offsets": [
+          [
+            780,
+            784
+          ]
+        ],
+        "sentence_index": 2,
+        "layout_index": 2,
+        "confidence": 0.5694101452827454
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Disease",
+        "form": "HLB",
+        "offsets": [
+          [
+            1475,
+            1478
+          ]
+        ],
+        "sentence_index": 5,
+        "layout_index": 2,
+        "confidence": 0.9771649241447449
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Date",
+        "form": "In",
+        "offsets": [
+          [
+            3420,
+            3422
+          ]
+        ],
+        "sentence_index": 16,
+        "layout_index": 20,
+        "confidence": 0.9790998101234436
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Date",
+        "form": "another",
+        "offsets": [
+          [
+            4727,
+            4734
+          ]
+        ],
+        "sentence_index": 20,
+        "layout_index": 24,
+        "confidence": 0.21308939158916473
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Vector",
+        "form": "TERRA",
+        "offsets": [
+          [
+            5222,
+            5227
+          ]
+        ],
+        "sentence_index": 21,
+        "layout_index": 28,
+        "confidence": 0.3379408121109009
+      }
+    ],
+    "98142": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "Around",
+        "offsets": [
+          [
+            0,
+            6
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.5522153377532959
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "Personnel",
+        "offsets": [
+          [
+            172,
+            181
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 2,
+        "confidence": 0.8266327381134033
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "Senasa",
+        "offsets": [
+          [
+            241,
+            247
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 2,
+        "confidence": 0.6663415431976318
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Disease",
+        "form": "HLB",
+        "offsets": [
+          [
+            380,
+            383
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 2,
+        "confidence": 0.9414907097816467
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Pest",
+        "form": "senasa.gob.ar",
+        "offsets": [
+          [
+            2403,
+            2416
+          ]
+        ],
+        "sentence_index": 14,
+        "layout_index": 14,
+        "confidence": 0.45382872223854065
+      }
+    ],
+    "117892": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Location",
+        "form": "doi.org/10.3390/electronics11213497",
+        "offsets": [
+          [
+            1981,
+            2016
+          ]
+        ],
+        "sentence_index": 5,
+        "layout_index": 15,
+        "confidence": 0.47591206431388855
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "doi.org/10.3390/electronics11213497",
+        "offsets": [
+          [
+            2374,
+            2409
+          ]
+        ],
+        "sentence_index": 8,
+        "layout_index": 24,
+        "confidence": 0.7470510601997375
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "doi.org/10.3390/electronics11213497",
+        "offsets": [
+          [
+            2603,
+            2638
+          ]
+        ],
+        "sentence_index": 12,
+        "layout_index": 30,
+        "confidence": 0.6962641477584839
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Location",
+        "form": "doi.org/10.3390/electronics11213497",
+        "offsets": [
+          [
+            2895,
+            2930
+          ]
+        ],
+        "sentence_index": 16,
+        "layout_index": 34,
+        "confidence": 0.6750911474227905
+      }
+    ],
+    "107172": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Dissemination_pathway",
+        "form": "Bananas",
+        "offsets": [
+          [
+            0,
+            7
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.5040608048439026
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Plant",
+        "form": "Somehow",
+        "offsets": [
+          [
+            1988,
+            1995
+          ]
+        ],
+        "sentence_index": 12,
+        "layout_index": 13,
+        "confidence": 0.19934454560279846
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "Banana",
+        "offsets": [
+          [
+            3355,
+            3361
+          ]
+        ],
+        "sentence_index": 23,
+        "layout_index": 17,
+        "confidence": 0.773753821849823
+      }
+    ],
+    "98783": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            55,
+            58
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.25822681188583374
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "NARO-Mak",
+        "offsets": [
+          [
+            415,
+            423
+          ]
+        ],
+        "sentence_index": 2,
+        "layout_index": 6,
+        "confidence": 0.5083779096603394
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "MAAIF",
+        "offsets": [
+          [
+            1169,
+            1174
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 9,
+        "confidence": 0.6273175477981567
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Location",
+        "form": "MAAIF",
+        "offsets": [
+          [
+            3141,
+            3146
+          ]
+        ],
+        "sentence_index": 16,
+        "layout_index": 21,
+        "confidence": 0.622438907623291
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Vector",
+        "form": "660m",
+        "offsets": [
+          [
+            3891,
+            3895
+          ]
+        ],
+        "sentence_index": 19,
+        "layout_index": 25,
+        "confidence": 0.2582298219203949
+      }
+    ],
+    "105611": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            0,
+            3
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.3247933089733124
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            265,
+            268
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 2,
+        "confidence": 0.3882768452167511
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Disease",
+        "form": "New",
+        "offsets": [
+          [
+            437,
+            440
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 3,
+        "confidence": 0.9132562279701233
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Date",
+        "form": "Of",
+        "offsets": [
+          [
+            718,
+            720
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 4,
+        "confidence": 0.5701854228973389
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Date",
+        "form": "In",
+        "offsets": [
+          [
+            2015,
+            2017
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 6,
+        "confidence": 0.7447397112846375
+      }
+    ],
+    "98794": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "First",
+        "offsets": [
+          [
+            0,
+            5
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.4476720094680786
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Plant",
+        "form": "Jung",
+        "offsets": [
+          [
+            1497,
+            1501
+          ]
+        ],
+        "sentence_index": 15,
+        "layout_index": 2,
+        "confidence": 0.46418923139572144
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Pest",
+        "form": "6.2",
+        "offsets": [
+          [
+            2360,
+            2363
+          ]
+        ],
+        "sentence_index": 32,
+        "layout_index": 2,
+        "confidence": 0.4457149803638458
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Plant",
+        "form": "Zheng",
+        "offsets": [
+          [
+            2644,
+            2649
+          ]
+        ],
+        "sentence_index": 35,
+        "layout_index": 2,
+        "confidence": 0.42071810364723206
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Location",
+        "form": "Amadioha",
+        "offsets": [
+          [
+            3534,
+            3542
+          ]
+        ],
+        "sentence_index": 51,
+        "layout_index": 2,
+        "confidence": 0.34030967950820923
+      }
+    ],
+    "117299": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "After",
+        "offsets": [
+          [
+            65,
+            70
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.9464518427848816
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "Panama",
+        "offsets": [
+          [
+            943,
+            949
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 6,
+        "confidence": 0.5257238745689392
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            1138,
+            1141
+          ]
+        ],
+        "sentence_index": 5,
+        "layout_index": 7,
+        "confidence": 0.4167579710483551
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Vector",
+        "form": "T4R",
+        "offsets": [
+          [
+            1681,
+            1684
+          ]
+        ],
+        "sentence_index": 8,
+        "layout_index": 8,
+        "confidence": 0.810890257358551
+      }
+    ],
+    "102488": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Dissemination_pathway",
+        "form": "re informing scientists in Brazil and other places to screen plants for it,” said Allison Hansen, an entomologist at UC Riverside. “It",
+        "offsets": [
+          [
+            2219,
+            2353
+          ]
+        ],
+        "sentence_index": 28,
+        "layout_index": 24,
+        "confidence": 0.20294705033302307
+      }
+    ],
+    "106959": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "on",
+        "offsets": [
+          [
+            0,
+            2
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.4076610505580902
+      }
+    ],
+    "98392": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "In",
+        "offsets": [
+          [
+            103,
+            105
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.9092437028884888
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Pest",
+        "form": "ToBRFV",
+        "offsets": [
+          [
+            196,
+            202
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.8364553451538086
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Plant",
+        "form": "Solanum",
+        "offsets": [
+          [
+            248,
+            255
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.45120084285736084
+      }
+    ],
+    "116671": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Dissemination_pathway",
+        "form": "Scandal",
+        "offsets": [
+          [
+            0,
+            7
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.26913216710090637
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "Brazil",
+        "offsets": [
+          [
+            724,
+            730
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 6,
+        "confidence": 0.9337192177772522
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Date",
+        "form": "530",
+        "offsets": [
+          [
+            909,
+            912
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 6,
+        "confidence": 0.2705927789211273
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Date",
+        "form": "which",
+        "offsets": [
+          [
+            1439,
+            1444
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 10,
+        "confidence": 0.253350168466568
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Date",
+        "form": "is",
+        "offsets": [
+          [
+            2398,
+            2400
+          ]
+        ],
+        "sentence_index": 8,
+        "layout_index": 21,
+        "confidence": 0.34321632981300354
+      }
+    ],
+    "105652": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            0,
+            7
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.3846261203289032
+      }
+    ],
+    "106151": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "The",
+        "offsets": [
+          [
+            117,
+            120
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.35390782356262207
+      }
+    ],
+    "104656": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Vector",
+        "form": "An",
+        "offsets": [
+          [
+            0,
+            2
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.15992575883865356
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            73,
+            76
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.4302266836166382
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            848,
+            851
+          ]
+        ],
+        "sentence_index": 9,
+        "layout_index": 4,
+        "confidence": 0.3203287422657013
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Date",
+        "form": "35",
+        "offsets": [
+          [
+            1043,
+            1045
+          ]
+        ],
+        "sentence_index": 11,
+        "layout_index": 5,
+        "confidence": 0.4871218800544739
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Date",
+        "form": "Due",
+        "offsets": [
+          [
+            1774,
+            1777
+          ]
+        ],
+        "sentence_index": 19,
+        "layout_index": 10,
+        "confidence": 0.2584449350833893
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Date",
+        "form": "Once",
+        "offsets": [
+          [
+            2375,
+            2379
+          ]
+        ],
+        "sentence_index": 25,
+        "layout_index": 13,
+        "confidence": 0.3800465762615204
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Dissemination_pathway",
+        "form": "We",
+        "offsets": [
+          [
+            2899,
+            2901
+          ]
+        ],
+        "sentence_index": 30,
+        "layout_index": 15,
+        "confidence": 0.17302502691745758
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            3033,
+            3036
+          ]
+        ],
+        "sentence_index": 32,
+        "layout_index": 15,
+        "confidence": 0.4311447739601135
+      },
+      {
+        "mention_id": "P8",
+        "entity_type": "Dissemination_pathway",
+        "form": "It",
+        "offsets": [
+          [
+            3723,
+            3725
+          ]
+        ],
+        "sentence_index": 36,
+        "layout_index": 18,
+        "confidence": 0.41313472390174866
+      }
+    ],
+    "115106": [],
+    "99614": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Plant",
+        "form": "Odorant-binding",
+        "offsets": [
+          [
+            141,
+            156
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.581855833530426
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "OBPs",
+        "offsets": [
+          [
+            794,
+            798
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 10,
+        "confidence": 0.4744434356689453
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Plant",
+        "form": "male",
+        "offsets": [
+          [
+            1380,
+            1384
+          ]
+        ],
+        "sentence_index": 8,
+        "layout_index": 10,
+        "confidence": 0.3111211359500885
+      }
+    ],
+    "117298": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Dissemination_pathway",
+        "form": "Breakthrough",
+        "offsets": [
+          [
+            0,
+            12
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.5523346066474915
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Vector",
+        "form": "wipe",
+        "offsets": [
+          [
+            2304,
+            2308
+          ]
+        ],
+        "sentence_index": 16,
+        "layout_index": 8,
+        "confidence": 0.23427645862102509
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "This",
+        "offsets": [
+          [
+            3022,
+            3026
+          ]
+        ],
+        "sentence_index": 19,
+        "layout_index": 10,
+        "confidence": 0.4869382679462433
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Location",
+        "form": "Multi-site",
+        "offsets": [
+          [
+            3824,
+            3834
+          ]
+        ],
+        "sentence_index": 22,
+        "layout_index": 12,
+        "confidence": 0.5931973457336426
+      }
+    ],
+    "115183": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            0,
+            7
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.5438004732131958
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Date",
+        "form": "Read",
+        "offsets": [
+          [
+            60,
+            64
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.5462297201156616
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Date",
+        "form": "To",
+        "offsets": [
+          [
+            677,
+            679
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 3,
+        "confidence": 0.2795623540878296
+      }
+    ],
+    "105862": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Location",
+        "form": "Laranja/Fundecitrus",
+        "offsets": [
+          [
+            0,
+            19
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.51240074634552
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Disease",
+        "form": "huanglongbing/HLB",
+        "offsets": [
+          [
+            111,
+            128
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.917035698890686
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Date",
+        "form": "approximately",
+        "offsets": [
+          [
+            235,
+            248
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.5785735249519348
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Vector",
+        "form": "Fundecitrus",
+        "offsets": [
+          [
+            418,
+            429
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 1,
+        "confidence": 0.7386634349822998
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Date",
+        "form": "from",
+        "offsets": [
+          [
+            1812,
+            1816
+          ]
+        ],
+        "sentence_index": 11,
+        "layout_index": 4,
+        "confidence": 0.7792487144470215
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Date",
+        "form": "from",
+        "offsets": [
+          [
+            1852,
+            1856
+          ]
+        ],
+        "sentence_index": 11,
+        "layout_index": 4,
+        "confidence": 0.6156056523323059
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Date",
+        "form": "less",
+        "offsets": [
+          [
+            2118,
+            2122
+          ]
+        ],
+        "sentence_index": 12,
+        "layout_index": 5,
+        "confidence": 0.42566272616386414
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Date",
+        "form": "This",
+        "offsets": [
+          [
+            2820,
+            2824
+          ]
+        ],
+        "sentence_index": 18,
+        "layout_index": 6,
+        "confidence": 0.31753137707710266
+      }
+    ],
+    "102904": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Location",
+        "form": "Transgenic",
+        "offsets": [
+          [
+            0,
+            10
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.7349041700363159
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Disease",
+        "form": "Huanglongbing",
+        "offsets": [
+          [
+            145,
+            158
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.8873450756072998
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Vector",
+        "form": "stx",
+        "offsets": [
+          [
+            779,
+            782
+          ]
+        ],
+        "sentence_index": 5,
+        "layout_index": 1,
+        "confidence": 0.216558039188385
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Disease",
+        "form": "HLB",
+        "offsets": [
+          [
+            2223,
+            2226
+          ]
+        ],
+        "sentence_index": 18,
+        "layout_index": 23,
+        "confidence": 0.9772794246673584
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Location",
+        "form": "https",
+        "offsets": [
+          [
+            2580,
+            2585
+          ]
+        ],
+        "sentence_index": 25,
+        "layout_index": 32,
+        "confidence": 0.5760182738304138
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Location",
+        "form": "doi.org/10.3390/ijms23169300",
+        "offsets": [
+          [
+            2588,
+            2616
+          ]
+        ],
+        "sentence_index": 25,
+        "layout_index": 32,
+        "confidence": 0.5749489068984985
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Location",
+        "form": "https",
+        "offsets": [
+          [
+            2902,
+            2907
+          ]
+        ],
+        "sentence_index": 29,
+        "layout_index": 40,
+        "confidence": 0.6097235083580017
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Location",
+        "form": "doi.org/10.3390/ijms23169300",
+        "offsets": [
+          [
+            2910,
+            2938
+          ]
+        ],
+        "sentence_index": 29,
+        "layout_index": 40,
+        "confidence": 0.5311795473098755
+      },
+      {
+        "mention_id": "P8",
+        "entity_type": "Location",
+        "form": "Transgenic",
+        "offsets": [
+          [
+            3092,
+            3102
+          ]
+        ],
+        "sentence_index": 31,
+        "layout_index": 46,
+        "confidence": 0.48825621604919434
+      },
+      {
+        "mention_id": "P9",
+        "entity_type": "Location",
+        "form": "Candidatus",
+        "offsets": [
+          [
+            3202,
+            3212
+          ]
+        ],
+        "sentence_index": 31,
+        "layout_index": 46,
+        "confidence": 0.4726855754852295
+      },
+      {
+        "mention_id": "P10",
+        "entity_type": "Location",
+        "form": "https",
+        "offsets": [
+          [
+            3300,
+            3305
+          ]
+        ],
+        "sentence_index": 33,
+        "layout_index": 46,
+        "confidence": 0.6246163845062256
+      },
+      {
+        "mention_id": "P11",
+        "entity_type": "Location",
+        "form": "doi.org/10.3390/ijms23169300",
+        "offsets": [
+          [
+            3308,
+            3336
+          ]
+        ],
+        "sentence_index": 33,
+        "layout_index": 46,
+        "confidence": 0.5944617390632629
+      }
+    ],
+    "116223": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "In",
+        "offsets": [
+          [
+            66,
+            68
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.24486853182315826
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Plant",
+        "form": "potentially",
+        "offsets": [
+          [
+            111,
+            122
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.45764073729515076
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Plant",
+        "form": "potentially",
+        "offsets": [
+          [
+            232,
+            243
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 2,
+        "confidence": 0.43118423223495483
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Location",
+        "form": "Senasica",
+        "offsets": [
+          [
+            363,
+            371
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 2,
+        "confidence": 0.5443751811981201
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Location",
+        "form": "Sedarpa",
+        "offsets": [
+          [
+            552,
+            559
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 2,
+        "confidence": 0.5000960230827332
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Dissemination_pathway",
+        "form": "There",
+        "offsets": [
+          [
+            1037,
+            1042
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 9,
+        "confidence": 0.30760708451271057
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Disease",
+        "form": "HLB",
+        "offsets": [
+          [
+            2047,
+            2050
+          ]
+        ],
+        "sentence_index": 7,
+        "layout_index": 17,
+        "confidence": 0.9759848117828369
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Date",
+        "form": "80",
+        "offsets": [
+          [
+            2168,
+            2170
+          ]
+        ],
+        "sentence_index": 8,
+        "layout_index": 20,
+        "confidence": 0.4743627905845642
+      }
+    ],
+    "99107": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Location",
+        "form": "Cantabria",
+        "offsets": [
+          [
+            0,
+            9
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.8525941967964172
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "Blanco",
+        "offsets": [
+          [
+            91,
+            97
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.8112859725952148
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "Blanco",
+        "offsets": [
+          [
+            205,
+            211
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 2,
+        "confidence": 0.802892804145813
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Vector",
+        "form": "Tamarixia",
+        "offsets": [
+          [
+            497,
+            506
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 2,
+        "confidence": 0.9373325705528259
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Location",
+        "form": "important",
+        "offsets": [
+          [
+            1752,
+            1761
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 2,
+        "confidence": 0.7665324211120605
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Disease",
+        "form": "HLB",
+        "offsets": [
+          [
+            4335,
+            4338
+          ]
+        ],
+        "sentence_index": 10,
+        "layout_index": 2,
+        "confidence": 0.9851731061935425
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Location",
+        "form": "sanidadvegetalcantabria",
+        "offsets": [
+          [
+            5095,
+            5118
+          ]
+        ],
+        "sentence_index": 15,
+        "layout_index": 2,
+        "confidence": 0.7019482851028442
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Location",
+        "form": "cantabria.es",
+        "offsets": [
+          [
+            5119,
+            5131
+          ]
+        ],
+        "sentence_index": 15,
+        "layout_index": 2,
+        "confidence": 0.48557594418525696
+      }
+    ],
+    "98579": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Location",
+        "form": "Legambiente",
+        "offsets": [
+          [
+            0,
+            11
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.50209641456604
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Date",
+        "form": "Immediately",
+        "offsets": [
+          [
+            99,
+            110
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.3968510031700134
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Date",
+        "form": "on",
+        "offsets": [
+          [
+            1262,
+            1264
+          ]
+        ],
+        "sentence_index": 5,
+        "layout_index": 2,
+        "confidence": 0.44912269711494446
+      }
+    ],
+    "117674": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Plant",
+        "form": "OFFICIAL",
+        "offsets": [
+          [
+            0,
+            8
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.30764490365982056
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "Resolution",
+        "offsets": [
+          [
+            95,
+            105
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.635315477848053
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Pest",
+        "form": "SENASA",
+        "offsets": [
+          [
+            139,
+            145
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.430795818567276
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Pest",
+        "form": "SENASA",
+        "offsets": [
+          [
+            419,
+            425
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 1,
+        "confidence": 0.44698548316955566
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Pest",
+        "form": "SENASA",
+        "offsets": [
+          [
+            473,
+            479
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 1,
+        "confidence": 0.5223162770271301
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Pest",
+        "form": "SENASA",
+        "offsets": [
+          [
+            525,
+            531
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 1,
+        "confidence": 0.44493409991264343
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Pest",
+        "form": "SENASA",
+        "offsets": [
+          [
+            857,
+            863
+          ]
+        ],
+        "sentence_index": 7,
+        "layout_index": 3,
+        "confidence": 0.4440340995788574
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Pest",
+        "form": "SENASA",
+        "offsets": [
+          [
+            911,
+            917
+          ]
+        ],
+        "sentence_index": 7,
+        "layout_index": 3,
+        "confidence": 0.4760167598724365
+      },
+      {
+        "mention_id": "P8",
+        "entity_type": "Pest",
+        "form": "SENASA",
+        "offsets": [
+          [
+            963,
+            969
+          ]
+        ],
+        "sentence_index": 7,
+        "layout_index": 3,
+        "confidence": 0.5021342039108276
+      },
+      {
+        "mention_id": "P9",
+        "entity_type": "Disease",
+        "form": "Huanglongbing",
+        "offsets": [
+          [
+            2459,
+            2472
+          ]
+        ],
+        "sentence_index": 11,
+        "layout_index": 7,
+        "confidence": 0.9569341540336609
+      },
+      {
+        "mention_id": "P10",
+        "entity_type": "Pest",
+        "form": "SENASA",
+        "offsets": [
+          [
+            2655,
+            2661
+          ]
+        ],
+        "sentence_index": 13,
+        "layout_index": 8,
+        "confidence": 0.44477054476737976
+      },
+      {
+        "mention_id": "P11",
+        "entity_type": "Pest",
+        "form": "SENASA",
+        "offsets": [
+          [
+            2984,
+            2990
+          ]
+        ],
+        "sentence_index": 15,
+        "layout_index": 9,
+        "confidence": 0.40503859519958496
+      },
+      {
+        "mention_id": "P12",
+        "entity_type": "Vector",
+        "form": "Diaphorina",
+        "offsets": [
+          [
+            3119,
+            3129
+          ]
+        ],
+        "sentence_index": 15,
+        "layout_index": 9,
+        "confidence": 0.8092299699783325
+      },
+      {
+        "mention_id": "P13",
+        "entity_type": "Pest",
+        "form": "SENASA",
+        "offsets": [
+          [
+            3201,
+            3207
+          ]
+        ],
+        "sentence_index": 16,
+        "layout_index": 9,
+        "confidence": 0.42651695013046265
+      },
+      {
+        "mention_id": "P14",
+        "entity_type": "Location",
+        "form": "NOA",
+        "offsets": [
+          [
+            4099,
+            4102
+          ]
+        ],
+        "sentence_index": 23,
+        "layout_index": 12,
+        "confidence": 0.4701685309410095
+      },
+      {
+        "mention_id": "P15",
+        "entity_type": "Location",
+        "form": "NEA",
+        "offsets": [
+          [
+            4310,
+            4313
+          ]
+        ],
+        "sentence_index": 24,
+        "layout_index": 13,
+        "confidence": 0.5127705931663513
+      },
+      {
+        "mention_id": "P16",
+        "entity_type": "Plant",
+        "form": "SENASA",
+        "offsets": [
+          [
+            5065,
+            5071
+          ]
+        ],
+        "sentence_index": 29,
+        "layout_index": 16,
+        "confidence": 0.35304898023605347
+      },
+      {
+        "mention_id": "P17",
+        "entity_type": "Location",
+        "form": "Guidelines",
+        "offsets": [
+          [
+            6558,
+            6568
+          ]
+        ],
+        "sentence_index": 33,
+        "layout_index": 20,
+        "confidence": 0.6001818776130676
+      },
+      {
+        "mention_id": "P18",
+        "entity_type": "Date",
+        "form": "585",
+        "offsets": [
+          [
+            8139,
+            8142
+          ]
+        ],
+        "sentence_index": 40,
+        "layout_index": 26,
+        "confidence": 0.7844266295433044
+      },
+      {
+        "mention_id": "P19",
+        "entity_type": "Vector",
+        "form": "Diaphorina",
+        "offsets": [
+          [
+            8301,
+            8311
+          ]
+        ],
+        "sentence_index": 41,
+        "layout_index": 30,
+        "confidence": 0.8209763169288635
+      },
+      {
+        "mention_id": "P20",
+        "entity_type": "Vector",
+        "form": "Diaphorina",
+        "offsets": [
+          [
+            8484,
+            8494
+          ]
+        ],
+        "sentence_index": 44,
+        "layout_index": 30,
+        "confidence": 0.8444801568984985
+      },
+      {
+        "mention_id": "P21",
+        "entity_type": "Date",
+        "form": "233",
+        "offsets": [
+          [
+            10075,
+            10078
+          ]
+        ],
+        "sentence_index": 58,
+        "layout_index": 36,
+        "confidence": 0.32456719875335693
+      }
+    ],
+    "114379": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Location",
+        "form": "The",
+        "offsets": [
+          [
+            88,
+            91
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.8715186715126038
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Plant",
+        "form": "The",
+        "offsets": [
+          [
+            204,
+            207
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 2,
+        "confidence": 0.27576297521591187
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            219,
+            226
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 2,
+        "confidence": 0.6179133057594299
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Location",
+        "form": "CAP",
+        "offsets": [
+          [
+            423,
+            426
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 2,
+        "confidence": 0.5194870233535767
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Date",
+        "form": "As",
+        "offsets": [
+          [
+            430,
+            432
+          ]
+        ],
+        "sentence_index": 2,
+        "layout_index": 4,
+        "confidence": 0.5996322631835938
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            496,
+            503
+          ]
+        ],
+        "sentence_index": 2,
+        "layout_index": 4,
+        "confidence": 0.6197696924209595
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Location",
+        "form": "General",
+        "offsets": [
+          [
+            635,
+            642
+          ]
+        ],
+        "sentence_index": 2,
+        "layout_index": 4,
+        "confidence": 0.8083544969558716
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Dissemination_pathway",
+        "form": "against",
+        "offsets": [
+          [
+            894,
+            901
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 6,
+        "confidence": 0.23727795481681824
+      },
+      {
+        "mention_id": "P8",
+        "entity_type": "Plant",
+        "form": "citrus",
+        "offsets": [
+          [
+            1039,
+            1045
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 6,
+        "confidence": 0.3164125084877014
+      },
+      {
+        "mention_id": "P9",
+        "entity_type": "Plant",
+        "form": "citrus",
+        "offsets": [
+          [
+            1058,
+            1064
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 6,
+        "confidence": 0.32040777802467346
+      },
+      {
+        "mention_id": "P10",
+        "entity_type": "Location",
+        "form": "commonly",
+        "offsets": [
+          [
+            1292,
+            1300
+          ]
+        ],
+        "sentence_index": 6,
+        "layout_index": 9,
+        "confidence": 0.7485675811767578
+      },
+      {
+        "mention_id": "P11",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            1623,
+            1630
+          ]
+        ],
+        "sentence_index": 8,
+        "layout_index": 10,
+        "confidence": 0.7164024710655212
+      }
+    ],
+    "103660": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Plant",
+        "form": "Spodoptera",
+        "offsets": [
+          [
+            77,
+            87
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.4369488060474396
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Vector",
+        "form": "Lepidoptera",
+        "offsets": [
+          [
+            114,
+            125
+          ]
+        ],
+        "sentence_index": 2,
+        "layout_index": 1,
+        "confidence": 0.338899701833725
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Vector",
+        "form": "Lepidoptera",
+        "offsets": [
+          [
+            570,
+            581
+          ]
+        ],
+        "sentence_index": 7,
+        "layout_index": 8,
+        "confidence": 0.38783973455429077
+      }
+    ],
+    "98195": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            0,
+            3
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.35666584968566895
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "The",
+        "offsets": [
+          [
+            51,
+            54
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.6370335221290588
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "Senasica",
+        "offsets": [
+          [
+            217,
+            225
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.6502205729484558
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Disease",
+        "form": "HLB",
+        "offsets": [
+          [
+            1117,
+            1120
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 4,
+        "confidence": 0.9837172031402588
+      }
+    ],
+    "115243": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "According",
+        "offsets": [
+          [
+            70,
+            79
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 1,
+        "confidence": 0.4797074794769287
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "Occitanie",
+        "offsets": [
+          [
+            1282,
+            1291
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 4,
+        "confidence": 0.6669625043869019
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "RAOA",
+        "offsets": [
+          [
+            1325,
+            1329
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 4,
+        "confidence": 0.7294086813926697
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Pest",
+        "form": "xylella",
+        "offsets": [
+          [
+            2502,
+            2509
+          ]
+        ],
+        "sentence_index": 15,
+        "layout_index": 9,
+        "confidence": 0.580722451210022
+      }
+    ],
+    "115211": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Vector",
+        "form": "Electronic",
+        "offsets": [
+          [
+            64,
+            74
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.24091000854969025
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            959,
+            962
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 2,
+        "confidence": 0.2171742171049118
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "Cnr-Ipsp",
+        "offsets": [
+          [
+            1686,
+            1694
+          ]
+        ],
+        "sentence_index": 6,
+        "layout_index": 2,
+        "confidence": 0.5458033680915833
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Date",
+        "form": "early",
+        "offsets": [
+          [
+            1708,
+            1713
+          ]
+        ],
+        "sentence_index": 6,
+        "layout_index": 2,
+        "confidence": 0.500618040561676
+      }
+    ],
+    "106336": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Location",
+        "form": "SENASA",
+        "offsets": [
+          [
+            0,
+            6
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.775165855884552
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "The",
+        "offsets": [
+          [
+            103,
+            106
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.5253050923347473
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "SENASA",
+        "offsets": [
+          [
+            145,
+            151
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.5482080578804016
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Location",
+        "form": "The",
+        "offsets": [
+          [
+            445,
+            448
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 2,
+        "confidence": 0.6269136667251587
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Location",
+        "form": "SENASA",
+        "offsets": [
+          [
+            487,
+            493
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 2,
+        "confidence": 0.5249505043029785
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Location",
+        "form": "Banana",
+        "offsets": [
+          [
+            1764,
+            1770
+          ]
+        ],
+        "sentence_index": 6,
+        "layout_index": 9,
+        "confidence": 0.8018118143081665
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Dissemination_pathway",
+        "form": "environmental",
+        "offsets": [
+          [
+            2422,
+            2435
+          ]
+        ],
+        "sentence_index": 9,
+        "layout_index": 11,
+        "confidence": 0.3231385052204132
+      }
+    ],
+    "99132": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Location",
+        "form": "Popillia",
+        "offsets": [
+          [
+            0,
+            8
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.5709813237190247
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            78,
+            81
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.410620778799057
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "Popillia",
+        "offsets": [
+          [
+            169,
+            177
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 2,
+        "confidence": 0.5910796523094177
+      }
+    ],
+    "103847": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "Xylella",
+        "offsets": [
+          [
+            0,
+            7
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.47773364186286926
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "MENU",
+        "offsets": [
+          [
+            66,
+            70
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.5678605437278748
+      }
+    ],
+    "116664": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Vector",
+        "form": "Scandal",
+        "offsets": [
+          [
+            0,
+            7
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.20279574394226074
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Plant",
+        "form": "Scandal",
+        "offsets": [
+          [
+            215,
+            222
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 3,
+        "confidence": 0.278790682554245
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Date",
+        "form": "minutes",
+        "offsets": [
+          [
+            420,
+            427
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 5,
+        "confidence": 0.2844765782356262
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Date",
+        "form": "Despite",
+        "offsets": [
+          [
+            428,
+            435
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 7,
+        "confidence": 0.4859777092933655
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Location",
+        "form": "Brazil",
+        "offsets": [
+          [
+            976,
+            982
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 12,
+        "confidence": 0.9290611147880554
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Date",
+        "form": "530",
+        "offsets": [
+          [
+            1161,
+            1164
+          ]
+        ],
+        "sentence_index": 2,
+        "layout_index": 12,
+        "confidence": 0.27008870244026184
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Location",
+        "form": "South",
+        "offsets": [
+          [
+            1357,
+            1362
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 14,
+        "confidence": 0.707759439945221
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Location",
+        "form": "South",
+        "offsets": [
+          [
+            1370,
+            1375
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 15,
+        "confidence": 0.6327484250068665
+      },
+      {
+        "mention_id": "P8",
+        "entity_type": "Location",
+        "form": "Related",
+        "offsets": [
+          [
+            2527,
+            2534
+          ]
+        ],
+        "sentence_index": 10,
+        "layout_index": 24,
+        "confidence": 0.4848357141017914
+      },
+      {
+        "mention_id": "P9",
+        "entity_type": "Date",
+        "form": "On",
+        "offsets": [
+          [
+            2540,
+            2542
+          ]
+        ],
+        "sentence_index": 10,
+        "layout_index": 25,
+        "confidence": 0.8823274374008179
+      },
+      {
+        "mention_id": "P10",
+        "entity_type": "Date",
+        "form": "is",
+        "offsets": [
+          [
+            2665,
+            2667
+          ]
+        ],
+        "sentence_index": 10,
+        "layout_index": 25,
+        "confidence": 0.45090141892433167
+      },
+      {
+        "mention_id": "P11",
+        "entity_type": "Date",
+        "form": "everything",
+        "offsets": [
+          [
+            3009,
+            3019
+          ]
+        ],
+        "sentence_index": 10,
+        "layout_index": 25,
+        "confidence": 0.343994140625
+      },
+      {
+        "mention_id": "P12",
+        "entity_type": "Vector",
+        "form": "Fear",
+        "offsets": [
+          [
+            3511,
+            3515
+          ]
+        ],
+        "sentence_index": 11,
+        "layout_index": 34,
+        "confidence": 0.3025229573249817
+      },
+      {
+        "mention_id": "P13",
+        "entity_type": "Date",
+        "form": "with",
+        "offsets": [
+          [
+            3564,
+            3568
+          ]
+        ],
+        "sentence_index": 11,
+        "layout_index": 35,
+        "confidence": 0.20151673257350922
+      },
+      {
+        "mention_id": "P14",
+        "entity_type": "Dissemination_pathway",
+        "form": "When",
+        "offsets": [
+          [
+            4011,
+            4015
+          ]
+        ],
+        "sentence_index": 12,
+        "layout_index": 36,
+        "confidence": 0.18450164794921875
+      },
+      {
+        "mention_id": "P15",
+        "entity_type": "Dissemination_pathway",
+        "form": "When",
+        "offsets": [
+          [
+            4332,
+            4336
+          ]
+        ],
+        "sentence_index": 12,
+        "layout_index": 36,
+        "confidence": 0.22777438163757324
+      },
+      {
+        "mention_id": "P16",
+        "entity_type": "Vector",
+        "form": "GESOP",
+        "offsets": [
+          [
+            4530,
+            4535
+          ]
+        ],
+        "sentence_index": 12,
+        "layout_index": 36,
+        "confidence": 0.36019060015678406
+      }
+    ],
+    "104499": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Disease",
+        "form": "PWN",
+        "offsets": [
+          [
+            125,
+            128
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.970352828502655
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Disease",
+        "form": "PWD",
+        "offsets": [
+          [
+            238,
+            241
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.9755939841270447
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "doi.org/10.3390/f13091419",
+        "offsets": [
+          [
+            1437,
+            1462
+          ]
+        ],
+        "sentence_index": 6,
+        "layout_index": 9,
+        "confidence": 0.5987755060195923
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Location",
+        "form": "doi.org/10.3390/f13091419",
+        "offsets": [
+          [
+            1691,
+            1716
+          ]
+        ],
+        "sentence_index": 9,
+        "layout_index": 14,
+        "confidence": 0.6903681755065918
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Date",
+        "form": "1419",
+        "offsets": [
+          [
+            1888,
+            1892
+          ]
+        ],
+        "sentence_index": 12,
+        "layout_index": 21,
+        "confidence": 0.2734513580799103
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Location",
+        "form": "doi.org/10.3390/f13091419",
+        "offsets": [
+          [
+            1902,
+            1927
+          ]
+        ],
+        "sentence_index": 13,
+        "layout_index": 21,
+        "confidence": 0.6666133999824524
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Location",
+        "form": "doi.org/10.3390/f13091419",
+        "offsets": [
+          [
+            2153,
+            2178
+          ]
+        ],
+        "sentence_index": 17,
+        "layout_index": 26,
+        "confidence": 0.686086118221283
+      }
+    ],
+    "116761": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Vector",
+        "form": "Multi-site",
+        "offsets": [
+          [
+            0,
+            10
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.38306036591529846
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Date",
+        "form": "20",
+        "offsets": [
+          [
+            1719,
+            1721
+          ]
+        ],
+        "sentence_index": 13,
+        "layout_index": 2,
+        "confidence": 0.605929434299469
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Date",
+        "form": "200",
+        "offsets": [
+          [
+            1759,
+            1762
+          ]
+        ],
+        "sentence_index": 13,
+        "layout_index": 2,
+        "confidence": 0.3130580484867096
+      }
+    ],
+    "103669": [],
+    "104329": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Pest",
+        "form": "ToBRFV",
+        "offsets": [
+          [
+            145,
+            151
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 1,
+        "confidence": 0.9253252148628235
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "Jordbruksbyrån",
+        "offsets": [
+          [
+            203,
+            217
+          ]
+        ],
+        "sentence_index": 2,
+        "layout_index": 2,
+        "confidence": 0.8873140215873718
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Pest",
+        "form": "अन",
+        "offsets": [
+          [
+            364,
+            366
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 4,
+        "confidence": 0.4484935402870178
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Pest",
+        "form": "ToBRFV",
+        "offsets": [
+          [
+            491,
+            497
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 7,
+        "confidence": 0.8883196711540222
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Pest",
+        "form": "ToBRFV",
+        "offsets": [
+          [
+            858,
+            864
+          ]
+        ],
+        "sentence_index": 7,
+        "layout_index": 11,
+        "confidence": 0.9269770979881287
+      }
+    ],
+    "104119": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Plant",
+        "form": "OneZoom",
+        "offsets": [
+          [
+            6,
+            13
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.28367623686790466
+      }
+    ],
+    "116125": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Plant",
+        "form": "Oriental",
+        "offsets": [
+          [
+            0,
+            8
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.793965756893158
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            75,
+            78
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.4600798785686493
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "FDACS",
+        "offsets": [
+          [
+            136,
+            141
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.7832136154174805
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Location",
+        "form": "Bactrocera",
+        "offsets": [
+          [
+            194,
+            204
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 1,
+        "confidence": 0.7110245227813721
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Location",
+        "form": "FDACS",
+        "offsets": [
+          [
+            269,
+            274
+          ]
+        ],
+        "sentence_index": 2,
+        "layout_index": 2,
+        "confidence": 0.6877564191818237
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Location",
+        "form": "Bactrocera",
+        "offsets": [
+          [
+            327,
+            337
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 2,
+        "confidence": 0.5862696766853333
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Plant",
+        "form": "Oriental",
+        "offsets": [
+          [
+            962,
+            970
+          ]
+        ],
+        "sentence_index": 11,
+        "layout_index": 5,
+        "confidence": 0.8465684652328491
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Date",
+        "form": "This",
+        "offsets": [
+          [
+            1365,
+            1369
+          ]
+        ],
+        "sentence_index": 13,
+        "layout_index": 7,
+        "confidence": 0.40964093804359436
+      }
+    ],
+    "99984": [],
+    "116507": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Location",
+        "form": "Simple",
+        "offsets": [
+          [
+            92,
+            98
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.7029268145561218
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "France",
+        "offsets": [
+          [
+            553,
+            559
+          ]
+        ],
+        "sentence_index": 2,
+        "layout_index": 1,
+        "confidence": 0.7098790407180786
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Location",
+        "form": "France",
+        "offsets": [
+          [
+            1834,
+            1840
+          ]
+        ],
+        "sentence_index": 12,
+        "layout_index": 1,
+        "confidence": 0.6890110373497009
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Date",
+        "form": "Although",
+        "offsets": [
+          [
+            2601,
+            2609
+          ]
+        ],
+        "sentence_index": 18,
+        "layout_index": 2,
+        "confidence": 0.18474836647510529
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Location",
+        "form": "France",
+        "offsets": [
+          [
+            3047,
+            3053
+          ]
+        ],
+        "sentence_index": 20,
+        "layout_index": 2,
+        "confidence": 0.7485750317573547
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Location",
+        "form": "Abstract",
+        "offsets": [
+          [
+            3887,
+            3895
+          ]
+        ],
+        "sentence_index": 27,
+        "layout_index": 2,
+        "confidence": 0.7706873416900635
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Location",
+        "form": "Global",
+        "offsets": [
+          [
+            3896,
+            3902
+          ]
+        ],
+        "sentence_index": 27,
+        "layout_index": 2,
+        "confidence": 0.8325117230415344
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Location",
+        "form": "France",
+        "offsets": [
+          [
+            4328,
+            4334
+          ]
+        ],
+        "sentence_index": 30,
+        "layout_index": 2,
+        "confidence": 0.7003503441810608
+      }
+    ],
+    "107272": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            919,
+            922
+          ]
+        ],
+        "sentence_index": 6,
+        "layout_index": 5,
+        "confidence": 0.31503182649612427
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Date",
+        "form": "That",
+        "offsets": [
+          [
+            1678,
+            1682
+          ]
+        ],
+        "sentence_index": 11,
+        "layout_index": 8,
+        "confidence": 0.26025572419166565
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            1766,
+            1769
+          ]
+        ],
+        "sentence_index": 12,
+        "layout_index": 8,
+        "confidence": 0.25899991393089294
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Dissemination_pathway",
+        "form": "The",
+        "offsets": [
+          [
+            1981,
+            1984
+          ]
+        ],
+        "sentence_index": 13,
+        "layout_index": 9,
+        "confidence": 0.3707925081253052
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Date",
+        "form": "For",
+        "offsets": [
+          [
+            2319,
+            2322
+          ]
+        ],
+        "sentence_index": 16,
+        "layout_index": 9,
+        "confidence": 0.36682233214378357
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Vector",
+        "form": "It",
+        "offsets": [
+          [
+            3348,
+            3350
+          ]
+        ],
+        "sentence_index": 26,
+        "layout_index": 14,
+        "confidence": 0.3642783761024475
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Vector",
+        "form": "It",
+        "offsets": [
+          [
+            3634,
+            3636
+          ]
+        ],
+        "sentence_index": 29,
+        "layout_index": 14,
+        "confidence": 0.27777260541915894
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Vector",
+        "form": "It",
+        "offsets": [
+          [
+            3955,
+            3957
+          ]
+        ],
+        "sentence_index": 31,
+        "layout_index": 16,
+        "confidence": 0.27928677201271057
+      },
+      {
+        "mention_id": "P8",
+        "entity_type": "Date",
+        "form": "As",
+        "offsets": [
+          [
+            4209,
+            4211
+          ]
+        ],
+        "sentence_index": 32,
+        "layout_index": 17,
+        "confidence": 0.485818475484848
+      },
+      {
+        "mention_id": "P9",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            4315,
+            4318
+          ]
+        ],
+        "sentence_index": 33,
+        "layout_index": 17,
+        "confidence": 0.32579290866851807
+      },
+      {
+        "mention_id": "P10",
+        "entity_type": "Date",
+        "form": "But",
+        "offsets": [
+          [
+            4636,
+            4639
+          ]
+        ],
+        "sentence_index": 36,
+        "layout_index": 19,
+        "confidence": 0.21384340524673462
+      }
+    ],
+    "98191": [],
+    "99613": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Vector",
+        "form": "Feeding",
+        "offsets": [
+          [
+            0,
+            7
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.2079405039548874
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Vector",
+        "form": "Pyrethrin",
+        "offsets": [
+          [
+            140,
+            149
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.44160860776901245
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Vector",
+        "form": "acetamiprid",
+        "offsets": [
+          [
+            1168,
+            1179
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 10,
+        "confidence": 0.49337318539619446
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Plant",
+        "form": "highest",
+        "offsets": [
+          [
+            1429,
+            1436
+          ]
+        ],
+        "sentence_index": 5,
+        "layout_index": 10,
+        "confidence": 0.25867727398872375
+      }
+    ],
+    "107207": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Plant",
+        "form": "Susceptible",
+        "offsets": [
+          [
+            0,
+            11
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.6810654401779175
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Plant",
+        "form": "Olive",
+        "offsets": [
+          [
+            116,
+            121
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.7142136693000793
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Pest",
+        "form": "Ψstem",
+        "offsets": [
+          [
+            664,
+            669
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 1,
+        "confidence": 0.4127834737300873
+      }
+    ],
+    "100011": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Vector",
+        "form": "Great",
+        "offsets": [
+          [
+            0,
+            5
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.22099919617176056
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Vector",
+        "form": "Freiburg",
+        "offsets": [
+          [
+            59,
+            67
+          ]
+        ],
+        "sentence_index": 1,
+        "layout_index": 1,
+        "confidence": 0.5737285017967224
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Vector",
+        "form": "LTZ",
+        "offsets": [
+          [
+            294,
+            297
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 1,
+        "confidence": 0.3551066815853119
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Location",
+        "form": "Popillia",
+        "offsets": [
+          [
+            324,
+            332
+          ]
+        ],
+        "sentence_index": 3,
+        "layout_index": 1,
+        "confidence": 0.5857450366020203
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Vector",
+        "form": "LTZ",
+        "offsets": [
+          [
+            367,
+            370
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 2,
+        "confidence": 0.5137608051300049
+      },
+      {
+        "mention_id": "P5",
+        "entity_type": "Date",
+        "form": "57am",
+        "offsets": [
+          [
+            469,
+            473
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 5,
+        "confidence": 0.41354840993881226
+      },
+      {
+        "mention_id": "P6",
+        "entity_type": "Vector",
+        "form": "LTZ",
+        "offsets": [
+          [
+            801,
+            804
+          ]
+        ],
+        "sentence_index": 7,
+        "layout_index": 9,
+        "confidence": 0.4292183816432953
+      },
+      {
+        "mention_id": "P7",
+        "entity_type": "Location",
+        "form": "Popillia",
+        "offsets": [
+          [
+            831,
+            839
+          ]
+        ],
+        "sentence_index": 7,
+        "layout_index": 9,
+        "confidence": 0.6852646470069885
+      },
+      {
+        "mention_id": "P8",
+        "entity_type": "Location",
+        "form": "email",
+        "offsets": [
+          [
+            2012,
+            2017
+          ]
+        ],
+        "sentence_index": 17,
+        "layout_index": 12,
+        "confidence": 0.5172976851463318
+      },
+      {
+        "mention_id": "P9",
+        "entity_type": "Date",
+        "form": "220728-99-185926/2",
+        "offsets": [
+          [
+            2083,
+            2101
+          ]
+        ],
+        "sentence_index": 18,
+        "layout_index": 13,
+        "confidence": 0.5174673199653625
+      }
+    ],
+    "102584": [],
+    "106963": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Date",
+        "form": "Big",
+        "offsets": [
+          [
+            6,
+            9
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.22145773470401764
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Disease",
+        "form": "quot",
+        "offsets": [
+          [
+            18,
+            22
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.9208487272262573
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            584,
+            587
+          ]
+        ],
+        "sentence_index": 5,
+        "layout_index": 9,
+        "confidence": 0.5246999859809875
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Date",
+        "form": "This",
+        "offsets": [
+          [
+            1139,
+            1143
+          ]
+        ],
+        "sentence_index": 8,
+        "layout_index": 11,
+        "confidence": 0.9734833240509033
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Date",
+        "form": "This",
+        "offsets": [
+          [
+            1700,
+            1704
+          ]
+        ],
+        "sentence_index": 11,
+        "layout_index": 12,
+        "confidence": 0.9550464153289795
+      }
+    ],
+    "116070": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Location",
+        "form": "Brazil",
+        "offsets": [
+          [
+            746,
+            752
+          ]
+        ],
+        "sentence_index": 4,
+        "layout_index": 4,
+        "confidence": 0.9314762949943542
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Date",
+        "form": "530",
+        "offsets": [
+          [
+            931,
+            934
+          ]
+        ],
+        "sentence_index": 5,
+        "layout_index": 4,
+        "confidence": 0.29165154695510864
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Date",
+        "form": "which",
+        "offsets": [
+          [
+            1483,
+            1488
+          ]
+        ],
+        "sentence_index": 8,
+        "layout_index": 6,
+        "confidence": 0.3571920692920685
+      }
+    ],
+    "98917": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Location",
+        "form": "NVWA",
+        "offsets": [
+          [
+            0,
+            4
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.9277459979057312
+      },
+      {
+        "mention_id": "P1",
+        "entity_type": "Location",
+        "form": "NVWA",
+        "offsets": [
+          [
+            104,
+            108
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 1,
+        "confidence": 0.5817633867263794
+      },
+      {
+        "mention_id": "P2",
+        "entity_type": "Date",
+        "form": "For",
+        "offsets": [
+          [
+            623,
+            626
+          ]
+        ],
+        "sentence_index": 5,
+        "layout_index": 1,
+        "confidence": 0.6640502214431763
+      },
+      {
+        "mention_id": "P3",
+        "entity_type": "Date",
+        "form": "In",
+        "offsets": [
+          [
+            861,
+            863
+          ]
+        ],
+        "sentence_index": 8,
+        "layout_index": 1,
+        "confidence": 0.9256551265716553
+      },
+      {
+        "mention_id": "P4",
+        "entity_type": "Date",
+        "form": "And",
+        "offsets": [
+          [
+            1085,
+            1088
+          ]
+        ],
+        "sentence_index": 9,
+        "layout_index": 1,
+        "confidence": 0.44070401787757874
+      }
+    ],
+    "116983": [
+      {
+        "mention_id": "P0",
+        "entity_type": "Vector",
+        "form": "The",
+        "offsets": [
+          [
+            0,
+            3
+          ]
+        ],
+        "sentence_index": 0,
+        "layout_index": 0,
+        "confidence": 0.745771050453186
+      }
+    ]
+  }
+}

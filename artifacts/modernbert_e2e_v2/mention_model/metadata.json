@@ -1,0 +1,19 @@
+{
+  "labels": [
+    "O",
+    "B-Disease",
+    "I-Disease",
+    "B-Date",
+    "I-Date",
+    "B-Dissemination_pathway",
+    "I-Dissemination_pathway",
+    "B-Location",
+    "I-Location",
+    "B-Pest",
+    "I-Pest",
+    "B-Plant",
+    "I-Plant",
+    "B-Vector",
+    "I-Vector"
+  ]
+}

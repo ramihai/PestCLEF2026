@@ -1,0 +1,627 @@
+{
+  "relation_false_positives": {
+    "Affects": 22,
+    "Causes": 21,
+    "Dispersed_by": 297,
+    "Found_on": 452,
+    "Located_in": 1164,
+    "Occurs_on": 953,
+    "Transmits": 23
+  },
+  "relation_false_negatives": {
+    "Causes": 21,
+    "Located_in": 194,
+    "Occurs_on": 37,
+    "Found_on": 60,
+    "Affects": 24,
+    "Dispersed_by": 15,
+    "Transmits": 3
+  },
+  "entity_detection_errors": {},
+  "examples": {
+    "false_positives": [
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Affects",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Causes",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Causes",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Dispersed_by",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Dispersed_by",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Found_on",
+        "object": "pine"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Found_on",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Located_in",
+        "object": "pine"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Located_in",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Located_in",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Occurs_on",
+        "object": "pine"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Occurs_on",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Occurs_on",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Transmits",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Transmits",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Bursaphelenchus xylophilus",
+        "predicate": "Dispersed_by",
+        "object": "pine"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Bursaphelenchus xylophilus",
+        "predicate": "Found_on",
+        "object": "pine"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Bursaphelenchus xylophilus",
+        "predicate": "Found_on",
+        "object": "pine wilt disease"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Bursaphelenchus xylophilus",
+        "predicate": "Located_in",
+        "object": "pine"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Bursaphelenchus xylophilus",
+        "predicate": "Located_in",
+        "object": "pine wilt disease"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Bursaphelenchus xylophilus",
+        "predicate": "Occurs_on",
+        "object": "pine"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Bursaphelenchus xylophilus",
+        "predicate": "Occurs_on",
+        "object": "pine wilt disease"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Affects",
+        "object": "B. xylophilus"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Affects",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Affects",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Causes",
+        "object": "B. xylophilus"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Causes",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Causes",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Dispersed_by",
+        "object": "B. xylophilus"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Dispersed_by",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Dispersed_by",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Dispersed_by",
+        "object": "pine wood nematode"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Found_on",
+        "object": "B. xylophilus"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Found_on",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Found_on",
+        "object": "pine wood nematode"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Located_in",
+        "object": "B. xylophilus"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Located_in",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Located_in",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Located_in",
+        "object": "pine wood nematode"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Occurs_on",
+        "object": "B. xylophilus"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Occurs_on",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Occurs_on",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Occurs_on",
+        "object": "pine wood nematode"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Transmits",
+        "object": "pine tree"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "Monochamus spp.",
+        "predicate": "Transmits",
+        "object": "pine trees"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine trees",
+        "predicate": "Located_in",
+        "object": "Asian countries"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine trees",
+        "predicate": "Occurs_on",
+        "object": "Asian countries"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine wilt disease",
+        "predicate": "Occurs_on",
+        "object": "Japan"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "D. eres",
+        "predicate": "Found_on",
+        "object": "Machilus thunbergii"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "D. eres",
+        "predicate": "Found_on",
+        "object": "leaf spot disease"
+      }
+    ],
+    "false_negatives": [
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Causes",
+        "object": "pine wilt disease"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Located_in",
+        "object": "Europe"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Located_in",
+        "object": "Japan"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Occurs_on",
+        "object": "late 1990s"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "B. xylophilus",
+        "predicate": "Occurs_on",
+        "object": "since the beginning of the twentieth century"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine tree",
+        "predicate": "Located_in",
+        "object": "Asian countries"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine wilt disease",
+        "predicate": "Located_in",
+        "object": "Europe"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine wilt disease",
+        "predicate": "Occurs_on",
+        "object": "late 1990s"
+      },
+      {
+        "doc_id": "103963",
+        "subject": "pine wilt disease",
+        "predicate": "Occurs_on",
+        "object": "since the beginning of the twentieth century"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Causes",
+        "object": "Postharvest Fruit Rot Disease"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Found_on",
+        "object": "blueberry cultivation"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "Chile"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "Lithuania"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "Netherlands"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Diaporthe eres",
+        "predicate": "Located_in",
+        "object": "U.S.A"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Nigrospora sphaerica",
+        "predicate": "Causes",
+        "object": "passion fruit leaf blight"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "Postharvest Fruit Rot Disease",
+        "predicate": "Affects",
+        "object": "Hardy Kiwifruit"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "blueberry cultivation",
+        "predicate": "Located_in",
+        "object": "Chile"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "blueberry cultivation",
+        "predicate": "Located_in",
+        "object": "Lithuania"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "blueberry cultivation",
+        "predicate": "Located_in",
+        "object": "Netherlands"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "blueberry cultivation",
+        "predicate": "Located_in",
+        "object": "U.S.A"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "highbush blueberry",
+        "predicate": "Located_in",
+        "object": "Cuneo Province"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "highbush blueberry",
+        "predicate": "Located_in",
+        "object": "Peveragno"
+      },
+      {
+        "doc_id": "114259",
+        "subject": "highbush blueberry",
+        "predicate": "Located_in",
+        "object": "Piedmont"
+      },
+      {
+        "doc_id": "116119",
+        "subject": "Bactrocera dorsalis",
+        "predicate": "Found_on",
+        "object": "citrus fruits"
+      },
+      {
+        "doc_id": "116119",
+        "subject": "Bactrocera dorsalis",
+        "predicate": "Located_in",
+        "object": "Petite-Ile"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Affects",
+        "object": "citrus fruits"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Dispersed_by",
+        "object": "plant material"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Located_in",
+        "object": "Mediterranean"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Located_in",
+        "object": "Spain"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Huanglongbing",
+        "predicate": "Located_in",
+        "object": "United States"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "Tristeza",
+        "predicate": "Affects",
+        "object": "citrus fruits"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "citrus fruits",
+        "predicate": "Located_in",
+        "object": "Acireale"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "citrus fruits",
+        "predicate": "Located_in",
+        "object": "Etnean capital"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "citrus fruits",
+        "predicate": "Located_in",
+        "object": "Sicily"
+      },
+      {
+        "doc_id": "99067",
+        "subject": "citrus fruits",
+        "predicate": "Located_in",
+        "object": "Spain"
+      },
+      {
+        "doc_id": "98142",
+        "subject": "Candidatus liberibacter",
+        "predicate": "Causes",
+        "object": "Huanglongbing"
+      },
+      {
+        "doc_id": "98142",
+        "subject": "Candidatus liberibacter",
+        "predicate": "Found_on",
+        "object": "citrus"
+      },
+      {
+        "doc_id": "98142",
+        "subject": "Huanglongbing",
+        "predicate": "Affects",
+        "object": "citrus"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "Bananas",
+        "predicate": "Occurs_on",
+        "object": "in the 1920s"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "TR4",
+        "predicate": "Found_on",
+        "object": "Bananas"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "TR4",
+        "predicate": "Found_on",
+        "object": "Cavendish banana plants"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "tropical race 1",
+        "predicate": "Causes",
+        "object": "Panama disease"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "tropical race 1",
+        "predicate": "Found_on",
+        "object": "Bananas"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "tropical race 1",
+        "predicate": "Found_on",
+        "object": "Cavendish banana plants"
+      },
+      {
+        "doc_id": "107172",
+        "subject": "tropical race 1",
+        "predicate": "Located_in",
+        "object": "Brazil"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "banana",
+        "predicate": "Located_in",
+        "object": "Asia"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "banana",
+        "predicate": "Occurs_on",
+        "object": "in 2020"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "banana bunchy",
+        "predicate": "Affects",
+        "object": "banana"
+      },
+      {
+        "doc_id": "98783",
+        "subject": "banana suckers",
+        "predicate": "Located_in",
+        "object": "Arua district"
+      }
+    ]
+  }
+}
