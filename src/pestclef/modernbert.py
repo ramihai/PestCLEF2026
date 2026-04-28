@@ -187,17 +187,44 @@ def get_relation_marker_tokens(entity_types: Sequence[str] = ENTITY_TYPES) -> Li
     return tokens
 
 
-def _load_tokenizer(config: ExperimentConfig) -> PreTrainedTokenizerBase:
+def _resolve_encoder_name(config: ExperimentConfig, encoder_role: str) -> str:
+    if encoder_role == "mention":
+        override = getattr(config, "mention_encoder_name", None)
+        if override:
+            return override
+    return config.encoder_name
+
+
+def resolve_mention_seq_length(config: ExperimentConfig) -> int:
+    override = getattr(config, "mention_max_seq_length", None)
+    if override is not None:
+        return int(override)
+    return int(config.max_seq_length)
+
+
+def resolve_mention_doc_stride(config: ExperimentConfig) -> int:
+    override = getattr(config, "mention_doc_stride", None)
+    if override is not None:
+        return int(override)
+    return int(config.doc_stride)
+
+
+def _load_tokenizer(config: ExperimentConfig, encoder_role: str = "relation") -> PreTrainedTokenizerBase:
     return AutoTokenizer.from_pretrained(
-        config.encoder_name,
+        _resolve_encoder_name(config, encoder_role),
         use_fast=True,
         local_files_only=config.local_files_only,
     )
 
 
-def _load_model_config(config: ExperimentConfig, num_labels: int, task_type: str) -> AutoConfig:
+def _load_model_config(
+    config: ExperimentConfig,
+    num_labels: int,
+    task_type: str,
+    encoder_role: str = "relation",
+) -> AutoConfig:
     model_config = AutoConfig.from_pretrained(
-        config.encoder_name,
+        _resolve_encoder_name(config, encoder_role),
         local_files_only=config.local_files_only,
     )
     model_config.num_labels = num_labels
@@ -207,22 +234,22 @@ def _load_model_config(config: ExperimentConfig, num_labels: int, task_type: str
 
 
 def _load_token_classification_model(config: ExperimentConfig, num_labels: int) -> PreTrainedModel:
-    model_config = _load_model_config(config, num_labels, task_type="mention")
+    model_config = _load_model_config(config, num_labels, task_type="mention", encoder_role="mention")
     if config.encoder_random_init:
         return AutoModelForTokenClassification.from_config(model_config)
     return AutoModelForTokenClassification.from_pretrained(
-        config.encoder_name,
+        _resolve_encoder_name(config, "mention"),
         config=model_config,
         local_files_only=config.local_files_only,
     )
 
 
 def _load_sequence_classification_model(config: ExperimentConfig, num_labels: int) -> PreTrainedModel:
-    model_config = _load_model_config(config, num_labels, task_type="relation")
+    model_config = _load_model_config(config, num_labels, task_type="relation", encoder_role="relation")
     if config.encoder_random_init:
         return AutoModelForSequenceClassification.from_config(model_config)
     return AutoModelForSequenceClassification.from_pretrained(
-        config.encoder_name,
+        _resolve_encoder_name(config, "relation"),
         config=model_config,
         local_files_only=config.local_files_only,
     )
@@ -453,8 +480,8 @@ def build_mention_training_rows(
     encoded = tokenizer(
         [str(example["text"]) for example in window_examples],
         truncation=True,
-        max_length=config.max_seq_length,
-        stride=config.doc_stride,
+        max_length=resolve_mention_seq_length(config),
+        stride=resolve_mention_doc_stride(config),
         return_overflowing_tokens=True,
         return_offsets_mapping=True,
         padding="max_length",
@@ -759,6 +786,71 @@ def combine_span_candidates(
     return sorted(best_by_span.values(), key=lambda item: (item.start, item.end, item.entity_type))
 
 
+_DATE_REGEX_PATTERNS: List[re.Pattern[str]] = [
+    re.compile(
+        r"\b(?:early|late|mid|since|during|from|until|by|before|after)\s+"
+        r"(?:the\s+)?(?:19|20)\d{2}s?\b",
+        flags=re.IGNORECASE,
+    ),
+    re.compile(
+        r"\b(?:early|late|mid|since|during|from|until|by|before|after)\s+"
+        r"the\s+(?:nineteenth|twentieth|twenty[\s-]first|twentyfirst|"
+        r"first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|"
+        r"eleventh|twelfth|thirteenth|fourteenth|fifteenth|sixteenth|"
+        r"seventeenth|eighteenth)\s+(?:century|decade)\b",
+        flags=re.IGNORECASE,
+    ),
+    re.compile(
+        r"\b(?:beginning|end|middle)\s+of\s+(?:the\s+)?(?:19|20)\d{2}s?\b",
+        flags=re.IGNORECASE,
+    ),
+    re.compile(
+        r"\b(?:beginning|end|middle)\s+of\s+the\s+(?:nineteenth|twentieth|"
+        r"twenty[\s-]first|twentyfirst)\s+century\b",
+        flags=re.IGNORECASE,
+    ),
+    re.compile(
+        r"\b(?:January|February|March|April|May|June|July|August|September|"
+        r"October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|"
+        r"Nov|Dec)\.?\s+(?:19|20)\d{2}\b",
+        flags=re.IGNORECASE,
+    ),
+    re.compile(r"\b(?:19|20)\d{2}\s*[-/–]\s*(?:19|20)?\d{2}s?\b"),
+    re.compile(r"\b(?:19|20)\d{2}s\b"),
+]
+
+
+def _date_regex_candidates(
+    document: Document,
+    confidence: float,
+) -> List[PredictedMentionSpan]:
+    """High-precision Date span candidates from regex.
+
+    Conservative patterns intentionally avoid bare 4-digit years without context
+    cues (a noise source we previously hit in v11's rule-based NER attempt).
+    """
+    text = document.text
+    if not text:
+        return []
+    spans: List[PredictedMentionSpan] = []
+    seen: set[tuple[int, int]] = set()
+    for pattern in _DATE_REGEX_PATTERNS:
+        for match in pattern.finditer(text):
+            key = match.span()
+            if key in seen:
+                continue
+            seen.add(key)
+            spans.append(
+                PredictedMentionSpan(
+                    entity_type="Date",
+                    start=match.start(),
+                    end=match.end(),
+                    confidence=float(confidence),
+                )
+            )
+    return spans
+
+
 def build_hybrid_span_candidates(
     document: Document,
     mention_detector: "ModernBertMentionDetector",
@@ -767,11 +859,15 @@ def build_hybrid_span_candidates(
     neural_spans = mention_detector.predict_span_candidates(document)
     lexicon_spans: List[PredictedMentionSpan] = []
     if lexicon is not None:
+        alias_confidence = getattr(lexicon, "alias_confidence", {}) or {}
         lexicon_mentions = detect_mentions_as_mentions(document, lexicon)
         for mention in lexicon_mentions:
             for start, end in mention.offsets:
                 threshold = float(mention_detector.mention_thresholds.get(mention.entity_type, 0.0))
-                confidence = max(float(mention_detector.config.mention_hybrid_lexicon_confidence), threshold + 0.05)
+                base_confidence = float(mention_detector.config.mention_hybrid_lexicon_confidence)
+                surface_normalized = mention.form.casefold()
+                external_confidence = float(alias_confidence.get(surface_normalized, 0.0))
+                confidence = max(base_confidence, external_confidence, threshold + 0.05)
                 lexicon_spans.append(
                     PredictedMentionSpan(
                         entity_type=mention.entity_type,
@@ -780,7 +876,16 @@ def build_hybrid_span_candidates(
                         confidence=confidence,
                     )
                 )
-    blended_spans = combine_span_candidates([neural_spans, lexicon_spans])
+    regex_spans: List[PredictedMentionSpan] = []
+    if getattr(mention_detector.config, "mention_date_regex_enabled", False):
+        date_threshold = float(mention_detector.mention_thresholds.get("Date", 0.0))
+        boost = float(getattr(mention_detector.config, "mention_date_regex_confidence_boost", 0.10))
+        regex_confidence = max(
+            float(mention_detector.config.mention_hybrid_lexicon_confidence) + boost,
+            date_threshold + 0.05,
+        )
+        regex_spans = _date_regex_candidates(document, confidence=regex_confidence)
+    blended_spans = combine_span_candidates([neural_spans, lexicon_spans, regex_spans])
     return neural_spans, lexicon_spans, blended_spans
 
 
@@ -1106,8 +1211,8 @@ class ModernBertMentionDetector:
         encoded = self.tokenizer(
             document.text,
             truncation=True,
-            max_length=self.config.max_seq_length,
-            stride=self.config.doc_stride,
+            max_length=resolve_mention_seq_length(self.config),
+            stride=resolve_mention_doc_stride(self.config),
             return_overflowing_tokens=True,
             return_offsets_mapping=True,
             padding="max_length",
@@ -1166,7 +1271,7 @@ def train_modernbert_mention_detector(
     labels = get_bio_labels()
     label_to_id = {label: index for index, label in enumerate(labels)}
     id_to_label = {index: label for label, index in label_to_id.items()}
-    tokenizer = _load_tokenizer(config)
+    tokenizer = _load_tokenizer(config, encoder_role="mention")
     base_model = _load_token_classification_model(config, num_labels=len(labels))
     train_rows = build_mention_training_rows(train_documents, tokenizer, label_to_id, config)
     validation_rows = build_mention_training_rows(validation_documents or [], tokenizer, label_to_id, config)

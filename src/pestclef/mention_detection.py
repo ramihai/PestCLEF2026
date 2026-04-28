@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+import json
 import re
 from collections import Counter, defaultdict
 from dataclasses import dataclass
-from typing import Dict, Iterable, List, Sequence
+from pathlib import Path
+from typing import Dict, Iterable, List, Optional, Sequence
 
 from .config import ExperimentConfig
 from .data import build_canonical_entities, build_mentions, normalize_text
@@ -14,6 +16,11 @@ from .schema import CanonicalEntity, Document, Mention
 class MentionLexicon:
     alias_to_type: Dict[str, str]
     aliases: List[str]
+    alias_confidence: Dict[str, float] = None  # type: ignore[assignment]
+
+    def __post_init__(self) -> None:
+        if self.alias_confidence is None:
+            self.alias_confidence = {}
 
     @classmethod
     def from_documents(cls, documents: Sequence[Document], config: ExperimentConfig) -> "MentionLexicon":
@@ -26,12 +33,72 @@ class MentionLexicon:
                 normalized_name = normalize_text(entity.canonical_form)
                 if len(normalized_name) >= config.min_alias_length:
                     alias_counts[normalized_name][entity.entity_type] += 1
+        external = _load_external_lexicon(
+            getattr(config, "lexicon_external_path", None),
+            disabled_types=set(getattr(config, "lexicon_external_disabled_types", []) or []),
+            min_alias_length=config.min_alias_length,
+        )
+        external_confidence = float(getattr(config, "lexicon_external_confidence", 0.0) or 0.0)
+        alias_confidence: Dict[str, float] = {}
+        for alias, entity_type in external.items():
+            # train-derived counts dominate; only add alias if not already typed differently with higher support
+            if alias not in alias_counts:
+                alias_counts[alias][entity_type] += 1
+                if external_confidence > 0:
+                    alias_confidence[alias] = external_confidence
         alias_to_type = {
             alias: counts.most_common(1)[0][0]
             for alias, counts in alias_counts.items()
         }
         aliases = sorted(alias_to_type.keys(), key=lambda alias: (-len(alias), alias))
-        return cls(alias_to_type=alias_to_type, aliases=aliases)
+        return cls(alias_to_type=alias_to_type, aliases=aliases, alias_confidence=alias_confidence)
+
+
+def _load_external_lexicon(
+    path: Optional[str],
+    disabled_types: Optional[set] = None,
+    min_alias_length: int = 3,
+) -> Dict[str, str]:
+    """Load an external lexicon JSON file mapping {entity_type: [alias, ...]}.
+
+    Casefolds aliases and skips entries below ``min_alias_length``. Returns a
+    flat dict alias -> entity_type. Aliases conflicting between types are
+    skipped (we leave conflict resolution to the train-derived counts).
+    """
+    if not path:
+        return {}
+    file_path = Path(path)
+    if not file_path.exists():
+        return {}
+    disabled = disabled_types or set()
+    try:
+        raw = json.loads(file_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}
+    if not isinstance(raw, dict):
+        return {}
+    flat: Dict[str, str] = {}
+    conflicts: set = set()
+    for entity_type, aliases in raw.items():
+        if not isinstance(entity_type, str) or entity_type in disabled:
+            continue
+        if not isinstance(aliases, (list, tuple)):
+            continue
+        for alias in aliases:
+            if not isinstance(alias, str):
+                continue
+            normalized = normalize_text(alias)
+            if len(normalized) < min_alias_length:
+                continue
+            if normalized in conflicts:
+                continue
+            existing = flat.get(normalized)
+            if existing is not None and existing != entity_type:
+                conflicts.add(normalized)
+                flat.pop(normalized, None)
+                continue
+            flat[normalized] = entity_type
+    return flat
 
 
 def detect_mentions(document: Document, lexicon: MentionLexicon) -> List[Mention]:

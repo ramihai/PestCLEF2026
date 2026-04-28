@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 
 @dataclass
@@ -14,6 +14,9 @@ class ExperimentConfig:
     artifacts_dir: Path = Path("artifacts")
     model_name: str = "numpy"
     encoder_name: str = "answerdotai/ModernBERT-base"
+    mention_encoder_name: Optional[str] = None
+    mention_max_seq_length: Optional[int] = None
+    mention_doc_stride: Optional[int] = None
     random_seed: int = 13
     max_sentence_distance: int = 3
     max_layout_distance: int = 6
@@ -44,6 +47,11 @@ class ExperimentConfig:
     mention_class_weight_cap: float = 12.0
     mention_hybrid_lexicon: bool = True
     mention_hybrid_lexicon_confidence: float = 0.55
+    lexicon_external_path: Optional[str] = None
+    lexicon_external_confidence: float = 0.70
+    lexicon_external_disabled_types: List[str] = field(default_factory=list)
+    mention_date_regex_enabled: bool = False
+    mention_date_regex_confidence_boost: float = 0.10
     mention_cleanup_profile: str = "strict_v2"
     mention_type_denylists_enabled: bool = True
     entity_alias_merge_strategy: str = "heuristic_v1"
@@ -69,6 +77,7 @@ class ExperimentConfig:
     device: str = "auto"
     local_files_only: bool = False
     encoder_random_init: bool = False
+    save_relation_logits: bool = False
     relation_thresholds: Dict[str, float] = field(
         default_factory=lambda: {
             "Located_in": 0.55,

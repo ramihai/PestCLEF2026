@@ -27,6 +27,49 @@ from .submission import write_submission
 ENTITY_TYPES = ["Disease", "Date", "Dissemination_pathway", "Location", "Pest", "Plant", "Vector"]
 
 
+def _predict_edges_with_optional_logits(
+    relation_model,
+    examples: Sequence[Dict[str, object]],
+    entity_pairs: Sequence[tuple],
+    schema: RelationSchema,
+    doc_id: str,
+    score_records: List[Dict[str, object]] | None,
+) -> List[RelationEdge]:
+    """Apply per-label thresholds locally so we can also dump raw scores.
+
+    Returns the edges that survive the schema validity check. If
+    ``score_records`` is provided, appends one row per (doc, subject, object)
+    pair containing the raw sigmoid scores for every label.
+    """
+    if not examples:
+        return []
+    scores = relation_model.predict_scores(examples)
+    edges: List[RelationEdge] = []
+    labels = relation_model.labels
+    thresholds = relation_model.thresholds
+    for row_index, (subject, obj) in enumerate(entity_pairs):
+        row = scores[row_index]
+        per_label_scores = {label: float(row[col]) for col, label in enumerate(labels)}
+        if score_records is not None:
+            score_records.append(
+                {
+                    "doc_id": doc_id,
+                    "subject": subject.canonical_form,
+                    "subject_type": subject.entity_type,
+                    "object": obj.canonical_form,
+                    "object_type": obj.entity_type,
+                    "scores": per_label_scores,
+                }
+            )
+        for label, score in per_label_scores.items():
+            if score < float(thresholds.get(label, 0.5)):
+                continue
+            if not schema.is_valid_pair(label, subject.entity_type, obj.entity_type):
+                continue
+            edges.append(RelationEdge(subject=subject.canonical_form, predicate=label, object=obj.canonical_form))
+    return edges
+
+
 def _collect_predicted_entity_state(
     documents: Sequence[Document],
     mention_detector,
@@ -350,6 +393,9 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
 
     predicted_edges_by_doc: Dict[str, List[RelationEdge]] = {}
     candidate_pairs_by_doc: Dict[str, List[tuple[CanonicalEntity, CanonicalEntity]]] = {}
+    relation_score_records: List[Dict[str, object]] | None = (
+        [] if getattr(config, "save_relation_logits", False) else None
+    )
     for document in dev_documents:
         examples, entity_pairs = build_relation_inference_examples(
             document,
@@ -359,12 +405,15 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
         )
         candidate_pairs_by_doc[document.doc_id] = entity_pairs
         counts_by_doc.setdefault(document.doc_id, {})["candidate_pairs"] = len(entity_pairs)
-        edges = []
-        for predicted_labels, (subject, obj) in zip(relation_model.predict_labels(examples), entity_pairs):
-            for label in predicted_labels:
-                if schema.is_valid_pair(label, subject.entity_type, obj.entity_type):
-                    edges.append(RelationEdge(subject=subject.canonical_form, predicate=label, object=obj.canonical_form))
+        edges = _predict_edges_with_optional_logits(
+            relation_model, examples, entity_pairs, schema, document.doc_id, relation_score_records,
+        )
         predicted_edges_by_doc[document.doc_id] = deduplicate_edges(edges)
+    if relation_score_records is not None:
+        save_json(
+            {"records": relation_score_records, "labels": list(relation_model.labels)},
+            config.artifacts_dir / "dev_relation_logits.json",
+        )
 
     save_json({"schema": schema.to_serializable()}, config.artifacts_dir / "relation_schema.json")
     save_json({"config": asdict(config)}, config.artifacts_dir / "experiment_config.json")
@@ -556,6 +605,9 @@ def run_modernbert_test_submission(config: ExperimentConfig, train_on_dev: bool 
     predicted_entities_by_doc: Dict[str, List[CanonicalEntity]] = {}
     candidate_pairs_by_doc: Dict[str, List[tuple[CanonicalEntity, CanonicalEntity]]] = {}
     pair_counts_by_doc: Dict[str, Dict[str, int]] = {}
+    test_relation_score_records: List[Dict[str, object]] | None = (
+        [] if getattr(config, "save_relation_logits", False) else None
+    )
     for document in test_documents:
         (
             _test_neural_spans_by_doc,
@@ -578,12 +630,15 @@ def run_modernbert_test_submission(config: ExperimentConfig, train_on_dev: bool 
             **test_counts_by_doc[document.doc_id],
             "candidate_pairs": len(entity_pairs),
         }
-        edges = []
-        for predicted_labels, (subject, obj) in zip(relation_model.predict_labels(examples), entity_pairs):
-            for label in predicted_labels:
-                if schema.is_valid_pair(label, subject.entity_type, obj.entity_type):
-                    edges.append(RelationEdge(subject=subject.canonical_form, predicate=label, object=obj.canonical_form))
+        edges = _predict_edges_with_optional_logits(
+            relation_model, examples, entity_pairs, schema, document.doc_id, test_relation_score_records,
+        )
         predictions[document.doc_id] = deduplicate_edges(edges)
+    if test_relation_score_records is not None:
+        save_json(
+            {"records": test_relation_score_records, "labels": list(relation_model.labels)},
+            config.artifacts_dir / "test_relation_logits.json",
+        )
 
     output_path = config.project_root / "submission.csv"
     write_submission(predictions, [document.doc_id for document in test_documents], output_path)
