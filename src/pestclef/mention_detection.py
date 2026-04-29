@@ -3,7 +3,7 @@ from __future__ import annotations
 import json
 import re
 from collections import Counter, defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence
 
@@ -11,16 +11,43 @@ from .config import ExperimentConfig
 from .data import build_canonical_entities, build_mentions, normalize_text
 from .schema import CanonicalEntity, Document, Mention
 
+# Maximum aliases before we switch from per-alias loops to the fast-path.
+# Above this threshold the per-alias approach is too slow (O(n_aliases × text_len)).
+_FAST_PATH_THRESHOLD = 500
+
+
+def _build_automaton(aliases: List[str]):
+    """Build an Aho-Corasick automaton for O(n_text) multi-pattern search.
+
+    Aliases are expected to be already casefolded.  Falls back to ``None``
+    if ``pyahocorasick`` is not installed.
+    """
+    try:
+        import ahocorasick  # type: ignore[import]
+    except ImportError:
+        return None
+    A = ahocorasick.Automaton()
+    for alias in aliases:
+        A.add_word(alias, alias)
+    A.make_automaton()
+    return A
+
 
 @dataclass
 class MentionLexicon:
     alias_to_type: Dict[str, str]
     aliases: List[str]
     alias_confidence: Dict[str, float] = None  # type: ignore[assignment]
+    # Aho-Corasick automaton for large lexicons (set in __post_init__).
+    _automaton: object = field(default=None, repr=False, compare=False)
 
     def __post_init__(self) -> None:
         if self.alias_confidence is None:
             self.alias_confidence = {}
+        if len(self.aliases) > _FAST_PATH_THRESHOLD:
+            self._automaton = _build_automaton(self.aliases)
+        else:
+            self._automaton = None
 
     @classmethod
     def from_documents(cls, documents: Sequence[Document], config: ExperimentConfig) -> "MentionLexicon":
@@ -101,6 +128,27 @@ def _load_external_lexicon(
     return flat
 
 
+def _iter_automaton_matches(
+    text_lower: str, automaton
+) -> Iterable[tuple[int, int, str]]:
+    """Yield (start, end, alias) for every word-boundary match in *text_lower*.
+
+    The Aho-Corasick ``iter()`` method returns ``(end_index, alias)`` where
+    ``end_index`` is the index of the *last* character of the match.  We convert
+    to half-open ``(start, end)`` and enforce ``\\b``-style word boundaries.
+    """
+    n = len(text_lower)
+    for end_idx, alias in automaton.iter(text_lower):
+        end = end_idx + 1
+        start = end - len(alias)
+        # Word-boundary check: character before start and after end must not be \w
+        if start > 0 and text_lower[start - 1].isalnum():
+            continue
+        if end < n and text_lower[end].isalnum():
+            continue
+        yield start, end, alias
+
+
 def detect_mentions(document: Document, lexicon: MentionLexicon) -> List[Mention]:
     text_lower = document.text.casefold()
     occupied: List[tuple[int, int]] = []
@@ -109,21 +157,26 @@ def detect_mentions(document: Document, lexicon: MentionLexicon) -> List[Mention
     if not sentence_spans:
         sentence_spans = [(0, len(document.text))]
     mention_index = 0
-    for alias in lexicon.aliases:
-        pattern = re.compile(rf"(?<!\w){re.escape(alias)}(?!\w)")
-        for match in pattern.finditer(text_lower):
-            start, end = match.span()
+
+    if lexicon._automaton is not None:
+        raw_matches: List[tuple[int, int, str]] = sorted(
+            _iter_automaton_matches(text_lower, lexicon._automaton),
+            key=lambda m: (m[0], -(m[1] - m[0])),  # left-to-right, longest first
+        )
+        for start, end, alias in raw_matches:
             if overlaps_existing(start, end, occupied):
+                continue
+            entity_type = lexicon.alias_to_type.get(alias)
+            if entity_type is None:
                 continue
             occupied.append((start, end))
             sentence_index = locate_from_mentions(start, end, document, sentence_spans)
             layout_index = locate_layout(start, end, document)
-            surface = document.text[start:end]
             mentions.append(
                 Mention(
                     mention_id=f"P{mention_index}",
-                    entity_type=lexicon.alias_to_type[alias],
-                    form=surface,
+                    entity_type=entity_type,
+                    form=document.text[start:end],
                     offsets=[(start, end)],
                     normalizations=[],
                     sentence_index=sentence_index,
@@ -131,6 +184,29 @@ def detect_mentions(document: Document, lexicon: MentionLexicon) -> List[Mention
                 )
             )
             mention_index += 1
+    else:
+        for alias in lexicon.aliases:
+            pattern = re.compile(rf"(?<!\w){re.escape(alias)}(?!\w)")
+            for match in pattern.finditer(text_lower):
+                start, end = match.span()
+                if overlaps_existing(start, end, occupied):
+                    continue
+                occupied.append((start, end))
+                sentence_index = locate_from_mentions(start, end, document, sentence_spans)
+                layout_index = locate_layout(start, end, document)
+                mentions.append(
+                    Mention(
+                        mention_id=f"P{mention_index}",
+                        entity_type=lexicon.alias_to_type[alias],
+                        form=document.text[start:end],
+                        offsets=[(start, end)],
+                        normalizations=[],
+                        sentence_index=sentence_index,
+                        layout_index=layout_index,
+                    )
+                )
+                mention_index += 1
+
     mentions.sort(key=lambda mention: (mention.start, mention.end))
     if not mentions:
         return []
@@ -154,11 +230,18 @@ def detect_mentions_as_mentions(document: Document, lexicon: MentionLexicon) -> 
     mentions: List[Mention] = []
     sentence_spans = build_sentence_spans(document)
     mention_index = 0
-    for alias in lexicon.aliases:
-        pattern = re.compile(rf"(?<!\w){re.escape(alias)}(?!\w)")
-        for match in pattern.finditer(text_lower):
-            start, end = match.span()
+
+    if lexicon._automaton is not None:
+        # Fast path: Aho-Corasick O(n_text) scan, one pass over the document.
+        raw_matches: List[tuple[int, int, str]] = sorted(
+            _iter_automaton_matches(text_lower, lexicon._automaton),
+            key=lambda m: (m[0], -(m[1] - m[0])),  # left-to-right, longest first
+        )
+        for start, end, alias in raw_matches:
             if overlaps_existing(start, end, occupied):
+                continue
+            entity_type = lexicon.alias_to_type.get(alias)
+            if entity_type is None:
                 continue
             occupied.append((start, end))
             sentence_index = locate_in_spans(start, end, sentence_spans)
@@ -166,7 +249,7 @@ def detect_mentions_as_mentions(document: Document, lexicon: MentionLexicon) -> 
             mentions.append(
                 Mention(
                     mention_id=f"P{mention_index}",
-                    entity_type=lexicon.alias_to_type[alias],
+                    entity_type=entity_type,
                     form=document.text[start:end],
                     offsets=[(start, end)],
                     normalizations=[],
@@ -175,6 +258,31 @@ def detect_mentions_as_mentions(document: Document, lexicon: MentionLexicon) -> 
                 )
             )
             mention_index += 1
+    else:
+        # Small-lexicon path: original per-alias loop (correct & fast enough for
+        # lexicons with <= _FAST_PATH_THRESHOLD aliases).
+        for alias in lexicon.aliases:
+            pattern = re.compile(rf"(?<!\w){re.escape(alias)}(?!\w)")
+            for match in pattern.finditer(text_lower):
+                start, end = match.span()
+                if overlaps_existing(start, end, occupied):
+                    continue
+                occupied.append((start, end))
+                sentence_index = locate_in_spans(start, end, sentence_spans)
+                layout_index = locate_layout(start, end, document)
+                mentions.append(
+                    Mention(
+                        mention_id=f"P{mention_index}",
+                        entity_type=lexicon.alias_to_type[alias],
+                        form=document.text[start:end],
+                        offsets=[(start, end)],
+                        normalizations=[],
+                        sentence_index=sentence_index,
+                        layout_index=layout_index,
+                    )
+                )
+                mention_index += 1
+
     mentions.sort(key=lambda mention: (mention.start, mention.end))
     return mentions
 
