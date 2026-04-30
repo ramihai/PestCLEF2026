@@ -78,6 +78,21 @@ def main() -> None:
         help="Comma-separated entity types to exclude from external lexicon (e.g. Plant,Disease)",
     )
 
+    # Threshold calibration band (v21a showed the [0.05, 0.95] default is too wide
+    # when mention noise increases — calibrator swings to 0.20 or 0.95 and destroys F1)
+    parser.add_argument(
+        "--threshold-min",
+        type=float,
+        default=0.35,
+        help="Floor for per-relation threshold search (default: 0.35)",
+    )
+    parser.add_argument(
+        "--threshold-max",
+        type=float,
+        default=0.75,
+        help="Ceiling for per-relation threshold search (default: 0.75)",
+    )
+
     # v21c: logit saving
     parser.add_argument(
         "--save-logits",
@@ -105,6 +120,8 @@ def main() -> None:
         lexicon_external_path=args.lexicon_path,
         lexicon_external_confidence=args.lexicon_confidence,
         lexicon_external_disabled_types=disabled_types,
+        relation_threshold_search_min=args.threshold_min,
+        relation_threshold_search_max=args.threshold_max,
         save_relation_logits=args.save_logits,
     )
 
