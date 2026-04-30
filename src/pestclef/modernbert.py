@@ -1,11 +1,15 @@
 from __future__ import annotations
 
 import json
+import logging
 import re
 import string
+import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Optional, Sequence, Tuple
+
+logger = logging.getLogger(__name__)
 
 import numpy as np
 import torch
@@ -153,16 +157,28 @@ TYPE_DENYLISTS: Dict[str, set[str]] = {
 
 def resolve_torch_device(requested_device: str) -> torch.device:
     if requested_device == "auto":
-        if torch.backends.mps.is_available():
-            return torch.device("mps")
+        if torch.backends.mps.is_available() and torch.backends.mps.is_built():
+            device = torch.device("mps")
+        elif torch.cuda.is_available():
+            device = torch.device("cuda")
+        else:
+            device = torch.device("cpu")
+    elif requested_device == "mps":
+        if torch.backends.mps.is_available() and torch.backends.mps.is_built():
+            device = torch.device("mps")
+        else:
+            print("[device] MPS requested but not available — falling back to cpu", flush=True)
+            device = torch.device("cpu")
+    elif requested_device == "cuda":
         if torch.cuda.is_available():
-            return torch.device("cuda")
-        return torch.device("cpu")
-    if requested_device == "mps" and not torch.backends.mps.is_available():
-        return torch.device("cpu")
-    if requested_device == "cuda" and not torch.cuda.is_available():
-        return torch.device("cpu")
-    return torch.device(requested_device)
+            device = torch.device("cuda")
+        else:
+            print("[device] CUDA requested but not available — falling back to cpu", flush=True)
+            device = torch.device("cpu")
+    else:
+        device = torch.device(requested_device)
+    print(f"[device] Using device: {device}", flush=True)
+    return device
 
 
 def get_bio_labels(entity_types: Sequence[str] = ENTITY_TYPES) -> List[str]:
@@ -296,8 +312,18 @@ def _train_transformer_model(
     config: ExperimentConfig,
     device: torch.device,
     validation_rows: Sequence[Dict[str, torch.Tensor]] | None = None,
+    stage_label: str = "model",
 ) -> torch.nn.Module:
+    n_epochs = max(1, config.epochs)
+    n_samples = len(train_rows)
+    print(
+        f"\n[{stage_label}] Starting training | "
+        f"device={device} | samples={n_samples} | epochs={n_epochs} | "
+        f"batch={config.train_batch_size} | lr={config.learning_rate_encoder:.2e}",
+        flush=True,
+    )
     if not train_rows:
+        print(f"[{stage_label}] No training rows — skipping.", flush=True)
         return model.to(device)
 
     model.to(device)
@@ -308,38 +334,67 @@ def _train_transformer_model(
         shuffle=True,
         collate_fn=_collate_batches,
     )
-    total_updates_per_epoch = max(1, (len(loader) + config.gradient_accumulation_steps - 1) // config.gradient_accumulation_steps)
-    total_steps = max(1, total_updates_per_epoch * max(1, config.epochs))
+    n_batches = len(loader)
+    total_updates_per_epoch = max(1, (n_batches + config.gradient_accumulation_steps - 1) // config.gradient_accumulation_steps)
+    total_steps = max(1, total_updates_per_epoch * n_epochs)
     warmup_steps = int(total_steps * config.warmup_ratio)
     scheduler = get_linear_schedule_with_warmup(optimizer, warmup_steps, total_steps)
+    print(
+        f"[{stage_label}] Loader: {n_batches} batches/epoch | "
+        f"{total_updates_per_epoch} updates/epoch | warmup={warmup_steps} steps",
+        flush=True,
+    )
 
     best_state_dict: Dict[str, torch.Tensor] | None = None
     best_validation_loss = float("inf")
     patience = 0
     optimizer.zero_grad(set_to_none=True)
-    for _epoch in range(max(1, config.epochs)):
+    t_train_start = time.time()
+
+    for epoch in range(n_epochs):
+        t_epoch_start = time.time()
         model.train()
+        epoch_losses: List[float] = []
         for step, batch in enumerate(loader, start=1):
             outputs = model(**_move_batch_to_device(batch, device))
             loss = outputs.loss / max(1, config.gradient_accumulation_steps)
             loss.backward()
-            if step % max(1, config.gradient_accumulation_steps) == 0 or step == len(loader):
+            epoch_losses.append(float(outputs.loss.detach().cpu().item()))
+            if step % max(1, config.gradient_accumulation_steps) == 0 or step == n_batches:
                 torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
                 optimizer.step()
                 scheduler.step()
                 optimizer.zero_grad(set_to_none=True)
 
+        train_loss = float(np.mean(epoch_losses)) if epoch_losses else 0.0
+        epoch_elapsed = time.time() - t_epoch_start
+        val_str = ""
+        stopped_early = False
         if validation_rows:
             validation_loss = _evaluate_dataset(model, validation_rows, config.eval_batch_size, device)
+            val_str = f" | val_loss={validation_loss:.4f}"
             if validation_loss < best_validation_loss:
                 best_validation_loss = validation_loss
                 best_state_dict = _clone_state_dict(model)
                 patience = 0
+                val_str += " ✓"
             else:
                 patience += 1
+                val_str += f" (patience {patience}/{config.early_stopping_patience})"
                 if patience >= config.early_stopping_patience:
-                    break
+                    stopped_early = True
 
+        print(
+            f"[{stage_label}] Epoch {epoch + 1}/{n_epochs} | "
+            f"train_loss={train_loss:.4f}{val_str} | {epoch_elapsed:.1f}s",
+            flush=True,
+        )
+        if stopped_early:
+            print(f"[{stage_label}] Early stopping at epoch {epoch + 1}.", flush=True)
+            break
+
+    total_elapsed = time.time() - t_train_start
+    print(f"[{stage_label}] Training complete in {total_elapsed:.1f}s", flush=True)
     if best_state_dict is not None:
         model.load_state_dict(best_state_dict)
     return model
@@ -1284,7 +1339,7 @@ def train_modernbert_mention_detector(
             class_weights=class_weights,
             gamma=config.mention_focal_gamma,
         )
-    trained_model = _train_transformer_model(training_model, train_rows, config, device, validation_rows)
+    trained_model = _train_transformer_model(training_model, train_rows, config, device, validation_rows, stage_label="mention-detector")
     inference_model = trained_model.base_model if isinstance(trained_model, FocalTokenClassifier) else trained_model
     mention_detector = ModernBertMentionDetector(
         tokenizer=tokenizer,
@@ -1800,8 +1855,8 @@ def train_modernbert_relation_model(
         pos_weight = np.where(positive_rate > 0, (1.0 - positive_rate) / np.maximum(positive_rate, 1e-4), 1.0).astype(np.float32)
         
         model = MultiLabelSequenceClassifier(base_model, pos_weight=torch.tensor(pos_weight, dtype=torch.float32))
-        trained_model = _train_transformer_model(model, train_rows, config_stage1, device, validation_rows)
-        
+        trained_model = _train_transformer_model(model, train_rows, config_stage1, device, validation_rows, stage_label="relation-stage1")
+
         # Dynamic Scoring of Negatives
         wrapped_temp = ModernBertRelationModel(
             labels=labels,
@@ -1838,20 +1893,25 @@ def train_modernbert_relation_model(
         pos_weight_stage2 = np.where(positive_rate_stage2 > 0, (1.0 - positive_rate_stage2) / np.maximum(positive_rate_stage2, 1e-4), 1.0).astype(np.float32)
         trained_model.pos_weight = torch.tensor(pos_weight_stage2, dtype=torch.float32).to(device)
         
-        trained_model = _train_transformer_model(trained_model, train_rows_stage2, config_stage2, device, validation_rows)
-        
+        trained_model = _train_transformer_model(trained_model, train_rows_stage2, config_stage2, device, validation_rows, stage_label="relation-stage2")
+
     else:
         processed_train_examples = oversample_relation_examples(train_examples, config)
         train_rows = build_relation_training_rows(tokenizer, processed_train_examples, labels, config)
         validation_rows = build_relation_training_rows(tokenizer, validation_examples, labels, config)
-        
+
         label_matrix = np.stack([row["labels"].numpy() for row in train_rows], axis=0) if train_rows else np.zeros((0, len(labels)), dtype=np.float32)
         positive_rate = label_matrix.mean(axis=0) if len(label_matrix) else np.zeros(len(labels), dtype=np.float32)
         pos_weight = np.where(positive_rate > 0, (1.0 - positive_rate) / np.maximum(positive_rate, 1e-4), 1.0).astype(np.float32)
-        
+
         model = MultiLabelSequenceClassifier(base_model, pos_weight=torch.tensor(pos_weight, dtype=torch.float32))
         device = resolve_torch_device(config.device)
-        trained_model = _train_transformer_model(model, train_rows, config, device, validation_rows)
+        print(
+            f"\n[relation] Building training rows | "
+            f"raw_examples={len(train_examples)} | after_oversample={len(processed_train_examples)} | rows={len(train_rows)}",
+            flush=True,
+        )
+        trained_model = _train_transformer_model(model, train_rows, config, device, validation_rows, stage_label="relation")
 
     wrapped = ModernBertRelationModel(
         labels=labels,

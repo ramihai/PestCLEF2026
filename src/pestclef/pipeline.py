@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import time
 from dataclasses import asdict
 from pathlib import Path
 from typing import Dict, List, Sequence
@@ -322,6 +323,11 @@ def train_gold_entity_modernbert_baseline(config: ExperimentConfig) -> Dict[str,
     }
 
 
+def _banner(msg: str) -> None:
+    line = "=" * 60
+    print(f"\n{line}\n  {msg}\n{line}", flush=True)
+
+
 def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]:
     from .modernbert import (
         build_relation_inference_examples,
@@ -332,19 +338,37 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
         train_modernbert_relation_model,
     )
 
+    t_pipeline_start = time.time()
+    _banner("Stage 1/4 — Loading data")
     config.ensure_artifacts_dir()
     train_documents = load_documents("train", config)
     dev_documents = load_documents("dev", config)
     dev_document_lookup = {document.doc_id: document for document in dev_documents}
     schema = RelationSchema.from_documents(train_documents)
     mention_lexicon = MentionLexicon.from_documents(train_documents, config) if config.mention_hybrid_lexicon else None
+    print(f"  train={len(train_documents)} docs | dev={len(dev_documents)} docs | lexicon={'yes' if mention_lexicon else 'no'}", flush=True)
 
+    _banner("Stage 2/4 — Mention detector training")
+    t0 = time.time()
     mention_detector = train_modernbert_mention_detector(
         train_documents,
         config,
         validation_documents=dev_documents,
         relation_schema=schema,
     )
+    print(f"  Mention detector trained in {time.time()-t0:.1f}s", flush=True)
+
+    # Save mention model immediately so it survives if relation training is killed
+    _banner("  Saving mention model checkpoint")
+    try:
+        mention_detector.save(config.artifacts_dir / "mention_model")
+        print(f"  Mention model saved → {config.artifacts_dir / 'mention_model'}", flush=True)
+    except Exception as exc:
+        print(f"  WARNING: could not save mention model: {exc}", flush=True)
+
+    _banner("Stage 3/4 — Entity prediction (mention inference)")
+    t0 = time.time()
+    print(f"  Running mention inference on {len(dev_documents)} dev docs...", flush=True)
     (
         neural_predicted_spans_by_doc,
         lexicon_predicted_spans_by_doc,
@@ -353,6 +377,10 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
         predicted_entities_by_doc,
         counts_by_doc,
     ) = _collect_predicted_entity_state(dev_documents, mention_detector, mention_lexicon)
+    print(f"  Dev entities predicted in {time.time()-t0:.1f}s", flush=True)
+
+    print(f"  Running mention inference on {len(train_documents)} train docs...", flush=True)
+    t0 = time.time()
     (
         _train_neural_predicted_spans_by_doc,
         _train_lexicon_predicted_spans_by_doc,
@@ -361,7 +389,10 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
         train_predicted_entities_by_doc,
         _train_counts_by_doc,
     ) = _collect_predicted_entity_state(train_documents, mention_detector, mention_lexicon)
+    print(f"  Train entities predicted in {time.time()-t0:.1f}s", flush=True)
 
+    _banner("Stage 4/4 — Relation model training")
+    t0 = time.time()
     train_examples = generate_relation_text_examples(train_documents, schema, config)
     if config.relation_train_with_predicted_entities:
         predicted_train_examples = generate_relation_text_examples(
@@ -384,19 +415,32 @@ def run_modernbert_dev_evaluation(config: ExperimentConfig) -> Dict[str, object]
         entities_override=predicted_entities_by_doc,
     )
     relation_calibration_examples = dev_predicted_examples if config.relation_calibrate_on_predicted_entities else dev_gold_examples
+    print(f"  train_examples={len(train_examples)} | val_examples={len(relation_calibration_examples)}", flush=True)
     relation_model = train_modernbert_relation_model(
         train_examples,
         config,
         calibration_examples=relation_calibration_examples,
         validation_examples=relation_calibration_examples,
     )
+    print(f"  Relation model trained in {time.time()-t0:.1f}s", flush=True)
 
+    # Save relation model immediately after training
+    try:
+        relation_model.save(config.artifacts_dir / "relation_model")
+        print(f"  Relation model saved → {config.artifacts_dir / 'relation_model'}", flush=True)
+    except Exception as exc:
+        print(f"  WARNING: could not save relation model: {exc}", flush=True)
+
+    _banner("Inference — predicting dev relations")
     predicted_edges_by_doc: Dict[str, List[RelationEdge]] = {}
     candidate_pairs_by_doc: Dict[str, List[tuple[CanonicalEntity, CanonicalEntity]]] = {}
     relation_score_records: List[Dict[str, object]] | None = (
         [] if getattr(config, "save_relation_logits", False) else None
     )
-    for document in dev_documents:
+    n_dev = len(dev_documents)
+    for i, document in enumerate(dev_documents, start=1):
+        if i == 1 or i % 10 == 0 or i == n_dev:
+            print(f"  [{i}/{n_dev}] doc_id={document.doc_id}", flush=True)
         examples, entity_pairs = build_relation_inference_examples(
             document,
             predicted_entities_by_doc[document.doc_id],
@@ -534,6 +578,8 @@ def run_modernbert_test_submission(config: ExperimentConfig, train_on_dev: bool 
         train_modernbert_relation_model,
     )
 
+    t_pipeline_start = time.time()
+    _banner("Stage 1/4 — Loading data (test submission)")
     config.ensure_artifacts_dir()
     train_documents = load_documents("train", config)
     dev_documents = load_documents("dev", config)
@@ -545,15 +591,30 @@ def run_modernbert_test_submission(config: ExperimentConfig, train_on_dev: bool 
         mention_train_documents = train_documents
         relation_train_documents = train_documents
         relation_calibration_documents = dev_documents
+    print(f"  train={len(train_documents)} | dev={len(dev_documents)} | train_on_dev={train_on_dev}", flush=True)
 
     schema = RelationSchema.from_documents(relation_train_documents)
+
+    _banner("Stage 2/4 — Mention detector training")
+    t0 = time.time()
     mention_detector = train_modernbert_mention_detector(
         mention_train_documents,
         config,
         validation_documents=dev_documents if not train_on_dev else train_documents,
         relation_schema=schema,
     )
+    print(f"  Mention detector trained in {time.time()-t0:.1f}s", flush=True)
+
+    # Save mention model immediately
+    try:
+        mention_detector.save(config.artifacts_dir / "mention_model")
+        print(f"  Mention model saved → {config.artifacts_dir / 'mention_model'}", flush=True)
+    except Exception as exc:
+        print(f"  WARNING: could not save mention model: {exc}", flush=True)
+
+    _banner("Stage 3/4 — Relation model training")
     mention_lexicon = MentionLexicon.from_documents(mention_train_documents, config) if config.mention_hybrid_lexicon else None
+    t0 = time.time()
     relation_train_examples = generate_relation_text_examples(relation_train_documents, schema, config)
     if config.relation_train_with_predicted_entities:
         (
@@ -593,13 +654,23 @@ def run_modernbert_test_submission(config: ExperimentConfig, train_on_dev: bool 
         )
     else:
         relation_calibration_examples = generate_relation_text_examples(relation_calibration_documents, schema, config)
+    print(f"  train_examples={len(relation_train_examples)} | val_examples={len(relation_calibration_examples)}", flush=True)
     relation_model = train_modernbert_relation_model(
         relation_train_examples,
         config,
         calibration_examples=relation_calibration_examples,
         validation_examples=relation_calibration_examples,
     )
+    print(f"  Relation model trained in {time.time()-t0:.1f}s", flush=True)
 
+    # Save relation model immediately
+    try:
+        relation_model.save(config.artifacts_dir / "relation_model")
+        print(f"  Relation model saved → {config.artifacts_dir / 'relation_model'}", flush=True)
+    except Exception as exc:
+        print(f"  WARNING: could not save relation model: {exc}", flush=True)
+
+    _banner("Stage 4/4 — Test inference")
     test_documents = load_documents("test", config)
     predictions: Dict[str, List[RelationEdge]] = {}
     predicted_entities_by_doc: Dict[str, List[CanonicalEntity]] = {}
@@ -608,7 +679,11 @@ def run_modernbert_test_submission(config: ExperimentConfig, train_on_dev: bool 
     test_relation_score_records: List[Dict[str, object]] | None = (
         [] if getattr(config, "save_relation_logits", False) else None
     )
-    for document in test_documents:
+    n_test = len(test_documents)
+    print(f"  Predicting relations for {n_test} test documents...", flush=True)
+    for i, document in enumerate(test_documents, start=1):
+        if i == 1 or i % 10 == 0 or i == n_test:
+            print(f"  [{i}/{n_test}] doc_id={document.doc_id}", flush=True)
         (
             _test_neural_spans_by_doc,
             _test_lexicon_spans_by_doc,
