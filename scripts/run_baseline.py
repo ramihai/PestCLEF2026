@@ -93,6 +93,26 @@ def main() -> None:
         help="Ceiling for per-relation threshold search (default: 0.75)",
     )
 
+    # Path 2 / Fix C: align relation training distribution with inference
+    parser.add_argument(
+        "--mix-ratio",
+        type=float,
+        default=None,
+        help=(
+            "relation_predicted_entity_mix_ratio override (default: config 0.5; "
+            "use 1.0 to train fully on predicted-entity examples — matches inference)"
+        ),
+    )
+    parser.add_argument(
+        "--oversample",
+        type=float,
+        default=None,
+        help=(
+            "relation_oversampling_ratio override (default: config 0.05; "
+            "use 0.20+ to compensate for larger negative pool from BioLinkBERT mentions)"
+        ),
+    )
+
     # v21c: logit saving
     parser.add_argument(
         "--save-logits",
@@ -123,6 +143,14 @@ def main() -> None:
         relation_threshold_search_min=args.threshold_min,
         relation_threshold_search_max=args.threshold_max,
         save_relation_logits=args.save_logits,
+        **(
+            {"relation_predicted_entity_mix_ratio": args.mix_ratio}
+            if args.mix_ratio is not None else {}
+        ),
+        **(
+            {"relation_oversampling_ratio": args.oversample}
+            if args.oversample is not None else {}
+        ),
     )
 
     if args.model == "modernbert_staged":

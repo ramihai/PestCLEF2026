@@ -61,7 +61,7 @@ from pestclef.submission import write_submission  # noqa: E402
 @dataclass
 class EnsembleConfig:
     seeds: List[int] = field(default_factory=lambda: [13, 42, 1337, 7, 2025])
-    artifacts_root: Path = Path("artifacts/modernbert_e2e_v21")
+    artifacts_root: Path = Path("artifacts/modernbert_e2e_v21c")
     encoder_name: str = "answerdotai/ModernBERT-base"
     mention_encoder_name: str = "michiyasunaga/BioLinkBERT-base"
     mention_max_seq_length: int = 512
@@ -69,13 +69,20 @@ class EnsembleConfig:
     lexicon_external_path: str = "data/lexicons/eppo_pest_plant_disease.json"
     lexicon_external_confidence: float = 0.70
     mention_date_regex_enabled: bool = True
-    epochs: int = 3
-    relation_oversampling_ratio: float = 0.05
+    # Defaults aligned with Path 2 (Fix C): full predicted-entity training,
+    # higher positive oversampling, and the [0.35, 0.75] threshold band that
+    # v21b validated. Override via CLI flags below.
+    epochs: int = 8
+    relation_oversampling_ratio: float = 0.20
+    relation_predicted_entity_mix_ratio: float = 1.0
     relation_hard_negative_ratio: float = 1.0
     relation_context_sentence_radius: int = 2
+    relation_threshold_search_min: float = 0.35
+    relation_threshold_search_max: float = 0.75
+    batch_size: int = 4
     skip_train: bool = False
     skip_test: bool = False
-    output_csv: Path = Path("submission_modernbert_e2e_v21_5seed.csv")
+    output_csv: Path = Path("submission_modernbert_e2e_v21c_5seed.csv")
 
 
 def _materialise_seed_config(base: EnsembleConfig, seed: int) -> ExperimentConfig:
@@ -89,10 +96,16 @@ def _materialise_seed_config(base: EnsembleConfig, seed: int) -> ExperimentConfi
     config.lexicon_external_confidence = base.lexicon_external_confidence
     config.mention_date_regex_enabled = base.mention_date_regex_enabled
     config.epochs = base.epochs
+    config.batch_size = base.batch_size
+    config.train_batch_size = max(1, min(base.batch_size, 8))
+    config.eval_batch_size = max(1, min(base.batch_size, 16))
     config.relation_oversampling_ratio = base.relation_oversampling_ratio
+    config.relation_predicted_entity_mix_ratio = base.relation_predicted_entity_mix_ratio
     config.relation_hard_negative_ratio = base.relation_hard_negative_ratio
     config.relation_context_sentence_radius = base.relation_context_sentence_radius
-    # v14 per-class thresholds
+    config.relation_threshold_search_min = base.relation_threshold_search_min
+    config.relation_threshold_search_max = base.relation_threshold_search_max
+    # v14 per-class thresholds (calibration overwrites these per seed)
     config.relation_thresholds = {
         "Located_in": 0.55,
         "Found_on": 0.52,
@@ -182,8 +195,8 @@ def _calibrate_thresholds(
     dev_documents,
     labels: Sequence[str],
     seed_thresholds: Dict[str, float],
-    grid_min: float = 0.05,
-    grid_max: float = 0.95,
+    grid_min: float = 0.35,
+    grid_max: float = 0.75,
     grid_step: float = 0.025,
 ) -> Tuple[Dict[str, float], Dict[str, object]]:
     """Pick per-label thresholds maximising overall micro F1 on aggregated dev.
@@ -201,7 +214,7 @@ def _calibrate_thresholds(
     label_set = set(labels)
     label_pos_counts: Dict[str, int] = {label: 0 for label in labels}
     for document in dev_documents:
-        for edge in document.relations:
+        for edge in document.gold_relation_edges:
             if edge.predicate in label_set:
                 label_pos_counts[edge.predicate] += 1
 
@@ -235,15 +248,23 @@ def _calibrate_thresholds(
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--seeds", type=str, default="13,42,1337,7,2025")
-    parser.add_argument("--artifacts-root", type=Path, default=Path("artifacts/modernbert_e2e_v21"))
+    parser.add_argument("--artifacts-root", type=Path, default=Path("artifacts/modernbert_e2e_v21c"))
     parser.add_argument("--mention-encoder", type=str, default="michiyasunaga/BioLinkBERT-base")
     parser.add_argument("--lexicon-path", type=str, default="data/lexicons/eppo_pest_plant_disease.json")
     parser.add_argument("--no-date-regex", action="store_true")
+    parser.add_argument("--epochs", type=int, default=8)
+    parser.add_argument("--batch-size", type=int, default=4)
+    parser.add_argument("--mix-ratio", type=float, default=1.0,
+                        help="relation_predicted_entity_mix_ratio (default 1.0 = full predicted-entity training)")
+    parser.add_argument("--oversample", type=float, default=0.20,
+                        help="relation_oversampling_ratio (default 0.20)")
+    parser.add_argument("--threshold-min", type=float, default=0.35)
+    parser.add_argument("--threshold-max", type=float, default=0.75)
     parser.add_argument("--skip-train", action="store_true",
                         help="Skip per-seed training; only aggregate existing logits")
     parser.add_argument("--skip-test", action="store_true",
                         help="Skip test inference; only run dev evaluation per seed")
-    parser.add_argument("--output", type=Path, default=Path("submission_modernbert_e2e_v21_5seed.csv"))
+    parser.add_argument("--output", type=Path, default=Path("submission_modernbert_e2e_v21c_5seed.csv"))
     args = parser.parse_args()
 
     seeds = [int(token) for token in args.seeds.split(",") if token.strip()]
@@ -253,6 +274,12 @@ def main() -> None:
         mention_encoder_name=args.mention_encoder,
         lexicon_external_path=args.lexicon_path,
         mention_date_regex_enabled=not args.no_date_regex,
+        epochs=args.epochs,
+        batch_size=args.batch_size,
+        relation_predicted_entity_mix_ratio=args.mix_ratio,
+        relation_oversampling_ratio=args.oversample,
+        relation_threshold_search_min=args.threshold_min,
+        relation_threshold_search_max=args.threshold_max,
         skip_train=args.skip_train,
         skip_test=args.skip_test,
         output_csv=args.output,
@@ -293,11 +320,13 @@ def main() -> None:
     aggregated_dev = _aggregate_logits(dev_records_per_seed, label_set)
     aggregated_test = _aggregate_logits(test_records_per_seed, label_set)
 
-    # Recalibrate thresholds
+    # Recalibrate thresholds in the same band the per-seed runs used
     dev_documents = load_documents("dev", ExperimentConfig())
     seed_thresholds = ExperimentConfig().relation_thresholds
     thresholds, threshold_diag = _calibrate_thresholds(
         aggregated_dev, dev_documents, label_set, seed_thresholds=seed_thresholds,
+        grid_min=base.relation_threshold_search_min,
+        grid_max=base.relation_threshold_search_max,
     )
 
     ensemble_dev_edges = _edges_from_aggregated(aggregated_dev, thresholds)
