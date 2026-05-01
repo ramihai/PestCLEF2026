@@ -1609,18 +1609,39 @@ def build_relation_training_rows(
 
 
 class MultiLabelSequenceClassifier(torch.nn.Module):
-    def __init__(self, base_model: PreTrainedModel, pos_weight: torch.Tensor | None = None):
+    def __init__(
+        self,
+        base_model: PreTrainedModel,
+        pos_weight: torch.Tensor | None = None,
+        use_focal: bool = False,
+        focal_gamma: float = 2.0,
+    ):
         super().__init__()
         self.base_model = base_model
         self.pos_weight = pos_weight
+        self.use_focal = use_focal
+        self.focal_gamma = float(focal_gamma)
 
     def forward(self, input_ids: torch.Tensor, attention_mask: torch.Tensor, labels: Optional[torch.Tensor] = None):
         outputs = self.base_model(input_ids=input_ids, attention_mask=attention_mask)
         logits = outputs.logits
         loss = None
         if labels is not None:
-            loss_fn = torch.nn.BCEWithLogitsLoss(pos_weight=self.pos_weight.to(logits.device) if self.pos_weight is not None else None)
-            loss = loss_fn(logits, labels)
+            pos_weight = self.pos_weight.to(logits.device) if self.pos_weight is not None else None
+            if self.use_focal:
+                # Focal BCE: ((1 - p_t)^gamma) * BCE(logits, y), with optional pos_weight.
+                # p_t = sigmoid(logits) for y=1, else 1 - sigmoid(logits).
+                bce = F.binary_cross_entropy_with_logits(
+                    logits, labels, pos_weight=pos_weight, reduction="none",
+                )
+                p = torch.sigmoid(logits)
+                p_t = p * labels + (1.0 - p) * (1.0 - labels)
+                gamma = max(0.0, self.focal_gamma)
+                focal_factor = (1.0 - p_t).clamp(min=0.0) ** gamma
+                loss = (focal_factor * bce).mean()
+            else:
+                loss_fn = torch.nn.BCEWithLogitsLoss(pos_weight=pos_weight)
+                loss = loss_fn(logits, labels)
         return type("MultiLabelOutput", (), {"logits": logits, "loss": loss})()
 
     def state_dict(self, *args, **kwargs):  # type: ignore[override]
@@ -1854,7 +1875,12 @@ def train_modernbert_relation_model(
         positive_rate = label_matrix.mean(axis=0) if len(label_matrix) else np.zeros(len(labels), dtype=np.float32)
         pos_weight = np.where(positive_rate > 0, (1.0 - positive_rate) / np.maximum(positive_rate, 1e-4), 1.0).astype(np.float32)
         
-        model = MultiLabelSequenceClassifier(base_model, pos_weight=torch.tensor(pos_weight, dtype=torch.float32))
+        model = MultiLabelSequenceClassifier(
+            base_model,
+            pos_weight=torch.tensor(pos_weight, dtype=torch.float32),
+            use_focal=getattr(config, "relation_use_focal_loss", False),
+            focal_gamma=getattr(config, "relation_focal_gamma", 2.0),
+        )
         trained_model = _train_transformer_model(model, train_rows, config_stage1, device, validation_rows, stage_label="relation-stage1")
 
         # Dynamic Scoring of Negatives
@@ -1904,7 +1930,12 @@ def train_modernbert_relation_model(
         positive_rate = label_matrix.mean(axis=0) if len(label_matrix) else np.zeros(len(labels), dtype=np.float32)
         pos_weight = np.where(positive_rate > 0, (1.0 - positive_rate) / np.maximum(positive_rate, 1e-4), 1.0).astype(np.float32)
 
-        model = MultiLabelSequenceClassifier(base_model, pos_weight=torch.tensor(pos_weight, dtype=torch.float32))
+        model = MultiLabelSequenceClassifier(
+            base_model,
+            pos_weight=torch.tensor(pos_weight, dtype=torch.float32),
+            use_focal=getattr(config, "relation_use_focal_loss", False),
+            focal_gamma=getattr(config, "relation_focal_gamma", 2.0),
+        )
         device = resolve_torch_device(config.device)
         print(
             f"\n[relation] Building training rows | "

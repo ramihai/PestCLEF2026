@@ -112,6 +112,22 @@ def main() -> None:
             "use 0.20+ to compensate for larger negative pool from BioLinkBERT mentions)"
         ),
     )
+    parser.add_argument(
+        "--relation-focal-loss",
+        action="store_true",
+        help=(
+            "Use focal loss instead of plain BCE for the relation classifier. "
+            "Down-weights easy examples so the model focuses on hard cases — "
+            "fixes the v21c collapse where the model converged to predicting ~0 "
+            "for everything because easy negatives dominated the BCE gradient."
+        ),
+    )
+    parser.add_argument(
+        "--relation-focal-gamma",
+        type=float,
+        default=2.0,
+        help="Focal loss gamma (default: 2.0; same as the mention model and the standard RetinaNet value)",
+    )
 
     # v21c: logit saving
     parser.add_argument(
@@ -151,6 +167,8 @@ def main() -> None:
             {"relation_oversampling_ratio": args.oversample}
             if args.oversample is not None else {}
         ),
+        relation_use_focal_loss=args.relation_focal_loss,
+        relation_focal_gamma=args.relation_focal_gamma,
     )
 
     if args.model == "modernbert_staged":
