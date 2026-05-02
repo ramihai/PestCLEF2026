@@ -1,6 +1,6 @@
 """Train v21 across multiple seeds, average sigmoid logits, recalibrate, submit.
 
-This is the v21c lever from the plan in
+This is the v21d lever from the plan in
 ``.claude/plans/we-are-working-on-zany-micali.md``. It addresses the
 high-variance behaviour observed in ``modernbert_sweep_summary.json`` (same
 config, ±0.03 dev F1 just from initialisation).
@@ -61,7 +61,7 @@ from pestclef.submission import write_submission  # noqa: E402
 @dataclass
 class EnsembleConfig:
     seeds: List[int] = field(default_factory=lambda: [13, 42, 1337, 7, 2025])
-    artifacts_root: Path = Path("artifacts/modernbert_e2e_v21c")
+    artifacts_root: Path = Path("artifacts/modernbert_e2e_v21d")
     encoder_name: str = "answerdotai/ModernBERT-base"
     mention_encoder_name: str = "michiyasunaga/BioLinkBERT-base"
     mention_max_seq_length: int = 512
@@ -74,15 +74,17 @@ class EnsembleConfig:
     # v21b validated. Override via CLI flags below.
     epochs: int = 8
     relation_oversampling_ratio: float = 0.20
-    relation_predicted_entity_mix_ratio: float = 1.0
+    relation_predicted_entity_mix_ratio: float = 0.5  # v21d-validated; v21c proved 1.0 collapses the classifier
     relation_hard_negative_ratio: float = 1.0
     relation_context_sentence_radius: int = 2
     relation_threshold_search_min: float = 0.35
     relation_threshold_search_max: float = 0.75
+    relation_use_focal_loss: bool = True
+    relation_focal_gamma: float = 2.0
     batch_size: int = 4
     skip_train: bool = False
     skip_test: bool = False
-    output_csv: Path = Path("submission_modernbert_e2e_v21c_5seed.csv")
+    output_csv: Path = Path("submission_modernbert_e2e_v21d_5seed.csv")
 
 
 def _materialise_seed_config(base: EnsembleConfig, seed: int) -> ExperimentConfig:
@@ -105,6 +107,8 @@ def _materialise_seed_config(base: EnsembleConfig, seed: int) -> ExperimentConfi
     config.relation_context_sentence_radius = base.relation_context_sentence_radius
     config.relation_threshold_search_min = base.relation_threshold_search_min
     config.relation_threshold_search_max = base.relation_threshold_search_max
+    config.relation_use_focal_loss = base.relation_use_focal_loss
+    config.relation_focal_gamma = base.relation_focal_gamma
     # v14 per-class thresholds (calibration overwrites these per seed)
     config.relation_thresholds = {
         "Located_in": 0.55,
@@ -248,23 +252,31 @@ def _calibrate_thresholds(
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--seeds", type=str, default="13,42,1337,7,2025")
-    parser.add_argument("--artifacts-root", type=Path, default=Path("artifacts/modernbert_e2e_v21c"))
+    parser.add_argument("--artifacts-root", type=Path, default=Path("artifacts/modernbert_e2e_v21d"))
     parser.add_argument("--mention-encoder", type=str, default="michiyasunaga/BioLinkBERT-base")
     parser.add_argument("--lexicon-path", type=str, default="data/lexicons/eppo_pest_plant_disease.json")
     parser.add_argument("--no-date-regex", action="store_true")
     parser.add_argument("--epochs", type=int, default=8)
     parser.add_argument("--batch-size", type=int, default=4)
-    parser.add_argument("--mix-ratio", type=float, default=1.0,
-                        help="relation_predicted_entity_mix_ratio (default 1.0 = full predicted-entity training)")
+    parser.add_argument("--mix-ratio", type=float, default=0.5,
+                        help="relation_predicted_entity_mix_ratio (default 0.5, v21d-validated; 1.0 collapsed the classifier in v21c)")
     parser.add_argument("--oversample", type=float, default=0.20,
                         help="relation_oversampling_ratio (default 0.20)")
     parser.add_argument("--threshold-min", type=float, default=0.35)
     parser.add_argument("--threshold-max", type=float, default=0.75)
+    parser.add_argument(
+        "--no-focal", action="store_true",
+        help="Disable focal loss for the relation classifier (default: enabled). v21d showed focal helps; only disable for ablation.",
+    )
+    parser.add_argument(
+        "--focal-gamma", type=float, default=2.0,
+        help="Focal loss gamma when --no-focal is not set (default: 2.0).",
+    )
     parser.add_argument("--skip-train", action="store_true",
                         help="Skip per-seed training; only aggregate existing logits")
     parser.add_argument("--skip-test", action="store_true",
                         help="Skip test inference; only run dev evaluation per seed")
-    parser.add_argument("--output", type=Path, default=Path("submission_modernbert_e2e_v21c_5seed.csv"))
+    parser.add_argument("--output", type=Path, default=Path("submission_modernbert_e2e_v21d_5seed.csv"))
     args = parser.parse_args()
 
     seeds = [int(token) for token in args.seeds.split(",") if token.strip()]
@@ -280,6 +292,8 @@ def main() -> None:
         relation_oversampling_ratio=args.oversample,
         relation_threshold_search_min=args.threshold_min,
         relation_threshold_search_max=args.threshold_max,
+        relation_use_focal_loss=not args.no_focal,
+        relation_focal_gamma=args.focal_gamma,
         skip_train=args.skip_train,
         skip_test=args.skip_test,
         output_csv=args.output,
