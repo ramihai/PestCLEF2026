@@ -136,16 +136,26 @@ def _load_logits(path: Path) -> Tuple[List[Dict[str, object]], List[str]]:
 def _aggregate_logits(
     records_per_seed: Sequence[List[Dict[str, object]]],
     labels: Sequence[str],
-) -> Dict[Tuple[str, str, str, str, str], Dict[str, float]]:
+    min_seed_count: int = 1,
+) -> Tuple[Dict[Tuple[str, str, str, str, str], Dict[str, float]], Dict[str, int]]:
     """Average sigmoid scores per (doc, subj_type, subj, obj_type, obj) key.
 
-    Returns ``{key: {label: averaged_score}}``. Scores are averaged only over
-    seeds that produced that key (predicted entity sets can vary by seed).
+    Returns ``({key: {label: averaged_score}}, stats_dict)``. Scores are averaged
+    only over seeds that produced that key.
+
+    With ``min_seed_count > 1``, drops keys that didn't appear in at least that
+    many seeds. This is critical when per-seed candidate sets diverge: in the
+    v21d 5-seed run only 18% of test pairs appeared in all 5 seeds, and 47%
+    appeared in only 1 seed — the unfiltered average treats those single-seed
+    predictions as if they were ensemble predictions, letting their noise
+    flow through.
     """
     accumulator: Dict[Tuple[str, str, str, str, str], Dict[str, List[float]]] = defaultdict(
         lambda: {label: [] for label in labels}
     )
+    seed_count: Dict[Tuple[str, str, str, str, str], int] = defaultdict(int)
     for records in records_per_seed:
+        seen_keys_in_seed: set = set()
         for row in records:
             key = (
                 str(row["doc_id"]),
@@ -157,16 +167,37 @@ def _aggregate_logits(
             scores = row.get("scores", {})
             if not isinstance(scores, dict):
                 continue
+            if key not in seen_keys_in_seed:
+                seen_keys_in_seed.add(key)
+                seed_count[key] += 1
             for label in labels:
                 if label in scores:
                     accumulator[key][label].append(float(scores[label]))
+
+    total_keys = len(accumulator)
+    kept = 0
+    dropped = 0
     averaged: Dict[Tuple[str, str, str, str, str], Dict[str, float]] = {}
+    seed_count_hist: Dict[int, int] = defaultdict(int)
     for key, label_scores in accumulator.items():
+        n = seed_count[key]
+        seed_count_hist[n] += 1
+        if n < min_seed_count:
+            dropped += 1
+            continue
+        kept += 1
         averaged[key] = {
             label: (sum(values) / len(values)) if values else 0.0
             for label, values in label_scores.items()
         }
-    return averaged
+    stats = {
+        "total_keys": total_keys,
+        "kept": kept,
+        "dropped": dropped,
+        "min_seed_count": min_seed_count,
+        **{f"in_{n}_seeds": int(c) for n, c in sorted(seed_count_hist.items())},
+    }
+    return averaged, stats
 
 
 def _edges_from_aggregated(
@@ -276,6 +307,15 @@ def main() -> None:
                         help="Skip per-seed training; only aggregate existing logits")
     parser.add_argument("--skip-test", action="store_true",
                         help="Skip test inference; only run dev evaluation per seed")
+    parser.add_argument(
+        "--min-seed-count", type=int, default=1,
+        help=(
+            "Drop pairs that didn't appear in at least this many seeds before "
+            "averaging logits (default: 1 = no filter). v21d 5-seed showed only "
+            "18%% of test pairs appeared in all 5 seeds and 47%% appeared in "
+            "only 1 seed — try 3 to filter mention-set noise."
+        ),
+    )
     parser.add_argument("--output", type=Path, default=Path("submission_modernbert_e2e_v21d_5seed.csv"))
     args = parser.parse_args()
 
@@ -331,8 +371,15 @@ def main() -> None:
     if not label_set:
         raise SystemExit("No relation logits were found. Run without --skip-train at least once.")
 
-    aggregated_dev = _aggregate_logits(dev_records_per_seed, label_set)
-    aggregated_test = _aggregate_logits(test_records_per_seed, label_set)
+    print(f"\n[ensemble] Aggregating logits with min_seed_count={args.min_seed_count}", flush=True)
+    aggregated_dev, dev_stats = _aggregate_logits(dev_records_per_seed, label_set, args.min_seed_count)
+    aggregated_test, test_stats = _aggregate_logits(test_records_per_seed, label_set, args.min_seed_count)
+    print(f"[ensemble]   dev: kept {dev_stats['kept']}/{dev_stats['total_keys']} keys, dropped {dev_stats['dropped']}")
+    print(f"[ensemble]   test: kept {test_stats['kept']}/{test_stats['total_keys']} keys, dropped {test_stats['dropped']}")
+    dev_hist = {k: v for k, v in dev_stats.items() if k.startswith("in_")}
+    test_hist = {k: v for k, v in test_stats.items() if k.startswith("in_")}
+    print(f"[ensemble]   dev seed-count histogram: {dev_hist}")
+    print(f"[ensemble]   test seed-count histogram: {test_hist}")
 
     # Recalibrate thresholds in the same band the per-seed runs used
     dev_documents = load_documents("dev", ExperimentConfig())
@@ -355,13 +402,15 @@ def main() -> None:
         base.output_csv,
     )
 
-    summary_path = base.artifacts_root.parent / f"{base.artifacts_root.name}_ensemble_summary.json"
+    summary_suffix = f"_minseed{args.min_seed_count}" if args.min_seed_count > 1 else ""
+    summary_path = base.artifacts_root.parent / f"{base.artifacts_root.name}_ensemble_summary{summary_suffix}.json"
     summary_path.parent.mkdir(parents=True, exist_ok=True)
     summary_path.write_text(
         json.dumps(
             {
                 "seeds": seeds,
                 "label_set": label_set,
+                "min_seed_count": args.min_seed_count,
                 "per_seed_metrics": per_seed_metrics,
                 "ensemble_dev_metrics": ensemble_dev_metrics,
                 "ensemble_thresholds": thresholds,
@@ -369,6 +418,8 @@ def main() -> None:
                 "submission_path": str(base.output_csv),
                 "ensemble_dev_record_count": len(aggregated_dev),
                 "ensemble_test_record_count": len(aggregated_test),
+                "dev_aggregation_stats": dev_stats,
+                "test_aggregation_stats": test_stats,
             },
             indent=2,
             ensure_ascii=False,
