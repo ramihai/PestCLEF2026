@@ -33,13 +33,13 @@ def ensemble_submissions(
 ) -> Dict[str, List[Dict[str, str]]]:
     doc_ids = sorted(set(sub1.keys()) | set(sub2.keys()))
     ensembled = {}
-    
+
     for doc_id in doc_ids:
         edges1 = {get_edge_key(e): e for e in sub1.get(doc_id, [])}
         edges2 = {get_edge_key(e): e for e in sub2.get(doc_id, [])}
-        
+
         merged_keys: Set[Tuple[str, str, str]] = set()
-        
+
         if strategy == "union":
             merged_keys = set(edges1.keys()) | set(edges2.keys())
         elif strategy == "intersection":
@@ -50,7 +50,7 @@ def ensemble_submissions(
                 subj, pred, obj = key
                 in_sub1 = key in edges1
                 in_sub2 = key in edges2
-                
+
                 if in_sub1 and in_sub2:
                     merged_keys.add(key)
                 elif pred in ("Affects", "Located_in"):
@@ -62,6 +62,20 @@ def ensemble_submissions(
                 elif pred in ("Causes", "Transmits", "Dispersed_by"):
                     if in_sub1 or in_sub2:  # Union for minority
                         merged_keys.add(key)
+        elif strategy == "per_relation_v14_minseed4":
+            # Per-relation split: sub1 = v14, sub2 = v21d minseed4 ensemble.
+            # Per dev metrics: v14 wins Located_in/Affects/Dispersed_by; minseed4
+            # wins Found_on/Occurs_on/Causes/Transmits. Take each model's edges
+            # only for its winning relations. Intentionally NOT a union — we use
+            # v14's filter for v14-winning relations and minseed4's for the rest.
+            v14_relations = {"Located_in", "Affects", "Dispersed_by"}
+            minseed4_relations = {"Found_on", "Occurs_on", "Causes", "Transmits"}
+            for key in edges1.keys():
+                if key[1] in v14_relations:
+                    merged_keys.add(key)
+            for key in edges2.keys():
+                if key[1] in minseed4_relations:
+                    merged_keys.add(key)
         else:
             raise ValueError(f"Unknown strategy: {strategy}")
             
@@ -80,7 +94,7 @@ def main() -> None:
     parser.add_argument("sub1", help="Path to first submission CSV (v9)")
     parser.add_argument("sub2", help="Path to second submission CSV (v14)")
     parser.add_argument("output", help="Path for ensembled output CSV")
-    parser.add_argument("--strategy", choices=["union", "intersection", "heuristic"], default="heuristic")
+    parser.add_argument("--strategy", choices=["union", "intersection", "heuristic", "per_relation_v14_minseed4"], default="heuristic")
     args = parser.parse_args()
 
     sub1_path = Path(args.sub1)
