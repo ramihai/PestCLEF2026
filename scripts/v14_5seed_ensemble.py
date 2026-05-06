@@ -241,6 +241,26 @@ def main() -> None:
     )
     parser.add_argument("--output", type=Path, default=Path("submission_v14_5seed.csv"))
     parser.add_argument("--device", type=str, default="auto")
+    parser.add_argument(
+        "--no-recalibrate",
+        action="store_true",
+        help=(
+            "Skip dev-side threshold calibration entirely. Apply v14's hardcoded "
+            "thresholds (Located_in=0.55, Found_on=0.52, ...) directly to averaged "
+            "logits. Avoids the dev-overfit failure mode that hurt tight_minseed4 "
+            "(0.361) and wide_minseed4 (0.319) on Kaggle."
+        ),
+    )
+    parser.add_argument(
+        "--threshold-shift",
+        type=float,
+        default=0.0,
+        help=(
+            "Constant shift applied to v14 hardcoded thresholds when --no-recalibrate "
+            "is set. Negative values let more triples through (averaged logits have "
+            "lower magnitude than single-seed; -0.05 to -0.10 may be needed). Default 0."
+        ),
+    )
     args = parser.parse_args()
 
     seeds = [int(token) for token in args.seeds.split(",") if token.strip()]
@@ -305,15 +325,27 @@ def main() -> None:
     print(f"[aggregate]   dev seed-count histogram: {dev_hist}")
     print(f"[aggregate]   test seed-count histogram: {test_hist}")
 
-    # Calibrate thresholds on dev
-    print(f"\n[calibrate] grid search in [{args.threshold_min:.2f}, {args.threshold_max:.2f}]", flush=True)
+    # Decide thresholds: either dev-calibrated (default) or v14's hardcoded
     dev_documents = load_documents("dev", ExperimentConfig())
-    seed_thresholds = ExperimentConfig().relation_thresholds
-    thresholds, threshold_diag = _calibrate_thresholds(
-        aggregated_dev, dev_documents, label_set, seed_thresholds=seed_thresholds,
-        grid_min=args.threshold_min, grid_max=args.threshold_max,
-    )
-    print("[calibrate] thresholds:")
+    if args.no_recalibrate:
+        # Use v14's known-to-generalize thresholds. Optional uniform shift to
+        # compensate for the fact that averaged logits have lower magnitude than
+        # individual-seed logits.
+        seed_thresholds = ExperimentConfig().relation_thresholds
+        thresholds = {
+            label: max(0.0, min(1.0, float(seed_thresholds.get(label, 0.5)) + args.threshold_shift))
+            for label in label_set
+        }
+        threshold_diag = {label: {"strategy": "v14_hardcoded", "shift": args.threshold_shift} for label in label_set}
+        print(f"\n[no-recalibrate] using v14 hardcoded thresholds (+ shift {args.threshold_shift:+.2f}):")
+    else:
+        print(f"\n[calibrate] grid search in [{args.threshold_min:.2f}, {args.threshold_max:.2f}]", flush=True)
+        seed_thresholds = ExperimentConfig().relation_thresholds
+        thresholds, threshold_diag = _calibrate_thresholds(
+            aggregated_dev, dev_documents, label_set, seed_thresholds=seed_thresholds,
+            grid_min=args.threshold_min, grid_max=args.threshold_max,
+        )
+        print("[calibrate] thresholds:")
     for label, t in thresholds.items():
         print(f"  {label:<22} {t:.3f}")
 
