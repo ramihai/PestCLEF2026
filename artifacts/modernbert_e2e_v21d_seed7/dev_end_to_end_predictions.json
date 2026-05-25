@@ -1,0 +1,3747 @@
+{
+  "103963": [
+    {
+      "subject": "B. xylophilus",
+      "predicate": "Causes",
+      "object": "pine wilt disease"
+    },
+    {
+      "subject": "B. xylophilus",
+      "predicate": "Occurs_on",
+      "object": "since the beginning of the twentieth century"
+    },
+    {
+      "subject": "pine wilt disease",
+      "predicate": "Located_in",
+      "object": "Japan"
+    },
+    {
+      "subject": "pine wilt disease",
+      "predicate": "Occurs_on",
+      "object": "since the beginning of the twentieth century"
+    },
+    {
+      "subject": "pine wilt disease",
+      "predicate": "Affects",
+      "object": "pine trees"
+    },
+    {
+      "subject": "Monochamus spp",
+      "predicate": "Transmits",
+      "object": "pine wood nematode"
+    },
+    {
+      "subject": "Monochamus beetles",
+      "predicate": "Transmits",
+      "object": "B. xylophilus"
+    },
+    {
+      "subject": "Monochamus beetles",
+      "predicate": "Transmits",
+      "object": "pine wood nematode"
+    },
+    {
+      "subject": "adult beetle",
+      "predicate": "Transmits",
+      "object": "B. xylophilus"
+    },
+    {
+      "subject": "adult beetle",
+      "predicate": "Transmits",
+      "object": "pine wood nematode"
+    }
+  ],
+  "114259": [
+    {
+      "subject": "Diaporthe eres",
+      "predicate": "Affects",
+      "object": "Vaccinium corymbosum"
+    },
+    {
+      "subject": "Diaporthe eres",
+      "predicate": "Affects",
+      "object": "Vaccinium corymbosum L. is a"
+    },
+    {
+      "subject": "Diaporthe eres",
+      "predicate": "Affects",
+      "object": "blueberry"
+    },
+    {
+      "subject": "Diaporthe eres",
+      "predicate": "Affects",
+      "object": "Vaccinium spp"
+    },
+    {
+      "subject": "Diaporthe eres",
+      "predicate": "Located_in",
+      "object": "China.Plant"
+    },
+    {
+      "subject": "Diaporthe eres",
+      "predicate": "Affects",
+      "object": "Hardy Kiwifruit"
+    },
+    {
+      "subject": "stem blight and",
+      "predicate": "Affects",
+      "object": "highbush blueberry"
+    },
+    {
+      "subject": "stem blight and",
+      "predicate": "Affects",
+      "object": "Vaccinium corymbosum"
+    },
+    {
+      "subject": "stem blight and",
+      "predicate": "Affects",
+      "object": "Vaccinium corymbosum L. is a"
+    },
+    {
+      "subject": "stem blight and",
+      "predicate": "Affects",
+      "object": "woody deciduous shrub belonging to the"
+    },
+    {
+      "subject": "stem blight and",
+      "predicate": "Affects",
+      "object": "Duke and"
+    },
+    {
+      "subject": "stem blight and",
+      "predicate": "Affects",
+      "object": "blueberry cultivars"
+    },
+    {
+      "subject": "stem blight and",
+      "predicate": "Affects",
+      "object": "berry fruit"
+    },
+    {
+      "subject": "dieback",
+      "predicate": "Affects",
+      "object": "highbush blueberry"
+    },
+    {
+      "subject": "dieback",
+      "predicate": "Affects",
+      "object": "Vaccinium corymbosum"
+    },
+    {
+      "subject": "dieback",
+      "predicate": "Affects",
+      "object": "Vaccinium corymbosum L. is a"
+    },
+    {
+      "subject": "dieback",
+      "predicate": "Affects",
+      "object": "woody deciduous shrub belonging to the"
+    },
+    {
+      "subject": "dieback",
+      "predicate": "Occurs_on",
+      "object": "In June 2020"
+    },
+    {
+      "subject": "dieback",
+      "predicate": "Located_in",
+      "object": "Peveragno"
+    },
+    {
+      "subject": "dieback",
+      "predicate": "Located_in",
+      "object": "Piedmont"
+    },
+    {
+      "subject": "dieback",
+      "predicate": "Affects",
+      "object": "Duke and"
+    },
+    {
+      "subject": "dieback",
+      "predicate": "Affects",
+      "object": "blueberry cultivars"
+    },
+    {
+      "subject": "dieback",
+      "predicate": "Affects",
+      "object": "berry fruit"
+    },
+    {
+      "subject": "D. eres",
+      "predicate": "Causes",
+      "object": "stem blight and"
+    },
+    {
+      "subject": "D. eres",
+      "predicate": "Causes",
+      "object": "dieback"
+    },
+    {
+      "subject": "D. eres",
+      "predicate": "Found_on",
+      "object": "highbush blueberry"
+    },
+    {
+      "subject": "D. eres",
+      "predicate": "Found_on",
+      "object": "blueberry cultivars"
+    },
+    {
+      "subject": "D. eres",
+      "predicate": "Found_on",
+      "object": "berry fruit"
+    },
+    {
+      "subject": "leaf spot disease",
+      "predicate": "Affects",
+      "object": "Duke and"
+    },
+    {
+      "subject": "leaf spot disease",
+      "predicate": "Affects",
+      "object": "blueberry cultivars"
+    },
+    {
+      "subject": "leaf spot disease",
+      "predicate": "Affects",
+      "object": "berry fruit"
+    },
+    {
+      "subject": "Diaporthe phoenicicola",
+      "predicate": "Affects",
+      "object": "blueberry"
+    },
+    {
+      "subject": "Diaporthe phoenicicola",
+      "predicate": "Affects",
+      "object": "Vaccinium virgatum"
+    },
+    {
+      "subject": "Diaporthe phoenicicola",
+      "predicate": "Located_in",
+      "object": "China.Plant"
+    },
+    {
+      "subject": "leaf spot on",
+      "predicate": "Affects",
+      "object": "blueberry"
+    },
+    {
+      "subject": "leaf spot on",
+      "predicate": "Affects",
+      "object": "Vaccinium virgatum"
+    },
+    {
+      "subject": "leaf spot on",
+      "predicate": "Located_in",
+      "object": "China.Plant"
+    },
+    {
+      "subject": "Postharvest Fruit Rot Disease of",
+      "predicate": "Located_in",
+      "object": "China.Plant"
+    },
+    {
+      "subject": "Postharvest Fruit Rot Disease of",
+      "predicate": "Affects",
+      "object": "Hardy Kiwifruit"
+    },
+    {
+      "subject": "Diaporthe cercidis and",
+      "predicate": "Found_on",
+      "object": "P. bolleana"
+    },
+    {
+      "subject": "D. nobilis",
+      "predicate": "Located_in",
+      "object": "China.Plant"
+    },
+    {
+      "subject": "D. nobilis",
+      "predicate": "Found_on",
+      "object": "Populus davidiana"
+    },
+    {
+      "subject": "D. nobilis",
+      "predicate": "Found_on",
+      "object": "P. bolleana"
+    },
+    {
+      "subject": "leaf blight",
+      "predicate": "Affects",
+      "object": "passion fruit"
+    },
+    {
+      "subject": "Nigrospora sphaerica",
+      "predicate": "Affects",
+      "object": "passion fruit"
+    }
+  ],
+  "116119": [
+    {
+      "subject": "fruit fly",
+      "predicate": "Located_in",
+      "object": "Réunion"
+    }
+  ],
+  "99067": [
+    {
+      "subject": "citrus growing",
+      "predicate": "Located_in",
+      "object": "Acireale"
+    },
+    {
+      "subject": "Phytophthora",
+      "predicate": "Causes",
+      "object": "Citrus tristeza virus"
+    },
+    {
+      "subject": "Phytophthora",
+      "predicate": "Causes",
+      "object": "Huanglongbing"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "University of Catania"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Spain"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "United States"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "European"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Mediterranean environment"
+    },
+    {
+      "subject": "yellow branch disease ”or",
+      "predicate": "Located_in",
+      "object": "United States and"
+    },
+    {
+      "subject": "yellow branch disease ”or",
+      "predicate": "Located_in",
+      "object": "Spain"
+    },
+    {
+      "subject": "yellow branch disease ”or",
+      "predicate": "Located_in",
+      "object": "United States"
+    },
+    {
+      "subject": "Tristeza of citrus",
+      "predicate": "Affects",
+      "object": "citrus growing"
+    },
+    {
+      "subject": "Tristeza of citrus",
+      "predicate": "Located_in",
+      "object": "United States"
+    },
+    {
+      "subject": "Tristeza of citrus",
+      "predicate": "Occurs_on",
+      "object": "In the last 12 years"
+    }
+  ],
+  "98142": [
+    {
+      "subject": "HLB",
+      "predicate": "Affects",
+      "object": "citrus plants"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Entre Ríos"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "in the town of Osvaldo Magnasco, in the department of Concordia"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Senasa"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Affects",
+      "object": "poncirus trifoliata"
+    },
+    {
+      "subject": "Huanglongbing",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "Candidatus liberibacter",
+      "predicate": "Causes",
+      "object": "HLB"
+    },
+    {
+      "subject": "Candidatus liberibacter",
+      "predicate": "Found_on",
+      "object": "citrus"
+    }
+  ],
+  "117892": [
+    {
+      "subject": "Weakly Differentiated",
+      "predicate": "Occurs_on",
+      "object": "2022"
+    }
+  ],
+  "107172": [
+    {
+      "subject": "bananas",
+      "predicate": "Located_in",
+      "object": "Western countries"
+    },
+    {
+      "subject": "Fusarium fungus",
+      "predicate": "Found_on",
+      "object": "bananas"
+    },
+    {
+      "subject": "Fusarium fungus",
+      "predicate": "Found_on",
+      "object": "Cavendish banana plants"
+    },
+    {
+      "subject": "Fusarium fungus",
+      "predicate": "Causes",
+      "object": "Panama disease"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "bananas"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Located_in",
+      "object": "Western countries"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Occurs_on",
+      "object": "in the 1920s"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "banana-producing"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Occurs_on",
+      "object": "By the late 1950s"
+    },
+    {
+      "subject": "variety called Gros Michel",
+      "predicate": "Occurs_on",
+      "object": "in the 1920s"
+    },
+    {
+      "subject": "Fusarium fungus called",
+      "predicate": "Causes",
+      "object": "Panama disease"
+    },
+    {
+      "subject": "Fusarium fungus called",
+      "predicate": "Located_in",
+      "object": "Netherlands"
+    },
+    {
+      "subject": "Fusarium fungus called",
+      "predicate": "Located_in",
+      "object": "Western countries"
+    },
+    {
+      "subject": "Fusarium fungus called",
+      "predicate": "Occurs_on",
+      "object": "in the 1920s"
+    },
+    {
+      "subject": "Fusarium fungus called",
+      "predicate": "Occurs_on",
+      "object": "By the late 1950s"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Found_on",
+      "object": "bananas"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Causes",
+      "object": "Panama disease"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Located_in",
+      "object": "Netherlands"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Located_in",
+      "object": "Western countries"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Occurs_on",
+      "object": "in the 1920s"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Occurs_on",
+      "object": "By the late 1950s"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Found_on",
+      "object": "Cavendish bananas"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Located_in",
+      "object": "Brazil"
+    },
+    {
+      "subject": "banana-producing",
+      "predicate": "Occurs_on",
+      "object": "in the 1920s"
+    },
+    {
+      "subject": "banana-producing",
+      "predicate": "Occurs_on",
+      "object": "By the late 1950s"
+    },
+    {
+      "subject": "Cavendish banana, which isn",
+      "predicate": "Occurs_on",
+      "object": "in the 1920s"
+    },
+    {
+      "subject": "Cavendish banana, which isn",
+      "predicate": "Occurs_on",
+      "object": "By the late 1950s"
+    },
+    {
+      "subject": "TR1 fungus",
+      "predicate": "Found_on",
+      "object": "bananas"
+    },
+    {
+      "subject": "TR1 fungus",
+      "predicate": "Found_on",
+      "object": "Cavendish bananas"
+    },
+    {
+      "subject": "TR1 fungus",
+      "predicate": "Occurs_on",
+      "object": "from 30 minutes to 10 days later"
+    }
+  ],
+  "98783": [
+    {
+      "subject": "banana virus",
+      "predicate": "Located_in",
+      "object": "Arua district"
+    },
+    {
+      "subject": "banana virus",
+      "predicate": "Located_in",
+      "object": "West Nile region"
+    },
+    {
+      "subject": "Banana bunchy top",
+      "predicate": "Affects",
+      "object": "banana"
+    },
+    {
+      "subject": "banana plantations",
+      "predicate": "Occurs_on",
+      "object": "in 2020"
+    },
+    {
+      "subject": "banana plantations",
+      "predicate": "Occurs_on",
+      "object": "in early 2000"
+    },
+    {
+      "subject": "banana growing areas",
+      "predicate": "Located_in",
+      "object": "Buganda and"
+    },
+    {
+      "subject": "banana growing areas",
+      "predicate": "Located_in",
+      "object": "Ankole"
+    },
+    {
+      "subject": "maize",
+      "predicate": "Occurs_on",
+      "object": "in 2020"
+    },
+    {
+      "subject": "banana bacterial wilt",
+      "predicate": "Affects",
+      "object": "maize"
+    },
+    {
+      "subject": "banana bacterial wilt",
+      "predicate": "Occurs_on",
+      "object": "in 2020"
+    },
+    {
+      "subject": "banana bacterial wilt",
+      "predicate": "Occurs_on",
+      "object": "in early 2000"
+    }
+  ],
+  "105611": [
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Bari area"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "olive trees"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Polignano"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Castellana"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "in the territory of the province of Bari"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Puglia"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Polignano a Mare"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "countryside of Castellana Grotte"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "insists"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Coldiretti Puglia"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Carosino"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Faggiano"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Fragagnano"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Manduria"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "San Marzano di San Giuseppe"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Torricella"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Apulian territory"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "entire province of Brindisi"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "southern part of the provincial territory also"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "Bari area"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "Polignano"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "Castellana"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "in the territory of the province of Bari"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "Puglia"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "Polignano a Mare"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "countryside of Castellana Grotte"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Occurs_on",
+      "object": "2022"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "insists"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "Coldiretti Puglia"
+    },
+    {
+      "subject": "Xylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "Coldiretti Puglia"
+    },
+    {
+      "subject": "Xylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "Torricella"
+    },
+    {
+      "subject": "Xylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "Apulian territory"
+    }
+  ],
+  "98794": [
+    {
+      "subject": "Rhizopus arrhizus",
+      "predicate": "Located_in",
+      "object": "Hebei Province"
+    },
+    {
+      "subject": "Rhizopus arrhizus",
+      "predicate": "Affects",
+      "object": "ornamental plants"
+    },
+    {
+      "subject": "Rhizopus arrhizus",
+      "predicate": "Affects",
+      "object": "Allium sativum"
+    },
+    {
+      "subject": "garlic",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": "garlic",
+      "predicate": "Occurs_on",
+      "object": "2019"
+    },
+    {
+      "subject": "garlic",
+      "predicate": "Occurs_on",
+      "object": "in November 2021"
+    },
+    {
+      "subject": "soft rot",
+      "predicate": "Affects",
+      "object": "garlic"
+    },
+    {
+      "subject": "soft rot",
+      "predicate": "Located_in",
+      "object": "Hebei Province"
+    },
+    {
+      "subject": "soft rot",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": "soft rot",
+      "predicate": "Affects",
+      "object": "ornamental plants"
+    },
+    {
+      "subject": "soft rot",
+      "predicate": "Occurs_on",
+      "object": "2019"
+    },
+    {
+      "subject": "soft rot",
+      "predicate": "Occurs_on",
+      "object": "in November 2021"
+    },
+    {
+      "subject": "soft rot",
+      "predicate": "Affects",
+      "object": "garlic bulbs"
+    },
+    {
+      "subject": "soft rot",
+      "predicate": "Located_in",
+      "object": "Daming County"
+    },
+    {
+      "subject": "soft rot",
+      "predicate": "Located_in",
+      "object": "Handan City"
+    },
+    {
+      "subject": "soft rot",
+      "predicate": "Located_in",
+      "object": "Hebei Province of China"
+    },
+    {
+      "subject": "soft rot",
+      "predicate": "Affects",
+      "object": "cultivated"
+    },
+    {
+      "subject": "soft rot",
+      "predicate": "Affects",
+      "object": "Allium sativum"
+    },
+    {
+      "subject": "garlic bulbs",
+      "predicate": "Occurs_on",
+      "object": "in November 2021"
+    },
+    {
+      "subject": "garlic bulbs",
+      "predicate": "Located_in",
+      "object": "Daming County"
+    },
+    {
+      "subject": "garlic bulbs",
+      "predicate": "Located_in",
+      "object": "Handan City"
+    },
+    {
+      "subject": "suspected",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": "suspected",
+      "predicate": "Occurs_on",
+      "object": "in November 2021"
+    },
+    {
+      "subject": "suspected",
+      "predicate": "Found_on",
+      "object": "garlic bulbs"
+    },
+    {
+      "subject": "suspected",
+      "predicate": "Located_in",
+      "object": "Daming County"
+    },
+    {
+      "subject": "suspected",
+      "predicate": "Located_in",
+      "object": "Handan City"
+    },
+    {
+      "subject": "suspected",
+      "predicate": "Located_in",
+      "object": "Hebei Province of China"
+    },
+    {
+      "subject": "Rhizopus oryzae",
+      "predicate": "Affects",
+      "object": "garlic"
+    },
+    {
+      "subject": "Rhizopus oryzae",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": "Rhizopus oryzae",
+      "predicate": "Affects",
+      "object": "garlic bulbs"
+    },
+    {
+      "subject": "R. arrhizus",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": "R. arrhizus",
+      "predicate": "Found_on",
+      "object": "garlic bulbs"
+    },
+    {
+      "subject": "R. arrhizus",
+      "predicate": "Causes",
+      "object": "Rhizopus oryzae"
+    },
+    {
+      "subject": "R. arrhizus",
+      "predicate": "Found_on",
+      "object": "cassava tubers and"
+    },
+    {
+      "subject": "R. arrhizus",
+      "predicate": "Found_on",
+      "object": "potato tubers"
+    },
+    {
+      "subject": "R. arrhizus",
+      "predicate": "Causes",
+      "object": "soft rot on"
+    },
+    {
+      "subject": "R. arrhizus was",
+      "predicate": "Found_on",
+      "object": "garlic bulbs"
+    },
+    {
+      "subject": "soft rot on",
+      "predicate": "Affects",
+      "object": "garlic"
+    },
+    {
+      "subject": "soft rot on",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": "soft rot on",
+      "predicate": "Affects",
+      "object": "garlic bulbs"
+    },
+    {
+      "subject": "Garlic bulb rot",
+      "predicate": "Affects",
+      "object": "garlic bulbs"
+    },
+    {
+      "subject": "Garlic bulb rot",
+      "predicate": "Affects",
+      "object": "Allium sativum"
+    }
+  ],
+  "117299": [
+    {
+      "subject": "Cavendish",
+      "predicate": "Located_in",
+      "object": "Israel"
+    },
+    {
+      "subject": "Cavendish",
+      "predicate": "Located_in",
+      "object": "Philippines"
+    },
+    {
+      "subject": "banana",
+      "predicate": "Located_in",
+      "object": "Israel"
+    },
+    {
+      "subject": "banana",
+      "predicate": "Located_in",
+      "object": "Netherlands"
+    },
+    {
+      "subject": "banana",
+      "predicate": "Located_in",
+      "object": "Philippines"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Found_on",
+      "object": "Cavendish"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Found_on",
+      "object": "banana"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Located_in",
+      "object": "Israel"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Located_in",
+      "object": "Netherlands"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Located_in",
+      "object": "Philippines"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Found_on",
+      "object": "Cavendish banana"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Found_on",
+      "object": "banana variety"
+    },
+    {
+      "subject": "Cavendish banana",
+      "predicate": "Occurs_on",
+      "object": "at the beginning of 2024"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "Cavendish"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "banana"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Located_in",
+      "object": "Israel"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Located_in",
+      "object": "Netherlands"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Located_in",
+      "object": "Philippines"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "Cavendish banana"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Located_in",
+      "object": "Israeli"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Occurs_on",
+      "object": "at the beginning of 2024"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "banana sector"
+    },
+    {
+      "subject": "Fusarium Race 4 Tropical",
+      "predicate": "Found_on",
+      "object": "banana"
+    },
+    {
+      "subject": "Fusarium Race 4 Tropical",
+      "predicate": "Located_in",
+      "object": "Israel"
+    },
+    {
+      "subject": "Fusarium Race 4 Tropical",
+      "predicate": "Located_in",
+      "object": "Netherlands"
+    },
+    {
+      "subject": "Fusarium Race 4 Tropical",
+      "predicate": "Located_in",
+      "object": "Philippines"
+    },
+    {
+      "subject": "Fusarium Race 4 Tropical",
+      "predicate": "Found_on",
+      "object": "Cavendish banana"
+    },
+    {
+      "subject": "Fusarium Race 4 Tropical",
+      "predicate": "Causes",
+      "object": "Panama disease"
+    },
+    {
+      "subject": "Fusarium Race 4 Tropical",
+      "predicate": "Located_in",
+      "object": "Israeli"
+    },
+    {
+      "subject": "Foc",
+      "predicate": "Found_on",
+      "object": "banana"
+    },
+    {
+      "subject": "Foc",
+      "predicate": "Located_in",
+      "object": "Netherlands"
+    },
+    {
+      "subject": "Foc",
+      "predicate": "Located_in",
+      "object": "Philippines"
+    },
+    {
+      "subject": "Foc",
+      "predicate": "Found_on",
+      "object": "Cavendish banana"
+    },
+    {
+      "subject": "Foc",
+      "predicate": "Causes",
+      "object": "Panama disease"
+    },
+    {
+      "subject": "Foc",
+      "predicate": "Located_in",
+      "object": "Israeli"
+    },
+    {
+      "subject": "Foc",
+      "predicate": "Located_in",
+      "object": "Colombia"
+    },
+    {
+      "subject": "banana sector",
+      "predicate": "Occurs_on",
+      "object": "at the beginning of 2024"
+    },
+    {
+      "subject": "Fusarium",
+      "predicate": "Found_on",
+      "object": "Cavendish banana"
+    },
+    {
+      "subject": "Fusarium",
+      "predicate": "Found_on",
+      "object": "banana sector"
+    }
+  ],
+  "102488": [
+    {
+      "subject": "Citrus Greening Disease",
+      "predicate": "Located_in",
+      "object": "Brazil"
+    },
+    {
+      "subject": "Liberibacter",
+      "predicate": "Causes",
+      "object": "citrus greening"
+    },
+    {
+      "subject": "Liberibacter",
+      "predicate": "Causes",
+      "object": "Huanglongbing"
+    },
+    {
+      "subject": "citrus greening",
+      "predicate": "Affects",
+      "object": "citrus industry"
+    },
+    {
+      "subject": "L. capsicais",
+      "predicate": "Causes",
+      "object": "citrus greening"
+    },
+    {
+      "subject": "L. capsica",
+      "predicate": "Located_in",
+      "object": "Brazil"
+    },
+    {
+      "subject": "L. capsica",
+      "predicate": "Found_on",
+      "object": "pepper plant"
+    },
+    {
+      "subject": "Huanglongbing",
+      "predicate": "Affects",
+      "object": "citrus industry"
+    },
+    {
+      "subject": "small insects called",
+      "predicate": "Transmits",
+      "object": "Liberibacter"
+    },
+    {
+      "subject": "small insects called",
+      "predicate": "Transmits",
+      "object": "L. capsica"
+    },
+    {
+      "subject": "small insects called",
+      "predicate": "Transmits",
+      "object": "Liberibacter family"
+    },
+    {
+      "subject": "psyllids",
+      "predicate": "Transmits",
+      "object": "Liberibacter"
+    },
+    {
+      "subject": "psyllids",
+      "predicate": "Transmits",
+      "object": "L. capsica bacteria"
+    }
+  ],
+  "106959": [],
+  "98392": [
+    {
+      "subject": "ToBRFV",
+      "predicate": "Found_on",
+      "object": "covered fruit cultivation of"
+    },
+    {
+      "subject": "ToBRFV",
+      "predicate": "Found_on",
+      "object": "tomato"
+    },
+    {
+      "subject": "ToBRFV",
+      "predicate": "Found_on",
+      "object": "bell pepper and"
+    },
+    {
+      "subject": "ToBRFV",
+      "predicate": "Found_on",
+      "object": "Solanum lycopersicum"
+    },
+    {
+      "subject": "ToBRFV",
+      "predicate": "Found_on",
+      "object": "paprika and"
+    },
+    {
+      "subject": "ToBRFV",
+      "predicate": "Found_on",
+      "object": "chili pepper"
+    },
+    {
+      "subject": "ToBRFV",
+      "predicate": "Found_on",
+      "object": "Capsicum spp"
+    },
+    {
+      "subject": "Tomato brown rugose fruit virus",
+      "predicate": "Found_on",
+      "object": "covered fruit cultivation of"
+    },
+    {
+      "subject": "Tomato brown rugose fruit virus",
+      "predicate": "Found_on",
+      "object": "tomato"
+    },
+    {
+      "subject": "Tomato brown rugose fruit virus",
+      "predicate": "Found_on",
+      "object": "bell pepper and"
+    },
+    {
+      "subject": "Tomato brown rugose fruit virus",
+      "predicate": "Found_on",
+      "object": "Solanum lycopersicum"
+    },
+    {
+      "subject": "Tomato brown rugose fruit virus",
+      "predicate": "Found_on",
+      "object": "paprika and"
+    },
+    {
+      "subject": "Tomato brown rugose fruit virus",
+      "predicate": "Found_on",
+      "object": "chili pepper"
+    },
+    {
+      "subject": "Tomato brown rugose fruit virus",
+      "predicate": "Found_on",
+      "object": "Capsicum spp"
+    }
+  ],
+  "116671": [
+    {
+      "subject": "Citrus",
+      "predicate": "Occurs_on",
+      "object": "up to September"
+    },
+    {
+      "subject": "Phyllosticta citricarpa",
+      "predicate": "Located_in",
+      "object": "South Africa South Africa"
+    },
+    {
+      "subject": "Phyllosticta citricarpa",
+      "predicate": "Occurs_on",
+      "object": "in September"
+    },
+    {
+      "subject": "Phyllosticta citricarpa",
+      "predicate": "Dispersed_by",
+      "object": "orange exports from"
+    },
+    {
+      "subject": "Phyllosticta citricarpa",
+      "predicate": "Causes",
+      "object": "Citrus Black Spot disease"
+    },
+    {
+      "subject": "Citrus Black Spot disease",
+      "predicate": "Located_in",
+      "object": "South Africa South Africa"
+    },
+    {
+      "subject": "Citrus Black Spot disease",
+      "predicate": "Occurs_on",
+      "object": "in September"
+    },
+    {
+      "subject": "Citrus Black Spot disease",
+      "predicate": "Dispersed_by",
+      "object": "orange exports from"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "South Africa South Africa"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Mercosur or"
+    },
+    {
+      "subject": "Cotonet from South Africa",
+      "predicate": "Located_in",
+      "object": "Mercosur or"
+    }
+  ],
+  "105652": [
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Bari area"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Polignano a Mare"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "olive trees have"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Puglia"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "olive-growing"
+    },
+    {
+      "subject": "olive trees have",
+      "predicate": "Located_in",
+      "object": "Polignano a Mare"
+    }
+  ],
+  "106151": [
+    {
+      "subject": "fall armyworm",
+      "predicate": "Located_in",
+      "object": "Eastern hemisphere"
+    },
+    {
+      "subject": "fall armyworm",
+      "predicate": "Located_in",
+      "object": "Americas"
+    },
+    {
+      "subject": "fall armyworm",
+      "predicate": "Located_in",
+      "object": "African and"
+    },
+    {
+      "subject": "fall armyworm",
+      "predicate": "Located_in",
+      "object": "Asian countries"
+    },
+    {
+      "subject": "fall armyworm",
+      "predicate": "Occurs_on",
+      "object": "since 2016"
+    },
+    {
+      "subject": "fall armyworm",
+      "predicate": "Found_on",
+      "object": "agricultural crop species"
+    },
+    {
+      "subject": "fall armyworm",
+      "predicate": "Found_on",
+      "object": "corn"
+    },
+    {
+      "subject": "fall armyworm",
+      "predicate": "Found_on",
+      "object": "rice"
+    },
+    {
+      "subject": "FAW",
+      "predicate": "Located_in",
+      "object": "Eastern hemisphere"
+    },
+    {
+      "subject": "FAW",
+      "predicate": "Located_in",
+      "object": "Americas"
+    },
+    {
+      "subject": "FAW",
+      "predicate": "Located_in",
+      "object": "African and"
+    },
+    {
+      "subject": "FAW",
+      "predicate": "Located_in",
+      "object": "Asian countries"
+    },
+    {
+      "subject": "FAW",
+      "predicate": "Occurs_on",
+      "object": "since 2016"
+    },
+    {
+      "subject": "FAW",
+      "predicate": "Found_on",
+      "object": "agricultural crop species"
+    },
+    {
+      "subject": "FAW",
+      "predicate": "Found_on",
+      "object": "rice"
+    },
+    {
+      "subject": "FAW",
+      "predicate": "Located_in",
+      "object": "Africa"
+    },
+    {
+      "subject": "Spodoptera frugiperda, is",
+      "predicate": "Located_in",
+      "object": "Eastern hemisphere"
+    },
+    {
+      "subject": "Spodoptera frugiperda, is",
+      "predicate": "Located_in",
+      "object": "Americas"
+    },
+    {
+      "subject": "Spodoptera frugiperda, is",
+      "predicate": "Located_in",
+      "object": "African and"
+    },
+    {
+      "subject": "Spodoptera frugiperda, is",
+      "predicate": "Located_in",
+      "object": "Asian countries"
+    },
+    {
+      "subject": "Spodoptera frugiperda, is",
+      "predicate": "Found_on",
+      "object": "agricultural crop species"
+    }
+  ],
+  "104656": [
+    {
+      "subject": "Asian beetle",
+      "predicate": "Found_on",
+      "object": "Lucerne"
+    },
+    {
+      "subject": "longhorned beetle",
+      "predicate": "Found_on",
+      "object": "Lucerne"
+    },
+    {
+      "subject": "longhorned beetle",
+      "predicate": "Located_in",
+      "object": "Central Switzerland Canton Lucerne"
+    },
+    {
+      "subject": "Asian long-horned beetles",
+      "predicate": "Located_in",
+      "object": "Canton of Lucerne"
+    },
+    {
+      "subject": "Asian long-horned beetles",
+      "predicate": "Located_in",
+      "object": "canton"
+    },
+    {
+      "subject": "ALB",
+      "predicate": "Located_in",
+      "object": "Canton of Lucerne"
+    },
+    {
+      "subject": "off",
+      "predicate": "Found_on",
+      "object": "healthy"
+    },
+    {
+      "subject": "off",
+      "predicate": "Found_on",
+      "object": "deciduous trees such as"
+    },
+    {
+      "subject": "off",
+      "predicate": "Found_on",
+      "object": "maple"
+    },
+    {
+      "subject": "off",
+      "predicate": "Found_on",
+      "object": "birch"
+    },
+    {
+      "subject": "off",
+      "predicate": "Found_on",
+      "object": "hardwood species"
+    },
+    {
+      "subject": "off",
+      "predicate": "Found_on",
+      "object": "fruit trees"
+    }
+  ],
+  "115106": [
+    {
+      "subject": "Canker stain",
+      "predicate": "Affects",
+      "object": "plane trees"
+    },
+    {
+      "subject": "Canker stain",
+      "predicate": "Located_in",
+      "object": "France"
+    },
+    {
+      "subject": "Canker stain",
+      "predicate": "Occurs_on",
+      "object": "in the 1940s"
+    },
+    {
+      "subject": "plane trees",
+      "predicate": "Located_in",
+      "object": "France"
+    },
+    {
+      "subject": "Colored canker",
+      "predicate": "Affects",
+      "object": "plane trees"
+    },
+    {
+      "subject": "Colored canker",
+      "predicate": "Occurs_on",
+      "object": "in the 1940s"
+    },
+    {
+      "subject": "Ceratocystis platani",
+      "predicate": "Affects",
+      "object": "plane trees"
+    },
+    {
+      "subject": "Ceratocystis platani",
+      "predicate": "Dispersed_by",
+      "object": "wooden packaging carried by"
+    },
+    {
+      "subject": "Turkey",
+      "predicate": "Located_in",
+      "object": "France"
+    },
+    {
+      "subject": "Turkey",
+      "predicate": "Located_in",
+      "object": "Italy"
+    },
+    {
+      "subject": "Turkey",
+      "predicate": "Located_in",
+      "object": "Europe"
+    },
+    {
+      "subject": "Turkey",
+      "predicate": "Located_in",
+      "object": "Greece"
+    },
+    {
+      "subject": "Turkey",
+      "predicate": "Located_in",
+      "object": "Switzerland"
+    },
+    {
+      "subject": "Turkey",
+      "predicate": "Located_in",
+      "object": "Albania and"
+    },
+    {
+      "subject": "Turkey",
+      "predicate": "Located_in",
+      "object": "French regions are"
+    },
+    {
+      "subject": "Turkey",
+      "predicate": "Located_in",
+      "object": "Provence-Alpes-Côte d'Azur"
+    },
+    {
+      "subject": "Turkey",
+      "predicate": "Located_in",
+      "object": "Occitanie"
+    },
+    {
+      "subject": "Turkey",
+      "predicate": "Located_in",
+      "object": "Auvergne-Rhône-Alpes"
+    }
+  ],
+  "99614": [],
+  "117298": [
+    {
+      "subject": "bananas",
+      "predicate": "Occurs_on",
+      "object": "In the 1950s"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "banana plants"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Occurs_on",
+      "object": "In the 1950s"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "bananas supply"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "Cavendish variety bananas"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "Cavendish bananas"
+    },
+    {
+      "subject": "Panama disease-causing",
+      "predicate": "Affects",
+      "object": "bananas"
+    },
+    {
+      "subject": "Panama disease-causing",
+      "predicate": "Affects",
+      "object": "banana plants"
+    },
+    {
+      "subject": "Fusarium oxysporum f. sp. cubense",
+      "predicate": "Found_on",
+      "object": "bananas"
+    },
+    {
+      "subject": "Fusarium oxysporum f. sp. cubense",
+      "predicate": "Causes",
+      "object": "Panama disease"
+    },
+    {
+      "subject": "Fusarium oxysporum f. sp. cubense",
+      "predicate": "Found_on",
+      "object": "banana plants"
+    },
+    {
+      "subject": "Fusarium oxysporum f. sp. cubense",
+      "predicate": "Causes",
+      "object": "Panama disease-causing"
+    },
+    {
+      "subject": "Fusarium oxysporum cubense Race 1",
+      "predicate": "Found_on",
+      "object": "bananas"
+    },
+    {
+      "subject": "Fusarium oxysporum cubense Race 1",
+      "predicate": "Causes",
+      "object": "Panama disease"
+    },
+    {
+      "subject": "Fusarium oxysporum cubense Race 1",
+      "predicate": "Occurs_on",
+      "object": "In the 1950s"
+    },
+    {
+      "subject": "Fusarium oxysporum cubense Race 1",
+      "predicate": "Found_on",
+      "object": "Cavendish variety bananas"
+    },
+    {
+      "subject": "Cavendish variety bananas",
+      "predicate": "Occurs_on",
+      "object": "In the 1950s"
+    },
+    {
+      "subject": "Tropical Race 4",
+      "predicate": "Found_on",
+      "object": "bananas"
+    },
+    {
+      "subject": "Tropical Race 4",
+      "predicate": "Causes",
+      "object": "Panama disease"
+    },
+    {
+      "subject": "Tropical Race 4",
+      "predicate": "Found_on",
+      "object": "Cavendish variety bananas"
+    },
+    {
+      "subject": "Tropical Race 4",
+      "predicate": "Found_on",
+      "object": "Cavendish banana plantations"
+    },
+    {
+      "subject": "Tropical Race 4",
+      "predicate": "Found_on",
+      "object": "Cavendish bananas"
+    },
+    {
+      "subject": "off",
+      "predicate": "Causes",
+      "object": "Panama disease"
+    },
+    {
+      "subject": "Fusarium oxysporum f. sp. cubense Tropical Race 4",
+      "predicate": "Affects",
+      "object": "bananas"
+    }
+  ],
+  "115183": [
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Puglia"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "olive trees"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Occurs_on",
+      "object": "OCTOBER 06"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "province of Bari"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Fasano"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Martina Franca and"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Locorotondo"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Polignano"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Apulian"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "olive growing"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "Puglia"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Occurs_on",
+      "object": "OCTOBER 06"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "province of Bari"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "Fasano"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "Martina Franca and"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "Locorotondo"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "Polignano"
+    },
+    {
+      "subject": "olive trees",
+      "predicate": "Located_in",
+      "object": "Apulian"
+    },
+    {
+      "subject": "olive growing",
+      "predicate": "Located_in",
+      "object": "Apulian"
+    }
+  ],
+  "105862": [
+    {
+      "subject": "greening",
+      "predicate": "Located_in",
+      "object": "Laranja/Fundecitrus"
+    },
+    {
+      "subject": "greening",
+      "predicate": "Occurs_on",
+      "object": "in 2021"
+    },
+    {
+      "subject": "greening",
+      "predicate": "Located_in",
+      "object": "regions of"
+    },
+    {
+      "subject": "greening",
+      "predicate": "Located_in",
+      "object": "Brotas"
+    },
+    {
+      "subject": "greening",
+      "predicate": "Located_in",
+      "object": "Limeira and"
+    },
+    {
+      "subject": "greening",
+      "predicate": "Located_in",
+      "object": "Porto Ferreira"
+    },
+    {
+      "subject": "greening disease",
+      "predicate": "Located_in",
+      "object": "Laranja/Fundecitrus"
+    },
+    {
+      "subject": "greening disease",
+      "predicate": "Affects",
+      "object": "orange groves"
+    },
+    {
+      "subject": "greening disease",
+      "predicate": "Occurs_on",
+      "object": "in 2021"
+    },
+    {
+      "subject": "greening disease",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "huanglongbing",
+      "predicate": "Located_in",
+      "object": "Laranja/Fundecitrus"
+    },
+    {
+      "subject": "huanglongbing",
+      "predicate": "Affects",
+      "object": "orange groves"
+    },
+    {
+      "subject": "huanglongbing",
+      "predicate": "Occurs_on",
+      "object": "in 2021"
+    },
+    {
+      "subject": "huanglongbing",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Laranja/Fundecitrus"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Affects",
+      "object": "orange groves"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Occurs_on",
+      "object": "in 2021"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "belt of"
+    },
+    {
+      "subject": "orange groves",
+      "predicate": "Occurs_on",
+      "object": "in 2021"
+    },
+    {
+      "subject": "citrus",
+      "predicate": "Occurs_on",
+      "object": "in 2021"
+    },
+    {
+      "subject": "citrus",
+      "predicate": "Located_in",
+      "object": "belt of"
+    },
+    {
+      "subject": "citrus",
+      "predicate": "Located_in",
+      "object": "São Paulo and"
+    },
+    {
+      "subject": "Candidatus Liberibacter spp",
+      "predicate": "Causes",
+      "object": "greening"
+    },
+    {
+      "subject": "orchards",
+      "predicate": "Occurs_on",
+      "object": "in 2020"
+    },
+    {
+      "subject": "Fundecitrus",
+      "predicate": "Occurs_on",
+      "object": "in 2022"
+    },
+    {
+      "subject": "citrus industry",
+      "predicate": "Occurs_on",
+      "object": "in 2022"
+    }
+  ],
+  "102904": [
+    {
+      "subject": "Candidatus Liberibacter asiaticus",
+      "predicate": "Causes",
+      "object": "Huanglongbing"
+    },
+    {
+      "subject": "Candidatus Liberibacter asiaticus",
+      "predicate": "Found_on",
+      "object": "citrus"
+    },
+    {
+      "subject": "Candidatus Liberibacter asiaticus",
+      "predicate": "Causes",
+      "object": "HLB"
+    },
+    {
+      "subject": "Candidatus Liberibacter asiaticus",
+      "predicate": "Found_on",
+      "object": "citrus species"
+    },
+    {
+      "subject": "Huanglongbing",
+      "predicate": "Affects",
+      "object": "Sweet Orange"
+    },
+    {
+      "subject": "Huanglongbing",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "Huanglongbing",
+      "predicate": "Affects",
+      "object": "citrus species"
+    },
+    {
+      "subject": "Huanglongbing",
+      "predicate": "Affects",
+      "object": "Citrus× sinensis(L.) Osbeck"
+    },
+    {
+      "subject": "HLB or",
+      "predicate": "Affects",
+      "object": "Sweet Orange"
+    },
+    {
+      "subject": "HLB or",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "HLB or",
+      "predicate": "Affects",
+      "object": "citrus species"
+    },
+    {
+      "subject": "greening",
+      "predicate": "Affects",
+      "object": "Sweet Orange"
+    },
+    {
+      "subject": "greening",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "greening",
+      "predicate": "Affects",
+      "object": "citrus species"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Affects",
+      "object": "Sweet Orange"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Affects",
+      "object": "citrus species"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Affects",
+      "object": "Citrus× sinensis(L.) Osbeck"
+    },
+    {
+      "subject": "CLas",
+      "predicate": "Causes",
+      "object": "Huanglongbing"
+    },
+    {
+      "subject": "CLas",
+      "predicate": "Causes",
+      "object": "HLB or"
+    },
+    {
+      "subject": "CLas",
+      "predicate": "Causes",
+      "object": "greening"
+    },
+    {
+      "subject": "CLas",
+      "predicate": "Found_on",
+      "object": "citrus"
+    },
+    {
+      "subject": "CLas",
+      "predicate": "Found_on",
+      "object": "citrus species"
+    },
+    {
+      "subject": "Sarcophaga peregrina",
+      "predicate": "Transmits",
+      "object": "CLas"
+    },
+    {
+      "subject": "Sarcophaga peregrina",
+      "predicate": "Transmits",
+      "object": "flesh fly"
+    },
+    {
+      "subject": "Sarcotoxin IA Gene",
+      "predicate": "Found_on",
+      "object": "Sweet Orange"
+    },
+    {
+      "subject": "Sarcotoxin IA Gene",
+      "predicate": "Causes",
+      "object": "HLB"
+    }
+  ],
+  "116223": [
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Veracruz"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Mexican Republic"
+    },
+    {
+      "subject": "Huanglongbing",
+      "predicate": "Dispersed_by",
+      "object": "plant sold in"
+    }
+  ],
+  "99107": [
+    {
+      "subject": "Tamarixia dryi",
+      "predicate": "Located_in",
+      "object": "Cantabria"
+    },
+    {
+      "subject": "Tamarixia dryi",
+      "predicate": "Located_in",
+      "object": "EUROPE"
+    },
+    {
+      "subject": "Tamarixia dryi",
+      "predicate": "Located_in",
+      "object": "Government of"
+    },
+    {
+      "subject": "African Psila",
+      "predicate": "Occurs_on",
+      "object": "in 2014"
+    },
+    {
+      "subject": "Huanglongbing",
+      "predicate": "Located_in",
+      "object": "Cantabria"
+    },
+    {
+      "subject": "Huanglongbing",
+      "predicate": "Located_in",
+      "object": "Canary Islands"
+    },
+    {
+      "subject": "Huanglongbing",
+      "predicate": "Occurs_on",
+      "object": "in 2002"
+    },
+    {
+      "subject": "Huanglongbing",
+      "predicate": "Occurs_on",
+      "object": "in 2014"
+    },
+    {
+      "subject": "HLB) or",
+      "predicate": "Occurs_on",
+      "object": "in 2002"
+    },
+    {
+      "subject": "greening",
+      "predicate": "Located_in",
+      "object": "Cantabria"
+    },
+    {
+      "subject": "greening",
+      "predicate": "Occurs_on",
+      "object": "in 2002"
+    },
+    {
+      "subject": "greening",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "citrus",
+      "predicate": "Located_in",
+      "object": "Cantabria"
+    },
+    {
+      "subject": "citrus",
+      "predicate": "Occurs_on",
+      "object": "in 2002"
+    }
+  ],
+  "98579": [
+    {
+      "subject": "Popillia japonica",
+      "predicate": "Occurs_on",
+      "object": "in 2014"
+    },
+    {
+      "subject": "Popillia japonica",
+      "predicate": "Located_in",
+      "object": "Piedmont Region and that of the"
+    },
+    {
+      "subject": "Popillia japonica",
+      "predicate": "Located_in",
+      "object": "Lombardy Region"
+    },
+    {
+      "subject": "Popillia japonica",
+      "predicate": "Located_in",
+      "object": "territory of both regions"
+    }
+  ],
+  "117674": [
+    {
+      "subject": "HLB",
+      "predicate": "Occurs_on",
+      "object": "2022"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Occurs_on",
+      "object": "August 30, 2022 of"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "National Territory"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Occurs_on",
+      "object": "of August 22, 2016 of"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Argentina"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Protected Area in the geographical area of the Provinces of JUJUY"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "TUCUMÁN and"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "CATAMARCA"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Argentine Northeast region"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "of the provinces of ENTRE RÍOS"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "CORRIENTES"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "FORMOSA"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "SANTIAGO DEL ESTERO"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "JUJUY and"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "SANTA FE"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Located_in",
+      "object": "Leales Department of the Province of TUCUMÁN"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Occurs_on",
+      "object": "during March 2022"
+    },
+    {
+      "subject": "Diaphorina citri",
+      "predicate": "Occurs_on",
+      "object": "August 30, 2022 of"
+    },
+    {
+      "subject": "Diaphorina citri. Kuwayama",
+      "predicate": "Found_on",
+      "object": "citrus"
+    },
+    {
+      "subject": "plague",
+      "predicate": "Occurs_on",
+      "object": "2022"
+    },
+    {
+      "subject": "plague",
+      "predicate": "Occurs_on",
+      "object": "August 30, 2022 of"
+    },
+    {
+      "subject": "plague",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "plague",
+      "predicate": "Located_in",
+      "object": "Leales Department of the Province of TUCUMÁN"
+    },
+    {
+      "subject": "plague",
+      "predicate": "Occurs_on",
+      "object": "during March 2022"
+    },
+    {
+      "subject": "plague",
+      "predicate": "Located_in",
+      "object": "throughout the aforementioned province"
+    },
+    {
+      "subject": "plague",
+      "predicate": "Located_in",
+      "object": "in the Town of Villa de Medinas"
+    }
+  ],
+  "114379": [
+    {
+      "subject": "citrus fruit",
+      "predicate": "Located_in",
+      "object": "Porto Metropolitan Area"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "Porto Metropolitan Area"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Found_on",
+      "object": "citrus"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "Portugal"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "municipalities of"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "Vila Nova de Gaia"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "Santa Maria da Feira"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "Porto and"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "Espinho"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Located_in",
+      "object": "metropolitan area of Porto"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Found_on",
+      "object": "olive"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "predicate": "Found_on",
+      "object": "almond"
+    },
+    {
+      "subject": "citrus",
+      "predicate": "Located_in",
+      "object": "Porto Metropolitan Area"
+    },
+    {
+      "subject": "citrus",
+      "predicate": "Located_in",
+      "object": "Portugal"
+    },
+    {
+      "subject": "potential vector insects",
+      "predicate": "Transmits",
+      "object": "Xylella Fastidiosa"
+    },
+    {
+      "subject": "Philaenus spumarius",
+      "predicate": "Transmits",
+      "object": "Xylella Fastidiosa"
+    },
+    {
+      "subject": "The",
+      "predicate": "Found_on",
+      "object": "ornamental plant species and"
+    },
+    {
+      "subject": "The",
+      "predicate": "Found_on",
+      "object": "olive"
+    }
+  ],
+  "103660": [
+    {
+      "subject": "Spodoptera frugiperda",
+      "predicate": "Located_in",
+      "object": "western China"
+    },
+    {
+      "subject": "Spodoptera frugiperda",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": "Spodoptera frugiperda (J. E. Smith",
+      "predicate": "Located_in",
+      "object": "western China"
+    },
+    {
+      "subject": "S. frugiperda",
+      "predicate": "Located_in",
+      "object": "China"
+    },
+    {
+      "subject": "S. frugiperda",
+      "predicate": "Located_in",
+      "object": "western Gansu"
+    },
+    {
+      "subject": "S. frugiperda",
+      "predicate": "Located_in",
+      "object": "eastern Qinghai"
+    },
+    {
+      "subject": "S. frugiperda",
+      "predicate": "Located_in",
+      "object": "Shaanxi"
+    },
+    {
+      "subject": "S. frugiperda",
+      "predicate": "Located_in",
+      "object": "most regions of"
+    },
+    {
+      "subject": "S. frugiperda",
+      "predicate": "Located_in",
+      "object": "Ningxia, and"
+    },
+    {
+      "subject": "S. frugiperda",
+      "predicate": "Found_on",
+      "object": "wheat and"
+    }
+  ],
+  "98195": [
+    {
+      "subject": "Candidatus Liberibacter",
+      "predicate": "Found_on",
+      "object": "citrus"
+    },
+    {
+      "subject": "Huanglongbing",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "HLB",
+      "predicate": "Affects",
+      "object": "citrus"
+    },
+    {
+      "subject": "yellow dragon",
+      "predicate": "Affects",
+      "object": "citrus"
+    }
+  ],
+  "115243": [
+    {
+      "subject": "xylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "MESSINIA PROVINCE OF HYPAAT"
+    },
+    {
+      "subject": "xylella fastidiosa",
+      "predicate": "Occurs_on",
+      "object": "2022"
+    },
+    {
+      "subject": "harmful quarantine bacterium",
+      "predicate": "Located_in",
+      "object": "MESSINIA PROVINCE OF HYPAAT"
+    },
+    {
+      "subject": "xylella fastidiosa subsp. fastidiosa the ST2 pathotype",
+      "predicate": "Found_on",
+      "object": "Elaeagnus angustifolia plants"
+    },
+    {
+      "subject": "Pierce's disease in",
+      "predicate": "Affects",
+      "object": "grapevines"
+    },
+    {
+      "subject": "Pierce's disease in",
+      "predicate": "Occurs_on",
+      "object": "in June"
+    },
+    {
+      "subject": "xylella fastidiosa subsp. multiplex",
+      "predicate": "Causes",
+      "object": "Pierce's disease in"
+    },
+    {
+      "subject": "xylella fastidiosa subsp. multiplex",
+      "predicate": "Found_on",
+      "object": "grapevines"
+    },
+    {
+      "subject": "xylella fastidiosa subsp. multiplex",
+      "predicate": "Found_on",
+      "object": "Citrus sinensis plants"
+    },
+    {
+      "subject": "harmful organism",
+      "predicate": "Occurs_on",
+      "object": "2022"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Occurs_on",
+      "object": "2022"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "the"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "olive"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "many"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "cultivated tree species such as"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "almond tree"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "grape"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "oleander"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "sycamore"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "myrtles"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "milkweed"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "coffee"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "acacia"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "alfalfa and"
+    },
+    {
+      "subject": "many",
+      "predicate": "Occurs_on",
+      "object": "2022"
+    },
+    {
+      "subject": "cultivated tree species such as",
+      "predicate": "Occurs_on",
+      "object": "2022"
+    }
+  ],
+  "115211": [
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "olive trees"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Salento area"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "other provinces of Puglia"
+    }
+  ],
+  "106336": [
+    {
+      "subject": "Fusarium Race 4 Tropical",
+      "predicate": "Located_in",
+      "object": "Tumbes region"
+    },
+    {
+      "subject": "Fusarium Race 4 Tropical",
+      "predicate": "Causes",
+      "object": "plague"
+    },
+    {
+      "subject": "Fusarium Race 4 Tropical",
+      "predicate": "Located_in",
+      "object": "Sullana - Piura"
+    },
+    {
+      "subject": "Foc",
+      "predicate": "Located_in",
+      "object": "Tumbes region"
+    },
+    {
+      "subject": "Fusarium R4T",
+      "predicate": "Located_in",
+      "object": "countries of the Andean Community\", of which"
+    },
+    {
+      "subject": "plague",
+      "predicate": "Affects",
+      "object": "banana and"
+    },
+    {
+      "subject": "plague",
+      "predicate": "Located_in",
+      "object": "Sullana - Piura"
+    },
+    {
+      "subject": "plague",
+      "predicate": "Affects",
+      "object": "banana"
+    }
+  ],
+  "99132": [
+    {
+      "subject": "Popillia",
+      "predicate": "Found_on",
+      "object": "vineyards"
+    },
+    {
+      "subject": "Popillia",
+      "predicate": "Located_in",
+      "object": "Novara area"
+    },
+    {
+      "subject": "vineyards",
+      "predicate": "Located_in",
+      "object": "Novara area"
+    },
+    {
+      "subject": "Popillia attacks",
+      "predicate": "Found_on",
+      "object": "vineyards"
+    },
+    {
+      "subject": "Popillia attacks",
+      "predicate": "Located_in",
+      "object": "Novara area"
+    }
+  ],
+  "103847": [
+    {
+      "subject": "Xylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "demarcated zone of Tavira"
+    }
+  ],
+  "116664": [
+    {
+      "subject": "citrus",
+      "predicate": "Located_in",
+      "object": "Valencian Community"
+    },
+    {
+      "subject": "citrus",
+      "predicate": "Located_in",
+      "object": "European Union"
+    },
+    {
+      "subject": "citrus",
+      "predicate": "Occurs_on",
+      "object": "up to September"
+    },
+    {
+      "subject": "Phyllosticta citricarpa",
+      "predicate": "Located_in",
+      "object": "South Africa\nSouth Africa"
+    },
+    {
+      "subject": "Phyllosticta citricarpa",
+      "predicate": "Occurs_on",
+      "object": "in September"
+    },
+    {
+      "subject": "Phyllosticta citricarpa",
+      "predicate": "Dispersed_by",
+      "object": "exports of oranges from"
+    },
+    {
+      "subject": "Phyllosticta citricarpa",
+      "predicate": "Causes",
+      "object": "Citrus Black Spot disease"
+    },
+    {
+      "subject": "Citrus Black Spot disease",
+      "predicate": "Located_in",
+      "object": "South Africa\nSouth Africa"
+    },
+    {
+      "subject": "Citrus Black Spot disease",
+      "predicate": "Occurs_on",
+      "object": "in September"
+    },
+    {
+      "subject": "Citrus Black Spot disease",
+      "predicate": "Dispersed_by",
+      "object": "exports of oranges from"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "South Africa\nSouth Africa"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Mercosur"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "European"
+    },
+    {
+      "subject": "cotonet from South Africa",
+      "predicate": "Located_in",
+      "object": "European"
+    },
+    {
+      "subject": "omicron",
+      "predicate": "Located_in",
+      "object": "CataloniaHyperesthesia"
+    },
+    {
+      "subject": "XE variant",
+      "predicate": "Located_in",
+      "object": "CataloniaHyperesthesia"
+    }
+  ],
+  "104499": [
+    {
+      "subject": "Pinewood Nematode",
+      "predicate": "Found_on",
+      "object": "pine trees"
+    },
+    {
+      "subject": "Pinewood Nematode",
+      "predicate": "Causes",
+      "object": "PWD"
+    },
+    {
+      "subject": "Pinewood Nematode",
+      "predicate": "Found_on",
+      "object": "pine species"
+    },
+    {
+      "subject": "Bursaphelenchus xylophilus",
+      "predicate": "Causes",
+      "object": "PWD"
+    },
+    {
+      "subject": "Bursaphelenchus xylophilus",
+      "predicate": "Found_on",
+      "object": "pines"
+    },
+    {
+      "subject": "PWN",
+      "predicate": "Found_on",
+      "object": "pine trees"
+    },
+    {
+      "subject": "PWN",
+      "predicate": "Causes",
+      "object": "PWD"
+    },
+    {
+      "subject": "PWN",
+      "predicate": "Found_on",
+      "object": "pine species"
+    },
+    {
+      "subject": "PWN",
+      "predicate": "Found_on",
+      "object": "pines"
+    },
+    {
+      "subject": "Bursaphelenchus xylophilus, is",
+      "predicate": "Found_on",
+      "object": "pine trees"
+    },
+    {
+      "subject": "Bursaphelenchus xylophilus, is",
+      "predicate": "Causes",
+      "object": "PWD"
+    },
+    {
+      "subject": "Bursaphelenchus xylophilus, is",
+      "predicate": "Found_on",
+      "object": "pine species"
+    },
+    {
+      "subject": "PWD",
+      "predicate": "Affects",
+      "object": "pine trees"
+    },
+    {
+      "subject": "PWD",
+      "predicate": "Affects",
+      "object": "pine species"
+    }
+  ],
+  "116761": [
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "bananas"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "banana production is"
+    },
+    {
+      "subject": "Fusarium oxysporum f. sp. cubense Tropical Race 4",
+      "predicate": "Affects",
+      "object": "bananas"
+    },
+    {
+      "subject": "Fusarium oxysporum f. sp. cubense Tropical Race 4",
+      "predicate": "Affects",
+      "object": "banana production is"
+    },
+    {
+      "subject": "Fusarium oxysporum f.sp. cubense Tropical Race 4",
+      "predicate": "Found_on",
+      "object": "bananas"
+    },
+    {
+      "subject": "Fusarium oxysporum f.sp. cubense Tropical Race 4",
+      "predicate": "Causes",
+      "object": "Panama disease"
+    },
+    {
+      "subject": "Fusarium oxysporum f.sp. cubense Tropical Race 4",
+      "predicate": "Found_on",
+      "object": "banana production is"
+    },
+    {
+      "subject": "FocTR4",
+      "predicate": "Found_on",
+      "object": "bananas"
+    },
+    {
+      "subject": "FocTR4",
+      "predicate": "Causes",
+      "object": "Fusarium oxysporum f. sp. cubense Tropical Race 4"
+    },
+    {
+      "subject": "FocTR4",
+      "predicate": "Found_on",
+      "object": "banana production is"
+    }
+  ],
+  "103669": [],
+  "104329": [
+    {
+      "subject": "Tomato brown rugose fruit virus",
+      "predicate": "Located_in",
+      "object": "Finland"
+    },
+    {
+      "subject": "Tomato brown rugose fruit virus",
+      "predicate": "Occurs_on",
+      "object": "for the first time"
+    },
+    {
+      "subject": "Tomato brown rugose fruit virus",
+      "predicate": "Located_in",
+      "object": "Finnish"
+    },
+    {
+      "subject": "Tomato brown rugose fruit virus",
+      "predicate": "Found_on",
+      "object": "peppers"
+    },
+    {
+      "subject": "ToBRFV",
+      "predicate": "Located_in",
+      "object": "Finland"
+    },
+    {
+      "subject": "ToBRFV",
+      "predicate": "Occurs_on",
+      "object": "for the first time"
+    },
+    {
+      "subject": "ToBRFV",
+      "predicate": "Located_in",
+      "object": "Finnish"
+    },
+    {
+      "subject": "ToBRFV",
+      "predicate": "Found_on",
+      "object": "Tomatoes"
+    },
+    {
+      "subject": "ToBRFV",
+      "predicate": "Found_on",
+      "object": "peppers"
+    },
+    {
+      "subject": "The",
+      "predicate": "Located_in",
+      "object": "Finland"
+    },
+    {
+      "subject": "The",
+      "predicate": "Occurs_on",
+      "object": "for the first time"
+    },
+    {
+      "subject": "The",
+      "predicate": "Located_in",
+      "object": "Finnish"
+    },
+    {
+      "subject": "The",
+      "predicate": "Occurs_on",
+      "object": "in August 2022"
+    },
+    {
+      "subject": "The",
+      "predicate": "Found_on",
+      "object": "Tomatoes"
+    },
+    {
+      "subject": "The",
+      "predicate": "Found_on",
+      "object": "peppers"
+    },
+    {
+      "subject": "quarantine pest",
+      "predicate": "Located_in",
+      "object": "Finland"
+    },
+    {
+      "subject": "quarantine pest",
+      "predicate": "Located_in",
+      "object": "Finnish"
+    },
+    {
+      "subject": "ToBRFV virus",
+      "predicate": "Located_in",
+      "object": "Finland"
+    },
+    {
+      "subject": "ToBRFV virus",
+      "predicate": "Located_in",
+      "object": "Finnish"
+    },
+    {
+      "subject": "ToBRFV virus",
+      "predicate": "Found_on",
+      "object": "Tomatoes"
+    },
+    {
+      "subject": "ToBRFV virus",
+      "predicate": "Found_on",
+      "object": "peppers"
+    }
+  ],
+  "104119": [],
+  "116125": [
+    {
+      "subject": "oriental fruit fly",
+      "predicate": "Located_in",
+      "object": "Florida County"
+    },
+    {
+      "subject": "oriental fruit fly",
+      "predicate": "Found_on",
+      "object": "Citrus Industry"
+    },
+    {
+      "subject": "oriental fruit fly",
+      "predicate": "Located_in",
+      "object": "Florida"
+    },
+    {
+      "subject": "oriental fruit fly",
+      "predicate": "Located_in",
+      "object": "Pinellas County"
+    },
+    {
+      "subject": "Bactrocera",
+      "predicate": "Located_in",
+      "object": "Florida County"
+    },
+    {
+      "subject": "Bactrocera",
+      "predicate": "Found_on",
+      "object": "Citrus Industry"
+    },
+    {
+      "subject": "Bactrocera",
+      "predicate": "Located_in",
+      "object": "Florida"
+    },
+    {
+      "subject": "the",
+      "predicate": "Found_on",
+      "object": "Citrus Industry"
+    },
+    {
+      "subject": "the",
+      "predicate": "Located_in",
+      "object": "Pinellas County"
+    },
+    {
+      "subject": "the",
+      "predicate": "Occurs_on",
+      "object": "In June"
+    },
+    {
+      "subject": "Bactrocera dorsalis",
+      "predicate": "Found_on",
+      "object": "Citrus Industry"
+    },
+    {
+      "subject": "Bactrocera dorsalis",
+      "predicate": "Located_in",
+      "object": "Florida"
+    },
+    {
+      "subject": "Bactrocera dorsalis",
+      "predicate": "Located_in",
+      "object": "Pinellas County"
+    },
+    {
+      "subject": "Oriental fruit fly has",
+      "predicate": "Located_in",
+      "object": "Florida"
+    },
+    {
+      "subject": "This species is",
+      "predicate": "Located_in",
+      "object": "Florida"
+    },
+    {
+      "subject": "fruit fly pests",
+      "predicate": "Located_in",
+      "object": "Florida"
+    }
+  ],
+  "99984": [
+    {
+      "subject": "Popillia japonica",
+      "predicate": "Located_in",
+      "object": "Piedmont"
+    },
+    {
+      "subject": "Popillia japonica",
+      "predicate": "Found_on",
+      "object": "hazelnuts"
+    }
+  ],
+  "116507": [
+    {
+      "subject": "X. fastidiosa",
+      "predicate": "Occurs_on",
+      "object": "up to the year 2100"
+    }
+  ],
+  "107272": [
+    {
+      "subject": "banana disease",
+      "predicate": "Located_in",
+      "object": "Africa"
+    },
+    {
+      "subject": "banana disease",
+      "predicate": "Affects",
+      "object": "banana"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Causes",
+      "object": "Fusarium wilt"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Located_in",
+      "object": "Mozambique"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Found_on",
+      "object": "Cavendish banana"
+    },
+    {
+      "subject": "TR4",
+      "predicate": "Found_on",
+      "object": "banana varieties"
+    },
+    {
+      "subject": "Fusarium wilt",
+      "predicate": "Affects",
+      "object": "banana"
+    },
+    {
+      "subject": "TR4 fungus",
+      "predicate": "Located_in",
+      "object": "Africa"
+    },
+    {
+      "subject": "TR4 fungus",
+      "predicate": "Located_in",
+      "object": "Mozambique"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "banana growers"
+    },
+    {
+      "subject": "Panama disease",
+      "predicate": "Affects",
+      "object": "Cavendish banana"
+    },
+    {
+      "subject": "Fusarium wilt of banana",
+      "predicate": "Affects",
+      "object": "banana"
+    }
+  ],
+  "98191": [],
+  "99613": [
+    {
+      "subject": "P. spumarius",
+      "predicate": "Transmits",
+      "object": "Philaenus spumarius"
+    },
+    {
+      "subject": "P. spumarius",
+      "predicate": "Transmits",
+      "object": "fastidiosa"
+    }
+  ],
+  "107207": [
+    {
+      "subject": "Xylella fastidiosa infections",
+      "predicate": "Found_on",
+      "object": "olive"
+    },
+    {
+      "subject": "Xylella fastidiosa infections",
+      "predicate": "Causes",
+      "object": "Olive quick decline syndrome"
+    },
+    {
+      "subject": "Xylella fastidiosa infections",
+      "predicate": "Causes",
+      "object": "Xylella fastidiosa subsp. pauca"
+    },
+    {
+      "subject": "Olive quick decline syndrome",
+      "predicate": "Affects",
+      "object": "olive"
+    },
+    {
+      "subject": "Olive quick decline syndrome",
+      "predicate": "Located_in",
+      "object": "Italy"
+    },
+    {
+      "subject": "Olive quick decline syndrome",
+      "predicate": "Occurs_on",
+      "object": "in late 2013"
+    },
+    {
+      "subject": "Olive quick decline syndrome",
+      "predicate": "Affects",
+      "object": "susceptible"
+    },
+    {
+      "subject": "strains of",
+      "predicate": "Found_on",
+      "object": "olive"
+    },
+    {
+      "subject": "strains of",
+      "predicate": "Causes",
+      "object": "Olive quick decline syndrome"
+    },
+    {
+      "subject": "strains of",
+      "predicate": "Causes",
+      "object": "Xylella fastidiosa subsp. pauca"
+    },
+    {
+      "subject": "strains of",
+      "predicate": "Found_on",
+      "object": "susceptible"
+    },
+    {
+      "subject": "Xylella fastidiosa subsp. pauca",
+      "predicate": "Affects",
+      "object": "olive"
+    },
+    {
+      "subject": "Xylella fastidiosa subsp. pauca",
+      "predicate": "Occurs_on",
+      "object": "in late 2013"
+    },
+    {
+      "subject": "Xylella fastidiosa subsp. pauca",
+      "predicate": "Affects",
+      "object": "susceptible"
+    }
+  ],
+  "100011": [
+    {
+      "subject": "Japanese beetle",
+      "predicate": "Located_in",
+      "object": "Freiburg"
+    },
+    {
+      "subject": "Japanese beetle",
+      "predicate": "Located_in",
+      "object": "Augustenberg"
+    },
+    {
+      "subject": "Japanese beetle",
+      "predicate": "Occurs_on",
+      "object": "28, 2022"
+    },
+    {
+      "subject": "Japanese beetle",
+      "predicate": "Located_in",
+      "object": "Baden-Württemberg"
+    },
+    {
+      "subject": "Japanese beetle",
+      "predicate": "Dispersed_by",
+      "object": "stowaways in"
+    },
+    {
+      "subject": "Japanese beetle",
+      "predicate": "Dispersed_by",
+      "object": "freight or"
+    },
+    {
+      "subject": "Japanese beetle",
+      "predicate": "Dispersed_by",
+      "object": "tourist traffic from"
+    },
+    {
+      "subject": "Japanese beetle",
+      "predicate": "Located_in",
+      "object": "northern Italy"
+    },
+    {
+      "subject": "Japanese beetle",
+      "predicate": "Located_in",
+      "object": "Freiburg area"
+    },
+    {
+      "subject": "Japanese beetle",
+      "predicate": "Located_in",
+      "object": "Europe"
+    },
+    {
+      "subject": "Popillia japonica",
+      "predicate": "Located_in",
+      "object": "Freiburg"
+    },
+    {
+      "subject": "Popillia japonica",
+      "predicate": "Located_in",
+      "object": "Augustenberg"
+    },
+    {
+      "subject": "Popillia japonica",
+      "predicate": "Dispersed_by",
+      "object": "stowaways in"
+    },
+    {
+      "subject": "Popillia japonica",
+      "predicate": "Dispersed_by",
+      "object": "freight or"
+    },
+    {
+      "subject": "Popillia japonica",
+      "predicate": "Dispersed_by",
+      "object": "tourist traffic from"
+    },
+    {
+      "subject": "Popillia japonica",
+      "predicate": "Located_in",
+      "object": "northern Italy"
+    },
+    {
+      "subject": "both beetles",
+      "predicate": "Located_in",
+      "object": "Baden-Württemberg"
+    },
+    {
+      "subject": "both beetles",
+      "predicate": "Located_in",
+      "object": "northern Italy"
+    },
+    {
+      "subject": "both beetles",
+      "predicate": "Occurs_on",
+      "object": "Since May 2022"
+    },
+    {
+      "subject": "both beetles",
+      "predicate": "Located_in",
+      "object": "Freiburg area"
+    },
+    {
+      "subject": "small white",
+      "predicate": "Located_in",
+      "object": "Baden-Württemberg"
+    }
+  ],
+  "102584": [
+    {
+      "subject": "flavescence dorée",
+      "predicate": "Affects",
+      "object": "vine"
+    },
+    {
+      "subject": "vine",
+      "predicate": "Occurs_on",
+      "object": "for the first time"
+    }
+  ],
+  "106963": [
+    {
+      "subject": "golden-yellow yellowing",
+      "predicate": "Located_in",
+      "object": "Burggrafenamt"
+    },
+    {
+      "subject": "golden-yellow yellowing",
+      "predicate": "Located_in",
+      "object": "Unterland"
+    },
+    {
+      "subject": "golden-yellow yellowing",
+      "predicate": "Occurs_on",
+      "object": "for the first time"
+    },
+    {
+      "subject": "golden-yellow yellowing",
+      "predicate": "Occurs_on",
+      "object": "in 2016"
+    },
+    {
+      "subject": "vine",
+      "predicate": "Occurs_on",
+      "object": "in 2016"
+    },
+    {
+      "subject": "yellowing diseases",
+      "predicate": "Affects",
+      "object": "vine"
+    },
+    {
+      "subject": "vineyard",
+      "predicate": "Located_in",
+      "object": "South Tyrol"
+    },
+    {
+      "subject": "vineyard",
+      "predicate": "Located_in",
+      "object": "South Tyrolean"
+    },
+    {
+      "subject": "golden yellowing",
+      "predicate": "Located_in",
+      "object": "Burggrafenamt"
+    },
+    {
+      "subject": "golden yellowing",
+      "predicate": "Occurs_on",
+      "object": "for the first time"
+    },
+    {
+      "subject": "Flavescence dorèe",
+      "predicate": "Affects",
+      "object": "vine"
+    },
+    {
+      "subject": "Flavescence dorèe",
+      "predicate": "Occurs_on",
+      "object": "in 2016"
+    },
+    {
+      "subject": "off",
+      "predicate": "Located_in",
+      "object": "South Tyrol"
+    }
+  ],
+  "116070": [
+    {
+      "subject": "Phyllosticta citricarpa",
+      "predicate": "Located_in",
+      "object": "Mercosur State such as"
+    },
+    {
+      "subject": "Phyllosticta citricarpa",
+      "predicate": "Located_in",
+      "object": "South Africa"
+    },
+    {
+      "subject": "Phyllosticta citricarpa",
+      "predicate": "Occurs_on",
+      "object": "in September"
+    },
+    {
+      "subject": "Phyllosticta citricarpa",
+      "predicate": "Dispersed_by",
+      "object": "orange exports from"
+    },
+    {
+      "subject": "Phyllosticta citricarpa",
+      "predicate": "Causes",
+      "object": "Black Spot disease of"
+    },
+    {
+      "subject": "Black Spot disease of",
+      "predicate": "Located_in",
+      "object": "South Africa"
+    },
+    {
+      "subject": "Black Spot disease of",
+      "predicate": "Occurs_on",
+      "object": "in September"
+    },
+    {
+      "subject": "Black Spot disease of",
+      "predicate": "Dispersed_by",
+      "object": "orange exports from"
+    },
+    {
+      "subject": "Black Spot disease of",
+      "predicate": "Dispersed_by",
+      "object": "source"
+    },
+    {
+      "subject": "citrus fruits",
+      "predicate": "Occurs_on",
+      "object": "in September"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "South Africa"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "Mercosur"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Located_in",
+      "object": "European"
+    },
+    {
+      "subject": "Xylella",
+      "predicate": "Found_on",
+      "object": "citrus"
+    }
+  ],
+  "98917": [
+    {
+      "subject": "xylella",
+      "predicate": "Found_on",
+      "object": "plant species"
+    },
+    {
+      "subject": "xylella",
+      "predicate": "Located_in",
+      "object": "Netherlands"
+    },
+    {
+      "subject": "xylella",
+      "predicate": "Found_on",
+      "object": "olive trees"
+    },
+    {
+      "subject": "xylella",
+      "predicate": "Located_in",
+      "object": "Italy"
+    },
+    {
+      "subject": "xylella",
+      "predicate": "Found_on",
+      "object": "blackberries"
+    },
+    {
+      "subject": "xylella",
+      "predicate": "Found_on",
+      "object": "oleander and"
+    },
+    {
+      "subject": "xylella",
+      "predicate": "Found_on",
+      "object": "oak"
+    },
+    {
+      "subject": "xylella",
+      "predicate": "Located_in",
+      "object": "France"
+    },
+    {
+      "subject": "xylella",
+      "predicate": "Located_in",
+      "object": "Spain and"
+    },
+    {
+      "subject": "xylella",
+      "predicate": "Located_in",
+      "object": "Portugal"
+    },
+    {
+      "subject": "xylella",
+      "predicate": "Found_on",
+      "object": "susceptible plant"
+    },
+    {
+      "subject": "Xylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "Italy"
+    },
+    {
+      "subject": "Xylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "France"
+    },
+    {
+      "subject": "Xylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "Spain and"
+    },
+    {
+      "subject": "Xylella fastidiosa",
+      "predicate": "Located_in",
+      "object": "Portugal"
+    },
+    {
+      "subject": "this bacterium",
+      "predicate": "Located_in",
+      "object": "France"
+    },
+    {
+      "subject": "this bacterium",
+      "predicate": "Located_in",
+      "object": "Spain and"
+    },
+    {
+      "subject": "this bacterium",
+      "predicate": "Located_in",
+      "object": "Portugal"
+    }
+  ],
+  "116983": [
+    {
+      "subject": "oriental fruit fly",
+      "predicate": "Located_in",
+      "object": "Campania"
+    },
+    {
+      "subject": "Bactrocera Dorsalis",
+      "predicate": "Located_in",
+      "object": "province of Naples"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "labels": [
+    "O",
+    "B-Disease",
+    "I-Disease",
+    "B-Date",
+    "I-Date",
+    "B-Dissemination_pathway",
+    "I-Dissemination_pathway",
+    "B-Location",
+    "I-Location",
+    "B-Pest",
+    "I-Pest",
+    "B-Plant",
+    "I-Plant",
+    "B-Vector",
+    "I-Vector"
+  ],
+  "mention_thresholds": {
+    "Disease": 0.8902,
+    "Date": 0.7753,
+    "Dissemination_pathway": 0.8624,
+    "Location": 0.6554,
+    "Pest": 0.7084,
+    "Plant": 0.7115,
+    "Vector": 0.9457
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "seeds": [
+    42,
+    13,
+    1337,
+    7,
+    2025
+  ],
+  "label_set": [
+    "Located_in",
+    "Found_on",
+    "Occurs_on",
+    "Affects",
+    "Causes",
+    "Dispersed_by",
+    "Transmits"
+  ],
+  "min_seed_count": 3,
+  "per_seed_metrics": {},
+  "ensemble_dev_metrics": {
+    "micro": {
+      "precision": 0.21641791044776118,
+      "recall": 0.22137404580152673,
+      "f1": 0.21886792452830187
+    },
+    "macro": {
+      "precision": 0.18687761315922627,
+      "recall": 0.1684161165535492,
+      "f1": 0.17246721278967986
+    },
+    "per_relation": {
+      "Located_in": {
+        "precision": 0.19220779220779222,
+        "recall": 0.1962864721485411,
+        "f1": 0.1942257217847769,
+        "tp": 74,
+        "fp": 311,
+        "fn": 303
+      },
+      "Found_on": {
+        "precision": 0.30578512396694213,
+        "recall": 0.3490566037735849,
+        "f1": 0.3259911894273128,
+        "tp": 37,
+        "fp": 84,
+        "fn": 69
+      },
+      "Occurs_on": {
+        "precision": 0.25,
+        "recall": 0.24468085106382978,
+        "f1": 0.24731182795698925,
+        "tp": 23,
+        "fp": 69,
+        "fn": 71
+      },
+      "Affects": {
+        "precision": 0.13157894736842105,
+        "recall": 0.16666666666666666,
+        "f1": 0.14705882352941177,
+        "tp": 5,
+        "fp": 33,
+        "fn": 25
+      },
+      "Causes": {
+        "precision": 0.42857142857142855,
+        "recall": 0.2222222222222222,
+        "f1": 0.29268292682926833,
+        "tp": 6,
+        "fp": 8,
+        "fn": 21
+      },
+      "Dispersed_by": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 8,
+        "fn": 16
+      },
+      "Transmits": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "tp": 0,
+        "fp": 12,
+        "fn": 5
+      }
+    }
+  },
+  "ensemble_thresholds": {
+    "Located_in": 0.55,
+    "Found_on": 0.6,
+    "Occurs_on": 0.425,
+    "Affects": 0.7,
+    "Causes": 0.725,
+    "Dispersed_by": 0.35,
+    "Transmits": 0.35
+  },
+  "threshold_diagnostics": {
+    "Located_in": {
+      "strategy": "grid_search",
+      "support": 377,
+      "best_f1": 0.1942257217847769,
+      "threshold": 0.55
+    },
+    "Found_on": {
+      "strategy": "grid_search",
+      "support": 106,
+      "best_f1": 0.3259911894273128,
+      "threshold": 0.6
+    },
+    "Occurs_on": {
+      "strategy": "grid_search",
+      "support": 94,
+      "best_f1": 0.24731182795698925,
+      "threshold": 0.425
+    },
+    "Affects": {
+      "strategy": "grid_search",
+      "support": 30,
+      "best_f1": 0.14705882352941177,
+      "threshold": 0.7
+    },
+    "Causes": {
+      "strategy": "grid_search",
+      "support": 27,
+      "best_f1": 0.29268292682926833,
+      "threshold": 0.725
+    },
+    "Dispersed_by": {
+      "strategy": "grid_search",
+      "support": 16,
+      "best_f1": 0.0,
+      "threshold": 0.35
+    },
+    "Transmits": {
+      "strategy": "grid_search",
+      "support": 5,
+      "best_f1": 0.0,
+      "threshold": 0.35
+    }
+  },
+  "submission_path": "submission_v21d_5seed_minseed3.csv",
+  "ensemble_dev_record_count": 2904,
+  "ensemble_test_record_count": 4509,
+  "dev_aggregation_stats": {
+    "total_keys": 7501,
+    "kept": 2904,
+    "dropped": 4597,
+    "min_seed_count": 3,
+    "in_1_seeds": 3325,
+    "in_2_seeds": 1272,
+    "in_3_seeds": 983,
+    "in_4_seeds": 719,
+    "in_5_seeds": 1202
+  },
+  "test_aggregation_stats": {
+    "total_keys": 12393,
+    "kept": 4509,
+    "dropped": 7884,
+    "min_seed_count": 3,
+    "in_1_seeds": 5923,
+    "in_2_seeds": 1961,
+    "in_3_seeds": 1188,
+    "in_4_seeds": 1181,
+    "in_5_seeds": 2140
+  }
+}

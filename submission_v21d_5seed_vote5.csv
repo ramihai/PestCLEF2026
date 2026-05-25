@@ -1,0 +1,83 @@
+doc_id,knowledge_graph
+100108,[]
+100296,[]
+100333,[]
+100424,[]
+100454,"[{""subject"": ""Japanese beetle"", ""predicate"": ""Located_in"", ""object"": ""Freiburg""}, {""subject"": ""Japanese beetle"", ""predicate"": ""Located_in"", ""object"": ""Freiburg-en-Brisgau station""}, {""subject"": ""Japanese beetle"", ""predicate"": ""Located_in"", ""object"": ""Italy""}, {""subject"": ""popillia japonica"", ""predicate"": ""Located_in"", ""object"": ""Freiburg""}, {""subject"": ""popillia japonica"", ""predicate"": ""Located_in"", ""object"": ""Freiburg-en-Brisgau station""}]"
+100458,"[{""subject"": ""Japanese beetle"", ""predicate"": ""Located_in"", ""object"": ""Augustenberg""}, {""subject"": ""Japanese beetle"", ""predicate"": ""Located_in"", ""object"": ""Baden-Württemberg""}, {""subject"": ""Japanese beetle"", ""predicate"": ""Located_in"", ""object"": ""Freiburg""}, {""subject"": ""Popillia japonica"", ""predicate"": ""Located_in"", ""object"": ""Freiburg""}, {""subject"": ""Popillia japonica"", ""predicate"": ""Located_in"", ""object"": ""northern Italy""}]"
+100471,"[{""subject"": ""fall armyworm"", ""predicate"": ""Located_in"", ""object"": ""Bangladesh""}]"
+100478,[]
+100506,"[{""subject"": ""Xylella"", ""predicate"": ""Found_on"", ""object"": ""olive trees""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Polignano""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Polignano a Mare""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""countryside of""}]"
+102276,"[{""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Puglia""}]"
+102433,"[{""subject"": ""Candidatus Liberibacter asiaticus"", ""predicate"": ""Causes"", ""object"": ""Citrus greening""}, {""subject"": ""Candidatus Liberibacter asiaticus"", ""predicate"": ""Causes"", ""object"": ""Huanglongbing""}, {""subject"": ""Candidatus Liberibacter asiaticus"", ""predicate"": ""Causes"", ""object"": ""yellow dragon disease""}, {""subject"": ""Huanglongbing"", ""predicate"": ""Affects"", ""object"": ""citrus""}, {""subject"": ""yellow dragon disease"", ""predicate"": ""Affects"", ""object"": ""citrus""}]"
+102441,"[{""subject"": ""Candidatus Liberibacter asiaticus"", ""predicate"": ""Causes"", ""object"": ""Citrus Greening""}]"
+102516,[]
+102892,"[{""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Coldiretti Puglia states""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Italy""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Polignano""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Puglia""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""province of Bari\nIn""}]"
+102894,"[{""subject"": ""Xylella"", ""predicate"": ""Found_on"", ""object"": ""olive trees""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""BisceglieLive.it""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Monopoli""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Polignano""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""province of Bari""}]"
+103005,[]
+103391,[]
+103643,"[{""subject"": ""Japanese beetle"", ""predicate"": ""Located_in"", ""object"": ""Baden-Württemberg""}, {""subject"": ""Japanese beetle"", ""predicate"": ""Located_in"", ""object"": ""Freiburg area""}, {""subject"": ""Japanese beetle"", ""predicate"": ""Located_in"", ""object"": ""Weil am Rhein""}]"
+103887,"[{""subject"": ""xylella"", ""predicate"": ""Located_in"", ""object"": ""Lecce - Bari state road""}]"
+104422,[]
+104453,[]
+104562,[]
+104657,[]
+104725,"[{""subject"": ""Xylella fastidiosa"", ""predicate"": ""Located_in"", ""object"": ""Balearic Islands""}, {""subject"": ""plague"", ""predicate"": ""Located_in"", ""object"": ""Balearic Islands""}]"
+104732,[]
+104752,"[{""subject"": ""plague"", ""predicate"": ""Located_in"", ""object"": ""Balearic Islands""}]"
+104868,[]
+105066,[]
+105286,[]
+105440,[]
+105490,[]
+105574,"[{""subject"": ""Xylella"", ""predicate"": ""Found_on"", ""object"": ""olive trees""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Bari area""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Polignano""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Polignano a Mare""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Taranto""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""province of Bari""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Bari area""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Basilicata""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Brindisi and""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Lecce""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Polignano""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Puglia and""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Taranto\nIn""}]"
+105854,"[{""subject"": ""greening disease"", ""predicate"": ""Located_in"", ""object"": ""SP and""}]"
+105882,[]
+106012,[]
+106215,"[{""subject"": ""Foc"", ""predicate"": ""Causes"", ""object"": ""Fusarium wilt""}, {""subject"": ""Fusarium oxysporum f. sp. cubense"", ""predicate"": ""Causes"", ""object"": ""Fusarium wilt""}, {""subject"": ""Fusarium wilt"", ""predicate"": ""Located_in"", ""object"": ""South America""}, {""subject"": ""tropical race 4"", ""predicate"": ""Located_in"", ""object"": ""South America""}]"
+106250,[]
+106417,"[{""subject"": ""ToBRFV"", ""predicate"": ""Found_on"", ""object"": ""Tomato Plants""}]"
+106950,[]
+107116,"[{""subject"": ""FOCR4T"", ""predicate"": ""Located_in"", ""object"": ""Africa""}, {""subject"": ""banana disease"", ""predicate"": ""Located_in"", ""object"": ""Africa""}]"
+107265,[]
+107268,[]
+114258,[]
+115119,[]
+115121,[]
+115188,[]
+115219,[]
+115232,"[{""subject"": ""Xylella"", ""predicate"": ""Found_on"", ""object"": ""olive trees""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Bari area""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Coldiretti Puglia""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Fasano""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Locorotondo""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Martina Franca and""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Polignano""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Bari area""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Coldiretti Puglia""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Fasano""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Locorotondo""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Martina Franca and""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Polignano""}]"
+115318,"[{""subject"": ""Oriental fruit fly"", ""predicate"": ""Located_in"", ""object"": ""California""}]"
+115568,"[{""subject"": ""ToBRFV"", ""predicate"": ""Located_in"", ""object"": ""Jordan Valley""}, {""subject"": ""ToBRFV"", ""predicate"": ""Occurs_on"", ""object"": ""in 2015""}, {""subject"": ""Tobamovirus"", ""predicate"": ""Located_in"", ""object"": ""Jordan Valley""}, {""subject"": ""Tobamovirus"", ""predicate"": ""Occurs_on"", ""object"": ""in 2015""}, {""subject"": ""tomato brown rugose fruit virus"", ""predicate"": ""Located_in"", ""object"": ""Jordan Valley""}]"
+115840,[]
+115859,"[{""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Polignano""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""unscathed area""}, {""subject"": ""Xylella fastidiosa"", ""predicate"": ""Located_in"", ""object"": ""Fasano""}, {""subject"": ""Xylella fastidiosa"", ""predicate"": ""Located_in"", ""object"": ""Locorotondo""}, {""subject"": ""Xylella fastidiosa"", ""predicate"": ""Located_in"", ""object"": ""Martina Franca and""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Fasano""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Locorotondo""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Martina Franca and""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Polignano""}]"
+115980,[]
+116010,[]
+116192,[]
+116208,[]
+116219,"[{""subject"": ""HLB"", ""predicate"": ""Affects"", ""object"": ""citrus planting""}, {""subject"": ""citrus planting"", ""predicate"": ""Located_in"", ""object"": ""northern zone of Veracruz""}]"
+116242,[]
+116509,"[{""subject"": ""Phyllosticta citricarpa"", ""predicate"": ""Occurs_on"", ""object"": ""in September""}]"
+116554,[]
+116622,"[{""subject"": ""Panama disease"", ""predicate"": ""Occurs_on"", ""object"": ""from the beginning of 2024""}, {""subject"": ""Panama disease"", ""predicate"": ""Occurs_on"", ""object"": ""in 2024""}]"
+116678,"[{""subject"": ""citrus"", ""predicate"": ""Occurs_on"", ""object"": ""in September""}, {""subject"": ""citrus"", ""predicate"": ""Occurs_on"", ""object"": ""up to September""}, {""subject"": ""citrus black spot disease"", ""predicate"": ""Occurs_on"", ""object"": ""in September""}]"
+117194,[]
+117305,"[{""subject"": ""Foc"", ""predicate"": ""Causes"", ""object"": ""Fusarium wilt""}, {""subject"": ""Fusarium kalimantanense"", ""predicate"": ""Causes"", ""object"": ""Fusarium wilt""}, {""subject"": ""Fusarium oxysporum f. sp. cubense"", ""predicate"": ""Causes"", ""object"": ""Fusarium wilt""}]"
+117314,"[{""subject"": ""Phyllosticta citricarpa"", ""predicate"": ""Occurs_on"", ""object"": ""in September""}]"
+117415,"[{""subject"": ""Race 1"", ""predicate"": ""Causes"", ""object"": ""Panama disease""}]"
+117451,[]
+117546,[]
+118038,"[{""subject"": ""Fusarium oxysporum cubense Race 1"", ""predicate"": ""Causes"", ""object"": ""Panama disease""}, {""subject"": ""Fusarium oxysporum cubense Race 1"", ""predicate"": ""Occurs_on"", ""object"": ""In the 1950s""}, {""subject"": ""Panama disease"", ""predicate"": ""Occurs_on"", ""object"": ""In the 1950s""}, {""subject"": ""Tropical Race 4"", ""predicate"": ""Causes"", ""object"": ""Panama disease""}]"
+118127,"[{""subject"": ""Candidatus Liberibacter asiaticus"", ""predicate"": ""Causes"", ""object"": ""HLB""}, {""subject"": ""Candidatus Liberibacter asiaticus bacterium"", ""predicate"": ""Causes"", ""object"": ""HLB""}]"
+97966,"[{""subject"": ""Xylella fastidiosa"", ""predicate"": ""Found_on"", ""object"": ""olive trees""}]"
+97985,"[{""subject"": ""Xylella"", ""predicate"": ""Found_on"", ""object"": ""olive trees""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Basilicata""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Monopoli and""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Polignano""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Polignano a Mare""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Puglia Region""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Puglia and""}, {""subject"": ""olive trees"", ""predicate"": ""Located_in"", ""object"": ""Monopoli and""}]"
+98065,"[{""subject"": ""Bursaphelenchus xylophilus"", ""predicate"": ""Causes"", ""object"": ""pine wilt disease""}, {""subject"": ""Pinewood Nematodes"", ""predicate"": ""Causes"", ""object"": ""pine wilt disease""}]"
+98134,[]
+99054,[]
+99433,"[{""subject"": ""Reptalus panzeri"", ""predicate"": ""Transmits"", ""object"": ""phytoplasmas""}]"
+99581,[]
+99632,[]
+99733,"[{""subject"": ""Xylella"", ""predicate"": ""Found_on"", ""object"": ""myrtle""}, {""subject"": ""Xylella"", ""predicate"": ""Found_on"", ""object"": ""olive trees""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Gennaro Sicolo""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Polignano a Mare""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""Puglia""}, {""subject"": ""Xylella"", ""predicate"": ""Located_in"", ""object"": ""countryside of""}]"
+99826,[]
+99835,[]
+99970,[]

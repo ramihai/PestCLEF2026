@@ -1,0 +1,470 @@
+{
+  "summary": {
+    "raw_neural_spans": {
+      "total": 19213,
+      "average": 349.3272727272727
+    },
+    "raw_lexicon_spans": {
+      "total": 1565,
+      "average": 28.454545454545453
+    },
+    "blended_spans": {
+      "total": 17916,
+      "average": 325.74545454545455
+    },
+    "final_mentions": {
+      "total": 1840,
+      "average": 33.45454545454545
+    },
+    "final_entities": {
+      "total": 1162,
+      "average": 21.12727272727273
+    },
+    "candidate_pairs": {
+      "total": 3006,
+      "average": 54.654545454545456
+    }
+  },
+  "per_doc": {
+    "103963": {
+      "raw_neural_spans": 2089,
+      "raw_lexicon_spans": 42,
+      "blended_spans": 1793,
+      "final_mentions": 63,
+      "final_entities": 27,
+      "candidate_pairs": 53
+    },
+    "114259": {
+      "raw_neural_spans": 566,
+      "raw_lexicon_spans": 74,
+      "blended_spans": 520,
+      "final_mentions": 75,
+      "final_entities": 49,
+      "candidate_pairs": 155
+    },
+    "116119": {
+      "raw_neural_spans": 326,
+      "raw_lexicon_spans": 18,
+      "blended_spans": 295,
+      "final_mentions": 12,
+      "final_entities": 6,
+      "candidate_pairs": 9
+    },
+    "99067": {
+      "raw_neural_spans": 642,
+      "raw_lexicon_spans": 59,
+      "blended_spans": 592,
+      "final_mentions": 58,
+      "final_entities": 39,
+      "candidate_pairs": 108
+    },
+    "98142": {
+      "raw_neural_spans": 307,
+      "raw_lexicon_spans": 23,
+      "blended_spans": 273,
+      "final_mentions": 29,
+      "final_entities": 17,
+      "candidate_pairs": 55
+    },
+    "117892": {
+      "raw_neural_spans": 319,
+      "raw_lexicon_spans": 12,
+      "blended_spans": 313,
+      "final_mentions": 17,
+      "final_entities": 9,
+      "candidate_pairs": 8
+    },
+    "107172": {
+      "raw_neural_spans": 427,
+      "raw_lexicon_spans": 48,
+      "blended_spans": 406,
+      "final_mentions": 48,
+      "final_entities": 25,
+      "candidate_pairs": 62
+    },
+    "98783": {
+      "raw_neural_spans": 506,
+      "raw_lexicon_spans": 40,
+      "blended_spans": 469,
+      "final_mentions": 45,
+      "final_entities": 31,
+      "candidate_pairs": 58
+    },
+    "105611": {
+      "raw_neural_spans": 313,
+      "raw_lexicon_spans": 52,
+      "blended_spans": 282,
+      "final_mentions": 49,
+      "final_entities": 36,
+      "candidate_pairs": 150
+    },
+    "98794": {
+      "raw_neural_spans": 498,
+      "raw_lexicon_spans": 50,
+      "blended_spans": 474,
+      "final_mentions": 54,
+      "final_entities": 25,
+      "candidate_pairs": 74
+    },
+    "117299": {
+      "raw_neural_spans": 323,
+      "raw_lexicon_spans": 39,
+      "blended_spans": 293,
+      "final_mentions": 40,
+      "final_entities": 24,
+      "candidate_pairs": 112
+    },
+    "102488": {
+      "raw_neural_spans": 344,
+      "raw_lexicon_spans": 25,
+      "blended_spans": 315,
+      "final_mentions": 28,
+      "final_entities": 16,
+      "candidate_pairs": 39
+    },
+    "106959": {
+      "raw_neural_spans": 12,
+      "raw_lexicon_spans": 1,
+      "blended_spans": 13,
+      "final_mentions": 1,
+      "final_entities": 1,
+      "candidate_pairs": 0
+    },
+    "98392": {
+      "raw_neural_spans": 27,
+      "raw_lexicon_spans": 9,
+      "blended_spans": 30,
+      "final_mentions": 12,
+      "final_entities": 9,
+      "candidate_pairs": 14
+    },
+    "116671": {
+      "raw_neural_spans": 427,
+      "raw_lexicon_spans": 41,
+      "blended_spans": 399,
+      "final_mentions": 40,
+      "final_entities": 32,
+      "candidate_pairs": 36
+    },
+    "105652": {
+      "raw_neural_spans": 54,
+      "raw_lexicon_spans": 9,
+      "blended_spans": 57,
+      "final_mentions": 8,
+      "final_entities": 6,
+      "candidate_pairs": 11
+    },
+    "106151": {
+      "raw_neural_spans": 148,
+      "raw_lexicon_spans": 20,
+      "blended_spans": 157,
+      "final_mentions": 23,
+      "final_entities": 12,
+      "candidate_pairs": 36
+    },
+    "104656": {
+      "raw_neural_spans": 564,
+      "raw_lexicon_spans": 17,
+      "blended_spans": 487,
+      "final_mentions": 38,
+      "final_entities": 35,
+      "candidate_pairs": 17
+    },
+    "115106": {
+      "raw_neural_spans": 370,
+      "raw_lexicon_spans": 28,
+      "blended_spans": 355,
+      "final_mentions": 58,
+      "final_entities": 38,
+      "candidate_pairs": 39
+    },
+    "99614": {
+      "raw_neural_spans": 243,
+      "raw_lexicon_spans": 12,
+      "blended_spans": 247,
+      "final_mentions": 9,
+      "final_entities": 2,
+      "candidate_pairs": 1
+    },
+    "117298": {
+      "raw_neural_spans": 478,
+      "raw_lexicon_spans": 41,
+      "blended_spans": 458,
+      "final_mentions": 38,
+      "final_entities": 19,
+      "candidate_pairs": 42
+    },
+    "115183": {
+      "raw_neural_spans": 123,
+      "raw_lexicon_spans": 22,
+      "blended_spans": 131,
+      "final_mentions": 22,
+      "final_entities": 11,
+      "candidate_pairs": 26
+    },
+    "105862": {
+      "raw_neural_spans": 603,
+      "raw_lexicon_spans": 23,
+      "blended_spans": 513,
+      "final_mentions": 48,
+      "final_entities": 37,
+      "candidate_pairs": 80
+    },
+    "102904": {
+      "raw_neural_spans": 341,
+      "raw_lexicon_spans": 43,
+      "blended_spans": 333,
+      "final_mentions": 41,
+      "final_entities": 16,
+      "candidate_pairs": 46
+    },
+    "116223": {
+      "raw_neural_spans": 387,
+      "raw_lexicon_spans": 28,
+      "blended_spans": 362,
+      "final_mentions": 28,
+      "final_entities": 19,
+      "candidate_pairs": 25
+    },
+    "99107": {
+      "raw_neural_spans": 708,
+      "raw_lexicon_spans": 42,
+      "blended_spans": 625,
+      "final_mentions": 65,
+      "final_entities": 59,
+      "candidate_pairs": 254
+    },
+    "98579": {
+      "raw_neural_spans": 353,
+      "raw_lexicon_spans": 12,
+      "blended_spans": 316,
+      "final_mentions": 15,
+      "final_entities": 9,
+      "candidate_pairs": 9
+    },
+    "117674": {
+      "raw_neural_spans": 1255,
+      "raw_lexicon_spans": 74,
+      "blended_spans": 1099,
+      "final_mentions": 133,
+      "final_entities": 94,
+      "candidate_pairs": 241
+    },
+    "114379": {
+      "raw_neural_spans": 158,
+      "raw_lexicon_spans": 31,
+      "blended_spans": 175,
+      "final_mentions": 34,
+      "final_entities": 28,
+      "candidate_pairs": 147
+    },
+    "103660": {
+      "raw_neural_spans": 185,
+      "raw_lexicon_spans": 30,
+      "blended_spans": 202,
+      "final_mentions": 35,
+      "final_entities": 16,
+      "candidate_pairs": 28
+    },
+    "98195": {
+      "raw_neural_spans": 143,
+      "raw_lexicon_spans": 8,
+      "blended_spans": 149,
+      "final_mentions": 16,
+      "final_entities": 14,
+      "candidate_pairs": 42
+    },
+    "115243": {
+      "raw_neural_spans": 343,
+      "raw_lexicon_spans": 55,
+      "blended_spans": 321,
+      "final_mentions": 64,
+      "final_entities": 51,
+      "candidate_pairs": 202
+    },
+    "115211": {
+      "raw_neural_spans": 212,
+      "raw_lexicon_spans": 18,
+      "blended_spans": 226,
+      "final_mentions": 9,
+      "final_entities": 8,
+      "candidate_pairs": 13
+    },
+    "106336": {
+      "raw_neural_spans": 369,
+      "raw_lexicon_spans": 23,
+      "blended_spans": 348,
+      "final_mentions": 51,
+      "final_entities": 38,
+      "candidate_pairs": 101
+    },
+    "99132": {
+      "raw_neural_spans": 48,
+      "raw_lexicon_spans": 4,
+      "blended_spans": 50,
+      "final_mentions": 6,
+      "final_entities": 4,
+      "candidate_pairs": 5
+    },
+    "103847": {
+      "raw_neural_spans": 42,
+      "raw_lexicon_spans": 6,
+      "blended_spans": 46,
+      "final_mentions": 8,
+      "final_entities": 5,
+      "candidate_pairs": 2
+    },
+    "116664": {
+      "raw_neural_spans": 660,
+      "raw_lexicon_spans": 47,
+      "blended_spans": 605,
+      "final_mentions": 55,
+      "final_entities": 39,
+      "candidate_pairs": 78
+    },
+    "104499": {
+      "raw_neural_spans": 249,
+      "raw_lexicon_spans": 28,
+      "blended_spans": 239,
+      "final_mentions": 28,
+      "final_entities": 11,
+      "candidate_pairs": 23
+    },
+    "116761": {
+      "raw_neural_spans": 227,
+      "raw_lexicon_spans": 18,
+      "blended_spans": 242,
+      "final_mentions": 26,
+      "final_entities": 11,
+      "candidate_pairs": 28
+    },
+    "103669": {
+      "raw_neural_spans": 117,
+      "raw_lexicon_spans": 21,
+      "blended_spans": 134,
+      "final_mentions": 17,
+      "final_entities": 5,
+      "candidate_pairs": 6
+    },
+    "104329": {
+      "raw_neural_spans": 81,
+      "raw_lexicon_spans": 18,
+      "blended_spans": 88,
+      "final_mentions": 20,
+      "final_entities": 11,
+      "candidate_pairs": 32
+    },
+    "104119": {
+      "raw_neural_spans": 90,
+      "raw_lexicon_spans": 2,
+      "blended_spans": 91,
+      "final_mentions": 2,
+      "final_entities": 1,
+      "candidate_pairs": 0
+    },
+    "116125": {
+      "raw_neural_spans": 218,
+      "raw_lexicon_spans": 37,
+      "blended_spans": 236,
+      "final_mentions": 41,
+      "final_entities": 26,
+      "candidate_pairs": 86
+    },
+    "99984": {
+      "raw_neural_spans": 7,
+      "raw_lexicon_spans": 2,
+      "blended_spans": 7,
+      "final_mentions": 3,
+      "final_entities": 3,
+      "candidate_pairs": 3
+    },
+    "116507": {
+      "raw_neural_spans": 682,
+      "raw_lexicon_spans": 33,
+      "blended_spans": 602,
+      "final_mentions": 31,
+      "final_entities": 8,
+      "candidate_pairs": 13
+    },
+    "107272": {
+      "raw_neural_spans": 653,
+      "raw_lexicon_spans": 72,
+      "blended_spans": 600,
+      "final_mentions": 72,
+      "final_entities": 39,
+      "candidate_pairs": 89
+    },
+    "98191": {
+      "raw_neural_spans": 6,
+      "raw_lexicon_spans": 0,
+      "blended_spans": 6,
+      "final_mentions": 4,
+      "final_entities": 4,
+      "candidate_pairs": 0
+    },
+    "99613": {
+      "raw_neural_spans": 350,
+      "raw_lexicon_spans": 16,
+      "blended_spans": 318,
+      "final_mentions": 21,
+      "final_entities": 6,
+      "candidate_pairs": 6
+    },
+    "107207": {
+      "raw_neural_spans": 117,
+      "raw_lexicon_spans": 15,
+      "blended_spans": 131,
+      "final_mentions": 19,
+      "final_entities": 16,
+      "candidate_pairs": 50
+    },
+    "100011": {
+      "raw_neural_spans": 218,
+      "raw_lexicon_spans": 34,
+      "blended_spans": 229,
+      "final_mentions": 35,
+      "final_entities": 18,
+      "candidate_pairs": 30
+    },
+    "102584": {
+      "raw_neural_spans": 187,
+      "raw_lexicon_spans": 20,
+      "blended_spans": 192,
+      "final_mentions": 18,
+      "final_entities": 10,
+      "candidate_pairs": 13
+    },
+    "106963": {
+      "raw_neural_spans": 338,
+      "raw_lexicon_spans": 37,
+      "blended_spans": 317,
+      "final_mentions": 49,
+      "final_entities": 27,
+      "candidate_pairs": 122
+    },
+    "116070": {
+      "raw_neural_spans": 436,
+      "raw_lexicon_spans": 45,
+      "blended_spans": 408,
+      "final_mentions": 38,
+      "final_entities": 28,
+      "candidate_pairs": 38
+    },
+    "98917": {
+      "raw_neural_spans": 126,
+      "raw_lexicon_spans": 25,
+      "blended_spans": 140,
+      "final_mentions": 26,
+      "final_entities": 22,
+      "candidate_pairs": 82
+    },
+    "116983": {
+      "raw_neural_spans": 198,
+      "raw_lexicon_spans": 16,
+      "blended_spans": 207,
+      "final_mentions": 15,
+      "final_entities": 10,
+      "candidate_pairs": 7
+    }
+  }
+}
