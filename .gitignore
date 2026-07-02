@@ -3,10 +3,12 @@
 __pycache__/
 .DS_Store
 
-# Generated experiment outputs
-# artifacts/
+# The artifacts/ directory is intentionally TRACKED (per-run configs, metrics,
+# predictions, error reports). Only the large binary model weights below are
+# excluded. See PAPER_BRIEF_REPRODUCIBILITY.md §5 for which experiment_config.json
+# files correspond to v14, v18, and the 5-seed ensemble runs.
 
-# Large model/checkpoint files
+# Large model/checkpoint files (regenerable from the tracked configs)
 *.safetensors
 *.bin
 *.pt
